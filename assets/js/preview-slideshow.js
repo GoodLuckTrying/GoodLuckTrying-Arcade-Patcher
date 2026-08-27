@@ -354,7 +354,7 @@ export async function loadManifest(id) {
 }
 
 function previewManifestFor(id) {
-  return window.HACKS_DATA?.[id] ?? null;
+  return window.HACKS_DATA?.[id] ?? window.WIP_HACKS_DATA?.[id] ?? null;
 }
 
 export async function initAllPreviewSlideshows(stillMs = 1000) {

@@ -208,6 +208,68 @@ LABEL_RE = re.compile(r"^([a-z0-9_]+)\s*\((.+?)\)\s*$", re.IGNORECASE)
 
 
 PREVIEW_EXT = {".png", ".gif", ".jpg", ".jpeg", ".webp"}
+WIP_ROOT = ROOT / "assets" / "wip"
+
+
+def wip_display_title(folder_name: str) -> str:
+    title = folder_name
+    if title.startswith("Arcade "):
+        title = title[7:]
+    return re.sub(r" by GoodLuckTrying$", "", title, flags=re.IGNORECASE)
+
+
+def wip_id(folder_name: str) -> str:
+    base = folder_name.lower()
+    base = re.sub(r" by goodlucktrying", "", base)
+    base = re.sub(r"^arcade ", "", base)
+    slug = re.sub(r"[^a-z0-9]+", "-", base).strip("-")
+    return f"wip-{slug}"
+
+
+def scan_wip_hacks() -> tuple[dict, list]:
+    """Scan assets/wip/<platform>/<project>/Previews for coming-soon cards."""
+    hacks_data: dict = {}
+    sections: list = []
+
+    if not WIP_ROOT.is_dir():
+        return hacks_data, sections
+
+    for platform_dir in sorted(WIP_ROOT.iterdir()):
+        if not platform_dir.is_dir():
+            continue
+        platform = platform_dir.name
+        platform_hacks = []
+
+        for project_dir in sorted(platform_dir.iterdir()):
+            previews_dir = project_dir / "Previews"
+            if not previews_dir.is_dir():
+                continue
+
+            files = [
+                f.name
+                for f in sorted(previews_dir.iterdir())
+                if f.is_file() and f.suffix.lower() in PREVIEW_EXT
+            ]
+            if not files:
+                continue
+
+            hack_id = wip_id(project_dir.name)
+            previews_folder = previews_dir.relative_to(ROOT).as_posix()
+            entry = {
+                "id": hack_id,
+                "title": wip_display_title(project_dir.name),
+                "platform": platform,
+                "previewsFolder": previews_folder,
+                "previews": files,
+            }
+            hacks_data[hack_id] = entry
+            platform_hacks.append(entry)
+            print(f"  WIP {hack_id}: {len(files)} previews")
+
+        if platform_hacks:
+            sections.append({"platform": platform, "hacks": platform_hacks})
+
+    return hacks_data, sections
 
 
 def scan_previews(project_id: str, folder: str) -> tuple[str, list[str]]:
@@ -415,6 +477,19 @@ def main():
     payload = json.dumps(hacks_data, indent=2)
     hacks_js.write_text(f"window.HACKS_DATA = {payload};\n", encoding="utf-8")
     print(f"Wrote {hacks_js}")
+
+    print("Scanning WIP previews...")
+    wip_data, wip_sections = scan_wip_hacks()
+    wip_js = ROOT / "assets" / "js" / "wip-hacks-data.js"
+    wip_js.write_text(
+        "window.WIP_HACKS_DATA = "
+        + json.dumps(wip_data, indent=2)
+        + ";\nwindow.WIP_SECTIONS = "
+        + json.dumps(wip_sections, indent=2)
+        + ";\n",
+        encoding="utf-8",
+    )
+    print(f"Wrote {wip_js} ({len(wip_data)} WIP hacks)")
 
 
 if __name__ == "__main__":

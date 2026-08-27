@@ -52,11 +52,15 @@ a { color: var(--accent); }
   max-width: 100%;
 }
 
+.container-centered .step.hack-credits {
+  text-align: left;
+}
+
 .hack-credits-list {
-  list-style: none;
-  padding: 0;
-  margin: 0 auto;
-  max-width: 42rem;
+  list-style: disc;
+  padding-left: 1.5rem;
+  margin: 0;
+  max-width: none;
   text-align: left;
 }
 
@@ -224,6 +228,41 @@ a { color: var(--accent); }
 }
 
 .card:hover { border-color: var(--accent); }
+
+.card-wip {
+  cursor: default;
+}
+
+.card-wip:hover {
+  border-color: var(--border);
+}
+
+.card-badge {
+  margin: 0.75rem 1.25rem 0;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--warn);
+  text-align: center;
+}
+
+.card-platform {
+  margin: 0;
+  padding: 0.65rem 1.25rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--muted);
+  text-align: center;
+  border-bottom: 1px solid var(--border);
+  background: #141824;
+}
+
+.wip-list {
+  margin-top: 2.5rem;
+}
 
 .preview-slideshow {
   position: relative;

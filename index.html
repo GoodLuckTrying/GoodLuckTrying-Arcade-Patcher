@@ -9,6 +9,7 @@
   <link rel="icon" href="assets/icons/Artoria.png" type="image/png">
   <link rel="stylesheet" href="assets/css/site.css">
   <script src="assets/js/hacks-data.js"></script>
+  <script src="assets/js/wip-hacks-data.js"></script>
 </head>
 <body>
   <header class="site-header">
@@ -58,6 +59,11 @@
         </li>
       </ul>
     </section>
+
+    <section id="wip-section" class="hack-list wip-list" hidden>
+      <h2>Works in Progress</h2>
+      <ul id="wip-cards" class="cards"></ul>
+    </section>
   </main>
 
   <footer class="site-footer">
@@ -70,11 +76,14 @@
   <script type="module">
     import { initAllPreviewSlideshows } from "./assets/js/preview-slideshow.js";
     import { renderHackLinks } from "./assets/js/hack-links.js";
+    import { renderWipSection } from "./assets/js/wip-index.js";
     import { isFileProtocol } from "./assets/js/repo-path.js";
 
     if (isFileProtocol()) {
       document.getElementById("file-protocol-notice").hidden = false;
     }
+
+    renderWipSection(document.getElementById("wip-section"), window.WIP_SECTIONS);
     initAllPreviewSlideshows();
 
     for (const li of document.querySelectorAll("[data-hack]")) {
