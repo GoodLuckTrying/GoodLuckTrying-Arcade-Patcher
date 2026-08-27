@@ -46,3 +46,16 @@ export function resolveAssetUrl(...parts) {
 export function isFileProtocol() {
   return location.protocol === "file:";
 }
+
+/** Set the browser tab favicon from a repo-relative asset path. */
+export function setPageIcon(...parts) {
+  const href = assetUrl(...parts);
+  let link = document.querySelector('link[rel="icon"]');
+  if (!link) {
+    link = document.createElement("link");
+    link.rel = "icon";
+    link.type = "image/png";
+    document.head.appendChild(link);
+  }
+  link.href = href;
+}

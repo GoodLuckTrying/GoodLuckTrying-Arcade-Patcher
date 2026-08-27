@@ -37,7 +37,8 @@ window.HACKS_DATA = {
         "label": "Daimakaimura: Knight/Maiden Artoria Edition",
         "url": "https://www.deviantart.com/xxcaesarxx/art/Daimakaimura-Knight-Maiden-Artoria-Edition-1373423892"
       }
-    ]
+    ],
+    "icon": "assets/icons/GhoulsArtoria.png"
   },
   "gng-enhanced-v10": {
     "id": "gng-enhanced-v10",
@@ -49,7 +50,8 @@ window.HACKS_DATA = {
       "Makaimura - Enhanced Edition.png"
     ],
     "trailerUrl": "https://youtu.be/1MqTjmTokAo",
-    "downloadUrl": "Ghosts'n Goblins Enhanced v1.0 by GoodLuckTrying/Ghosts'n Goblins Enhanced v1.0 by GoodLuckTrying.zip"
+    "downloadUrl": "Ghosts'n Goblins Enhanced v1.0 by GoodLuckTrying/Ghosts'n Goblins Enhanced v1.0 by GoodLuckTrying.zip",
+    "icon": "assets/icons/GoblinsArthur.png"
   },
   "gng-artoria-v12": {
     "id": "gng-artoria-v12",
@@ -74,6 +76,7 @@ window.HACKS_DATA = {
         "label": "Maiden Artoria Edition",
         "url": "https://www.deviantart.com/xxcaesarxx/art/Ghosts-n-Goblins-Makaimura-Maiden-Artoria-Edition-1312786516"
       }
-    ]
+    ],
+    "icon": "assets/icons/GoblinsArtoria.png"
   }
 };

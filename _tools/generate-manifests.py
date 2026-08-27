@@ -14,6 +14,7 @@ PROJECTS = [
         "id": "ghouls-artoria-v10",
         "title": "Ghouls'n Ghosts - Artoria Edition v1.0",
         "trailerUrl": "https://youtu.be/kNsi4sraUQc",
+        "icon": "assets/icons/GhoulsArtoria.png",
         "folder": "Ghouls'n Ghosts - Artoria Edition v1.0 by GoodLuckTrying",
         "boxartLinks": [
             {
@@ -45,6 +46,7 @@ PROJECTS = [
         "id": "gng-enhanced-v10",
         "title": "Ghosts'n Goblins Enhanced v1.0",
         "trailerUrl": "https://youtu.be/1MqTjmTokAo",
+        "icon": "assets/icons/GoblinsArthur.png",
         "folder": "Ghosts'n Goblins Enhanced v1.0 by GoodLuckTrying",
         "mode": "single",
         "section_names": [
@@ -78,6 +80,7 @@ PROJECTS = [
         "id": "gng-artoria-v12",
         "title": "Ghosts'n Goblins - Artoria Edition v1.2",
         "trailerUrl": "https://youtu.be/NHejslEFf_g",
+        "icon": "assets/icons/GoblinsArtoria.png",
         "folder": "Ghosts'n Goblins - Artoria Edition v1.2 by GoodLuckTrying",
         "boxartLinks": [
             {
@@ -329,6 +332,8 @@ def build_manifest(project: dict) -> dict:
         print(f"  Warning: release zip not found: {download_rel}")
     if project.get("boxartLinks"):
         manifest["boxartLinks"] = project["boxartLinks"]
+    if project.get("icon"):
+        manifest["icon"] = project["icon"]
     return manifest
 
 
@@ -352,6 +357,8 @@ def main():
             entry["downloadUrl"] = manifest["downloadUrl"]
         if manifest.get("boxartLinks"):
             entry["boxartLinks"] = manifest["boxartLinks"]
+        if manifest.get("icon"):
+            entry["icon"] = manifest["icon"]
         hacks_data[project["id"]] = entry
         print(f"  {len(manifest['romsets'])} romsets, {len(manifest['builds'])} builds -> {out_path}")
 

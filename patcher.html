@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="repo-base" content="/GoodLuckTrying-Arcade-Patcher/">
   <title>Patcher — GoodLuckTrying/Wolfric's Hacks</title>
+  <link rel="icon" href="assets/icons/Artoria.png" type="image/png">
   <link rel="stylesheet" href="assets/css/site.css">
   <script src="assets/js/hacks-data.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js" crossorigin="anonymous"></script>
@@ -69,7 +70,7 @@
     import { loadManifest, initPatcherPage } from "./assets/js/patcher-app.js";
     import { renderHackLinks } from "./assets/js/hack-links.js";
     import { initPreviewSlideshow } from "./assets/js/preview-slideshow.js";
-    import { isFileProtocol } from "./assets/js/repo-path.js";
+    import { isFileProtocol, setPageIcon } from "./assets/js/repo-path.js";
 
     const params = new URLSearchParams(location.search);
     const hackId = params.get("hack");
@@ -83,12 +84,17 @@
     const fileInput = document.getElementById("rom-zip");
     const hackLinksEl = document.getElementById("hack-links");
 
+    function applyHackPage(data) {
+      if (data?.icon) setPageIcon(...data.icon.split("/"));
+    }
+
     if (isFileProtocol()) {
       document.getElementById("file-protocol-notice").hidden = false;
       const previewData = window.HACKS_DATA?.[hackId];
       if (previewData) {
         document.title = `${previewData.title} — Patcher`;
         document.getElementById("hack-title").textContent = previewData.title;
+        applyHackPage(previewData);
         renderHackLinks(hackLinksEl, previewData);
         stopPreview = initPreviewSlideshow(previewEl, previewData);
       } else {
@@ -102,6 +108,7 @@
         const manifest = await loadManifest(hackId);
         document.title = `${manifest.title} — Patcher`;
         document.getElementById("hack-title").textContent = manifest.title;
+        applyHackPage(manifest);
         renderHackLinks(hackLinksEl, manifest);
         stopPreview = initPreviewSlideshow(previewEl, manifest);
         initPatcherPage(manifest);
