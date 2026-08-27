@@ -56,8 +56,9 @@ PROJECTS = [
                 "role": "Artist behind key Artoria frames and the Citizen Doll sprites.",
             },
             {
-                "name": "tran4of3",
+                "name": "Ian Samson",
                 "role": "Artist behind the “The End” screen artworks for both Knight and Maiden Artoria Editions.",
+                "url": "https://www.deviantart.com/tran4of3",
             },
         ],
     },

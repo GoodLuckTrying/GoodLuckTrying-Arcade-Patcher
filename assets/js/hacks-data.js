@@ -54,8 +54,9 @@ window.HACKS_DATA = {
         "role": "Artist behind key Artoria frames and the Citizen Doll sprites."
       },
       {
-        "name": "tran4of3",
-        "role": "Artist behind the \u201cThe End\u201d screen artworks for both Knight and Maiden Artoria Editions."
+        "name": "Ian Samson",
+        "role": "Artist behind the \u201cThe End\u201d screen artworks for both Knight and Maiden Artoria Editions.",
+        "url": "https://www.deviantart.com/tran4of3"
       }
     ]
   },
