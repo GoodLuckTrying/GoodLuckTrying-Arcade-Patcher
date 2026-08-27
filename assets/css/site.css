@@ -237,16 +237,6 @@ a { color: var(--accent); }
   border-color: var(--border);
 }
 
-.card-badge {
-  margin: 0.75rem 1.25rem 0;
-  font-size: 0.8rem;
-  font-weight: 600;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  color: var(--warn);
-  text-align: center;
-}
-
 .card-platform {
   margin: 0;
   padding: 0.65rem 1.25rem;

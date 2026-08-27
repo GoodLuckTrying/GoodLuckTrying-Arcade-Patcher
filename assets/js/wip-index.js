@@ -33,17 +33,12 @@ export function renderWipSection(sectionEl, sections) {
     preview.hidden = true;
     card.appendChild(preview);
 
-    const badge = document.createElement("p");
-    badge.className = "card-badge";
-    badge.textContent = "Coming soon";
-    card.appendChild(badge);
-
     const title = document.createElement("h3");
     title.textContent = hack.title;
     card.appendChild(title);
 
     const blurb = document.createElement("p");
-    blurb.textContent = "Browser patcher not available yet.";
+    blurb.textContent = "WIP";
     card.appendChild(blurb);
 
     li.appendChild(card);

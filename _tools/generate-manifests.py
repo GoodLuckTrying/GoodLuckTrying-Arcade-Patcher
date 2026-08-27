@@ -226,6 +226,25 @@ def wip_id(folder_name: str) -> str:
     return f"wip-{slug}"
 
 
+def copy_wip_previews(hack_id: str, previews_dir: Path) -> tuple[str, list[str]]:
+    """Copy WIP previews into assets/previews/<id>/ for safe web URLs."""
+    web_dir = ROOT / "assets" / "previews" / hack_id
+    web_rel = f"assets/previews/{hack_id}"
+
+    web_dir.mkdir(parents=True, exist_ok=True)
+    for old in web_dir.iterdir():
+        if old.is_file():
+            old.unlink()
+
+    files = []
+    for f in sorted(previews_dir.iterdir()):
+        if f.is_file() and f.suffix.lower() in PREVIEW_EXT:
+            shutil.copy2(f, web_dir / f.name)
+            files.append(f.name)
+
+    return web_rel, files
+
+
 def scan_wip_hacks() -> tuple[dict, list]:
     """Scan assets/wip/<platform>/<project>/Previews for coming-soon cards."""
     hacks_data: dict = {}
@@ -245,16 +264,11 @@ def scan_wip_hacks() -> tuple[dict, list]:
             if not previews_dir.is_dir():
                 continue
 
-            files = [
-                f.name
-                for f in sorted(previews_dir.iterdir())
-                if f.is_file() and f.suffix.lower() in PREVIEW_EXT
-            ]
+            hack_id = wip_id(project_dir.name)
+            previews_folder, files = copy_wip_previews(hack_id, previews_dir)
             if not files:
                 continue
 
-            hack_id = wip_id(project_dir.name)
-            previews_folder = previews_dir.relative_to(ROOT).as_posix()
             entry = {
                 "id": hack_id,
                 "title": wip_display_title(project_dir.name),

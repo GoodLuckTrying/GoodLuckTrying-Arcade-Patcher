@@ -367,6 +367,9 @@ export async function initAllPreviewSlideshows(stillMs = 1000) {
     try {
       let manifest = previewManifestFor(hackId);
       if (!manifest) {
+        if (hackId.startsWith("wip-")) {
+          throw new Error(`WIP preview data missing: ${hackId}`);
+        }
         manifest = await loadManifest(hackId);
       }
       const stop = initPreviewSlideshow(node, manifest, stillMs);
