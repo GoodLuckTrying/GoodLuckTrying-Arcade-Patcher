@@ -1,0 +1,27 @@
+// RomData template for FinalBurn Neo
+
+// The *** in the ZipName field cannot be empty and cannot be duplicated with DrvName
+ZipName: gngtenh
+DrvName: gngt
+FullName: "Ghosts'n Goblins (Enhanced) (US)"
+
+// Name		Len		Crc32		Type
+"mmt04d.10n",	0x00004000,	0x652406f6,	0x01100001
+"mmt03denh.8n",	0x00008000,	0xd1823fc9,	0x01100001
+"mmt05denh.13n",	0x00008000,	0xd11ebe25,	0x01100001
+"mm02.14h",	0x00008000,	0x615f5b6f,	0x01100002
+"mm01.11e",	0x00004000,	0xecfccf07,	0x00200003
+"mm11.3e",	0x00004000,	0xddd56fa9,	0x00200004
+"mm10.1e",	0x00004000,	0x7302529d,	0x00200004
+"mm09.3c",	0x00004000,	0x20035bda,	0x00200004
+"mm08.1c",	0x00004000,	0xf12ba271,	0x00200004
+"mm07.3b",	0x00004000,	0xe525207d,	0x00200004
+"mm06.1b",	0x00004000,	0x2d77e9b2,	0x00200004
+"mm17.4n",	0x00004000,	0x93e50a8f,	0x00200005
+"mm16.3n",	0x00004000,	0x06d7e5ca,	0x00200005
+"mm15.1n",	0x00004000,	0xbc1fe02d,	0x00200005
+"mm14.4l",	0x00004000,	0x6aaf12f9,	0x00200005
+"mm13.3l",	0x00004000,	0xe80c3fca,	0x00200005
+"mm12.1l",	0x00004000,	0x7780a925,	0x00200005
+"m-02.14k",	0x00000100,	0x0eaf5158,	0x08200000
+"m-01.2e",	0x00000100,	0x4a1285a4,	0x08200000

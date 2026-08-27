@@ -1,0 +1,3624 @@
+{
+  "id": "gng-artoria-v12",
+  "title": "Ghosts'n Goblins - Artoria Edition v1.2",
+  "patcherRoot": "Ghosts'n Goblins - Artoria Edition v1.2 by GoodLuckTrying/Patcher",
+  "previewsFolder": "assets/previews/gng-artoria-v12",
+  "previews": [
+    "Knight Icon.png",
+    "knight01.png",
+    "knight02.png",
+    "Maiden Icon.png",
+    "maiden01.png",
+    "maiden02.png"
+  ],
+  "romsets": {
+    "gng": {
+      "label": "Ghosts'n Goblins \u2014 World (set 1)",
+      "roms": {
+        "mm_c_04": "4f94130f",
+        "mm_c_03": "1def138a",
+        "mm_c_05": "ed28e86e",
+        "gg2.bin": "615f5b6f",
+        "gg1.bin": "ecfccf07",
+        "gg11.bin": "ddd56fa9",
+        "gg10.bin": "7302529d",
+        "gg9.bin": "20035bda",
+        "gg8.bin": "f12ba271",
+        "gg7.bin": "e525207d",
+        "gg6.bin": "2d77e9b2",
+        "gg17.bin": "93e50a8f",
+        "gg16.bin": "06d7e5ca",
+        "gg15.bin": "bc1fe02d",
+        "gg14.bin": "6aaf12f9",
+        "gg13.bin": "e80c3fca",
+        "gg12.bin": "7780a925",
+        "tbp24s10.14k": "0eaf5158",
+        "63s141.2e": "4a1285a4",
+        "gg-pal10l8.bin": "87f1b7e0"
+      }
+    },
+    "gnga": {
+      "label": "Ghosts'n Goblins \u2014 World (set 2)",
+      "roms": {
+        "mjg_04.10n": "66606beb",
+        "mjg_03.8n": "9e01c65e",
+        "mjg_05.12n": "d6397b2b",
+        "capsom_m5m23256p_p_62410p_mjg_02.14h": "615f5b6f",
+        "capsom_m5m23256p_p_616105_mjg_01.11e": "1ab9038a",
+        "capsom_m5m23256p_p_616105_mmg_08.3e": "c09a716f",
+        "capsom_m5m23256p_p_61710z_mmg_07.3c": "0b92b129",
+        "capsom_m5m23256p_p_616105_mmg_06.3b": "830176af",
+        "capsom_m5m23256p_p_61710g_mjg_12.4n": "dbf05081",
+        "capsom_m5m23256p_p_620108_mjg_11.3n": "cf533077",
+        "capsom_m5m23256p_p_62410p_mjg_10.4l": "5f36734e",
+        "capsom_m5m23256p_p_61710g_mjg_09.3l": "89c71940",
+        "m-02_63s141.14k": "0eaf5158",
+        "m-01_63s141.2e": "4a1285a4",
+        "gg-pal10l8.bin": "87f1b7e0"
+      }
+    },
+    "gngb": {
+      "label": "Ghosts'n Goblins \u2014 World (set 3)",
+      "roms": {
+        "63s141.2e": "4a1285a4",
+        "gg-pal10l8.bin": "87f1b7e0",
+        "gg1.bin": "ecfccf07",
+        "gg2.bin": "615f5b6f",
+        "gg3.bin": "9e01c65e",
+        "gg4.bin": "66606beb",
+        "gg5.bin": "d6397b2b",
+        "gg6.bin": "2d77e9b2",
+        "gg7.bin": "e525207d",
+        "gg8.bin": "f12ba271",
+        "gg9.bin": "20035bda",
+        "gg10.bin": "7302529d",
+        "gg11.bin": "ddd56fa9",
+        "gg12.bin": "7780a925",
+        "gg13.bin": "e80c3fca",
+        "gg14.bin": "6aaf12f9",
+        "gg15.bin": "bc1fe02d",
+        "gg16.bin": "06d7e5ca",
+        "gg17.bin": "93e50a8f",
+        "tbp24s10.14k": "0eaf5158"
+      }
+    },
+    "gngc": {
+      "label": "Ghosts'n Goblins \u2014 World (set 4)",
+      "roms": {
+        "gng.n10": "60343188",
+        "gng.n9": "b6b91cfb",
+        "gng.n8": "a5cfa928",
+        "gng.n13": "fd9a8dda",
+        "gng.n12": "13cf6238",
+        "gg2.bin": "615f5b6f",
+        "gg1.bin": "ecfccf07",
+        "gg11.bin": "ddd56fa9",
+        "gg10.bin": "7302529d",
+        "gg9.bin": "20035bda",
+        "gg8.bin": "f12ba271",
+        "gg7.bin": "e525207d",
+        "gg6.bin": "2d77e9b2",
+        "gg17.bin": "93e50a8f",
+        "gg16.bin": "06d7e5ca",
+        "gg15.bin": "bc1fe02d",
+        "gg14.bin": "6aaf12f9",
+        "gg13.bin": "e80c3fca",
+        "gg12.bin": "7780a925",
+        "tbp24s10.14k": "0eaf5158",
+        "63s141.2e": "4a1285a4"
+      }
+    },
+    "gngt": {
+      "label": "Ghosts'n Goblins \u2014 US (Title)",
+      "roms": {
+        "mmt04d.10n": "652406f6",
+        "mmt03d.8n": "fb040b42",
+        "mmt05d.13n": "8f7cff61",
+        "mm02.14h": "615f5b6f",
+        "mm01.11e": "ecfccf07",
+        "mm11.3e": "ddd56fa9",
+        "mm10.1e": "7302529d",
+        "mm09.3c": "20035bda",
+        "mm08.1c": "f12ba271",
+        "mm07.3b": "e525207d",
+        "mm06.1b": "2d77e9b2",
+        "mm17.4n": "93e50a8f",
+        "mm16.3n": "06d7e5ca",
+        "mm15.1n": "bc1fe02d",
+        "mm14.4l": "6aaf12f9",
+        "mm13.3l": "e80c3fca",
+        "mm12.1l": "7780a925",
+        "m-02.14k": "0eaf5158",
+        "m-01.2e": "4a1285a4"
+      }
+    },
+    "makaimur": {
+      "label": "Makaimura \u2014 Japan",
+      "roms": {
+        "63s141.2e": "4a1285a4",
+        "gg1.bin": "ecfccf07",
+        "gg2.bin": "615f5b6f",
+        "gg6.bin": "2d77e9b2",
+        "gg7.bin": "e525207d",
+        "gg8.bin": "f12ba271",
+        "gg9.bin": "20035bda",
+        "gg10.bin": "7302529d",
+        "gg11.bin": "ddd56fa9",
+        "gg12.bin": "7780a925",
+        "gg13.bin": "e80c3fca",
+        "gg15.bin": "bc1fe02d",
+        "gg16.bin": "06d7e5ca",
+        "tbp24s10.14k": "0eaf5158",
+        "8n.rom": "9612d66c",
+        "10n.rom": "81e567e0",
+        "12n.rom": "65a6a97b",
+        "gng13.n4": "4613afdc",
+        "gng16.l4": "608d68d5"
+      }
+    },
+    "makaimurb": {
+      "label": "Makaimura \u2014 Japan (revision B)",
+      "roms": {
+        "mj04b.10n": "f8bda78f",
+        "mj03b.8n": "0ba14114",
+        "mj05b.12n": "3040a574",
+        "mm02.14h": "615f5b6f",
+        "mj01.11e": "178366b4",
+        "mm11.3e": "ddd56fa9",
+        "mm10.1e": "7302529d",
+        "mm09.3c": "20035bda",
+        "mm08.1c": "f12ba271",
+        "mm07.3b": "e525207d",
+        "mm06.1b": "2d77e9b2",
+        "mj17.4n": "4613afdc",
+        "mj16.3n": "06d7e5ca",
+        "mj15.1n": "bc1fe02d",
+        "mj14.4l": "608d68d5",
+        "mj13.3l": "e80c3fca",
+        "mj12.1l": "7780a925",
+        "tbp24s10.14k": "0eaf5158",
+        "63s141.2e": "4a1285a4"
+      }
+    },
+    "makaimurc": {
+      "label": "Makaimura \u2014 Japan (revision C)",
+      "roms": {
+        "mj04c.bin": "1294edb1",
+        "mj03c.bin": "d343332d",
+        "mj05c.bin": "535342c2",
+        "gg2.bin": "615f5b6f",
+        "gg1.bin": "ecfccf07",
+        "gg11.bin": "ddd56fa9",
+        "gg10.bin": "7302529d",
+        "gg9.bin": "20035bda",
+        "gg8.bin": "f12ba271",
+        "gg7.bin": "e525207d",
+        "gg6.bin": "2d77e9b2",
+        "gng13.n4": "4613afdc",
+        "gg16.bin": "06d7e5ca",
+        "gg15.bin": "bc1fe02d",
+        "gng16.l4": "608d68d5",
+        "gg13.bin": "e80c3fca",
+        "gg12.bin": "7780a925",
+        "tbp24s10.14k": "0eaf5158",
+        "63s141.2e": "4a1285a4"
+      }
+    },
+    "makaimurg": {
+      "label": "Makaimura \u2014 Japan (revision G)",
+      "roms": {
+        "mj04g.bin": "757c94d3",
+        "mj03g.bin": "61b043bb",
+        "mj05g.bin": "f2fdccf5",
+        "gg2.bin": "615f5b6f",
+        "gg1.bin": "ecfccf07",
+        "gg11.bin": "ddd56fa9",
+        "gg10.bin": "7302529d",
+        "gg9.bin": "20035bda",
+        "gg8.bin": "f12ba271",
+        "gg7.bin": "e525207d",
+        "gg6.bin": "2d77e9b2",
+        "gng13.n4": "4613afdc",
+        "gg16.bin": "06d7e5ca",
+        "gg15.bin": "bc1fe02d",
+        "gng16.l4": "608d68d5",
+        "gg13.bin": "e80c3fca",
+        "gg12.bin": "7780a925",
+        "tbp24s10.14k": "0eaf5158",
+        "63s141.2e": "4a1285a4"
+      }
+    }
+  },
+  "builds": {
+    "gngmaiden": {
+      "sourceRomset": "gng",
+      "outputZip": "gngmaiden.zip",
+      "label": "Ghosts'n Goblins - Maiden Artoria Edition World? 1)",
+      "patchesBase": "Ghosts'n Goblins - Artoria Edition v1.2 by GoodLuckTrying/Patcher/patches/maiden_artoria",
+      "layout": [
+        {
+          "source": "mm_c_04",
+          "output": "mm_c_maiden_04",
+          "patch": "mm_c_maiden_04.bps"
+        },
+        {
+          "source": "mm_c_03",
+          "output": "mm_c_maiden_03",
+          "patch": "mm_c_maiden_03.bps"
+        },
+        {
+          "source": "mm_c_05",
+          "output": "mm_c_maiden_05",
+          "patch": "mm_c_maiden_05.bps"
+        },
+        {
+          "source": "gg2.bin",
+          "output": "gg2.bin"
+        },
+        {
+          "source": "gg1.bin",
+          "output": "gg1maiden.bin",
+          "patch": "gg1maiden.bps"
+        },
+        {
+          "source": "gg11.bin",
+          "output": "gg11.bin"
+        },
+        {
+          "source": "gg10.bin",
+          "output": "gg10.bin"
+        },
+        {
+          "source": "gg9.bin",
+          "output": "gg9.bin"
+        },
+        {
+          "source": "gg8.bin",
+          "output": "gg8.bin"
+        },
+        {
+          "source": "gg7.bin",
+          "output": "gg7.bin"
+        },
+        {
+          "source": "gg6.bin",
+          "output": "gg6.bin"
+        },
+        {
+          "source": "gg17.bin",
+          "output": "gg17maiden.bin",
+          "patch": "gg17maiden.bps"
+        },
+        {
+          "source": "gg16.bin",
+          "output": "gg16maiden.bin",
+          "patch": "gg16maiden.bps"
+        },
+        {
+          "source": "gg15.bin",
+          "output": "gg15maiden.bin",
+          "patch": "gg15maiden.bps"
+        },
+        {
+          "source": "gg14.bin",
+          "output": "gg14maiden.bin",
+          "patch": "gg14maiden.bps"
+        },
+        {
+          "source": "gg13.bin",
+          "output": "gg13maiden.bin",
+          "patch": "gg13maiden.bps"
+        },
+        {
+          "source": "gg12.bin",
+          "output": "gg12maiden.bin",
+          "patch": "gg12maiden.bps"
+        },
+        {
+          "source": "tbp24s10.14k",
+          "output": "tbp24s10.14k"
+        },
+        {
+          "source": "63s141.2e",
+          "output": "63s141.2e"
+        },
+        {
+          "source": "gg-pal10l8.bin",
+          "output": "gg-pal10l8.bin"
+        }
+      ]
+    },
+    "gngknight": {
+      "sourceRomset": "gng",
+      "outputZip": "gngknight.zip",
+      "label": "Ghosts'n Goblins - Knight Artoria Edition World? 1)",
+      "patchesBase": "Ghosts'n Goblins - Artoria Edition v1.2 by GoodLuckTrying/Patcher/patches/knight_artoria",
+      "layout": [
+        {
+          "source": "mm_c_04",
+          "output": "mm_c_knight_04",
+          "patch": "mm_c_knight_04.bps"
+        },
+        {
+          "source": "mm_c_03",
+          "output": "mm_c_knight_03",
+          "patch": "mm_c_knight_03.bps"
+        },
+        {
+          "source": "mm_c_05",
+          "output": "mm_c_knight_05",
+          "patch": "mm_c_knight_05.bps"
+        },
+        {
+          "source": "gg2.bin",
+          "output": "gg2.bin"
+        },
+        {
+          "source": "gg1.bin",
+          "output": "gg1knight.bin",
+          "patch": "gg1knight.bps"
+        },
+        {
+          "source": "gg11.bin",
+          "output": "gg11.bin"
+        },
+        {
+          "source": "gg10.bin",
+          "output": "gg10.bin"
+        },
+        {
+          "source": "gg9.bin",
+          "output": "gg9.bin"
+        },
+        {
+          "source": "gg8.bin",
+          "output": "gg8.bin"
+        },
+        {
+          "source": "gg7.bin",
+          "output": "gg7.bin"
+        },
+        {
+          "source": "gg6.bin",
+          "output": "gg6.bin"
+        },
+        {
+          "source": "gg17.bin",
+          "output": "gg17knight.bin",
+          "patch": "gg17knight.bps"
+        },
+        {
+          "source": "gg16.bin",
+          "output": "gg16knight.bin",
+          "patch": "gg16knight.bps"
+        },
+        {
+          "source": "gg15.bin",
+          "output": "gg15knight.bin",
+          "patch": "gg15knight.bps"
+        },
+        {
+          "source": "gg14.bin",
+          "output": "gg14knight.bin",
+          "patch": "gg14knight.bps"
+        },
+        {
+          "source": "gg13.bin",
+          "output": "gg13knight.bin",
+          "patch": "gg13knight.bps"
+        },
+        {
+          "source": "gg12.bin",
+          "output": "gg12knight.bin",
+          "patch": "gg12knight.bps"
+        },
+        {
+          "source": "tbp24s10.14k",
+          "output": "tbp24s10.14k"
+        },
+        {
+          "source": "63s141.2e",
+          "output": "63s141.2e"
+        },
+        {
+          "source": "gg-pal10l8.bin",
+          "output": "gg-pal10l8.bin"
+        }
+      ]
+    },
+    "gngmaidena": {
+      "sourceRomset": "gnga",
+      "outputZip": "gngmaidena.zip",
+      "label": "Ghosts'n Goblins - Maiden Artoria Edition World? 2)",
+      "patchesBase": "Ghosts'n Goblins - Artoria Edition v1.2 by GoodLuckTrying/Patcher/patches/maiden_artoria",
+      "layout": [
+        {
+          "source": "mjg_04.10n",
+          "output": "mjg_04maiden.10n",
+          "patch": "mjg_04maiden.bps"
+        },
+        {
+          "source": "mjg_03.8n",
+          "output": "mjg_03maiden.8n",
+          "patch": "mjg_03maiden.bps"
+        },
+        {
+          "source": "mjg_05.12n",
+          "output": "mjg_05maiden.12n",
+          "patch": "mjg_05maiden.bps"
+        },
+        {
+          "source": "capsom_m5m23256p_p_62410p_mjg_02.14h",
+          "output": "capsom_m5m23256p_p_62410p_mjg_02.14h"
+        },
+        {
+          "source": "capsom_m5m23256p_p_616105_mjg_01.11e",
+          "output": "capsom_m5m23256p_p_616105_mjg_01m.11e",
+          "patch": "capsom_m5m23256p_p_616105_mjg_01m.bps"
+        },
+        {
+          "source": "capsom_m5m23256p_p_616105_mmg_08.3e",
+          "output": "capsom_m5m23256p_p_616105_mmg_08.3e"
+        },
+        {
+          "source": "capsom_m5m23256p_p_61710z_mmg_07.3c",
+          "output": "capsom_m5m23256p_p_61710z_mmg_07.3c"
+        },
+        {
+          "source": "capsom_m5m23256p_p_616105_mmg_06.3b",
+          "output": "capsom_m5m23256p_p_616105_mmg_06.3b"
+        },
+        {
+          "source": "capsom_m5m23256p_p_61710g_mjg_12.4n",
+          "output": "capsom_m5m23256p_p_61710g_mjg_12m.4n",
+          "patch": "capsom_m5m23256p_p_61710g_mjg_12m.bps"
+        },
+        {
+          "source": "capsom_m5m23256p_p_620108_mjg_11.3n",
+          "output": "capsom_m5m23256p_p_620108_mjg_11m.3n",
+          "patch": "capsom_m5m23256p_p_620108_mjg_11m.bps"
+        },
+        {
+          "source": "capsom_m5m23256p_p_62410p_mjg_10.4l",
+          "output": "capsom_m5m23256p_p_62410p_mjg_10m.4l",
+          "patch": "capsom_m5m23256p_p_62410p_mjg_10m.bps"
+        },
+        {
+          "source": "capsom_m5m23256p_p_61710g_mjg_09.3l",
+          "output": "capsom_m5m23256p_p_61710g_mjg_09m.3l",
+          "patch": "capsom_m5m23256p_p_61710g_mjg_09m.bps"
+        },
+        {
+          "source": "m-02_63s141.14k",
+          "output": "m-02_63s141.14k"
+        },
+        {
+          "source": "m-01_63s141.2e",
+          "output": "m-01_63s141.2e"
+        },
+        {
+          "source": "gg-pal10l8.bin",
+          "output": "gg-pal10l8.bin"
+        }
+      ]
+    },
+    "gngknighta": {
+      "sourceRomset": "gnga",
+      "outputZip": "gngknighta.zip",
+      "label": "Ghosts'n Goblins - Knight Artoria Edition World? 2)",
+      "patchesBase": "Ghosts'n Goblins - Artoria Edition v1.2 by GoodLuckTrying/Patcher/patches/knight_artoria",
+      "layout": [
+        {
+          "source": "mjg_04.10n",
+          "output": "mjg_04knight.10n",
+          "patch": "mjg_04knight.bps"
+        },
+        {
+          "source": "mjg_03.8n",
+          "output": "mjg_03knight.8n",
+          "patch": "mjg_03knight.bps"
+        },
+        {
+          "source": "mjg_05.12n",
+          "output": "mjg_05knight.12n",
+          "patch": "mjg_05knight.bps"
+        },
+        {
+          "source": "capsom_m5m23256p_p_62410p_mjg_02.14h",
+          "output": "capsom_m5m23256p_p_62410p_mjg_02.14h"
+        },
+        {
+          "source": "capsom_m5m23256p_p_616105_mjg_01.11e",
+          "output": "capsom_m5m23256p_p_616105_mjg_01k.11e",
+          "patch": "capsom_m5m23256p_p_616105_mjg_01k.bps"
+        },
+        {
+          "source": "capsom_m5m23256p_p_616105_mmg_08.3e",
+          "output": "capsom_m5m23256p_p_616105_mmg_08.3e"
+        },
+        {
+          "source": "capsom_m5m23256p_p_61710z_mmg_07.3c",
+          "output": "capsom_m5m23256p_p_61710z_mmg_07.3c"
+        },
+        {
+          "source": "capsom_m5m23256p_p_616105_mmg_06.3b",
+          "output": "capsom_m5m23256p_p_616105_mmg_06.3b"
+        },
+        {
+          "source": "capsom_m5m23256p_p_61710g_mjg_12.4n",
+          "output": "capsom_m5m23256p_p_61710g_mjg_12k.4n",
+          "patch": "capsom_m5m23256p_p_61710g_mjg_12k.bps"
+        },
+        {
+          "source": "capsom_m5m23256p_p_620108_mjg_11.3n",
+          "output": "capsom_m5m23256p_p_620108_mjg_11k.3n",
+          "patch": "capsom_m5m23256p_p_620108_mjg_11k.bps"
+        },
+        {
+          "source": "capsom_m5m23256p_p_62410p_mjg_10.4l",
+          "output": "capsom_m5m23256p_p_62410p_mjg_10k.4l",
+          "patch": "capsom_m5m23256p_p_62410p_mjg_10k.bps"
+        },
+        {
+          "source": "capsom_m5m23256p_p_61710g_mjg_09.3l",
+          "output": "capsom_m5m23256p_p_61710g_mjg_09k.3l",
+          "patch": "capsom_m5m23256p_p_61710g_mjg_09k.bps"
+        },
+        {
+          "source": "m-02_63s141.14k",
+          "output": "m-02_63s141.14k"
+        },
+        {
+          "source": "m-01_63s141.2e",
+          "output": "m-01_63s141.2e"
+        },
+        {
+          "source": "gg-pal10l8.bin",
+          "output": "gg-pal10l8.bin"
+        }
+      ]
+    },
+    "gngmaidenb": {
+      "sourceRomset": "gngb",
+      "outputZip": "gngmaidenb.zip",
+      "label": "Ghosts'n Goblins - Maiden Artoria Edition World? 3)",
+      "patchesBase": "Ghosts'n Goblins - Artoria Edition v1.2 by GoodLuckTrying/Patcher/patches/maiden_artoria",
+      "layout": [
+        {
+          "source": "gg4.bin",
+          "output": "gg4maiden.bin",
+          "patch": "gg4maiden.bps"
+        },
+        {
+          "source": "gg3.bin",
+          "output": "gg3maiden.bin",
+          "patch": "gg3maiden.bps"
+        },
+        {
+          "source": "gg5.bin",
+          "output": "gg5maiden.bin",
+          "patch": "gg5maiden.bps"
+        },
+        {
+          "source": "gg2.bin",
+          "output": "gg2.bin"
+        },
+        {
+          "source": "gg1.bin",
+          "output": "gg1maiden.bin",
+          "patch": "gg1maiden.bps"
+        },
+        {
+          "source": "gg11.bin",
+          "output": "gg11.bin"
+        },
+        {
+          "source": "gg10.bin",
+          "output": "gg10.bin"
+        },
+        {
+          "source": "gg9.bin",
+          "output": "gg9.bin"
+        },
+        {
+          "source": "gg8.bin",
+          "output": "gg8.bin"
+        },
+        {
+          "source": "gg7.bin",
+          "output": "gg7.bin"
+        },
+        {
+          "source": "gg6.bin",
+          "output": "gg6.bin"
+        },
+        {
+          "source": "gg17.bin",
+          "output": "gg17maiden.bin",
+          "patch": "gg17maiden.bps"
+        },
+        {
+          "source": "gg16.bin",
+          "output": "gg16maiden.bin",
+          "patch": "gg16maiden.bps"
+        },
+        {
+          "source": "gg15.bin",
+          "output": "gg15maiden.bin",
+          "patch": "gg15maiden.bps"
+        },
+        {
+          "source": "gg14.bin",
+          "output": "gg14maiden.bin",
+          "patch": "gg14maiden.bps"
+        },
+        {
+          "source": "gg13.bin",
+          "output": "gg13maiden.bin",
+          "patch": "gg13maiden.bps"
+        },
+        {
+          "source": "gg12.bin",
+          "output": "gg12maiden.bin",
+          "patch": "gg12maiden.bps"
+        },
+        {
+          "source": "tbp24s10.14k",
+          "output": "tbp24s10.14k"
+        },
+        {
+          "source": "63s141.2e",
+          "output": "63s141.2e"
+        },
+        {
+          "source": "gg-pal10l8.bin",
+          "output": "gg-pal10l8.bin"
+        }
+      ]
+    },
+    "gngknightb": {
+      "sourceRomset": "gngb",
+      "outputZip": "gngknightb.zip",
+      "label": "Ghosts'n Goblins - Knight Artoria Edition World? 3)",
+      "patchesBase": "Ghosts'n Goblins - Artoria Edition v1.2 by GoodLuckTrying/Patcher/patches/knight_artoria",
+      "layout": [
+        {
+          "source": "gg4.bin",
+          "output": "gg4knight.bin",
+          "patch": "gg4knight.bps"
+        },
+        {
+          "source": "gg3.bin",
+          "output": "gg3knight.bin",
+          "patch": "gg3knight.bps"
+        },
+        {
+          "source": "gg5.bin",
+          "output": "gg5knight.bin",
+          "patch": "gg5knight.bps"
+        },
+        {
+          "source": "gg2.bin",
+          "output": "gg2.bin"
+        },
+        {
+          "source": "gg1.bin",
+          "output": "gg1knight.bin",
+          "patch": "gg1knight.bps"
+        },
+        {
+          "source": "gg11.bin",
+          "output": "gg11.bin"
+        },
+        {
+          "source": "gg10.bin",
+          "output": "gg10.bin"
+        },
+        {
+          "source": "gg9.bin",
+          "output": "gg9.bin"
+        },
+        {
+          "source": "gg8.bin",
+          "output": "gg8.bin"
+        },
+        {
+          "source": "gg7.bin",
+          "output": "gg7.bin"
+        },
+        {
+          "source": "gg6.bin",
+          "output": "gg6.bin"
+        },
+        {
+          "source": "gg17.bin",
+          "output": "gg17knight.bin",
+          "patch": "gg17knight.bps"
+        },
+        {
+          "source": "gg16.bin",
+          "output": "gg16knight.bin",
+          "patch": "gg16knight.bps"
+        },
+        {
+          "source": "gg15.bin",
+          "output": "gg15knight.bin",
+          "patch": "gg15knight.bps"
+        },
+        {
+          "source": "gg14.bin",
+          "output": "gg14knight.bin",
+          "patch": "gg14knight.bps"
+        },
+        {
+          "source": "gg13.bin",
+          "output": "gg13knight.bin",
+          "patch": "gg13knight.bps"
+        },
+        {
+          "source": "gg12.bin",
+          "output": "gg12knight.bin",
+          "patch": "gg12knight.bps"
+        },
+        {
+          "source": "tbp24s10.14k",
+          "output": "tbp24s10.14k"
+        },
+        {
+          "source": "63s141.2e",
+          "output": "63s141.2e"
+        },
+        {
+          "source": "gg-pal10l8.bin",
+          "output": "gg-pal10l8.bin"
+        }
+      ]
+    },
+    "gngmaidenc": {
+      "sourceRomset": "gngc",
+      "outputZip": "gngmaidenc.zip",
+      "label": "Ghosts'n Goblins - Maiden Artoria Edition World? 4)",
+      "patchesBase": "Ghosts'n Goblins - Artoria Edition v1.2 by GoodLuckTrying/Patcher/patches/maiden_artoria",
+      "layout": [
+        {
+          "source": "gng.n10",
+          "output": "gngmaiden.n10",
+          "patch": "gngmaiden.n10.bps"
+        },
+        {
+          "source": "gng.n9",
+          "output": "gngmaiden.n9",
+          "patch": "gngmaiden.n9.bps"
+        },
+        {
+          "source": "gng.n8",
+          "output": "gng.n8"
+        },
+        {
+          "source": "gng.n13",
+          "output": "gng.n13"
+        },
+        {
+          "source": "gng.n12",
+          "output": "gngmaiden.n12",
+          "patch": "gngmaiden.n12.bps"
+        },
+        {
+          "source": "gg2.bin",
+          "output": "gg2.bin"
+        },
+        {
+          "source": "gg1.bin",
+          "output": "gg1maiden.bin",
+          "patch": "gg1maiden.bps"
+        },
+        {
+          "source": "gg11.bin",
+          "output": "gg11.bin"
+        },
+        {
+          "source": "gg10.bin",
+          "output": "gg10.bin"
+        },
+        {
+          "source": "gg9.bin",
+          "output": "gg9.bin"
+        },
+        {
+          "source": "gg8.bin",
+          "output": "gg8.bin"
+        },
+        {
+          "source": "gg7.bin",
+          "output": "gg7.bin"
+        },
+        {
+          "source": "gg6.bin",
+          "output": "gg6.bin"
+        },
+        {
+          "source": "gg17.bin",
+          "output": "gg17maiden.bin",
+          "patch": "gg17maiden.bps"
+        },
+        {
+          "source": "gg16.bin",
+          "output": "gg16maiden.bin",
+          "patch": "gg16maiden.bps"
+        },
+        {
+          "source": "gg15.bin",
+          "output": "gg15maiden.bin",
+          "patch": "gg15maiden.bps"
+        },
+        {
+          "source": "gg14.bin",
+          "output": "gg14maiden.bin",
+          "patch": "gg14maiden.bps"
+        },
+        {
+          "source": "gg13.bin",
+          "output": "gg13maiden.bin",
+          "patch": "gg13maiden.bps"
+        },
+        {
+          "source": "gg12.bin",
+          "output": "gg12maiden.bin",
+          "patch": "gg12maiden.bps"
+        },
+        {
+          "source": "tbp24s10.14k",
+          "output": "tbp24s10.14k"
+        },
+        {
+          "source": "63s141.2e",
+          "output": "63s141.2e"
+        }
+      ]
+    },
+    "gngknightc": {
+      "sourceRomset": "gngc",
+      "outputZip": "gngknightc.zip",
+      "label": "Ghosts'n Goblins - Knight Artoria Edition World? 4)",
+      "patchesBase": "Ghosts'n Goblins - Artoria Edition v1.2 by GoodLuckTrying/Patcher/patches/knight_artoria",
+      "layout": [
+        {
+          "source": "gng.n10",
+          "output": "gngknight.n10",
+          "patch": "gngknight.n10.bps"
+        },
+        {
+          "source": "gng.n9",
+          "output": "gngknight.n9",
+          "patch": "gngknight.n9.bps"
+        },
+        {
+          "source": "gng.n8",
+          "output": "gng.n8"
+        },
+        {
+          "source": "gng.n13",
+          "output": "gng.n13"
+        },
+        {
+          "source": "gng.n12",
+          "output": "gngknight.n12",
+          "patch": "gngknight.n12.bps"
+        },
+        {
+          "source": "gg2.bin",
+          "output": "gg2.bin"
+        },
+        {
+          "source": "gg1.bin",
+          "output": "gg1knight.bin",
+          "patch": "gg1knight.bps"
+        },
+        {
+          "source": "gg11.bin",
+          "output": "gg11.bin"
+        },
+        {
+          "source": "gg10.bin",
+          "output": "gg10.bin"
+        },
+        {
+          "source": "gg9.bin",
+          "output": "gg9.bin"
+        },
+        {
+          "source": "gg8.bin",
+          "output": "gg8.bin"
+        },
+        {
+          "source": "gg7.bin",
+          "output": "gg7.bin"
+        },
+        {
+          "source": "gg6.bin",
+          "output": "gg6.bin"
+        },
+        {
+          "source": "gg17.bin",
+          "output": "gg17knight.bin",
+          "patch": "gg17knight.bps"
+        },
+        {
+          "source": "gg16.bin",
+          "output": "gg16knight.bin",
+          "patch": "gg16knight.bps"
+        },
+        {
+          "source": "gg15.bin",
+          "output": "gg15knight.bin",
+          "patch": "gg15knight.bps"
+        },
+        {
+          "source": "gg14.bin",
+          "output": "gg14knight.bin",
+          "patch": "gg14knight.bps"
+        },
+        {
+          "source": "gg13.bin",
+          "output": "gg13knight.bin",
+          "patch": "gg13knight.bps"
+        },
+        {
+          "source": "gg12.bin",
+          "output": "gg12knight.bin",
+          "patch": "gg12knight.bps"
+        },
+        {
+          "source": "tbp24s10.14k",
+          "output": "tbp24s10.14k"
+        },
+        {
+          "source": "63s141.2e",
+          "output": "63s141.2e"
+        }
+      ]
+    },
+    "gngmaident": {
+      "sourceRomset": "gngt",
+      "outputZip": "gngmaident.zip",
+      "label": "Ghosts'n Goblins - Maiden Artoria Edition (US))",
+      "patchesBase": "Ghosts'n Goblins - Artoria Edition v1.2 by GoodLuckTrying/Patcher/patches/maiden_artoria",
+      "layout": [
+        {
+          "source": "mmt04d.10n",
+          "output": "mmt04dmaiden.10n",
+          "patch": "mmt04dmaiden.10n.bps"
+        },
+        {
+          "source": "mmt03d.8n",
+          "output": "mmt03dmaiden.8n",
+          "patch": "mmt03dmaiden.8n.bps"
+        },
+        {
+          "source": "mmt05d.13n",
+          "output": "mmt05dmaiden.13n",
+          "patch": "mmt05dmaiden.13n.bps"
+        },
+        {
+          "source": "mm02.14h",
+          "output": "mm02.14h"
+        },
+        {
+          "source": "mm01.11e",
+          "output": "mm01maiden.11e",
+          "patch": "gg1maiden.bps"
+        },
+        {
+          "source": "mm11.3e",
+          "output": "mm11.3e"
+        },
+        {
+          "source": "mm10.1e",
+          "output": "mm10.1e"
+        },
+        {
+          "source": "mm09.3c",
+          "output": "mm09.3c"
+        },
+        {
+          "source": "mm08.1c",
+          "output": "mm08.1c"
+        },
+        {
+          "source": "mm07.3b",
+          "output": "mm07.3b"
+        },
+        {
+          "source": "mm06.1b",
+          "output": "mm06.1b"
+        },
+        {
+          "source": "mm17.4n",
+          "output": "mm17maiden.4n",
+          "patch": "gg17maiden.bps"
+        },
+        {
+          "source": "mm16.3n",
+          "output": "mm16maiden.3n",
+          "patch": "gg16maiden.bps"
+        },
+        {
+          "source": "mm15.1n",
+          "output": "mm15maiden.1n",
+          "patch": "gg15maiden.bps"
+        },
+        {
+          "source": "mm14.4l",
+          "output": "mm14maiden.4l",
+          "patch": "gg14maiden.bps"
+        },
+        {
+          "source": "mm13.3l",
+          "output": "mm13maiden.3l",
+          "patch": "gg13maiden.bps"
+        },
+        {
+          "source": "mm12.1l",
+          "output": "mm12maiden.1l",
+          "patch": "gg12maiden.bps"
+        },
+        {
+          "source": "m-02.14k",
+          "output": "m-02.14k"
+        },
+        {
+          "source": "m-01.2e",
+          "output": "m-01.2e"
+        }
+      ]
+    },
+    "gngknightt": {
+      "sourceRomset": "gngt",
+      "outputZip": "gngknightt.zip",
+      "label": "Ghosts'n Goblins - Knight Artoria Edition (US))",
+      "patchesBase": "Ghosts'n Goblins - Artoria Edition v1.2 by GoodLuckTrying/Patcher/patches/knight_artoria",
+      "layout": [
+        {
+          "source": "mmt04d.10n",
+          "output": "mmt04dknight.10n",
+          "patch": "mmt04dknight.10n.bps"
+        },
+        {
+          "source": "mmt03d.8n",
+          "output": "mmt03dknight.8n",
+          "patch": "mmt03dknight.8n.bps"
+        },
+        {
+          "source": "mmt05d.13n",
+          "output": "mmt05dknight.13n",
+          "patch": "mmt05dknight.13n.bps"
+        },
+        {
+          "source": "mm02.14h",
+          "output": "mm02.14h"
+        },
+        {
+          "source": "mm01.11e",
+          "output": "mm01knight.11e",
+          "patch": "gg1knight.bps"
+        },
+        {
+          "source": "mm11.3e",
+          "output": "mm11.3e"
+        },
+        {
+          "source": "mm10.1e",
+          "output": "mm10.1e"
+        },
+        {
+          "source": "mm09.3c",
+          "output": "mm09.3c"
+        },
+        {
+          "source": "mm08.1c",
+          "output": "mm08.1c"
+        },
+        {
+          "source": "mm07.3b",
+          "output": "mm07.3b"
+        },
+        {
+          "source": "mm06.1b",
+          "output": "mm06.1b"
+        },
+        {
+          "source": "mm17.4n",
+          "output": "mm17knight.4n",
+          "patch": "gg17knight.bps"
+        },
+        {
+          "source": "mm16.3n",
+          "output": "mm16knight.3n",
+          "patch": "gg16knight.bps"
+        },
+        {
+          "source": "mm15.1n",
+          "output": "mm15knight.1n",
+          "patch": "gg15knight.bps"
+        },
+        {
+          "source": "mm14.4l",
+          "output": "mm14knight.4l",
+          "patch": "gg14knight.bps"
+        },
+        {
+          "source": "mm13.3l",
+          "output": "mm13knight.3l",
+          "patch": "gg13knight.bps"
+        },
+        {
+          "source": "mm12.1l",
+          "output": "mm12knight.1l",
+          "patch": "gg12knight.bps"
+        },
+        {
+          "source": "m-02.14k",
+          "output": "m-02.14k"
+        },
+        {
+          "source": "m-01.2e",
+          "output": "m-01.2e"
+        }
+      ]
+    },
+    "makmaiden": {
+      "sourceRomset": "makaimur",
+      "outputZip": "makmaiden.zip",
+      "label": "Makaimura - Maiden Artoria Edition)",
+      "patchesBase": "Ghosts'n Goblins - Artoria Edition v1.2 by GoodLuckTrying/Patcher/patches/maiden_artoria",
+      "layout": [
+        {
+          "source": "10n.rom",
+          "output": "10nmaiden.rom",
+          "patch": "10nmaiden.bps"
+        },
+        {
+          "source": "8n.rom",
+          "output": "8nmaiden.rom",
+          "patch": "8nmaiden.bps"
+        },
+        {
+          "source": "12n.rom",
+          "output": "12nmaiden.rom",
+          "patch": "12nmaiden.bps"
+        },
+        {
+          "source": "gg2.bin",
+          "output": "gg2.bin"
+        },
+        {
+          "source": "gg1.bin",
+          "output": "gg1maiden.bin",
+          "patch": "gg1maiden.bps"
+        },
+        {
+          "source": "gg11.bin",
+          "output": "gg11.bin"
+        },
+        {
+          "source": "gg10.bin",
+          "output": "gg10.bin"
+        },
+        {
+          "source": "gg9.bin",
+          "output": "gg9.bin"
+        },
+        {
+          "source": "gg8.bin",
+          "output": "gg8.bin"
+        },
+        {
+          "source": "gg7.bin",
+          "output": "gg7.bin"
+        },
+        {
+          "source": "gg6.bin",
+          "output": "gg6.bin"
+        },
+        {
+          "source": "gng13.n4",
+          "output": "gng13maiden.n4",
+          "patch": "gng13maiden.bps"
+        },
+        {
+          "source": "gg16.bin",
+          "output": "gg16maiden.bin",
+          "patch": "gg16maiden.bps"
+        },
+        {
+          "source": "gg15.bin",
+          "output": "gg15maiden.bin",
+          "patch": "gg15maiden.bps"
+        },
+        {
+          "source": "gng16.l4",
+          "output": "gng16maiden.l4",
+          "patch": "gng16maiden.bps"
+        },
+        {
+          "source": "gg13.bin",
+          "output": "gg13maiden.bin",
+          "patch": "gg13maiden.bps"
+        },
+        {
+          "source": "gg12.bin",
+          "output": "gg12maiden.bin",
+          "patch": "gg12maiden.bps"
+        },
+        {
+          "source": "tbp24s10.14k",
+          "output": "tbp24s10.14k"
+        },
+        {
+          "source": "63s141.2e",
+          "output": "63s141.2e"
+        }
+      ]
+    },
+    "makknight": {
+      "sourceRomset": "makaimur",
+      "outputZip": "makknight.zip",
+      "label": "Makaimura - Knight Artoria Edition)",
+      "patchesBase": "Ghosts'n Goblins - Artoria Edition v1.2 by GoodLuckTrying/Patcher/patches/knight_artoria",
+      "layout": [
+        {
+          "source": "10n.rom",
+          "output": "10nknight.rom",
+          "patch": "10nknight.bps"
+        },
+        {
+          "source": "8n.rom",
+          "output": "8nknight.rom",
+          "patch": "8nknight.bps"
+        },
+        {
+          "source": "12n.rom",
+          "output": "12nknight.rom",
+          "patch": "12nknight.bps"
+        },
+        {
+          "source": "gg2.bin",
+          "output": "gg2.bin"
+        },
+        {
+          "source": "gg1.bin",
+          "output": "gg1knight.bin",
+          "patch": "gg1knight.bps"
+        },
+        {
+          "source": "gg11.bin",
+          "output": "gg11.bin"
+        },
+        {
+          "source": "gg10.bin",
+          "output": "gg10.bin"
+        },
+        {
+          "source": "gg9.bin",
+          "output": "gg9.bin"
+        },
+        {
+          "source": "gg8.bin",
+          "output": "gg8.bin"
+        },
+        {
+          "source": "gg7.bin",
+          "output": "gg7.bin"
+        },
+        {
+          "source": "gg6.bin",
+          "output": "gg6.bin"
+        },
+        {
+          "source": "gng13.n4",
+          "output": "gng13knight.n4",
+          "patch": "gng13knight.bps"
+        },
+        {
+          "source": "gg16.bin",
+          "output": "gg16knight.bin",
+          "patch": "gg16knight.bps"
+        },
+        {
+          "source": "gg15.bin",
+          "output": "gg15knight.bin",
+          "patch": "gg15knight.bps"
+        },
+        {
+          "source": "gng16.l4",
+          "output": "gng16knight.l4",
+          "patch": "gng16knight.bps"
+        },
+        {
+          "source": "gg13.bin",
+          "output": "gg13knight.bin",
+          "patch": "gg13knight.bps"
+        },
+        {
+          "source": "gg12.bin",
+          "output": "gg12knight.bin",
+          "patch": "gg12knight.bps"
+        },
+        {
+          "source": "tbp24s10.14k",
+          "output": "tbp24s10.14k"
+        },
+        {
+          "source": "63s141.2e",
+          "output": "63s141.2e"
+        }
+      ]
+    },
+    "makmaidenb": {
+      "sourceRomset": "makaimurb",
+      "outputZip": "makmaidenb.zip",
+      "label": "Makaimura - Maiden Artoria Edition (Japan revision B))",
+      "patchesBase": "Ghosts'n Goblins - Artoria Edition v1.2 by GoodLuckTrying/Patcher/patches/maiden_artoria",
+      "layout": [
+        {
+          "source": "mj04b.10n",
+          "output": "mj04bmaiden.10n",
+          "patch": "mj04bmaiden.10n.bps"
+        },
+        {
+          "source": "mj03b.8n",
+          "output": "mj03bmaiden.8n",
+          "patch": "mj03bmaiden.8n.bps"
+        },
+        {
+          "source": "mj05b.12n",
+          "output": "mj05bmaiden.12n",
+          "patch": "mj05bmaiden.12n.bps"
+        },
+        {
+          "source": "mm02.14h",
+          "output": "mm02.14h"
+        },
+        {
+          "source": "mj01.11e",
+          "output": "mj01maiden.11e",
+          "patch": "mj01maiden.11e.bps"
+        },
+        {
+          "source": "mm11.3e",
+          "output": "mm11.3e"
+        },
+        {
+          "source": "mm10.1e",
+          "output": "mm10.1e"
+        },
+        {
+          "source": "mm09.3c",
+          "output": "mm09.3c"
+        },
+        {
+          "source": "mm08.1c",
+          "output": "mm08.1c"
+        },
+        {
+          "source": "mm07.3b",
+          "output": "mm07.3b"
+        },
+        {
+          "source": "mm06.1b",
+          "output": "mm06.1b"
+        },
+        {
+          "source": "mj17.4n",
+          "output": "mj17maiden.4n",
+          "patch": "gng13maiden.bps"
+        },
+        {
+          "source": "mj16.3n",
+          "output": "mj16maiden.3n",
+          "patch": "gg16maiden.bps"
+        },
+        {
+          "source": "mj15.1n",
+          "output": "mj15maiden.1n",
+          "patch": "gg15maiden.bps"
+        },
+        {
+          "source": "mj14.4l",
+          "output": "mj14maiden.4l",
+          "patch": "gng16maiden.bps"
+        },
+        {
+          "source": "mj13.3l",
+          "output": "mj13maiden.3l",
+          "patch": "gg13maiden.bps"
+        },
+        {
+          "source": "mj12.1l",
+          "output": "mj12maiden.1l",
+          "patch": "gg12maiden.bps"
+        },
+        {
+          "source": "tbp24s10.14k",
+          "output": "tbp24s10.14k"
+        },
+        {
+          "source": "63s141.2e",
+          "output": "63s141.2e"
+        }
+      ]
+    },
+    "makknightb": {
+      "sourceRomset": "makaimurb",
+      "outputZip": "makknightb.zip",
+      "label": "Makaimura - Knight Artoria Edition (Japan revision B))",
+      "patchesBase": "Ghosts'n Goblins - Artoria Edition v1.2 by GoodLuckTrying/Patcher/patches/knight_artoria",
+      "layout": [
+        {
+          "source": "mj04b.10n",
+          "output": "mj04bknight.10n",
+          "patch": "mj04bknight.10n.bps"
+        },
+        {
+          "source": "mj03b.8n",
+          "output": "mj03bknight.8n",
+          "patch": "mj03bknight.8n.bps"
+        },
+        {
+          "source": "mj05b.12n",
+          "output": "mj05bknight.12n",
+          "patch": "mj05bknight.12n.bps"
+        },
+        {
+          "source": "mm02.14h",
+          "output": "mm02.14h"
+        },
+        {
+          "source": "mj01.11e",
+          "output": "mj01knight.11e",
+          "patch": "mj01knight.11e.bps"
+        },
+        {
+          "source": "mm11.3e",
+          "output": "mm11.3e"
+        },
+        {
+          "source": "mm10.1e",
+          "output": "mm10.1e"
+        },
+        {
+          "source": "mm09.3c",
+          "output": "mm09.3c"
+        },
+        {
+          "source": "mm08.1c",
+          "output": "mm08.1c"
+        },
+        {
+          "source": "mm07.3b",
+          "output": "mm07.3b"
+        },
+        {
+          "source": "mm06.1b",
+          "output": "mm06.1b"
+        },
+        {
+          "source": "mj17.4n",
+          "output": "mj17knight.4n",
+          "patch": "gng13knight.bps"
+        },
+        {
+          "source": "mj16.3n",
+          "output": "mj16knight.3n",
+          "patch": "gg16knight.bps"
+        },
+        {
+          "source": "mj15.1n",
+          "output": "mj15knight.1n",
+          "patch": "gg15knight.bps"
+        },
+        {
+          "source": "mj14.4l",
+          "output": "mj14knight.4l",
+          "patch": "gng16knight.bps"
+        },
+        {
+          "source": "mj13.3l",
+          "output": "mj13knight.3l",
+          "patch": "gg13knight.bps"
+        },
+        {
+          "source": "mj12.1l",
+          "output": "mj12knight.1l",
+          "patch": "gg12knight.bps"
+        },
+        {
+          "source": "tbp24s10.14k",
+          "output": "tbp24s10.14k"
+        },
+        {
+          "source": "63s141.2e",
+          "output": "63s141.2e"
+        }
+      ]
+    },
+    "makmaidenc": {
+      "sourceRomset": "makaimurc",
+      "outputZip": "makmaidenc.zip",
+      "label": "Makaimura - Maiden Artoria Edition (Japan revision C))",
+      "patchesBase": "Ghosts'n Goblins - Artoria Edition v1.2 by GoodLuckTrying/Patcher/patches/maiden_artoria",
+      "layout": [
+        {
+          "source": "mj04c.bin",
+          "output": "mj04cmaiden.bin",
+          "patch": "mj04cmaiden.bps"
+        },
+        {
+          "source": "mj03c.bin",
+          "output": "mj03cmaiden.bin",
+          "patch": "mj03cmaiden.bps"
+        },
+        {
+          "source": "mj05c.bin",
+          "output": "mj05cmaiden.bin",
+          "patch": "mj05cmaiden.bps"
+        },
+        {
+          "source": "gg2.bin",
+          "output": "gg2.bin"
+        },
+        {
+          "source": "gg1.bin",
+          "output": "gg1maiden.bin",
+          "patch": "gg1maiden.bps"
+        },
+        {
+          "source": "gg11.bin",
+          "output": "gg11.bin"
+        },
+        {
+          "source": "gg10.bin",
+          "output": "gg10.bin"
+        },
+        {
+          "source": "gg9.bin",
+          "output": "gg9.bin"
+        },
+        {
+          "source": "gg8.bin",
+          "output": "gg8.bin"
+        },
+        {
+          "source": "gg7.bin",
+          "output": "gg7.bin"
+        },
+        {
+          "source": "gg6.bin",
+          "output": "gg6.bin"
+        },
+        {
+          "source": "gng13.n4",
+          "output": "gng13maiden.n4",
+          "patch": "gng13maiden.bps"
+        },
+        {
+          "source": "gg16.bin",
+          "output": "gg16maiden.bin",
+          "patch": "gg16maiden.bps"
+        },
+        {
+          "source": "gg15.bin",
+          "output": "gg15maiden.bin",
+          "patch": "gg15maiden.bps"
+        },
+        {
+          "source": "gng16.l4",
+          "output": "gng16maiden.l4",
+          "patch": "gng16maiden.bps"
+        },
+        {
+          "source": "gg13.bin",
+          "output": "gg13maiden.bin",
+          "patch": "gg13maiden.bps"
+        },
+        {
+          "source": "gg12.bin",
+          "output": "gg12maiden.bin",
+          "patch": "gg12maiden.bps"
+        },
+        {
+          "source": "tbp24s10.14k",
+          "output": "tbp24s10.14k"
+        },
+        {
+          "source": "63s141.2e",
+          "output": "63s141.2e"
+        }
+      ]
+    },
+    "makknightc": {
+      "sourceRomset": "makaimurc",
+      "outputZip": "makknightc.zip",
+      "label": "Makaimura - Knight Artoria Edition (Japan revision C))",
+      "patchesBase": "Ghosts'n Goblins - Artoria Edition v1.2 by GoodLuckTrying/Patcher/patches/knight_artoria",
+      "layout": [
+        {
+          "source": "mj04c.bin",
+          "output": "mj04cknight.bin",
+          "patch": "mj04cknight.bps"
+        },
+        {
+          "source": "mj03c.bin",
+          "output": "mj03cknight.bin",
+          "patch": "mj03cknight.bps"
+        },
+        {
+          "source": "mj05c.bin",
+          "output": "mj05cknight.bin",
+          "patch": "mj05cknight.bps"
+        },
+        {
+          "source": "gg2.bin",
+          "output": "gg2.bin"
+        },
+        {
+          "source": "gg1.bin",
+          "output": "gg1knight.bin",
+          "patch": "gg1knight.bps"
+        },
+        {
+          "source": "gg11.bin",
+          "output": "gg11.bin"
+        },
+        {
+          "source": "gg10.bin",
+          "output": "gg10.bin"
+        },
+        {
+          "source": "gg9.bin",
+          "output": "gg9.bin"
+        },
+        {
+          "source": "gg8.bin",
+          "output": "gg8.bin"
+        },
+        {
+          "source": "gg7.bin",
+          "output": "gg7.bin"
+        },
+        {
+          "source": "gg6.bin",
+          "output": "gg6.bin"
+        },
+        {
+          "source": "gng13.n4",
+          "output": "gng13knight.n4",
+          "patch": "gng13knight.bps"
+        },
+        {
+          "source": "gg16.bin",
+          "output": "gg16knight.bin",
+          "patch": "gg16knight.bps"
+        },
+        {
+          "source": "gg15.bin",
+          "output": "gg15knight.bin",
+          "patch": "gg15knight.bps"
+        },
+        {
+          "source": "gng16.l4",
+          "output": "gng16knight.l4",
+          "patch": "gng16knight.bps"
+        },
+        {
+          "source": "gg13.bin",
+          "output": "gg13knight.bin",
+          "patch": "gg13knight.bps"
+        },
+        {
+          "source": "gg12.bin",
+          "output": "gg12knight.bin",
+          "patch": "gg12knight.bps"
+        },
+        {
+          "source": "tbp24s10.14k",
+          "output": "tbp24s10.14k"
+        },
+        {
+          "source": "63s141.2e",
+          "output": "63s141.2e"
+        }
+      ]
+    },
+    "makmaideng": {
+      "sourceRomset": "makaimurg",
+      "outputZip": "makmaideng.zip",
+      "label": "Makaimura - Maiden Artoria Edition (Japan revision G))",
+      "patchesBase": "Ghosts'n Goblins - Artoria Edition v1.2 by GoodLuckTrying/Patcher/patches/maiden_artoria",
+      "layout": [
+        {
+          "source": "mj04g.bin",
+          "output": "mj04gmaiden.bin",
+          "patch": "mj04gmaiden.bps"
+        },
+        {
+          "source": "mj03g.bin",
+          "output": "mj03gmaiden.bin",
+          "patch": "mj03gmaiden.bps"
+        },
+        {
+          "source": "mj05g.bin",
+          "output": "mj05gmaiden.bin",
+          "patch": "mj05gmaiden.bps"
+        },
+        {
+          "source": "gg2.bin",
+          "output": "gg2.bin"
+        },
+        {
+          "source": "gg1.bin",
+          "output": "gg1maiden.bin",
+          "patch": "gg1maiden.bps"
+        },
+        {
+          "source": "gg11.bin",
+          "output": "gg11.bin"
+        },
+        {
+          "source": "gg10.bin",
+          "output": "gg10.bin"
+        },
+        {
+          "source": "gg9.bin",
+          "output": "gg9.bin"
+        },
+        {
+          "source": "gg8.bin",
+          "output": "gg8.bin"
+        },
+        {
+          "source": "gg7.bin",
+          "output": "gg7.bin"
+        },
+        {
+          "source": "gg6.bin",
+          "output": "gg6.bin"
+        },
+        {
+          "source": "gng13.n4",
+          "output": "gng13maiden.n4",
+          "patch": "gng13maiden.bps"
+        },
+        {
+          "source": "gg16.bin",
+          "output": "gg16maiden.bin",
+          "patch": "gg16maiden.bps"
+        },
+        {
+          "source": "gg15.bin",
+          "output": "gg15maiden.bin",
+          "patch": "gg15maiden.bps"
+        },
+        {
+          "source": "gng16.l4",
+          "output": "gng16maiden.l4",
+          "patch": "gng16maiden.bps"
+        },
+        {
+          "source": "gg13.bin",
+          "output": "gg13maiden.bin",
+          "patch": "gg13maiden.bps"
+        },
+        {
+          "source": "gg12.bin",
+          "output": "gg12maiden.bin",
+          "patch": "gg12maiden.bps"
+        },
+        {
+          "source": "tbp24s10.14k",
+          "output": "tbp24s10.14k"
+        },
+        {
+          "source": "63s141.2e",
+          "output": "63s141.2e"
+        }
+      ]
+    },
+    "makknightg": {
+      "sourceRomset": "makaimurg",
+      "outputZip": "makknightg.zip",
+      "label": "Makaimura - Knight Artoria Edition (Japan revision G))",
+      "patchesBase": "Ghosts'n Goblins - Artoria Edition v1.2 by GoodLuckTrying/Patcher/patches/knight_artoria",
+      "layout": [
+        {
+          "source": "mj04g.bin",
+          "output": "mj04gknight.bin",
+          "patch": "mj04gknight.bps"
+        },
+        {
+          "source": "mj03g.bin",
+          "output": "mj03gknight.bin",
+          "patch": "mj03gknight.bps"
+        },
+        {
+          "source": "mj05g.bin",
+          "output": "mj05gknight.bin",
+          "patch": "mj05gknight.bps"
+        },
+        {
+          "source": "gg2.bin",
+          "output": "gg2.bin"
+        },
+        {
+          "source": "gg1.bin",
+          "output": "gg1knight.bin",
+          "patch": "gg1knight.bps"
+        },
+        {
+          "source": "gg11.bin",
+          "output": "gg11.bin"
+        },
+        {
+          "source": "gg10.bin",
+          "output": "gg10.bin"
+        },
+        {
+          "source": "gg9.bin",
+          "output": "gg9.bin"
+        },
+        {
+          "source": "gg8.bin",
+          "output": "gg8.bin"
+        },
+        {
+          "source": "gg7.bin",
+          "output": "gg7.bin"
+        },
+        {
+          "source": "gg6.bin",
+          "output": "gg6.bin"
+        },
+        {
+          "source": "gng13.n4",
+          "output": "gng13knight.n4",
+          "patch": "gng13knight.bps"
+        },
+        {
+          "source": "gg16.bin",
+          "output": "gg16knight.bin",
+          "patch": "gg16knight.bps"
+        },
+        {
+          "source": "gg15.bin",
+          "output": "gg15knight.bin",
+          "patch": "gg15knight.bps"
+        },
+        {
+          "source": "gng16.l4",
+          "output": "gng16knight.l4",
+          "patch": "gng16knight.bps"
+        },
+        {
+          "source": "gg13.bin",
+          "output": "gg13knight.bin",
+          "patch": "gg13knight.bps"
+        },
+        {
+          "source": "gg12.bin",
+          "output": "gg12knight.bin",
+          "patch": "gg12knight.bps"
+        },
+        {
+          "source": "tbp24s10.14k",
+          "output": "tbp24s10.14k"
+        },
+        {
+          "source": "63s141.2e",
+          "output": "63s141.2e"
+        }
+      ]
+    },
+    "gngmaidenenh": {
+      "sourceRomset": "gng",
+      "outputZip": "gngmaidenenh.zip",
+      "label": "Ghosts'n Goblins - Maiden Artoria Edition Enhanced World? 1) [source: gng]",
+      "patchesBase": "Ghosts'n Goblins - Artoria Edition v1.2 by GoodLuckTrying/Patcher/patches/maiden_artoria",
+      "layout": [
+        {
+          "source": "mm_c_04",
+          "output": "mm_c_maiden_04",
+          "patch": "mm_c_maiden_04.bps"
+        },
+        {
+          "source": "mm_c_03",
+          "output": "mm_c_maiden_03enh",
+          "patch": "mm_c_maiden_03enh.bps"
+        },
+        {
+          "source": "mm_c_05",
+          "output": "mm_c_maiden_05enh",
+          "patch": "mm_c_maiden_05enh.bps"
+        },
+        {
+          "source": "gg2.bin",
+          "output": "gg2.bin"
+        },
+        {
+          "source": "gg1.bin",
+          "output": "gg1maiden.bin",
+          "patch": "gg1maiden.bps"
+        },
+        {
+          "source": "gg11.bin",
+          "output": "gg11.bin"
+        },
+        {
+          "source": "gg10.bin",
+          "output": "gg10.bin"
+        },
+        {
+          "source": "gg9.bin",
+          "output": "gg9.bin"
+        },
+        {
+          "source": "gg8.bin",
+          "output": "gg8.bin"
+        },
+        {
+          "source": "gg7.bin",
+          "output": "gg7.bin"
+        },
+        {
+          "source": "gg6.bin",
+          "output": "gg6.bin"
+        },
+        {
+          "source": "gg17.bin",
+          "output": "gg17maiden.bin",
+          "patch": "gg17maiden.bps"
+        },
+        {
+          "source": "gg16.bin",
+          "output": "gg16maiden.bin",
+          "patch": "gg16maiden.bps"
+        },
+        {
+          "source": "gg15.bin",
+          "output": "gg15maiden.bin",
+          "patch": "gg15maiden.bps"
+        },
+        {
+          "source": "gg14.bin",
+          "output": "gg14maiden.bin",
+          "patch": "gg14maiden.bps"
+        },
+        {
+          "source": "gg13.bin",
+          "output": "gg13maiden.bin",
+          "patch": "gg13maiden.bps"
+        },
+        {
+          "source": "gg12.bin",
+          "output": "gg12maiden.bin",
+          "patch": "gg12maiden.bps"
+        },
+        {
+          "source": "tbp24s10.14k",
+          "output": "tbp24s10.14k"
+        },
+        {
+          "source": "63s141.2e",
+          "output": "63s141.2e"
+        },
+        {
+          "source": "gg-pal10l8.bin",
+          "output": "gg-pal10l8.bin"
+        }
+      ]
+    },
+    "gngknightenh": {
+      "sourceRomset": "gng",
+      "outputZip": "gngknightenh.zip",
+      "label": "Ghosts'n Goblins - Knight Artoria Edition Enhanced World? 1) [source: gng]",
+      "patchesBase": "Ghosts'n Goblins - Artoria Edition v1.2 by GoodLuckTrying/Patcher/patches/knight_artoria",
+      "layout": [
+        {
+          "source": "mm_c_04",
+          "output": "mm_c_knight_04",
+          "patch": "mm_c_knight_04.bps"
+        },
+        {
+          "source": "mm_c_03",
+          "output": "mm_c_knight_03enh",
+          "patch": "mm_c_knight_03enh.bps"
+        },
+        {
+          "source": "mm_c_05",
+          "output": "mm_c_knight_05enh",
+          "patch": "mm_c_knight_05enh.bps"
+        },
+        {
+          "source": "gg2.bin",
+          "output": "gg2.bin"
+        },
+        {
+          "source": "gg1.bin",
+          "output": "gg1knight.bin",
+          "patch": "gg1knight.bps"
+        },
+        {
+          "source": "gg11.bin",
+          "output": "gg11.bin"
+        },
+        {
+          "source": "gg10.bin",
+          "output": "gg10.bin"
+        },
+        {
+          "source": "gg9.bin",
+          "output": "gg9.bin"
+        },
+        {
+          "source": "gg8.bin",
+          "output": "gg8.bin"
+        },
+        {
+          "source": "gg7.bin",
+          "output": "gg7.bin"
+        },
+        {
+          "source": "gg6.bin",
+          "output": "gg6.bin"
+        },
+        {
+          "source": "gg17.bin",
+          "output": "gg17knight.bin",
+          "patch": "gg17knight.bps"
+        },
+        {
+          "source": "gg16.bin",
+          "output": "gg16knight.bin",
+          "patch": "gg16knight.bps"
+        },
+        {
+          "source": "gg15.bin",
+          "output": "gg15knight.bin",
+          "patch": "gg15knight.bps"
+        },
+        {
+          "source": "gg14.bin",
+          "output": "gg14knight.bin",
+          "patch": "gg14knight.bps"
+        },
+        {
+          "source": "gg13.bin",
+          "output": "gg13knight.bin",
+          "patch": "gg13knight.bps"
+        },
+        {
+          "source": "gg12.bin",
+          "output": "gg12knight.bin",
+          "patch": "gg12knight.bps"
+        },
+        {
+          "source": "tbp24s10.14k",
+          "output": "tbp24s10.14k"
+        },
+        {
+          "source": "63s141.2e",
+          "output": "63s141.2e"
+        },
+        {
+          "source": "gg-pal10l8.bin",
+          "output": "gg-pal10l8.bin"
+        }
+      ]
+    },
+    "gngmaidenaenh": {
+      "sourceRomset": "gnga",
+      "outputZip": "gngmaidenaenh.zip",
+      "label": "Ghosts'n Goblins - Maiden Artoria Edition Enhanced World? 2) [source: gnga]",
+      "patchesBase": "Ghosts'n Goblins - Artoria Edition v1.2 by GoodLuckTrying/Patcher/patches/maiden_artoria",
+      "layout": [
+        {
+          "source": "mjg_04.10n",
+          "output": "mjg_04maiden.10n",
+          "patch": "mjg_04maiden.bps"
+        },
+        {
+          "source": "mjg_03.8n",
+          "output": "mjg_03maidenenh.8n",
+          "patch": "mjg_03maidenenh.8n.bps"
+        },
+        {
+          "source": "mjg_05.12n",
+          "output": "mjg_05maidenenh.12n",
+          "patch": "mjg_05maidenenh.12n.bps"
+        },
+        {
+          "source": "capsom_m5m23256p_p_62410p_mjg_02.14h",
+          "output": "capsom_m5m23256p_p_62410p_mjg_02.14h"
+        },
+        {
+          "source": "capsom_m5m23256p_p_616105_mjg_01.11e",
+          "output": "capsom_m5m23256p_p_616105_mjg_01m.11e",
+          "patch": "capsom_m5m23256p_p_616105_mjg_01m.bps"
+        },
+        {
+          "source": "capsom_m5m23256p_p_616105_mmg_08.3e",
+          "output": "capsom_m5m23256p_p_616105_mmg_08.3e"
+        },
+        {
+          "source": "capsom_m5m23256p_p_61710z_mmg_07.3c",
+          "output": "capsom_m5m23256p_p_61710z_mmg_07.3c"
+        },
+        {
+          "source": "capsom_m5m23256p_p_616105_mmg_06.3b",
+          "output": "capsom_m5m23256p_p_616105_mmg_06.3b"
+        },
+        {
+          "source": "capsom_m5m23256p_p_61710g_mjg_12.4n",
+          "output": "capsom_m5m23256p_p_61710g_mjg_12m.4n",
+          "patch": "capsom_m5m23256p_p_61710g_mjg_12m.bps"
+        },
+        {
+          "source": "capsom_m5m23256p_p_620108_mjg_11.3n",
+          "output": "capsom_m5m23256p_p_620108_mjg_11m.3n",
+          "patch": "capsom_m5m23256p_p_620108_mjg_11m.bps"
+        },
+        {
+          "source": "capsom_m5m23256p_p_62410p_mjg_10.4l",
+          "output": "capsom_m5m23256p_p_62410p_mjg_10m.4l",
+          "patch": "capsom_m5m23256p_p_62410p_mjg_10m.bps"
+        },
+        {
+          "source": "capsom_m5m23256p_p_61710g_mjg_09.3l",
+          "output": "capsom_m5m23256p_p_61710g_mjg_09m.3l",
+          "patch": "capsom_m5m23256p_p_61710g_mjg_09m.bps"
+        },
+        {
+          "source": "m-02_63s141.14k",
+          "output": "m-02_63s141.14k"
+        },
+        {
+          "source": "m-01_63s141.2e",
+          "output": "m-01_63s141.2e"
+        },
+        {
+          "source": "gg-pal10l8.bin",
+          "output": "gg-pal10l8.bin"
+        }
+      ]
+    },
+    "gngknightaenh": {
+      "sourceRomset": "gnga",
+      "outputZip": "gngknightaenh.zip",
+      "label": "Ghosts'n Goblins - Knight Artoria Edition Enhanced World? 2) [source: gnga]",
+      "patchesBase": "Ghosts'n Goblins - Artoria Edition v1.2 by GoodLuckTrying/Patcher/patches/knight_artoria",
+      "layout": [
+        {
+          "source": "mjg_04.10n",
+          "output": "mjg_04knight.10n",
+          "patch": "mjg_04knight.bps"
+        },
+        {
+          "source": "mjg_03.8n",
+          "output": "mjg_03knightenh.8n",
+          "patch": "mjg_03knightenh.8n.bps"
+        },
+        {
+          "source": "mjg_05.12n",
+          "output": "mjg_05knightenh.12n",
+          "patch": "mjg_05knightenh.12n.bps"
+        },
+        {
+          "source": "capsom_m5m23256p_p_62410p_mjg_02.14h",
+          "output": "capsom_m5m23256p_p_62410p_mjg_02.14h"
+        },
+        {
+          "source": "capsom_m5m23256p_p_616105_mjg_01.11e",
+          "output": "capsom_m5m23256p_p_616105_mjg_01k.11e",
+          "patch": "capsom_m5m23256p_p_616105_mjg_01k.bps"
+        },
+        {
+          "source": "capsom_m5m23256p_p_616105_mmg_08.3e",
+          "output": "capsom_m5m23256p_p_616105_mmg_08.3e"
+        },
+        {
+          "source": "capsom_m5m23256p_p_61710z_mmg_07.3c",
+          "output": "capsom_m5m23256p_p_61710z_mmg_07.3c"
+        },
+        {
+          "source": "capsom_m5m23256p_p_616105_mmg_06.3b",
+          "output": "capsom_m5m23256p_p_616105_mmg_06.3b"
+        },
+        {
+          "source": "capsom_m5m23256p_p_61710g_mjg_12.4n",
+          "output": "capsom_m5m23256p_p_61710g_mjg_12k.4n",
+          "patch": "capsom_m5m23256p_p_61710g_mjg_12k.bps"
+        },
+        {
+          "source": "capsom_m5m23256p_p_620108_mjg_11.3n",
+          "output": "capsom_m5m23256p_p_620108_mjg_11k.3n",
+          "patch": "capsom_m5m23256p_p_620108_mjg_11k.bps"
+        },
+        {
+          "source": "capsom_m5m23256p_p_62410p_mjg_10.4l",
+          "output": "capsom_m5m23256p_p_62410p_mjg_10k.4l",
+          "patch": "capsom_m5m23256p_p_62410p_mjg_10k.bps"
+        },
+        {
+          "source": "capsom_m5m23256p_p_61710g_mjg_09.3l",
+          "output": "capsom_m5m23256p_p_61710g_mjg_09k.3l",
+          "patch": "capsom_m5m23256p_p_61710g_mjg_09k.bps"
+        },
+        {
+          "source": "m-02_63s141.14k",
+          "output": "m-02_63s141.14k"
+        },
+        {
+          "source": "m-01_63s141.2e",
+          "output": "m-01_63s141.2e"
+        },
+        {
+          "source": "gg-pal10l8.bin",
+          "output": "gg-pal10l8.bin"
+        }
+      ]
+    },
+    "gngmaidenbenh": {
+      "sourceRomset": "gngb",
+      "outputZip": "gngmaidenbenh.zip",
+      "label": "Ghosts'n Goblins - Maiden Artoria Edition Enhanced World? 3) [source: gngb]",
+      "patchesBase": "Ghosts'n Goblins - Artoria Edition v1.2 by GoodLuckTrying/Patcher/patches/maiden_artoria",
+      "layout": [
+        {
+          "source": "gg4.bin",
+          "output": "gg4maiden.bin",
+          "patch": "gg4maiden.bps"
+        },
+        {
+          "source": "gg3.bin",
+          "output": "gg3maidenenh.bin",
+          "patch": "gg3maidenenh.bps"
+        },
+        {
+          "source": "gg5.bin",
+          "output": "gg5maidenenh.bin",
+          "patch": "gg5maidenenh.bps"
+        },
+        {
+          "source": "gg2.bin",
+          "output": "gg2.bin"
+        },
+        {
+          "source": "gg1.bin",
+          "output": "gg1maiden.bin",
+          "patch": "gg1maiden.bps"
+        },
+        {
+          "source": "gg11.bin",
+          "output": "gg11.bin"
+        },
+        {
+          "source": "gg10.bin",
+          "output": "gg10.bin"
+        },
+        {
+          "source": "gg9.bin",
+          "output": "gg9.bin"
+        },
+        {
+          "source": "gg8.bin",
+          "output": "gg8.bin"
+        },
+        {
+          "source": "gg7.bin",
+          "output": "gg7.bin"
+        },
+        {
+          "source": "gg6.bin",
+          "output": "gg6.bin"
+        },
+        {
+          "source": "gg17.bin",
+          "output": "gg17maiden.bin",
+          "patch": "gg17maiden.bps"
+        },
+        {
+          "source": "gg16.bin",
+          "output": "gg16maiden.bin",
+          "patch": "gg16maiden.bps"
+        },
+        {
+          "source": "gg15.bin",
+          "output": "gg15maiden.bin",
+          "patch": "gg15maiden.bps"
+        },
+        {
+          "source": "gg14.bin",
+          "output": "gg14maiden.bin",
+          "patch": "gg14maiden.bps"
+        },
+        {
+          "source": "gg13.bin",
+          "output": "gg13maiden.bin",
+          "patch": "gg13maiden.bps"
+        },
+        {
+          "source": "gg12.bin",
+          "output": "gg12maiden.bin",
+          "patch": "gg12maiden.bps"
+        },
+        {
+          "source": "tbp24s10.14k",
+          "output": "tbp24s10.14k"
+        },
+        {
+          "source": "63s141.2e",
+          "output": "63s141.2e"
+        },
+        {
+          "source": "gg-pal10l8.bin",
+          "output": "gg-pal10l8.bin"
+        }
+      ]
+    },
+    "gngknightbenh": {
+      "sourceRomset": "gngb",
+      "outputZip": "gngknightbenh.zip",
+      "label": "Ghosts'n Goblins - Knight Artoria Edition Enhanced World? 3) [source: gngb]",
+      "patchesBase": "Ghosts'n Goblins - Artoria Edition v1.2 by GoodLuckTrying/Patcher/patches/knight_artoria",
+      "layout": [
+        {
+          "source": "gg4.bin",
+          "output": "gg4knight.bin",
+          "patch": "gg4knight.bps"
+        },
+        {
+          "source": "gg3.bin",
+          "output": "gg3knightenh.bin",
+          "patch": "gg3knightenh.bps"
+        },
+        {
+          "source": "gg5.bin",
+          "output": "gg5knightenh.bin",
+          "patch": "gg5knightenh.bps"
+        },
+        {
+          "source": "gg2.bin",
+          "output": "gg2.bin"
+        },
+        {
+          "source": "gg1.bin",
+          "output": "gg1knight.bin",
+          "patch": "gg1knight.bps"
+        },
+        {
+          "source": "gg11.bin",
+          "output": "gg11.bin"
+        },
+        {
+          "source": "gg10.bin",
+          "output": "gg10.bin"
+        },
+        {
+          "source": "gg9.bin",
+          "output": "gg9.bin"
+        },
+        {
+          "source": "gg8.bin",
+          "output": "gg8.bin"
+        },
+        {
+          "source": "gg7.bin",
+          "output": "gg7.bin"
+        },
+        {
+          "source": "gg6.bin",
+          "output": "gg6.bin"
+        },
+        {
+          "source": "gg17.bin",
+          "output": "gg17knight.bin",
+          "patch": "gg17knight.bps"
+        },
+        {
+          "source": "gg16.bin",
+          "output": "gg16knight.bin",
+          "patch": "gg16knight.bps"
+        },
+        {
+          "source": "gg15.bin",
+          "output": "gg15knight.bin",
+          "patch": "gg15knight.bps"
+        },
+        {
+          "source": "gg14.bin",
+          "output": "gg14knight.bin",
+          "patch": "gg14knight.bps"
+        },
+        {
+          "source": "gg13.bin",
+          "output": "gg13knight.bin",
+          "patch": "gg13knight.bps"
+        },
+        {
+          "source": "gg12.bin",
+          "output": "gg12knight.bin",
+          "patch": "gg12knight.bps"
+        },
+        {
+          "source": "tbp24s10.14k",
+          "output": "tbp24s10.14k"
+        },
+        {
+          "source": "63s141.2e",
+          "output": "63s141.2e"
+        },
+        {
+          "source": "gg-pal10l8.bin",
+          "output": "gg-pal10l8.bin"
+        }
+      ]
+    },
+    "gngmaidencenh": {
+      "sourceRomset": "gngc",
+      "outputZip": "gngmaidencenh.zip",
+      "label": "Ghosts'n Goblins - Maiden Artoria Edition Enhanced World? 4) [source: gngc]",
+      "patchesBase": "Ghosts'n Goblins - Artoria Edition v1.2 by GoodLuckTrying/Patcher/patches/maiden_artoria",
+      "layout": [
+        {
+          "source": "gng.n10",
+          "output": "gngmaiden.n10",
+          "patch": "gngmaiden.n10.bps"
+        },
+        {
+          "source": "gng.n9",
+          "output": "gngmaidenenh.n9",
+          "patch": "gngmaidenenh.n9.bps"
+        },
+        {
+          "source": "gng.n8",
+          "output": "gngenh.n8",
+          "patch": "gngenh.n8.bps"
+        },
+        {
+          "source": "gng.n13",
+          "output": "gng.n13"
+        },
+        {
+          "source": "gng.n12",
+          "output": "gngmaidenenh.n12",
+          "patch": "gngmaidenenh.n12.bps"
+        },
+        {
+          "source": "gg2.bin",
+          "output": "gg2.bin"
+        },
+        {
+          "source": "gg1.bin",
+          "output": "gg1maiden.bin",
+          "patch": "gg1maiden.bps"
+        },
+        {
+          "source": "gg11.bin",
+          "output": "gg11.bin"
+        },
+        {
+          "source": "gg10.bin",
+          "output": "gg10.bin"
+        },
+        {
+          "source": "gg9.bin",
+          "output": "gg9.bin"
+        },
+        {
+          "source": "gg8.bin",
+          "output": "gg8.bin"
+        },
+        {
+          "source": "gg7.bin",
+          "output": "gg7.bin"
+        },
+        {
+          "source": "gg6.bin",
+          "output": "gg6.bin"
+        },
+        {
+          "source": "gg17.bin",
+          "output": "gg17maiden.bin",
+          "patch": "gg17maiden.bps"
+        },
+        {
+          "source": "gg16.bin",
+          "output": "gg16maiden.bin",
+          "patch": "gg16maiden.bps"
+        },
+        {
+          "source": "gg15.bin",
+          "output": "gg15maiden.bin",
+          "patch": "gg15maiden.bps"
+        },
+        {
+          "source": "gg14.bin",
+          "output": "gg14maiden.bin",
+          "patch": "gg14maiden.bps"
+        },
+        {
+          "source": "gg13.bin",
+          "output": "gg13maiden.bin",
+          "patch": "gg13maiden.bps"
+        },
+        {
+          "source": "gg12.bin",
+          "output": "gg12maiden.bin",
+          "patch": "gg12maiden.bps"
+        },
+        {
+          "source": "tbp24s10.14k",
+          "output": "tbp24s10.14k"
+        },
+        {
+          "source": "63s141.2e",
+          "output": "63s141.2e"
+        }
+      ]
+    },
+    "gngknightcenh": {
+      "sourceRomset": "gngc",
+      "outputZip": "gngknightcenh.zip",
+      "label": "Ghosts'n Goblins - Knight Artoria Edition Enhanced World? 4) [source: gngc]",
+      "patchesBase": "Ghosts'n Goblins - Artoria Edition v1.2 by GoodLuckTrying/Patcher/patches/knight_artoria",
+      "layout": [
+        {
+          "source": "gng.n10",
+          "output": "gngknight.n10",
+          "patch": "gngknight.n10.bps"
+        },
+        {
+          "source": "gng.n9",
+          "output": "gngknightenh.n9",
+          "patch": "gngknightenh.n9.bps"
+        },
+        {
+          "source": "gng.n8",
+          "output": "gngenh.n8",
+          "patch": "gngenh.n8.bps"
+        },
+        {
+          "source": "gng.n13",
+          "output": "gng.n13"
+        },
+        {
+          "source": "gng.n12",
+          "output": "gngknightenh.n12",
+          "patch": "gngknightenh.n12.bps"
+        },
+        {
+          "source": "gg2.bin",
+          "output": "gg2.bin"
+        },
+        {
+          "source": "gg1.bin",
+          "output": "gg1knight.bin",
+          "patch": "gg1knight.bps"
+        },
+        {
+          "source": "gg11.bin",
+          "output": "gg11.bin"
+        },
+        {
+          "source": "gg10.bin",
+          "output": "gg10.bin"
+        },
+        {
+          "source": "gg9.bin",
+          "output": "gg9.bin"
+        },
+        {
+          "source": "gg8.bin",
+          "output": "gg8.bin"
+        },
+        {
+          "source": "gg7.bin",
+          "output": "gg7.bin"
+        },
+        {
+          "source": "gg6.bin",
+          "output": "gg6.bin"
+        },
+        {
+          "source": "gg17.bin",
+          "output": "gg17knight.bin",
+          "patch": "gg17knight.bps"
+        },
+        {
+          "source": "gg16.bin",
+          "output": "gg16knight.bin",
+          "patch": "gg16knight.bps"
+        },
+        {
+          "source": "gg15.bin",
+          "output": "gg15knight.bin",
+          "patch": "gg15knight.bps"
+        },
+        {
+          "source": "gg14.bin",
+          "output": "gg14knight.bin",
+          "patch": "gg14knight.bps"
+        },
+        {
+          "source": "gg13.bin",
+          "output": "gg13knight.bin",
+          "patch": "gg13knight.bps"
+        },
+        {
+          "source": "gg12.bin",
+          "output": "gg12knight.bin",
+          "patch": "gg12knight.bps"
+        },
+        {
+          "source": "tbp24s10.14k",
+          "output": "tbp24s10.14k"
+        },
+        {
+          "source": "63s141.2e",
+          "output": "63s141.2e"
+        }
+      ]
+    },
+    "gngmaidentenh": {
+      "sourceRomset": "gngt",
+      "outputZip": "gngmaidentenh.zip",
+      "label": "Ghosts'n Goblins - Maiden Artoria Edition Enhanced (US)) [source: gngt]",
+      "patchesBase": "Ghosts'n Goblins - Artoria Edition v1.2 by GoodLuckTrying/Patcher/patches/maiden_artoria",
+      "layout": [
+        {
+          "source": "mmt04d.10n",
+          "output": "mmt04dmaiden.10n",
+          "patch": "mmt04dmaiden.10n.bps"
+        },
+        {
+          "source": "mmt03d.8n",
+          "output": "mmt03dmaidenenh.8n",
+          "patch": "mmt03dmaidenenh.8n.bps"
+        },
+        {
+          "source": "mmt05d.13n",
+          "output": "mmt05dmaidenenh.13n",
+          "patch": "mmt05dmaidenenh.13n.bps"
+        },
+        {
+          "source": "mm02.14h",
+          "output": "mm02.14h"
+        },
+        {
+          "source": "mm01.11e",
+          "output": "mm01maiden.11e",
+          "patch": "gg1maiden.bps"
+        },
+        {
+          "source": "mm11.3e",
+          "output": "mm11.3e"
+        },
+        {
+          "source": "mm10.1e",
+          "output": "mm10.1e"
+        },
+        {
+          "source": "mm09.3c",
+          "output": "mm09.3c"
+        },
+        {
+          "source": "mm08.1c",
+          "output": "mm08.1c"
+        },
+        {
+          "source": "mm07.3b",
+          "output": "mm07.3b"
+        },
+        {
+          "source": "mm06.1b",
+          "output": "mm06.1b"
+        },
+        {
+          "source": "mm17.4n",
+          "output": "mm17maiden.4n",
+          "patch": "gg17maiden.bps"
+        },
+        {
+          "source": "mm16.3n",
+          "output": "mm16maiden.3n",
+          "patch": "gg16maiden.bps"
+        },
+        {
+          "source": "mm15.1n",
+          "output": "mm15maiden.1n",
+          "patch": "gg15maiden.bps"
+        },
+        {
+          "source": "mm14.4l",
+          "output": "mm14maiden.4l",
+          "patch": "gg14maiden.bps"
+        },
+        {
+          "source": "mm13.3l",
+          "output": "mm13maiden.3l",
+          "patch": "gg13maiden.bps"
+        },
+        {
+          "source": "mm12.1l",
+          "output": "mm12maiden.1l",
+          "patch": "gg12maiden.bps"
+        },
+        {
+          "source": "m-02.14k",
+          "output": "m-02.14k"
+        },
+        {
+          "source": "m-01.2e",
+          "output": "m-01.2e"
+        }
+      ]
+    },
+    "gngknighttenh": {
+      "sourceRomset": "gngt",
+      "outputZip": "gngknighttenh.zip",
+      "label": "Ghosts'n Goblins - Knight Artoria Edition Enhanced (US)) [source: gngt]",
+      "patchesBase": "Ghosts'n Goblins - Artoria Edition v1.2 by GoodLuckTrying/Patcher/patches/knight_artoria",
+      "layout": [
+        {
+          "source": "mmt04d.10n",
+          "output": "mmt04dknight.10n",
+          "patch": "mmt04dknight.10n.bps"
+        },
+        {
+          "source": "mmt03d.8n",
+          "output": "mmt03dknightenh.8n",
+          "patch": "mmt03dknightenh.8n.bps"
+        },
+        {
+          "source": "mmt05d.13n",
+          "output": "mmt05dknightenh.13n",
+          "patch": "mmt05dknightenh.13n.bps"
+        },
+        {
+          "source": "mm02.14h",
+          "output": "mm02.14h"
+        },
+        {
+          "source": "mm01.11e",
+          "output": "mm01knight.11e",
+          "patch": "gg1knight.bps"
+        },
+        {
+          "source": "mm11.3e",
+          "output": "mm11.3e"
+        },
+        {
+          "source": "mm10.1e",
+          "output": "mm10.1e"
+        },
+        {
+          "source": "mm09.3c",
+          "output": "mm09.3c"
+        },
+        {
+          "source": "mm08.1c",
+          "output": "mm08.1c"
+        },
+        {
+          "source": "mm07.3b",
+          "output": "mm07.3b"
+        },
+        {
+          "source": "mm06.1b",
+          "output": "mm06.1b"
+        },
+        {
+          "source": "mm17.4n",
+          "output": "mm17knight.4n",
+          "patch": "gg17knight.bps"
+        },
+        {
+          "source": "mm16.3n",
+          "output": "mm16knight.3n",
+          "patch": "gg16knight.bps"
+        },
+        {
+          "source": "mm15.1n",
+          "output": "mm15knight.1n",
+          "patch": "gg15knight.bps"
+        },
+        {
+          "source": "mm14.4l",
+          "output": "mm14knight.4l",
+          "patch": "gg14knight.bps"
+        },
+        {
+          "source": "mm13.3l",
+          "output": "mm13knight.3l",
+          "patch": "gg13knight.bps"
+        },
+        {
+          "source": "mm12.1l",
+          "output": "mm12knight.1l",
+          "patch": "gg12knight.bps"
+        },
+        {
+          "source": "m-02.14k",
+          "output": "m-02.14k"
+        },
+        {
+          "source": "m-01.2e",
+          "output": "m-01.2e"
+        }
+      ]
+    },
+    "makmaidenenh": {
+      "sourceRomset": "makaimur",
+      "outputZip": "makmaidenenh.zip",
+      "label": "Makaimura - Maiden Artoria Edition Enhanced) [source: makaimur]",
+      "patchesBase": "Ghosts'n Goblins - Artoria Edition v1.2 by GoodLuckTrying/Patcher/patches/maiden_artoria",
+      "layout": [
+        {
+          "source": "10n.rom",
+          "output": "10nmaiden.rom",
+          "patch": "10nmaiden.bps"
+        },
+        {
+          "source": "8n.rom",
+          "output": "8nmaidenenh.rom",
+          "patch": "8nmaidenenh.rom.bps"
+        },
+        {
+          "source": "12n.rom",
+          "output": "12nmaidenenh.rom",
+          "patch": "12nmaidenenh.rom.bps"
+        },
+        {
+          "source": "gg2.bin",
+          "output": "gg2.bin"
+        },
+        {
+          "source": "gg1.bin",
+          "output": "gg1maiden.bin",
+          "patch": "gg1maiden.bps"
+        },
+        {
+          "source": "gg11.bin",
+          "output": "gg11.bin"
+        },
+        {
+          "source": "gg10.bin",
+          "output": "gg10.bin"
+        },
+        {
+          "source": "gg9.bin",
+          "output": "gg9.bin"
+        },
+        {
+          "source": "gg8.bin",
+          "output": "gg8.bin"
+        },
+        {
+          "source": "gg7.bin",
+          "output": "gg7.bin"
+        },
+        {
+          "source": "gg6.bin",
+          "output": "gg6.bin"
+        },
+        {
+          "source": "gng13.n4",
+          "output": "gng13maiden.n4",
+          "patch": "gng13maiden.bps"
+        },
+        {
+          "source": "gg16.bin",
+          "output": "gg16maiden.bin",
+          "patch": "gg16maiden.bps"
+        },
+        {
+          "source": "gg15.bin",
+          "output": "gg15maiden.bin",
+          "patch": "gg15maiden.bps"
+        },
+        {
+          "source": "gng16.l4",
+          "output": "gng16maiden.l4",
+          "patch": "gng16maiden.bps"
+        },
+        {
+          "source": "gg13.bin",
+          "output": "gg13maiden.bin",
+          "patch": "gg13maiden.bps"
+        },
+        {
+          "source": "gg12.bin",
+          "output": "gg12maiden.bin",
+          "patch": "gg12maiden.bps"
+        },
+        {
+          "source": "tbp24s10.14k",
+          "output": "tbp24s10.14k"
+        },
+        {
+          "source": "63s141.2e",
+          "output": "63s141.2e"
+        }
+      ]
+    },
+    "makknightenh": {
+      "sourceRomset": "makaimur",
+      "outputZip": "makknightenh.zip",
+      "label": "Makaimura - Knight Artoria Edition Enhanced) [source: makaimur]",
+      "patchesBase": "Ghosts'n Goblins - Artoria Edition v1.2 by GoodLuckTrying/Patcher/patches/knight_artoria",
+      "layout": [
+        {
+          "source": "10n.rom",
+          "output": "10nknight.rom",
+          "patch": "10nknight.bps"
+        },
+        {
+          "source": "8n.rom",
+          "output": "8nknightenh.rom",
+          "patch": "8nknightenh.rom.bps"
+        },
+        {
+          "source": "12n.rom",
+          "output": "12nknightenh.rom",
+          "patch": "12nknightenh.rom.bps"
+        },
+        {
+          "source": "gg2.bin",
+          "output": "gg2.bin"
+        },
+        {
+          "source": "gg1.bin",
+          "output": "gg1knight.bin",
+          "patch": "gg1knight.bps"
+        },
+        {
+          "source": "gg11.bin",
+          "output": "gg11.bin"
+        },
+        {
+          "source": "gg10.bin",
+          "output": "gg10.bin"
+        },
+        {
+          "source": "gg9.bin",
+          "output": "gg9.bin"
+        },
+        {
+          "source": "gg8.bin",
+          "output": "gg8.bin"
+        },
+        {
+          "source": "gg7.bin",
+          "output": "gg7.bin"
+        },
+        {
+          "source": "gg6.bin",
+          "output": "gg6.bin"
+        },
+        {
+          "source": "gng13.n4",
+          "output": "gng13knight.n4",
+          "patch": "gng13knight.bps"
+        },
+        {
+          "source": "gg16.bin",
+          "output": "gg16knight.bin",
+          "patch": "gg16knight.bps"
+        },
+        {
+          "source": "gg15.bin",
+          "output": "gg15knight.bin",
+          "patch": "gg15knight.bps"
+        },
+        {
+          "source": "gng16.l4",
+          "output": "gng16knight.l4",
+          "patch": "gng16knight.bps"
+        },
+        {
+          "source": "gg13.bin",
+          "output": "gg13knight.bin",
+          "patch": "gg13knight.bps"
+        },
+        {
+          "source": "gg12.bin",
+          "output": "gg12knight.bin",
+          "patch": "gg12knight.bps"
+        },
+        {
+          "source": "tbp24s10.14k",
+          "output": "tbp24s10.14k"
+        },
+        {
+          "source": "63s141.2e",
+          "output": "63s141.2e"
+        }
+      ]
+    },
+    "makmaidenbenh": {
+      "sourceRomset": "makaimurb",
+      "outputZip": "makmaidenbenh.zip",
+      "label": "Makaimura - Maiden Artoria Edition Enhanced (Japan revision B)) [source: makaimurb]",
+      "patchesBase": "Ghosts'n Goblins - Artoria Edition v1.2 by GoodLuckTrying/Patcher/patches/maiden_artoria",
+      "layout": [
+        {
+          "source": "mj04b.10n",
+          "output": "mj04bmaiden.10n",
+          "patch": "mj04bmaiden.10n.bps"
+        },
+        {
+          "source": "mj03b.8n",
+          "output": "mj03bmaidenenh.8n",
+          "patch": "mj03bmaidenenh.8n.bps"
+        },
+        {
+          "source": "mj05b.12n",
+          "output": "mj05bmaidenenh.12n",
+          "patch": "mj05bmaidenenh.12n.bps"
+        },
+        {
+          "source": "mm02.14h",
+          "output": "mm02.14h"
+        },
+        {
+          "source": "mj01.11e",
+          "output": "mj01maiden.11e",
+          "patch": "mj01maiden.11e.bps"
+        },
+        {
+          "source": "mm11.3e",
+          "output": "mm11.3e"
+        },
+        {
+          "source": "mm10.1e",
+          "output": "mm10.1e"
+        },
+        {
+          "source": "mm09.3c",
+          "output": "mm09.3c"
+        },
+        {
+          "source": "mm08.1c",
+          "output": "mm08.1c"
+        },
+        {
+          "source": "mm07.3b",
+          "output": "mm07.3b"
+        },
+        {
+          "source": "mm06.1b",
+          "output": "mm06.1b"
+        },
+        {
+          "source": "mj17.4n",
+          "output": "mj17maiden.4n",
+          "patch": "gng13maiden.bps"
+        },
+        {
+          "source": "mj16.3n",
+          "output": "mj16maiden.3n",
+          "patch": "gg16maiden.bps"
+        },
+        {
+          "source": "mj15.1n",
+          "output": "mj15maiden.1n",
+          "patch": "gg15maiden.bps"
+        },
+        {
+          "source": "mj14.4l",
+          "output": "mj14maiden.4l",
+          "patch": "gng16maiden.bps"
+        },
+        {
+          "source": "mj13.3l",
+          "output": "mj13maiden.3l",
+          "patch": "gg13maiden.bps"
+        },
+        {
+          "source": "mj12.1l",
+          "output": "mj12maiden.1l",
+          "patch": "gg12maiden.bps"
+        },
+        {
+          "source": "tbp24s10.14k",
+          "output": "tbp24s10.14k"
+        },
+        {
+          "source": "63s141.2e",
+          "output": "63s141.2e"
+        }
+      ]
+    },
+    "makknightbenh": {
+      "sourceRomset": "makaimurb",
+      "outputZip": "makknightbenh.zip",
+      "label": "Makaimura - Knight Artoria Edition Enhanced (Japan revision B)) [source: makaimurb]",
+      "patchesBase": "Ghosts'n Goblins - Artoria Edition v1.2 by GoodLuckTrying/Patcher/patches/knight_artoria",
+      "layout": [
+        {
+          "source": "mj04b.10n",
+          "output": "mj04bknight.10n",
+          "patch": "mj04bknight.10n.bps"
+        },
+        {
+          "source": "mj03b.8n",
+          "output": "mj03bknightenh.8n",
+          "patch": "mj03bknightenh.8n.bps"
+        },
+        {
+          "source": "mj05b.12n",
+          "output": "mj05bknightenh.12n",
+          "patch": "mj05bknightenh.12n.bps"
+        },
+        {
+          "source": "mm02.14h",
+          "output": "mm02.14h"
+        },
+        {
+          "source": "mj01.11e",
+          "output": "mj01knight.11e",
+          "patch": "mj01knight.11e.bps"
+        },
+        {
+          "source": "mm11.3e",
+          "output": "mm11.3e"
+        },
+        {
+          "source": "mm10.1e",
+          "output": "mm10.1e"
+        },
+        {
+          "source": "mm09.3c",
+          "output": "mm09.3c"
+        },
+        {
+          "source": "mm08.1c",
+          "output": "mm08.1c"
+        },
+        {
+          "source": "mm07.3b",
+          "output": "mm07.3b"
+        },
+        {
+          "source": "mm06.1b",
+          "output": "mm06.1b"
+        },
+        {
+          "source": "mj17.4n",
+          "output": "mj17knight.4n",
+          "patch": "gng13knight.bps"
+        },
+        {
+          "source": "mj16.3n",
+          "output": "mj16knight.3n",
+          "patch": "gg16knight.bps"
+        },
+        {
+          "source": "mj15.1n",
+          "output": "mj15knight.1n",
+          "patch": "gg15knight.bps"
+        },
+        {
+          "source": "mj14.4l",
+          "output": "mj14knight.4l",
+          "patch": "gng16knight.bps"
+        },
+        {
+          "source": "mj13.3l",
+          "output": "mj13knight.3l",
+          "patch": "gg13knight.bps"
+        },
+        {
+          "source": "mj12.1l",
+          "output": "mj12knight.1l",
+          "patch": "gg12knight.bps"
+        },
+        {
+          "source": "tbp24s10.14k",
+          "output": "tbp24s10.14k"
+        },
+        {
+          "source": "63s141.2e",
+          "output": "63s141.2e"
+        }
+      ]
+    },
+    "makmaidencenh": {
+      "sourceRomset": "makaimurc",
+      "outputZip": "makmaidencenh.zip",
+      "label": "Makaimura - Maiden Artoria Edition Enhanced (Japan revision C)) [source: makaimurc]",
+      "patchesBase": "Ghosts'n Goblins - Artoria Edition v1.2 by GoodLuckTrying/Patcher/patches/maiden_artoria",
+      "layout": [
+        {
+          "source": "mj04c.bin",
+          "output": "mj04cmaiden.bin",
+          "patch": "mj04cmaiden.bps"
+        },
+        {
+          "source": "mj03c.bin",
+          "output": "mj03cmaidenenh.bin",
+          "patch": "mj03cmaidenenh.bps"
+        },
+        {
+          "source": "mj05c.bin",
+          "output": "mj05cmaidenenh.bin",
+          "patch": "mj05cmaidenenh.bps"
+        },
+        {
+          "source": "gg2.bin",
+          "output": "gg2.bin"
+        },
+        {
+          "source": "gg1.bin",
+          "output": "gg1maiden.bin",
+          "patch": "gg1maiden.bps"
+        },
+        {
+          "source": "gg11.bin",
+          "output": "gg11.bin"
+        },
+        {
+          "source": "gg10.bin",
+          "output": "gg10.bin"
+        },
+        {
+          "source": "gg9.bin",
+          "output": "gg9.bin"
+        },
+        {
+          "source": "gg8.bin",
+          "output": "gg8.bin"
+        },
+        {
+          "source": "gg7.bin",
+          "output": "gg7.bin"
+        },
+        {
+          "source": "gg6.bin",
+          "output": "gg6.bin"
+        },
+        {
+          "source": "gng13.n4",
+          "output": "gng13maiden.n4",
+          "patch": "gng13maiden.bps"
+        },
+        {
+          "source": "gg16.bin",
+          "output": "gg16maiden.bin",
+          "patch": "gg16maiden.bps"
+        },
+        {
+          "source": "gg15.bin",
+          "output": "gg15maiden.bin",
+          "patch": "gg15maiden.bps"
+        },
+        {
+          "source": "gng16.l4",
+          "output": "gng16maiden.l4",
+          "patch": "gng16maiden.bps"
+        },
+        {
+          "source": "gg13.bin",
+          "output": "gg13maiden.bin",
+          "patch": "gg13maiden.bps"
+        },
+        {
+          "source": "gg12.bin",
+          "output": "gg12maiden.bin",
+          "patch": "gg12maiden.bps"
+        },
+        {
+          "source": "tbp24s10.14k",
+          "output": "tbp24s10.14k"
+        },
+        {
+          "source": "63s141.2e",
+          "output": "63s141.2e"
+        }
+      ]
+    },
+    "makknightcenh": {
+      "sourceRomset": "makaimurc",
+      "outputZip": "makknightcenh.zip",
+      "label": "Makaimura - Knight Artoria Edition Enhanced (Japan revision C)) [source: makaimurc]",
+      "patchesBase": "Ghosts'n Goblins - Artoria Edition v1.2 by GoodLuckTrying/Patcher/patches/knight_artoria",
+      "layout": [
+        {
+          "source": "mj04c.bin",
+          "output": "mj04cknight.bin",
+          "patch": "mj04cknight.bps"
+        },
+        {
+          "source": "mj03c.bin",
+          "output": "mj03cknightenh.bin",
+          "patch": "mj03cknightenh.bps"
+        },
+        {
+          "source": "mj05c.bin",
+          "output": "mj05cknightenh.bin",
+          "patch": "mj05cknightenh.bps"
+        },
+        {
+          "source": "gg2.bin",
+          "output": "gg2.bin"
+        },
+        {
+          "source": "gg1.bin",
+          "output": "gg1knight.bin",
+          "patch": "gg1knight.bps"
+        },
+        {
+          "source": "gg11.bin",
+          "output": "gg11.bin"
+        },
+        {
+          "source": "gg10.bin",
+          "output": "gg10.bin"
+        },
+        {
+          "source": "gg9.bin",
+          "output": "gg9.bin"
+        },
+        {
+          "source": "gg8.bin",
+          "output": "gg8.bin"
+        },
+        {
+          "source": "gg7.bin",
+          "output": "gg7.bin"
+        },
+        {
+          "source": "gg6.bin",
+          "output": "gg6.bin"
+        },
+        {
+          "source": "gng13.n4",
+          "output": "gng13knight.n4",
+          "patch": "gng13knight.bps"
+        },
+        {
+          "source": "gg16.bin",
+          "output": "gg16knight.bin",
+          "patch": "gg16knight.bps"
+        },
+        {
+          "source": "gg15.bin",
+          "output": "gg15knight.bin",
+          "patch": "gg15knight.bps"
+        },
+        {
+          "source": "gng16.l4",
+          "output": "gng16knight.l4",
+          "patch": "gng16knight.bps"
+        },
+        {
+          "source": "gg13.bin",
+          "output": "gg13knight.bin",
+          "patch": "gg13knight.bps"
+        },
+        {
+          "source": "gg12.bin",
+          "output": "gg12knight.bin",
+          "patch": "gg12knight.bps"
+        },
+        {
+          "source": "tbp24s10.14k",
+          "output": "tbp24s10.14k"
+        },
+        {
+          "source": "63s141.2e",
+          "output": "63s141.2e"
+        }
+      ]
+    },
+    "makmaidengenh": {
+      "sourceRomset": "makaimurg",
+      "outputZip": "makmaidengenh.zip",
+      "label": "Makaimura - Maiden Artoria Edition Enhanced (Japan revision G)) [source: makaimurg]",
+      "patchesBase": "Ghosts'n Goblins - Artoria Edition v1.2 by GoodLuckTrying/Patcher/patches/maiden_artoria",
+      "layout": [
+        {
+          "source": "mj04g.bin",
+          "output": "mj04gmaiden.bin",
+          "patch": "mj04gmaiden.bps"
+        },
+        {
+          "source": "mj03g.bin",
+          "output": "mj03gmaidenenh.bin",
+          "patch": "mj03gmaidenenh.bps"
+        },
+        {
+          "source": "mj05g.bin",
+          "output": "mj05gmaidenenh.bin",
+          "patch": "mj05gmaidenenh.bps"
+        },
+        {
+          "source": "gg2.bin",
+          "output": "gg2.bin"
+        },
+        {
+          "source": "gg1.bin",
+          "output": "gg1maiden.bin",
+          "patch": "gg1maiden.bps"
+        },
+        {
+          "source": "gg11.bin",
+          "output": "gg11.bin"
+        },
+        {
+          "source": "gg10.bin",
+          "output": "gg10.bin"
+        },
+        {
+          "source": "gg9.bin",
+          "output": "gg9.bin"
+        },
+        {
+          "source": "gg8.bin",
+          "output": "gg8.bin"
+        },
+        {
+          "source": "gg7.bin",
+          "output": "gg7.bin"
+        },
+        {
+          "source": "gg6.bin",
+          "output": "gg6.bin"
+        },
+        {
+          "source": "gng13.n4",
+          "output": "gng13maiden.n4",
+          "patch": "gng13maiden.bps"
+        },
+        {
+          "source": "gg16.bin",
+          "output": "gg16maiden.bin",
+          "patch": "gg16maiden.bps"
+        },
+        {
+          "source": "gg15.bin",
+          "output": "gg15maiden.bin",
+          "patch": "gg15maiden.bps"
+        },
+        {
+          "source": "gng16.l4",
+          "output": "gng16maiden.l4",
+          "patch": "gng16maiden.bps"
+        },
+        {
+          "source": "gg13.bin",
+          "output": "gg13maiden.bin",
+          "patch": "gg13maiden.bps"
+        },
+        {
+          "source": "gg12.bin",
+          "output": "gg12maiden.bin",
+          "patch": "gg12maiden.bps"
+        },
+        {
+          "source": "tbp24s10.14k",
+          "output": "tbp24s10.14k"
+        },
+        {
+          "source": "63s141.2e",
+          "output": "63s141.2e"
+        }
+      ]
+    },
+    "makknightgenh": {
+      "sourceRomset": "makaimurg",
+      "outputZip": "makknightgenh.zip",
+      "label": "Makaimura - Knight Artoria Edition Enhanced (Japan revision G)) [source: makaimurg]",
+      "patchesBase": "Ghosts'n Goblins - Artoria Edition v1.2 by GoodLuckTrying/Patcher/patches/knight_artoria",
+      "layout": [
+        {
+          "source": "mj04g.bin",
+          "output": "mj04gknight.bin",
+          "patch": "mj04gknight.bps"
+        },
+        {
+          "source": "mj03g.bin",
+          "output": "mj03gknightenh.bin",
+          "patch": "mj03gknightenh.bps"
+        },
+        {
+          "source": "mj05g.bin",
+          "output": "mj05gknightenh.bin",
+          "patch": "mj05gknightenh.bps"
+        },
+        {
+          "source": "gg2.bin",
+          "output": "gg2.bin"
+        },
+        {
+          "source": "gg1.bin",
+          "output": "gg1knight.bin",
+          "patch": "gg1knight.bps"
+        },
+        {
+          "source": "gg11.bin",
+          "output": "gg11.bin"
+        },
+        {
+          "source": "gg10.bin",
+          "output": "gg10.bin"
+        },
+        {
+          "source": "gg9.bin",
+          "output": "gg9.bin"
+        },
+        {
+          "source": "gg8.bin",
+          "output": "gg8.bin"
+        },
+        {
+          "source": "gg7.bin",
+          "output": "gg7.bin"
+        },
+        {
+          "source": "gg6.bin",
+          "output": "gg6.bin"
+        },
+        {
+          "source": "gng13.n4",
+          "output": "gng13knight.n4",
+          "patch": "gng13knight.bps"
+        },
+        {
+          "source": "gg16.bin",
+          "output": "gg16knight.bin",
+          "patch": "gg16knight.bps"
+        },
+        {
+          "source": "gg15.bin",
+          "output": "gg15knight.bin",
+          "patch": "gg15knight.bps"
+        },
+        {
+          "source": "gng16.l4",
+          "output": "gng16knight.l4",
+          "patch": "gng16knight.bps"
+        },
+        {
+          "source": "gg13.bin",
+          "output": "gg13knight.bin",
+          "patch": "gg13knight.bps"
+        },
+        {
+          "source": "gg12.bin",
+          "output": "gg12knight.bin",
+          "patch": "gg12knight.bps"
+        },
+        {
+          "source": "tbp24s10.14k",
+          "output": "tbp24s10.14k"
+        },
+        {
+          "source": "63s141.2e",
+          "output": "63s141.2e"
+        }
+      ]
+    }
+  },
+  "trailerUrl": "https://youtu.be/NHejslEFf_g",
+  "downloadUrl": "Ghosts'n Goblins - Artoria Edition v1.2 by GoodLuckTrying/Ghosts'n Goblins - Artoria Edition v1.2 by GoodLuckTrying.zip",
+  "boxartLinks": [
+    {
+      "label": "Knight Artoria Edition",
+      "url": "https://www.deviantart.com/xxcaesarxx/art/Ghosts-n-Goblins-Makaimura-Knight-Artoria-Edition-1312785645"
+    },
+    {
+      "label": "Maiden Artoria Edition",
+      "url": "https://www.deviantart.com/xxcaesarxx/art/Ghosts-n-Goblins-Makaimura-Maiden-Artoria-Edition-1312786516"
+    }
+  ]
+}

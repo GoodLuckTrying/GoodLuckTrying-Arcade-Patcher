@@ -1,0 +1,28 @@
+// RomData template for FinalBurn Neo
+
+// The *** in the ZipName field cannot be empty and cannot be duplicated with DrvName
+ZipName: gngenh
+DrvName: gng
+FullName: "Ghosts'n Goblins (Enhanced) (World? set 1)"
+
+// Name		Len		Crc32		Type
+"mm_c_04",	0x00004000,	0x4f94130f,	0x01100001
+"mm_c_03enh",	0x00008000,	0xab30bc6d,	0x01100001
+"mm_c_05enh",	0x00008000,	0x7a60a968,	0x01100001
+"gg2.bin",	0x00008000,	0x615f5b6f,	0x01100002
+"gg1.bin",	0x00004000,	0xecfccf07,	0x00200003
+"gg11.bin",	0x00004000,	0xddd56fa9,	0x00200004
+"gg10.bin",	0x00004000,	0x7302529d,	0x00200004
+"gg9.bin",	0x00004000,	0x20035bda,	0x00200004
+"gg8.bin",	0x00004000,	0xf12ba271,	0x00200004
+"gg7.bin",	0x00004000,	0xe525207d,	0x00200004
+"gg6.bin",	0x00004000,	0x2d77e9b2,	0x00200004
+"gg17.bin",	0x00004000,	0x93e50a8f,	0x00200005
+"gg16.bin",	0x00004000,	0x06d7e5ca,	0x00200005
+"gg15.bin",	0x00004000,	0xbc1fe02d,	0x00200005
+"gg14.bin",	0x00004000,	0x6aaf12f9,	0x00200005
+"gg13.bin",	0x00004000,	0xe80c3fca,	0x00200005
+"gg12.bin",	0x00004000,	0x7780a925,	0x00200005
+"tbp24s10.14k",	0x00000100,	0x0eaf5158,	0x08200000
+"63s141.2e",	0x00000100,	0x4a1285a4,	0x08200000
+"gg-pal10l8.bin",	0x0000002c,	0x87f1b7e0,	0x08200000

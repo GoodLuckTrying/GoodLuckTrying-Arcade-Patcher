@@ -1,0 +1,27 @@
+// RomData template for FinalBurn Neo
+
+// The *** in the ZipName field cannot be empty and cannot be duplicated with DrvName
+ZipName: makaimurcenh
+DrvName: makaimurc
+FullName: "Makaimura (Enhanced) (Japan revision C)"
+
+// Name		Len		Crc32		Type
+"mj04c.bin",	0x00004000,	0x1294edb1,	0x01100001
+"mj03cenh.bin",	0x00008000,	0xb8b4a7a8,	0x01100001
+"mj05cenh.bin",	0x00008000,	0x0e5e4f47,	0x01100001
+"gg2.bin",	0x00008000,	0x615f5b6f,	0x01100002
+"gg1.bin",	0x00004000,	0xecfccf07,	0x00200003
+"gg11.bin",	0x00004000,	0xddd56fa9,	0x00200004
+"gg10.bin",	0x00004000,	0x7302529d,	0x00200004
+"gg9.bin",	0x00004000,	0x20035bda,	0x00200004
+"gg8.bin",	0x00004000,	0xf12ba271,	0x00200004
+"gg7.bin",	0x00004000,	0xe525207d,	0x00200004
+"gg6.bin",	0x00004000,	0x2d77e9b2,	0x00200004
+"gng13.n4",	0x00004000,	0x4613afdc,	0x00200005
+"gg16.bin",	0x00004000,	0x06d7e5ca,	0x00200005
+"gg15.bin",	0x00004000,	0xbc1fe02d,	0x00200005
+"gng16.l4",	0x00004000,	0x608d68d5,	0x00200005
+"gg13.bin",	0x00004000,	0xe80c3fca,	0x00200005
+"gg12.bin",	0x00004000,	0x7780a925,	0x00200005
+"tbp24s10.14k",	0x00000100,	0x0eaf5158,	0x08200000
+"63s141.2e",	0x00000100,	0x4a1285a4,	0x08200000

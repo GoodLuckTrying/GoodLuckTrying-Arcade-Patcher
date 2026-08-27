@@ -1,0 +1,1314 @@
+{
+  "id": "ghouls-artoria-v10",
+  "title": "Ghouls'n Ghosts - Artoria Edition v1.0",
+  "patcherRoot": "Ghouls'n Ghosts - Artoria Edition v1.0 by GoodLuckTrying/Patcher",
+  "previewsFolder": "assets/previews/ghouls-artoria-v10",
+  "previews": [
+    "1. Nightgown.png",
+    "2. Knight Artoria 1.png",
+    "2. Knight Artoria 2.png",
+    "2. Knight Artoria 3.png",
+    "2. Maid Artoria 1.png",
+    "2. Maid Artoria 2.png",
+    "3. Gold Armor (+ Knife Special) 1.png",
+    "3. Gold Armor (+ Knife Special) 2.png",
+    "4. Gold Armor (+ Axe Special).png",
+    "5. Gold Armor (+ Sword Special) 1.png",
+    "5. Gold Armor (+ Sword Special) 2.png",
+    "5. Gold Armor (+ Sword Special) 3.png",
+    "5. Gold Armor (+ Sword Special) 4.png",
+    "6. Transformation #1.png",
+    "Axe Special.gif",
+    "Knight End Screen 1.png",
+    "Knight End Screen 2.png",
+    "Maiden End Screen 1.png",
+    "Maiden End Screen 2.png",
+    "Psycho Cannon.png",
+    "Sword Special.gif"
+  ],
+  "romsets": {
+    "daimakai": {
+      "label": "Daimakaimura (Japan)",
+      "roms": {
+        "37.13c": "3692f6e5",
+        "buf1": "eb122de7",
+        "dm22a.1a": "d4776116",
+        "dmj_38.12f": "82fd1798",
+        "dmj_39.12h": "35366ccc",
+        "dmj_40.13f": "a17c170a",
+        "dmj_41.13h": "6af0b391",
+        "dm_01.4a": "80896c33",
+        "dm_02.4b": "8b98dc48",
+        "dm_03.5a": "b1033e62",
+        "dm_04.5b": "a4f4f8f0",
+        "dm_05.7a": "d34e271a",
+        "dm_06.7b": "ae24bb19",
+        "dm_07.8a": "2a40166a",
+        "dm_08.8b": "bcc0f28c",
+        "dm_09.9a": "c9c4afa5",
+        "dm_10.9b": "c2e7d9ef",
+        "dm_11.10a": "9040cb04",
+        "dm_12.10b": "10fdd76a",
+        "dm_13.11a": "7e69e2e6",
+        "dm_14.11b": "3f70dd37",
+        "dm_15.12a": "8426144b",
+        "dm_16.12b": "20f85c03",
+        "dm_17.5c": "dc6ed8ad",
+        "dm_18.5e": "1aa0db99",
+        "dm_19.7c": "2623b52f",
+        "dm_20.7e": "281d0b3e",
+        "dm_21.8c": "2f1345b4",
+        "dm_22.8e": "37c9b6c6",
+        "dm_23.9c": "17e11df0",
+        "dm_24.9e": "da088d61",
+        "dm_25.10c": "889aac05",
+        "dm_26.10e": "3c2a212a",
+        "dm_27.11c": "29f79c78",
+        "dm_28.11e": "f187ba1c",
+        "dm_29.8f": "49a48796",
+        "dm_30.8h": "d9d3f8bd",
+        "dm_31.9f": "54acb729",
+        "dm_32.9h": "99692344",
+        "dm_33.10f": "384d60c4",
+        "dm_34.10h": "19abe30f",
+        "dm_35.11f": "c04b85c8",
+        "dm_36.11h": "89be83de",
+        "ioa1": "59c7ee3b",
+        "lwio.12c": "ad52b90c",
+        "prg1": "f1129744",
+        "rom1": "41dc73b9",
+        "sou1": "84f4b2fe"
+      }
+    },
+    "ghouls": {
+      "label": "Ghouls'n Ghosts (World)",
+      "roms": {
+        "09.4a": "ae24bb19",
+        "10.4b": "bcc0f28c",
+        "11.4c": "37c9b6c6",
+        "12.4d": "da088d61",
+        "13.4e": "3f70dd37",
+        "14.4f": "20f85c03",
+        "15.4g": "3c2a212a",
+        "16.4h": "f187ba1c",
+        "18.7a": "d34e271a",
+        "19.7b": "2a40166a",
+        "20.7c": "2f1345b4",
+        "21.7d": "17e11df0",
+        "22.7e": "7e69e2e6",
+        "23.7f": "8426144b",
+        "24.7g": "889aac05",
+        "25.7h": "29f79c78",
+        "26.10a": "3692f6e5",
+        "buf1": "eb122de7",
+        "dm-05.3a": "0ba9c0b0",
+        "dm-06.3c": "4ba90b59",
+        "dm-07.3f": "5d760ab9",
+        "dm-08.3g": "4bdee9de",
+        "dm-17.7j": "3ea1b0f2",
+        "dm620.2a": "f6e5f727",
+        "dme_27.9h": "f734b2be",
+        "dme_28.9j": "03d3e714",
+        "dme_29.10h": "166a58a2",
+        "dme_30.10j": "7ac8407a",
+        "ioa1": "59c7ee3b",
+        "lwio.8i": "ad52b90c",
+        "prg1": "f1129744",
+        "rom1": "41dc73b9",
+        "sou1": "84f4b2fe"
+      }
+    },
+    "ghoulsu": {
+      "label": "Ghouls'n Ghosts (USA)",
+      "roms": {
+        "09.4a": "ae24bb19",
+        "10.4b": "bcc0f28c",
+        "11.4c": "37c9b6c6",
+        "12.4d": "da088d61",
+        "13.4e": "3f70dd37",
+        "14.4f": "20f85c03",
+        "15.4g": "3c2a212a",
+        "16.4h": "f187ba1c",
+        "18.7a": "d34e271a",
+        "19.7b": "2a40166a",
+        "20.7c": "2f1345b4",
+        "21.7d": "17e11df0",
+        "22.7e": "7e69e2e6",
+        "23.7f": "8426144b",
+        "24.7g": "889aac05",
+        "25.7h": "29f79c78",
+        "26.10a": "3692f6e5",
+        "buf1": "eb122de7",
+        "dm-05.3a": "0ba9c0b0",
+        "dm-06.3c": "4ba90b59",
+        "dm-07.3f": "5d760ab9",
+        "dm-08.3g": "4bdee9de",
+        "dm-17.7j": "3ea1b0f2",
+        "dm620.2a": "f6e5f727",
+        "dmu_27.9h": "4a524140",
+        "dmu_28.9j": "94aae205",
+        "dmu_29.10h": "334d85b2",
+        "dmu_30.10j": "cee8ceb5",
+        "ioa1": "59c7ee3b",
+        "lwio.8i": "ad52b90c",
+        "prg1": "f1129744",
+        "rom1": "41dc73b9",
+        "sou1": "84f4b2fe"
+      }
+    }
+  },
+  "builds": {
+    "ghoulsmaiden": {
+      "sourceRomset": "ghouls",
+      "outputZip": "ghoulsmaiden.zip",
+      "label": "Ghouls'n Ghosts - Maiden Artoria Edition (World)",
+      "patchesBase": "Ghouls'n Ghosts - Artoria Edition v1.0 by GoodLuckTrying/Patcher/patches/maiden_artoria",
+      "layout": [
+        {
+          "source": "dme_29.10h",
+          "output": "dme_29maiden.10h",
+          "patch": "dme_29maiden.bps"
+        },
+        {
+          "source": "dme_30.10j",
+          "output": "dme_30maiden.10j",
+          "patch": "dme_30maiden.bps"
+        },
+        {
+          "source": "dme_27.9h",
+          "output": "dme_27maiden.9h",
+          "patch": "dme_27maiden.bps"
+        },
+        {
+          "source": "dme_28.9j",
+          "output": "dme_28maiden.9j",
+          "patch": "dme_28maiden.bps"
+        },
+        {
+          "source": "dm-17.7j",
+          "output": "dm-17maiden.7j",
+          "patch": "dm-17maiden.bps"
+        },
+        {
+          "source": "dm-05.3a",
+          "output": "dm-05maiden.3a",
+          "patch": "dm-05maiden.bps"
+        },
+        {
+          "source": "dm-07.3f",
+          "output": "dm-07maiden.3f",
+          "patch": "dm-07maiden.bps"
+        },
+        {
+          "source": "dm-06.3c",
+          "output": "dm-06maiden.3c",
+          "patch": "dm-06maiden.bps"
+        },
+        {
+          "source": "dm-08.3g",
+          "output": "dm-08maiden.3g",
+          "patch": "dm-08maiden.bps"
+        },
+        {
+          "source": "09.4a",
+          "output": "09maiden.4a",
+          "patch": "09maiden.bps"
+        },
+        {
+          "source": "18.7a",
+          "output": "18maiden.7a",
+          "patch": "18maiden.bps"
+        },
+        {
+          "source": "13.4e",
+          "output": "13maiden.4e",
+          "patch": "13maiden.bps"
+        },
+        {
+          "source": "22.7e",
+          "output": "22maiden.7e",
+          "patch": "22maiden.bps"
+        },
+        {
+          "source": "11.4c",
+          "output": "11maiden.4c",
+          "patch": "11maiden.bps"
+        },
+        {
+          "source": "20.7c",
+          "output": "20maiden.7c",
+          "patch": "20maiden.bps"
+        },
+        {
+          "source": "15.4g",
+          "output": "15maiden.4g",
+          "patch": "15maiden.bps"
+        },
+        {
+          "source": "24.7g",
+          "output": "24maiden.7g",
+          "patch": "24maiden.bps"
+        },
+        {
+          "source": "10.4b",
+          "output": "10maiden.4b",
+          "patch": "10maiden.bps"
+        },
+        {
+          "source": "19.7b",
+          "output": "19maiden.7b",
+          "patch": "19maiden.bps"
+        },
+        {
+          "source": "14.4f",
+          "output": "14maiden.4f",
+          "patch": "14maiden.bps"
+        },
+        {
+          "source": "23.7f",
+          "output": "23maiden.7f",
+          "patch": "23maiden.bps"
+        },
+        {
+          "source": "12.4d",
+          "output": "12maiden.4d",
+          "patch": "12maiden.bps"
+        },
+        {
+          "source": "21.7d",
+          "output": "21maiden.7d",
+          "patch": "21maiden.bps"
+        },
+        {
+          "source": "16.4h",
+          "output": "16maiden.4h",
+          "patch": "16maiden.bps"
+        },
+        {
+          "source": "25.7h",
+          "output": "25maiden.7h",
+          "patch": "25maiden.bps"
+        },
+        {
+          "source": "26.10a",
+          "output": "26.10a"
+        },
+        {
+          "source": "buf1",
+          "output": "buf1"
+        },
+        {
+          "source": "ioa1",
+          "output": "ioa1"
+        },
+        {
+          "source": "prg1",
+          "output": "prg1"
+        },
+        {
+          "source": "rom1",
+          "output": "rom1"
+        },
+        {
+          "source": "sou1",
+          "output": "sou1"
+        },
+        {
+          "source": "dm620.2a",
+          "output": "dm620.2a"
+        },
+        {
+          "source": "lwio.8i",
+          "output": "lwio.8i"
+        }
+      ]
+    },
+    "ghoulsknight": {
+      "sourceRomset": "ghouls",
+      "outputZip": "ghoulsknight.zip",
+      "label": "Ghouls'n Ghosts - Knight Artoria Edition (World)",
+      "patchesBase": "Ghouls'n Ghosts - Artoria Edition v1.0 by GoodLuckTrying/Patcher/patches/knight_artoria",
+      "layout": [
+        {
+          "source": "dme_29.10h",
+          "output": "dme_29knight.10h",
+          "patch": "dme_29knight.bps"
+        },
+        {
+          "source": "dme_30.10j",
+          "output": "dme_30knight.10j",
+          "patch": "dme_30knight.bps"
+        },
+        {
+          "source": "dme_27.9h",
+          "output": "dme_27knight.9h",
+          "patch": "dme_27knight.bps"
+        },
+        {
+          "source": "dme_28.9j",
+          "output": "dme_28knight.9j",
+          "patch": "dme_28knight.bps"
+        },
+        {
+          "source": "dm-17.7j",
+          "output": "dm-17knight.7j",
+          "patch": "dm-17knight.bps"
+        },
+        {
+          "source": "dm-05.3a",
+          "output": "dm-05knight.3a",
+          "patch": "dm-05knight.bps"
+        },
+        {
+          "source": "dm-07.3f",
+          "output": "dm-07knight.3f",
+          "patch": "dm-07knight.bps"
+        },
+        {
+          "source": "dm-06.3c",
+          "output": "dm-06knight.3c",
+          "patch": "dm-06knight.bps"
+        },
+        {
+          "source": "dm-08.3g",
+          "output": "dm-08knight.3g",
+          "patch": "dm-08knight.bps"
+        },
+        {
+          "source": "09.4a",
+          "output": "09knight.4a",
+          "patch": "09knight.bps"
+        },
+        {
+          "source": "18.7a",
+          "output": "18knight.7a",
+          "patch": "18knight.bps"
+        },
+        {
+          "source": "13.4e",
+          "output": "13knight.4e",
+          "patch": "13knight.bps"
+        },
+        {
+          "source": "22.7e",
+          "output": "22knight.7e",
+          "patch": "22knight.bps"
+        },
+        {
+          "source": "11.4c",
+          "output": "11knight.4c",
+          "patch": "11knight.bps"
+        },
+        {
+          "source": "20.7c",
+          "output": "20knight.7c",
+          "patch": "20knight.bps"
+        },
+        {
+          "source": "15.4g",
+          "output": "15knight.4g",
+          "patch": "15knight.bps"
+        },
+        {
+          "source": "24.7g",
+          "output": "24knight.7g",
+          "patch": "24knight.bps"
+        },
+        {
+          "source": "10.4b",
+          "output": "10knight.4b",
+          "patch": "10knight.bps"
+        },
+        {
+          "source": "19.7b",
+          "output": "19knight.7b",
+          "patch": "19knight.bps"
+        },
+        {
+          "source": "14.4f",
+          "output": "14knight.4f",
+          "patch": "14knight.bps"
+        },
+        {
+          "source": "23.7f",
+          "output": "23knight.7f",
+          "patch": "23knight.bps"
+        },
+        {
+          "source": "12.4d",
+          "output": "12knight.4d",
+          "patch": "12knight.bps"
+        },
+        {
+          "source": "21.7d",
+          "output": "21knight.7d",
+          "patch": "21knight.bps"
+        },
+        {
+          "source": "16.4h",
+          "output": "16knight.4h",
+          "patch": "16knight.bps"
+        },
+        {
+          "source": "25.7h",
+          "output": "25knight.7h",
+          "patch": "25knight.bps"
+        },
+        {
+          "source": "26.10a",
+          "output": "26.10a"
+        },
+        {
+          "source": "buf1",
+          "output": "buf1"
+        },
+        {
+          "source": "ioa1",
+          "output": "ioa1"
+        },
+        {
+          "source": "prg1",
+          "output": "prg1"
+        },
+        {
+          "source": "rom1",
+          "output": "rom1"
+        },
+        {
+          "source": "sou1",
+          "output": "sou1"
+        },
+        {
+          "source": "dm620.2a",
+          "output": "dm620.2a"
+        },
+        {
+          "source": "lwio.8i",
+          "output": "lwio.8i"
+        }
+      ]
+    },
+    "ghoulsumaiden": {
+      "sourceRomset": "ghoulsu",
+      "outputZip": "ghoulsumaiden.zip",
+      "label": "Ghouls'n Ghosts - Maiden Artoria Edition (USA)",
+      "patchesBase": "Ghouls'n Ghosts - Artoria Edition v1.0 by GoodLuckTrying/Patcher/patches/maiden_artoria",
+      "layout": [
+        {
+          "source": "dmu_29.10h",
+          "output": "dmu_29maiden.10h",
+          "patch": "dmu_29maiden.bps"
+        },
+        {
+          "source": "dmu_30.10j",
+          "output": "dmu_30maiden.10j",
+          "patch": "dmu_30maiden.bps"
+        },
+        {
+          "source": "dmu_27.9h",
+          "output": "dmu_27maiden.9h",
+          "patch": "dmu_27maiden.bps"
+        },
+        {
+          "source": "dmu_28.9j",
+          "output": "dmu_28maiden.9j",
+          "patch": "dmu_28maiden.bps"
+        },
+        {
+          "source": "dm-17.7j",
+          "output": "dm-17maiden.7j",
+          "patch": "dm-17maiden.bps"
+        },
+        {
+          "source": "dm-05.3a",
+          "output": "dm-05maiden.3a",
+          "patch": "dm-05maiden.bps"
+        },
+        {
+          "source": "dm-07.3f",
+          "output": "dm-07maiden.3f",
+          "patch": "dm-07maiden.bps"
+        },
+        {
+          "source": "dm-06.3c",
+          "output": "dm-06maiden.3c",
+          "patch": "dm-06maiden.bps"
+        },
+        {
+          "source": "dm-08.3g",
+          "output": "dm-08maiden.3g",
+          "patch": "dm-08maiden.bps"
+        },
+        {
+          "source": "09.4a",
+          "output": "09maiden.4a",
+          "patch": "09maiden.bps"
+        },
+        {
+          "source": "18.7a",
+          "output": "18maiden.7a",
+          "patch": "18maiden.bps"
+        },
+        {
+          "source": "13.4e",
+          "output": "13maiden.4e",
+          "patch": "13maiden.bps"
+        },
+        {
+          "source": "22.7e",
+          "output": "22maiden.7e",
+          "patch": "22maiden.bps"
+        },
+        {
+          "source": "11.4c",
+          "output": "11maiden.4c",
+          "patch": "11maiden.bps"
+        },
+        {
+          "source": "20.7c",
+          "output": "20maiden.7c",
+          "patch": "20maiden.bps"
+        },
+        {
+          "source": "15.4g",
+          "output": "15maiden.4g",
+          "patch": "15maiden.bps"
+        },
+        {
+          "source": "24.7g",
+          "output": "24maiden.7g",
+          "patch": "24maiden.bps"
+        },
+        {
+          "source": "10.4b",
+          "output": "10maiden.4b",
+          "patch": "10maiden.bps"
+        },
+        {
+          "source": "19.7b",
+          "output": "19maiden.7b",
+          "patch": "19maiden.bps"
+        },
+        {
+          "source": "14.4f",
+          "output": "14maiden.4f",
+          "patch": "14maiden.bps"
+        },
+        {
+          "source": "23.7f",
+          "output": "23maiden.7f",
+          "patch": "23maiden.bps"
+        },
+        {
+          "source": "12.4d",
+          "output": "12maiden.4d",
+          "patch": "12maiden.bps"
+        },
+        {
+          "source": "21.7d",
+          "output": "21maiden.7d",
+          "patch": "21maiden.bps"
+        },
+        {
+          "source": "16.4h",
+          "output": "16maiden.4h",
+          "patch": "16maiden.bps"
+        },
+        {
+          "source": "25.7h",
+          "output": "25maiden.7h",
+          "patch": "25maiden.bps"
+        },
+        {
+          "source": "26.10a",
+          "output": "26.10a"
+        },
+        {
+          "source": "buf1",
+          "output": "buf1"
+        },
+        {
+          "source": "ioa1",
+          "output": "ioa1"
+        },
+        {
+          "source": "prg1",
+          "output": "prg1"
+        },
+        {
+          "source": "rom1",
+          "output": "rom1"
+        },
+        {
+          "source": "sou1",
+          "output": "sou1"
+        },
+        {
+          "source": "dm620.2a",
+          "output": "dm620.2a"
+        },
+        {
+          "source": "lwio.8i",
+          "output": "lwio.8i"
+        }
+      ]
+    },
+    "ghoulsuknight": {
+      "sourceRomset": "ghoulsu",
+      "outputZip": "ghoulsuknight.zip",
+      "label": "Ghouls'n Ghosts - Knight Artoria Edition (USA)",
+      "patchesBase": "Ghouls'n Ghosts - Artoria Edition v1.0 by GoodLuckTrying/Patcher/patches/knight_artoria",
+      "layout": [
+        {
+          "source": "dmu_29.10h",
+          "output": "dmu_29knight.10h",
+          "patch": "dmu_29knight.bps"
+        },
+        {
+          "source": "dmu_30.10j",
+          "output": "dmu_30knight.10j",
+          "patch": "dmu_30knight.bps"
+        },
+        {
+          "source": "dmu_27.9h",
+          "output": "dmu_27knight.9h",
+          "patch": "dmu_27knight.bps"
+        },
+        {
+          "source": "dmu_28.9j",
+          "output": "dmu_28knight.9j",
+          "patch": "dmu_28knight.bps"
+        },
+        {
+          "source": "dm-17.7j",
+          "output": "dm-17knight.7j",
+          "patch": "dm-17knight.bps"
+        },
+        {
+          "source": "dm-05.3a",
+          "output": "dm-05knight.3a",
+          "patch": "dm-05knight.bps"
+        },
+        {
+          "source": "dm-07.3f",
+          "output": "dm-07knight.3f",
+          "patch": "dm-07knight.bps"
+        },
+        {
+          "source": "dm-06.3c",
+          "output": "dm-06knight.3c",
+          "patch": "dm-06knight.bps"
+        },
+        {
+          "source": "dm-08.3g",
+          "output": "dm-08knight.3g",
+          "patch": "dm-08knight.bps"
+        },
+        {
+          "source": "09.4a",
+          "output": "09knight.4a",
+          "patch": "09knight.bps"
+        },
+        {
+          "source": "18.7a",
+          "output": "18knight.7a",
+          "patch": "18knight.bps"
+        },
+        {
+          "source": "13.4e",
+          "output": "13knight.4e",
+          "patch": "13knight.bps"
+        },
+        {
+          "source": "22.7e",
+          "output": "22knight.7e",
+          "patch": "22knight.bps"
+        },
+        {
+          "source": "11.4c",
+          "output": "11knight.4c",
+          "patch": "11knight.bps"
+        },
+        {
+          "source": "20.7c",
+          "output": "20knight.7c",
+          "patch": "20knight.bps"
+        },
+        {
+          "source": "15.4g",
+          "output": "15knight.4g",
+          "patch": "15knight.bps"
+        },
+        {
+          "source": "24.7g",
+          "output": "24knight.7g",
+          "patch": "24knight.bps"
+        },
+        {
+          "source": "10.4b",
+          "output": "10knight.4b",
+          "patch": "10knight.bps"
+        },
+        {
+          "source": "19.7b",
+          "output": "19knight.7b",
+          "patch": "19knight.bps"
+        },
+        {
+          "source": "14.4f",
+          "output": "14knight.4f",
+          "patch": "14knight.bps"
+        },
+        {
+          "source": "23.7f",
+          "output": "23knight.7f",
+          "patch": "23knight.bps"
+        },
+        {
+          "source": "12.4d",
+          "output": "12knight.4d",
+          "patch": "12knight.bps"
+        },
+        {
+          "source": "21.7d",
+          "output": "21knight.7d",
+          "patch": "21knight.bps"
+        },
+        {
+          "source": "16.4h",
+          "output": "16knight.4h",
+          "patch": "16knight.bps"
+        },
+        {
+          "source": "25.7h",
+          "output": "25knight.7h",
+          "patch": "25knight.bps"
+        },
+        {
+          "source": "26.10a",
+          "output": "26.10a"
+        },
+        {
+          "source": "buf1",
+          "output": "buf1"
+        },
+        {
+          "source": "ioa1",
+          "output": "ioa1"
+        },
+        {
+          "source": "prg1",
+          "output": "prg1"
+        },
+        {
+          "source": "rom1",
+          "output": "rom1"
+        },
+        {
+          "source": "sou1",
+          "output": "sou1"
+        },
+        {
+          "source": "dm620.2a",
+          "output": "dm620.2a"
+        },
+        {
+          "source": "lwio.8i",
+          "output": "lwio.8i"
+        }
+      ]
+    },
+    "daimakaimaiden": {
+      "sourceRomset": "daimakai",
+      "outputZip": "daimakaimaiden.zip",
+      "label": "Daimakaimura - Maiden Artoria Edition (Japan)",
+      "patchesBase": "Ghouls'n Ghosts - Artoria Edition v1.0 by GoodLuckTrying/Patcher/patches/maiden_artoria",
+      "layout": [
+        {
+          "source": "dmj_38.12f",
+          "output": "dmj_38maiden.12f",
+          "patch": "dmj_38maiden.bps"
+        },
+        {
+          "source": "dmj_39.12h",
+          "output": "dmj_39maiden.12h",
+          "patch": "dmj_39maiden.bps"
+        },
+        {
+          "source": "dmj_40.13f",
+          "output": "dmj_40maiden.13f",
+          "patch": "dmj_40maiden.bps"
+        },
+        {
+          "source": "dmj_41.13h",
+          "output": "dmj_41maiden.13h",
+          "patch": "dmj_41maiden.bps"
+        },
+        {
+          "source": "dm_33.10f",
+          "output": "dm_33maiden.10f",
+          "patch": "dm_33maiden.bps"
+        },
+        {
+          "source": "dm_34.10h",
+          "output": "dm_34maiden.10h",
+          "patch": "dm_34maiden.bps"
+        },
+        {
+          "source": "dm_35.11f",
+          "output": "dm_35maiden.11f",
+          "patch": "dm_35maiden.bps"
+        },
+        {
+          "source": "dm_36.11h",
+          "output": "dm_36maiden.11h",
+          "patch": "dm_36maiden.bps"
+        },
+        {
+          "source": "dm_02.4b",
+          "output": "dm_02maiden.4b",
+          "patch": "dm_02maiden.bps"
+        },
+        {
+          "source": "dm_01.4a",
+          "output": "dm_01maiden.4a",
+          "patch": "dm_01maiden.bps"
+        },
+        {
+          "source": "dm_10.9b",
+          "output": "dm_10maiden.9b",
+          "patch": "dm_10maiden.bps"
+        },
+        {
+          "source": "dm_09.9a",
+          "output": "dm_09maiden.9a",
+          "patch": "dm_09maiden.bps"
+        },
+        {
+          "source": "dm_18.5e",
+          "output": "dm_18maiden.5e",
+          "patch": "dm_18maiden.bps"
+        },
+        {
+          "source": "dm_17.5c",
+          "output": "dm_17maiden.5c",
+          "patch": "dm_17maiden.bps"
+        },
+        {
+          "source": "dm_30.8h",
+          "output": "dm_30maiden.8h",
+          "patch": "dm_30maiden.bps"
+        },
+        {
+          "source": "dm_29.8f",
+          "output": "dm_29maiden.8f",
+          "patch": "dm_29maiden.bps"
+        },
+        {
+          "source": "dm_04.5b",
+          "output": "dm_04maiden.5b",
+          "patch": "dm_04maiden.bps"
+        },
+        {
+          "source": "dm_03.5a",
+          "output": "dm_03maiden.5a",
+          "patch": "dm_03maiden.bps"
+        },
+        {
+          "source": "dm_12.10b",
+          "output": "dm_12maiden.10b",
+          "patch": "dm_12maiden.bps"
+        },
+        {
+          "source": "dm_11.10a",
+          "output": "dm_11maiden.10a",
+          "patch": "dm_11maiden.bps"
+        },
+        {
+          "source": "dm_20.7e",
+          "output": "dm_20maiden.7e",
+          "patch": "dm_20maiden.bps"
+        },
+        {
+          "source": "dm_19.7c",
+          "output": "dm_19maiden.7c",
+          "patch": "dm_19maiden.bps"
+        },
+        {
+          "source": "dm_32.9h",
+          "output": "dm_32maiden.9h",
+          "patch": "dm_32maiden.bps"
+        },
+        {
+          "source": "dm_31.9f",
+          "output": "dm_31maiden.9f",
+          "patch": "dm_31maiden.bps"
+        },
+        {
+          "source": "dm_06.7b",
+          "output": "dm_06maiden.7b",
+          "patch": "09maiden.bps"
+        },
+        {
+          "source": "dm_05.7a",
+          "output": "dm_05maiden.7a",
+          "patch": "18maiden.bps"
+        },
+        {
+          "source": "dm_14.11b",
+          "output": "dm_14maiden.11b",
+          "patch": "13maiden.bps"
+        },
+        {
+          "source": "dm_13.11a",
+          "output": "dm_13maiden.11a",
+          "patch": "22maiden.bps"
+        },
+        {
+          "source": "dm_22.8e",
+          "output": "dm_22maiden.8e",
+          "patch": "11maiden.bps"
+        },
+        {
+          "source": "dm_21.8c",
+          "output": "dm_21maiden.8c",
+          "patch": "20maiden.bps"
+        },
+        {
+          "source": "dm_26.10e",
+          "output": "dm_26maiden.10e",
+          "patch": "15maiden.bps"
+        },
+        {
+          "source": "dm_25.10c",
+          "output": "dm_25maiden.10c",
+          "patch": "24maiden.bps"
+        },
+        {
+          "source": "dm_08.8b",
+          "output": "dm_08maiden.8b",
+          "patch": "10maiden.bps"
+        },
+        {
+          "source": "dm_07.8a",
+          "output": "dm_07maiden.8a",
+          "patch": "19maiden.bps"
+        },
+        {
+          "source": "dm_16.12b",
+          "output": "dm_16maiden.12b",
+          "patch": "14maiden.bps"
+        },
+        {
+          "source": "dm_15.12a",
+          "output": "dm_15maiden.12a",
+          "patch": "23maiden.bps"
+        },
+        {
+          "source": "dm_24.9e",
+          "output": "dm_24maiden.9e",
+          "patch": "12maiden.bps"
+        },
+        {
+          "source": "dm_23.9c",
+          "output": "dm_23maiden.9c",
+          "patch": "21maiden.bps"
+        },
+        {
+          "source": "dm_28.11e",
+          "output": "dm_28maiden.11e",
+          "patch": "16maiden.bps"
+        },
+        {
+          "source": "dm_27.11c",
+          "output": "dm_27maiden.11c",
+          "patch": "25maiden.bps"
+        },
+        {
+          "source": "37.13c",
+          "output": "37.13c"
+        },
+        {
+          "source": "buf1",
+          "output": "buf1"
+        },
+        {
+          "source": "ioa1",
+          "output": "ioa1"
+        },
+        {
+          "source": "prg1",
+          "output": "prg1"
+        },
+        {
+          "source": "rom1",
+          "output": "rom1"
+        },
+        {
+          "source": "sou1",
+          "output": "sou1"
+        },
+        {
+          "source": "dm22a.1a",
+          "output": "dm22a.1a"
+        },
+        {
+          "source": "lwio.12c",
+          "output": "lwio.12c"
+        }
+      ]
+    },
+    "daimakaiknight": {
+      "sourceRomset": "daimakai",
+      "outputZip": "daimakaiknight.zip",
+      "label": "Daimakaimura - Knight Artoria Edition (Japan)",
+      "patchesBase": "Ghouls'n Ghosts - Artoria Edition v1.0 by GoodLuckTrying/Patcher/patches/knight_artoria",
+      "layout": [
+        {
+          "source": "dmj_38.12f",
+          "output": "dmj_38knight.12f",
+          "patch": "dmj_38knight.bps"
+        },
+        {
+          "source": "dmj_39.12h",
+          "output": "dmj_39knight.12h",
+          "patch": "dmj_39knight.bps"
+        },
+        {
+          "source": "dmj_40.13f",
+          "output": "dmj_40knight.13f",
+          "patch": "dmj_40knight.bps"
+        },
+        {
+          "source": "dmj_41.13h",
+          "output": "dmj_41knight.13h",
+          "patch": "dmj_41knight.bps"
+        },
+        {
+          "source": "dm_33.10f",
+          "output": "dm_33knight.10f",
+          "patch": "dm_33knight.bps"
+        },
+        {
+          "source": "dm_34.10h",
+          "output": "dm_34knight.10h",
+          "patch": "dm_34knight.bps"
+        },
+        {
+          "source": "dm_35.11f",
+          "output": "dm_35knight.11f",
+          "patch": "dm_35knight.bps"
+        },
+        {
+          "source": "dm_36.11h",
+          "output": "dm_36knight.11h",
+          "patch": "dm_36knight.bps"
+        },
+        {
+          "source": "dm_02.4b",
+          "output": "dm_02knight.4b",
+          "patch": "dm_02knight.bps"
+        },
+        {
+          "source": "dm_01.4a",
+          "output": "dm_01knight.4a",
+          "patch": "dm_01knight.bps"
+        },
+        {
+          "source": "dm_10.9b",
+          "output": "dm_10knight.9b",
+          "patch": "dm_10knight.bps"
+        },
+        {
+          "source": "dm_09.9a",
+          "output": "dm_09knight.9a",
+          "patch": "dm_09knight.bps"
+        },
+        {
+          "source": "dm_18.5e",
+          "output": "dm_18knight.5e",
+          "patch": "dm_18knight.bps"
+        },
+        {
+          "source": "dm_17.5c",
+          "output": "dm_17knight.5c",
+          "patch": "dm_17knight.bps"
+        },
+        {
+          "source": "dm_30.8h",
+          "output": "dm_30knight.8h",
+          "patch": "dm_30knight.bps"
+        },
+        {
+          "source": "dm_29.8f",
+          "output": "dm_29knight.8f",
+          "patch": "dm_29knight.bps"
+        },
+        {
+          "source": "dm_04.5b",
+          "output": "dm_04knight.5b",
+          "patch": "dm_04knight.bps"
+        },
+        {
+          "source": "dm_03.5a",
+          "output": "dm_03knight.5a",
+          "patch": "dm_03knight.bps"
+        },
+        {
+          "source": "dm_12.10b",
+          "output": "dm_12knight.10b",
+          "patch": "dm_12knight.bps"
+        },
+        {
+          "source": "dm_11.10a",
+          "output": "dm_11knight.10a",
+          "patch": "dm_11knight.bps"
+        },
+        {
+          "source": "dm_20.7e",
+          "output": "dm_20knight.7e",
+          "patch": "dm_20knight.bps"
+        },
+        {
+          "source": "dm_19.7c",
+          "output": "dm_19knight.7c",
+          "patch": "dm_19knight.bps"
+        },
+        {
+          "source": "dm_32.9h",
+          "output": "dm_32knight.9h",
+          "patch": "dm_32knight.bps"
+        },
+        {
+          "source": "dm_31.9f",
+          "output": "dm_31knight.9f",
+          "patch": "dm_31knight.bps"
+        },
+        {
+          "source": "dm_06.7b",
+          "output": "dm_06knight.7b",
+          "patch": "09knight.bps"
+        },
+        {
+          "source": "dm_05.7a",
+          "output": "dm_05knight.7a",
+          "patch": "18knight.bps"
+        },
+        {
+          "source": "dm_14.11b",
+          "output": "dm_14knight.11b",
+          "patch": "13knight.bps"
+        },
+        {
+          "source": "dm_13.11a",
+          "output": "dm_13knight.11a",
+          "patch": "22knight.bps"
+        },
+        {
+          "source": "dm_22.8e",
+          "output": "dm_22knight.8e",
+          "patch": "11knight.bps"
+        },
+        {
+          "source": "dm_21.8c",
+          "output": "dm_21knight.8c",
+          "patch": "20knight.bps"
+        },
+        {
+          "source": "dm_26.10e",
+          "output": "dm_26knight.10e",
+          "patch": "15knight.bps"
+        },
+        {
+          "source": "dm_25.10c",
+          "output": "dm_25knight.10c",
+          "patch": "24knight.bps"
+        },
+        {
+          "source": "dm_08.8b",
+          "output": "dm_08knight.8b",
+          "patch": "10knight.bps"
+        },
+        {
+          "source": "dm_07.8a",
+          "output": "dm_07knight.8a",
+          "patch": "19knight.bps"
+        },
+        {
+          "source": "dm_16.12b",
+          "output": "dm_16knight.12b",
+          "patch": "14knight.bps"
+        },
+        {
+          "source": "dm_15.12a",
+          "output": "dm_15knight.12a",
+          "patch": "23knight.bps"
+        },
+        {
+          "source": "dm_24.9e",
+          "output": "dm_24knight.9e",
+          "patch": "12knight.bps"
+        },
+        {
+          "source": "dm_23.9c",
+          "output": "dm_23knight.9c",
+          "patch": "21knight.bps"
+        },
+        {
+          "source": "dm_28.11e",
+          "output": "dm_28knight.11e",
+          "patch": "16knight.bps"
+        },
+        {
+          "source": "dm_27.11c",
+          "output": "dm_27knight.11c",
+          "patch": "25knight.bps"
+        },
+        {
+          "source": "37.13c",
+          "output": "37.13c"
+        },
+        {
+          "source": "buf1",
+          "output": "buf1"
+        },
+        {
+          "source": "ioa1",
+          "output": "ioa1"
+        },
+        {
+          "source": "prg1",
+          "output": "prg1"
+        },
+        {
+          "source": "rom1",
+          "output": "rom1"
+        },
+        {
+          "source": "sou1",
+          "output": "sou1"
+        },
+        {
+          "source": "dm22a.1a",
+          "output": "dm22a.1a"
+        },
+        {
+          "source": "lwio.12c",
+          "output": "lwio.12c"
+        }
+      ]
+    }
+  },
+  "trailerUrl": "https://youtu.be/kNsi4sraUQc",
+  "downloadUrl": "Ghouls'n Ghosts - Artoria Edition v1.0 by GoodLuckTrying/Ghouls'n Ghosts - Artoria Edition v1.0 by GoodLuckTrying.zip",
+  "boxartLinks": [
+    {
+      "label": "Ghouls'n Ghosts: Knight/Maiden Artoria Edition",
+      "url": "https://www.deviantart.com/xxcaesarxx/art/Ghouls-n-Ghosts-Knight-Maiden-Artoria-Edition-1373422334"
+    },
+    {
+      "label": "Daimakaimura: Knight/Maiden Artoria Edition",
+      "url": "https://www.deviantart.com/xxcaesarxx/art/Daimakaimura-Knight-Maiden-Artoria-Edition-1373423892"
+    }
+  ]
+}

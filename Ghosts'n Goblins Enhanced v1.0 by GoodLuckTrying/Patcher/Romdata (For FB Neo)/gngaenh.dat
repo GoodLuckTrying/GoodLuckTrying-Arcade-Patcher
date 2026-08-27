@@ -1,0 +1,23 @@
+// RomData template for FinalBurn Neo
+
+// The *** in the ZipName field cannot be empty and cannot be duplicated with DrvName
+ZipName: gngaenh
+DrvName: gnga
+FullName: "Ghosts'n Goblins (Enhanced) (World? set 2)"
+
+// Name		Len		Crc32		Type
+"mjg_04.10n",	0x00004000,	0x66606beb,	0x01100001
+"mjg_03enh.8n",	0x00008000,	0xa157d522,	0x01100001
+"mjg_05enh.12n",	0x00008000,	0xdd9d540a,	0x01100001
+"capsom_m5m23256p_p_62410p_mjg_02.14h",	0x00008000,	0x615f5b6f,	0x01100002
+"capsom_m5m23256p_p_616105_mjg_01.11e",	0x00008000,	0x1ab9038a,	0x00200003
+"capsom_m5m23256p_p_616105_mmg_08.3e",	0x00008000,	0xc09a716f,	0x00200004
+"capsom_m5m23256p_p_61710z_mmg_07.3c",	0x00008000,	0x0b92b129,	0x00200004
+"capsom_m5m23256p_p_616105_mmg_06.3b",	0x00008000,	0x830176af,	0x00200004
+"capsom_m5m23256p_p_61710g_mjg_12.4n",	0x00008000,	0xdbf05081,	0x00200005
+"capsom_m5m23256p_p_620108_mjg_11.3n",	0x00008000,	0xcf533077,	0x00200005
+"capsom_m5m23256p_p_62410p_mjg_10.4l",	0x00008000,	0x5f36734e,	0x00200005
+"capsom_m5m23256p_p_61710g_mjg_09.3l",	0x00008000,	0x89c71940,	0x00200005
+"m-02_63s141.14k",	0x00000100,	0x0eaf5158,	0x08200000
+"m-01_63s141.2e",	0x00000100,	0x4a1285a4,	0x08200000
+"gg-pal10l8.bin",	0x0000002c,	0x87f1b7e0,	0x08200000

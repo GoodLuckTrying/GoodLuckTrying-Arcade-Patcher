@@ -1,0 +1,1008 @@
+{
+  "id": "gng-enhanced-v10",
+  "title": "Ghosts'n Goblins Enhanced v1.0",
+  "patcherRoot": "Ghosts'n Goblins Enhanced v1.0 by GoodLuckTrying/Patcher",
+  "previewsFolder": "assets/previews/gng-enhanced-v10",
+  "previews": [
+    "Ghosts'n Goblins - Enhanced Edition.gif",
+    "Ghosts'n Goblins - Enhanced Edition.png",
+    "Makaimura - Enhanced Edition.png"
+  ],
+  "romsets": {
+    "gng": {
+      "label": "Ghosts'n Goblins \u2014 World (set 1)",
+      "roms": {
+        "mm_c_04": "4f94130f",
+        "mm_c_03": "1def138a",
+        "mm_c_05": "ed28e86e",
+        "gg2.bin": "615f5b6f",
+        "gg1.bin": "ecfccf07",
+        "gg11.bin": "ddd56fa9",
+        "gg10.bin": "7302529d",
+        "gg9.bin": "20035bda",
+        "gg8.bin": "f12ba271",
+        "gg7.bin": "e525207d",
+        "gg6.bin": "2d77e9b2",
+        "gg17.bin": "93e50a8f",
+        "gg16.bin": "06d7e5ca",
+        "gg15.bin": "bc1fe02d",
+        "gg14.bin": "6aaf12f9",
+        "gg13.bin": "e80c3fca",
+        "gg12.bin": "7780a925",
+        "tbp24s10.14k": "0eaf5158",
+        "63s141.2e": "4a1285a4",
+        "gg-pal10l8.bin": "87f1b7e0"
+      }
+    },
+    "gnga": {
+      "label": "Ghosts'n Goblins \u2014 World (set 2)",
+      "roms": {
+        "mjg_04.10n": "66606beb",
+        "mjg_03.8n": "9e01c65e",
+        "mjg_05.12n": "d6397b2b",
+        "capsom_m5m23256p_p_62410p_mjg_02.14h": "615f5b6f",
+        "capsom_m5m23256p_p_616105_mjg_01.11e": "1ab9038a",
+        "capsom_m5m23256p_p_616105_mmg_08.3e": "c09a716f",
+        "capsom_m5m23256p_p_61710z_mmg_07.3c": "0b92b129",
+        "capsom_m5m23256p_p_616105_mmg_06.3b": "830176af",
+        "capsom_m5m23256p_p_61710g_mjg_12.4n": "dbf05081",
+        "capsom_m5m23256p_p_620108_mjg_11.3n": "cf533077",
+        "capsom_m5m23256p_p_62410p_mjg_10.4l": "5f36734e",
+        "capsom_m5m23256p_p_61710g_mjg_09.3l": "89c71940",
+        "m-02_63s141.14k": "0eaf5158",
+        "m-01_63s141.2e": "4a1285a4",
+        "gg-pal10l8.bin": "87f1b7e0"
+      }
+    },
+    "gngb": {
+      "label": "Ghosts'n Goblins \u2014 World (set 3)",
+      "roms": {
+        "63s141.2e": "4a1285a4",
+        "gg-pal10l8.bin": "87f1b7e0",
+        "gg1.bin": "ecfccf07",
+        "gg2.bin": "615f5b6f",
+        "gg3.bin": "9e01c65e",
+        "gg4.bin": "66606beb",
+        "gg5.bin": "d6397b2b",
+        "gg6.bin": "2d77e9b2",
+        "gg7.bin": "e525207d",
+        "gg8.bin": "f12ba271",
+        "gg9.bin": "20035bda",
+        "gg10.bin": "7302529d",
+        "gg11.bin": "ddd56fa9",
+        "gg12.bin": "7780a925",
+        "gg13.bin": "e80c3fca",
+        "gg14.bin": "6aaf12f9",
+        "gg15.bin": "bc1fe02d",
+        "gg16.bin": "06d7e5ca",
+        "gg17.bin": "93e50a8f",
+        "tbp24s10.14k": "0eaf5158"
+      }
+    },
+    "gngc": {
+      "label": "Ghosts'n Goblins \u2014 World (set 4)",
+      "roms": {
+        "gng.n10": "60343188",
+        "gng.n9": "b6b91cfb",
+        "gng.n8": "a5cfa928",
+        "gng.n13": "fd9a8dda",
+        "gng.n12": "13cf6238",
+        "gg2.bin": "615f5b6f",
+        "gg1.bin": "ecfccf07",
+        "gg11.bin": "ddd56fa9",
+        "gg10.bin": "7302529d",
+        "gg9.bin": "20035bda",
+        "gg8.bin": "f12ba271",
+        "gg7.bin": "e525207d",
+        "gg6.bin": "2d77e9b2",
+        "gg17.bin": "93e50a8f",
+        "gg16.bin": "06d7e5ca",
+        "gg15.bin": "bc1fe02d",
+        "gg14.bin": "6aaf12f9",
+        "gg13.bin": "e80c3fca",
+        "gg12.bin": "7780a925",
+        "tbp24s10.14k": "0eaf5158",
+        "63s141.2e": "4a1285a4"
+      }
+    },
+    "gngt": {
+      "label": "Ghosts'n Goblins \u2014 US (Title)",
+      "roms": {
+        "mmt04d.10n": "652406f6",
+        "mmt03d.8n": "fb040b42",
+        "mmt05d.13n": "8f7cff61",
+        "mm02.14h": "615f5b6f",
+        "mm01.11e": "ecfccf07",
+        "mm11.3e": "ddd56fa9",
+        "mm10.1e": "7302529d",
+        "mm09.3c": "20035bda",
+        "mm08.1c": "f12ba271",
+        "mm07.3b": "e525207d",
+        "mm06.1b": "2d77e9b2",
+        "mm17.4n": "93e50a8f",
+        "mm16.3n": "06d7e5ca",
+        "mm15.1n": "bc1fe02d",
+        "mm14.4l": "6aaf12f9",
+        "mm13.3l": "e80c3fca",
+        "mm12.1l": "7780a925",
+        "m-02.14k": "0eaf5158",
+        "m-01.2e": "4a1285a4"
+      }
+    },
+    "makaimur": {
+      "label": "Makaimura \u2014 Japan",
+      "roms": {
+        "63s141.2e": "4a1285a4",
+        "gg1.bin": "ecfccf07",
+        "gg2.bin": "615f5b6f",
+        "gg6.bin": "2d77e9b2",
+        "gg7.bin": "e525207d",
+        "gg8.bin": "f12ba271",
+        "gg9.bin": "20035bda",
+        "gg10.bin": "7302529d",
+        "gg11.bin": "ddd56fa9",
+        "gg12.bin": "7780a925",
+        "gg13.bin": "e80c3fca",
+        "gg15.bin": "bc1fe02d",
+        "gg16.bin": "06d7e5ca",
+        "tbp24s10.14k": "0eaf5158",
+        "8n.rom": "9612d66c",
+        "10n.rom": "81e567e0",
+        "12n.rom": "65a6a97b",
+        "gng13.n4": "4613afdc",
+        "gng16.l4": "608d68d5"
+      }
+    },
+    "makaimurb": {
+      "label": "Makaimura \u2014 Japan (revision B)",
+      "roms": {
+        "mj04b.10n": "f8bda78f",
+        "mj03b.8n": "0ba14114",
+        "mj05b.12n": "3040a574",
+        "mm02.14h": "615f5b6f",
+        "mj01.11e": "178366b4",
+        "mm11.3e": "ddd56fa9",
+        "mm10.1e": "7302529d",
+        "mm09.3c": "20035bda",
+        "mm08.1c": "f12ba271",
+        "mm07.3b": "e525207d",
+        "mm06.1b": "2d77e9b2",
+        "mj17.4n": "4613afdc",
+        "mj16.3n": "06d7e5ca",
+        "mj15.1n": "bc1fe02d",
+        "mj14.4l": "608d68d5",
+        "mj13.3l": "e80c3fca",
+        "mj12.1l": "7780a925",
+        "tbp24s10.14k": "0eaf5158",
+        "63s141.2e": "4a1285a4"
+      }
+    },
+    "makaimurc": {
+      "label": "Makaimura \u2014 Japan (revision C)",
+      "roms": {
+        "mj04c.bin": "1294edb1",
+        "mj03c.bin": "d343332d",
+        "mj05c.bin": "535342c2",
+        "gg2.bin": "615f5b6f",
+        "gg1.bin": "ecfccf07",
+        "gg11.bin": "ddd56fa9",
+        "gg10.bin": "7302529d",
+        "gg9.bin": "20035bda",
+        "gg8.bin": "f12ba271",
+        "gg7.bin": "e525207d",
+        "gg6.bin": "2d77e9b2",
+        "gng13.n4": "4613afdc",
+        "gg16.bin": "06d7e5ca",
+        "gg15.bin": "bc1fe02d",
+        "gng16.l4": "608d68d5",
+        "gg13.bin": "e80c3fca",
+        "gg12.bin": "7780a925",
+        "tbp24s10.14k": "0eaf5158",
+        "63s141.2e": "4a1285a4"
+      }
+    },
+    "makaimurg": {
+      "label": "Makaimura \u2014 Japan (revision G)",
+      "roms": {
+        "mj04g.bin": "757c94d3",
+        "mj03g.bin": "61b043bb",
+        "mj05g.bin": "f2fdccf5",
+        "gg2.bin": "615f5b6f",
+        "gg1.bin": "ecfccf07",
+        "gg11.bin": "ddd56fa9",
+        "gg10.bin": "7302529d",
+        "gg9.bin": "20035bda",
+        "gg8.bin": "f12ba271",
+        "gg7.bin": "e525207d",
+        "gg6.bin": "2d77e9b2",
+        "gng13.n4": "4613afdc",
+        "gg16.bin": "06d7e5ca",
+        "gg15.bin": "bc1fe02d",
+        "gng16.l4": "608d68d5",
+        "gg13.bin": "e80c3fca",
+        "gg12.bin": "7780a925",
+        "tbp24s10.14k": "0eaf5158",
+        "63s141.2e": "4a1285a4"
+      }
+    }
+  },
+  "builds": {
+    "gngenh": {
+      "sourceRomset": "gng",
+      "outputZip": "gngenh.zip",
+      "label": "Ghosts'n Goblins (Enhanced) (World? set 1)) [source: gng]",
+      "patchesBase": "Ghosts'n Goblins Enhanced v1.0 by GoodLuckTrying/Patcher/patches",
+      "layout": [
+        {
+          "source": "mm_c_04",
+          "output": "mm_c_04"
+        },
+        {
+          "source": "mm_c_03",
+          "output": "mm_c_03enh",
+          "patch": "mm_c_03enh.bps"
+        },
+        {
+          "source": "mm_c_05",
+          "output": "mm_c_05enh",
+          "patch": "mm_c_05enh.bps"
+        },
+        {
+          "source": "gg2.bin",
+          "output": "gg2.bin"
+        },
+        {
+          "source": "gg1.bin",
+          "output": "gg1.bin"
+        },
+        {
+          "source": "gg11.bin",
+          "output": "gg11.bin"
+        },
+        {
+          "source": "gg10.bin",
+          "output": "gg10.bin"
+        },
+        {
+          "source": "gg9.bin",
+          "output": "gg9.bin"
+        },
+        {
+          "source": "gg8.bin",
+          "output": "gg8.bin"
+        },
+        {
+          "source": "gg7.bin",
+          "output": "gg7.bin"
+        },
+        {
+          "source": "gg6.bin",
+          "output": "gg6.bin"
+        },
+        {
+          "source": "gg17.bin",
+          "output": "gg17.bin"
+        },
+        {
+          "source": "gg16.bin",
+          "output": "gg16.bin"
+        },
+        {
+          "source": "gg15.bin",
+          "output": "gg15.bin"
+        },
+        {
+          "source": "gg14.bin",
+          "output": "gg14.bin"
+        },
+        {
+          "source": "gg13.bin",
+          "output": "gg13.bin"
+        },
+        {
+          "source": "gg12.bin",
+          "output": "gg12.bin"
+        },
+        {
+          "source": "tbp24s10.14k",
+          "output": "tbp24s10.14k"
+        },
+        {
+          "source": "63s141.2e",
+          "output": "63s141.2e"
+        },
+        {
+          "source": "gg-pal10l8.bin",
+          "output": "gg-pal10l8.bin"
+        }
+      ]
+    },
+    "gngaenh": {
+      "sourceRomset": "gnga",
+      "outputZip": "gngaenh.zip",
+      "label": "Ghosts'n Goblins (Enhanced) (World? set 2)) [source: gnga]",
+      "patchesBase": "Ghosts'n Goblins Enhanced v1.0 by GoodLuckTrying/Patcher/patches",
+      "layout": [
+        {
+          "source": "mjg_04.10n",
+          "output": "mjg_04.10n"
+        },
+        {
+          "source": "mjg_03.8n",
+          "output": "mjg_03enh.8n",
+          "patch": "mjg_03enh.bps"
+        },
+        {
+          "source": "mjg_05.12n",
+          "output": "mjg_05enh.12n",
+          "patch": "mjg_05enh.bps"
+        },
+        {
+          "source": "capsom_m5m23256p_p_62410p_mjg_02.14h",
+          "output": "capsom_m5m23256p_p_62410p_mjg_02.14h"
+        },
+        {
+          "source": "capsom_m5m23256p_p_616105_mjg_01.11e",
+          "output": "capsom_m5m23256p_p_616105_mjg_01.11e"
+        },
+        {
+          "source": "capsom_m5m23256p_p_616105_mmg_08.3e",
+          "output": "capsom_m5m23256p_p_616105_mmg_08.3e"
+        },
+        {
+          "source": "capsom_m5m23256p_p_61710z_mmg_07.3c",
+          "output": "capsom_m5m23256p_p_61710z_mmg_07.3c"
+        },
+        {
+          "source": "capsom_m5m23256p_p_616105_mmg_06.3b",
+          "output": "capsom_m5m23256p_p_616105_mmg_06.3b"
+        },
+        {
+          "source": "capsom_m5m23256p_p_61710g_mjg_12.4n",
+          "output": "capsom_m5m23256p_p_61710g_mjg_12.4n"
+        },
+        {
+          "source": "capsom_m5m23256p_p_620108_mjg_11.3n",
+          "output": "capsom_m5m23256p_p_620108_mjg_11.3n"
+        },
+        {
+          "source": "capsom_m5m23256p_p_62410p_mjg_10.4l",
+          "output": "capsom_m5m23256p_p_62410p_mjg_10.4l"
+        },
+        {
+          "source": "capsom_m5m23256p_p_61710g_mjg_09.3l",
+          "output": "capsom_m5m23256p_p_61710g_mjg_09.3l"
+        },
+        {
+          "source": "m-02_63s141.14k",
+          "output": "m-02_63s141.14k"
+        },
+        {
+          "source": "m-01_63s141.2e",
+          "output": "m-01_63s141.2e"
+        },
+        {
+          "source": "gg-pal10l8.bin",
+          "output": "gg-pal10l8.bin"
+        }
+      ]
+    },
+    "gngbenh": {
+      "sourceRomset": "gngb",
+      "outputZip": "gngbenh.zip",
+      "label": "Ghosts'n Goblins (Enhanced) (World? set 3)) [source: gngb]",
+      "patchesBase": "Ghosts'n Goblins Enhanced v1.0 by GoodLuckTrying/Patcher/patches",
+      "layout": [
+        {
+          "source": "gg4.bin",
+          "output": "gg4.bin"
+        },
+        {
+          "source": "gg3.bin",
+          "output": "gg3enh.bin",
+          "patch": "gg3enh.bps"
+        },
+        {
+          "source": "gg5.bin",
+          "output": "gg5enh.bin",
+          "patch": "gg5enh.bps"
+        },
+        {
+          "source": "gg2.bin",
+          "output": "gg2.bin"
+        },
+        {
+          "source": "gg1.bin",
+          "output": "gg1.bin"
+        },
+        {
+          "source": "gg11.bin",
+          "output": "gg11.bin"
+        },
+        {
+          "source": "gg10.bin",
+          "output": "gg10.bin"
+        },
+        {
+          "source": "gg9.bin",
+          "output": "gg9.bin"
+        },
+        {
+          "source": "gg8.bin",
+          "output": "gg8.bin"
+        },
+        {
+          "source": "gg7.bin",
+          "output": "gg7.bin"
+        },
+        {
+          "source": "gg6.bin",
+          "output": "gg6.bin"
+        },
+        {
+          "source": "gg17.bin",
+          "output": "gg17.bin"
+        },
+        {
+          "source": "gg16.bin",
+          "output": "gg16.bin"
+        },
+        {
+          "source": "gg15.bin",
+          "output": "gg15.bin"
+        },
+        {
+          "source": "gg14.bin",
+          "output": "gg14.bin"
+        },
+        {
+          "source": "gg13.bin",
+          "output": "gg13.bin"
+        },
+        {
+          "source": "gg12.bin",
+          "output": "gg12.bin"
+        },
+        {
+          "source": "tbp24s10.14k",
+          "output": "tbp24s10.14k"
+        },
+        {
+          "source": "63s141.2e",
+          "output": "63s141.2e"
+        },
+        {
+          "source": "gg-pal10l8.bin",
+          "output": "gg-pal10l8.bin"
+        }
+      ]
+    },
+    "gngcenh": {
+      "sourceRomset": "gngc",
+      "outputZip": "gngcenh.zip",
+      "label": "Ghosts'n Goblins (Enhanced) (World? set 4)) [source: gngc]",
+      "patchesBase": "Ghosts'n Goblins Enhanced v1.0 by GoodLuckTrying/Patcher/patches",
+      "layout": [
+        {
+          "source": "gng.n10",
+          "output": "gng.n10"
+        },
+        {
+          "source": "gng.n9",
+          "output": "gngenh.n9",
+          "patch": "gngenh.n9.bps"
+        },
+        {
+          "source": "gng.n8",
+          "output": "gngenh.n8",
+          "patch": "gngenh.n8.bps"
+        },
+        {
+          "source": "gng.n13",
+          "output": "gng.n13"
+        },
+        {
+          "source": "gng.n12",
+          "output": "gngenh.n12",
+          "patch": "gngenh.n12.bps"
+        },
+        {
+          "source": "gg2.bin",
+          "output": "gg2.bin"
+        },
+        {
+          "source": "gg1.bin",
+          "output": "gg1.bin"
+        },
+        {
+          "source": "gg11.bin",
+          "output": "gg11.bin"
+        },
+        {
+          "source": "gg10.bin",
+          "output": "gg10.bin"
+        },
+        {
+          "source": "gg9.bin",
+          "output": "gg9.bin"
+        },
+        {
+          "source": "gg8.bin",
+          "output": "gg8.bin"
+        },
+        {
+          "source": "gg7.bin",
+          "output": "gg7.bin"
+        },
+        {
+          "source": "gg6.bin",
+          "output": "gg6.bin"
+        },
+        {
+          "source": "gg17.bin",
+          "output": "gg17.bin"
+        },
+        {
+          "source": "gg16.bin",
+          "output": "gg16.bin"
+        },
+        {
+          "source": "gg15.bin",
+          "output": "gg15.bin"
+        },
+        {
+          "source": "gg14.bin",
+          "output": "gg14.bin"
+        },
+        {
+          "source": "gg13.bin",
+          "output": "gg13.bin"
+        },
+        {
+          "source": "gg12.bin",
+          "output": "gg12.bin"
+        },
+        {
+          "source": "tbp24s10.14k",
+          "output": "tbp24s10.14k"
+        },
+        {
+          "source": "63s141.2e",
+          "output": "63s141.2e"
+        }
+      ]
+    },
+    "gngtenh": {
+      "sourceRomset": "gngt",
+      "outputZip": "gngtenh.zip",
+      "label": "Ghosts'n Goblins (Enhanced) (US)) [source: gngt]",
+      "patchesBase": "Ghosts'n Goblins Enhanced v1.0 by GoodLuckTrying/Patcher/patches",
+      "layout": [
+        {
+          "source": "mmt04d.10n",
+          "output": "mmt04d.10n"
+        },
+        {
+          "source": "mmt03d.8n",
+          "output": "mmt03denh.8n",
+          "patch": "mmt03denh.bps"
+        },
+        {
+          "source": "mmt05d.13n",
+          "output": "mmt05denh.13n",
+          "patch": "mmt05denh.bps"
+        },
+        {
+          "source": "mm02.14h",
+          "output": "mm02.14h"
+        },
+        {
+          "source": "mm01.11e",
+          "output": "mm01.11e"
+        },
+        {
+          "source": "mm11.3e",
+          "output": "mm11.3e"
+        },
+        {
+          "source": "mm10.1e",
+          "output": "mm10.1e"
+        },
+        {
+          "source": "mm09.3c",
+          "output": "mm09.3c"
+        },
+        {
+          "source": "mm08.1c",
+          "output": "mm08.1c"
+        },
+        {
+          "source": "mm07.3b",
+          "output": "mm07.3b"
+        },
+        {
+          "source": "mm06.1b",
+          "output": "mm06.1b"
+        },
+        {
+          "source": "mm17.4n",
+          "output": "mm17.4n"
+        },
+        {
+          "source": "mm16.3n",
+          "output": "mm16.3n"
+        },
+        {
+          "source": "mm15.1n",
+          "output": "mm15.1n"
+        },
+        {
+          "source": "mm14.4l",
+          "output": "mm14.4l"
+        },
+        {
+          "source": "mm13.3l",
+          "output": "mm13.3l"
+        },
+        {
+          "source": "mm12.1l",
+          "output": "mm12.1l"
+        },
+        {
+          "source": "m-02.14k",
+          "output": "m-02.14k"
+        },
+        {
+          "source": "m-01.2e",
+          "output": "m-01.2e"
+        }
+      ]
+    },
+    "makaimurenh": {
+      "sourceRomset": "makaimur",
+      "outputZip": "makaimurenh.zip",
+      "label": "Makaimura (Enhanced) (Japan revision A?)) [source: makaimur]",
+      "patchesBase": "Ghosts'n Goblins Enhanced v1.0 by GoodLuckTrying/Patcher/patches",
+      "layout": [
+        {
+          "source": "10n.rom",
+          "output": "10n.rom"
+        },
+        {
+          "source": "8n.rom",
+          "output": "8nenh.rom",
+          "patch": "8nenh.bps"
+        },
+        {
+          "source": "12n.rom",
+          "output": "12nenh.rom",
+          "patch": "12nenh.bps"
+        },
+        {
+          "source": "gg2.bin",
+          "output": "gg2.bin"
+        },
+        {
+          "source": "gg1.bin",
+          "output": "gg1.bin"
+        },
+        {
+          "source": "gg11.bin",
+          "output": "gg11.bin"
+        },
+        {
+          "source": "gg10.bin",
+          "output": "gg10.bin"
+        },
+        {
+          "source": "gg9.bin",
+          "output": "gg9.bin"
+        },
+        {
+          "source": "gg8.bin",
+          "output": "gg8.bin"
+        },
+        {
+          "source": "gg7.bin",
+          "output": "gg7.bin"
+        },
+        {
+          "source": "gg6.bin",
+          "output": "gg6.bin"
+        },
+        {
+          "source": "gng13.n4",
+          "output": "gng13.n4"
+        },
+        {
+          "source": "gg16.bin",
+          "output": "gg16.bin"
+        },
+        {
+          "source": "gg15.bin",
+          "output": "gg15.bin"
+        },
+        {
+          "source": "gng16.l4",
+          "output": "gng16.l4"
+        },
+        {
+          "source": "gg13.bin",
+          "output": "gg13.bin"
+        },
+        {
+          "source": "gg12.bin",
+          "output": "gg12.bin"
+        },
+        {
+          "source": "tbp24s10.14k",
+          "output": "tbp24s10.14k"
+        },
+        {
+          "source": "63s141.2e",
+          "output": "63s141.2e"
+        }
+      ]
+    },
+    "makaimurbenh": {
+      "sourceRomset": "makaimurb",
+      "outputZip": "makaimurbenh.zip",
+      "label": "Makaimura (Enhanced) (Japan revision B)) [source: makaimurb]",
+      "patchesBase": "Ghosts'n Goblins Enhanced v1.0 by GoodLuckTrying/Patcher/patches",
+      "layout": [
+        {
+          "source": "mj04b.10n",
+          "output": "mj04b.10n"
+        },
+        {
+          "source": "mj03b.8n",
+          "output": "mj03benh.8n",
+          "patch": "mj03benh.bps"
+        },
+        {
+          "source": "mj05b.12n",
+          "output": "mj05benh.12n",
+          "patch": "mj05benh.bps"
+        },
+        {
+          "source": "mm02.14h",
+          "output": "mm02.14h"
+        },
+        {
+          "source": "mj01.11e",
+          "output": "mj01.11e"
+        },
+        {
+          "source": "mm11.3e",
+          "output": "mm11.3e"
+        },
+        {
+          "source": "mm10.1e",
+          "output": "mm10.1e"
+        },
+        {
+          "source": "mm09.3c",
+          "output": "mm09.3c"
+        },
+        {
+          "source": "mm08.1c",
+          "output": "mm08.1c"
+        },
+        {
+          "source": "mm07.3b",
+          "output": "mm07.3b"
+        },
+        {
+          "source": "mm06.1b",
+          "output": "mm06.1b"
+        },
+        {
+          "source": "mj17.4n",
+          "output": "mj17.4n"
+        },
+        {
+          "source": "mj16.3n",
+          "output": "mj16.3n"
+        },
+        {
+          "source": "mj15.1n",
+          "output": "mj15.1n"
+        },
+        {
+          "source": "mj14.4l",
+          "output": "mj14.4l"
+        },
+        {
+          "source": "mj13.3l",
+          "output": "mj13.3l"
+        },
+        {
+          "source": "mj12.1l",
+          "output": "mj12.1l"
+        },
+        {
+          "source": "tbp24s10.14k",
+          "output": "tbp24s10.14k"
+        },
+        {
+          "source": "63s141.2e",
+          "output": "63s141.2e"
+        }
+      ]
+    },
+    "makaimurcenh": {
+      "sourceRomset": "makaimurc",
+      "outputZip": "makaimurcenh.zip",
+      "label": "Makaimura (Enhanced) (Japan revision C)) [source: makaimurc]",
+      "patchesBase": "Ghosts'n Goblins Enhanced v1.0 by GoodLuckTrying/Patcher/patches",
+      "layout": [
+        {
+          "source": "mj04c.bin",
+          "output": "mj04c.bin"
+        },
+        {
+          "source": "mj03c.bin",
+          "output": "mj03cenh.bin",
+          "patch": "mj03cenh.bps"
+        },
+        {
+          "source": "mj05c.bin",
+          "output": "mj05cenh.bin",
+          "patch": "mj05cenh.bps"
+        },
+        {
+          "source": "gg2.bin",
+          "output": "gg2.bin"
+        },
+        {
+          "source": "gg1.bin",
+          "output": "gg1.bin"
+        },
+        {
+          "source": "gg11.bin",
+          "output": "gg11.bin"
+        },
+        {
+          "source": "gg10.bin",
+          "output": "gg10.bin"
+        },
+        {
+          "source": "gg9.bin",
+          "output": "gg9.bin"
+        },
+        {
+          "source": "gg8.bin",
+          "output": "gg8.bin"
+        },
+        {
+          "source": "gg7.bin",
+          "output": "gg7.bin"
+        },
+        {
+          "source": "gg6.bin",
+          "output": "gg6.bin"
+        },
+        {
+          "source": "gng13.n4",
+          "output": "gng13.n4"
+        },
+        {
+          "source": "gg16.bin",
+          "output": "gg16.bin"
+        },
+        {
+          "source": "gg15.bin",
+          "output": "gg15.bin"
+        },
+        {
+          "source": "gng16.l4",
+          "output": "gng16.l4"
+        },
+        {
+          "source": "gg13.bin",
+          "output": "gg13.bin"
+        },
+        {
+          "source": "gg12.bin",
+          "output": "gg12.bin"
+        },
+        {
+          "source": "tbp24s10.14k",
+          "output": "tbp24s10.14k"
+        },
+        {
+          "source": "63s141.2e",
+          "output": "63s141.2e"
+        }
+      ]
+    },
+    "makaimurgenh": {
+      "sourceRomset": "makaimurg",
+      "outputZip": "makaimurgenh.zip",
+      "label": "Makaimura (Enhanced) (Japan revision G)) [source: makaimurg]",
+      "patchesBase": "Ghosts'n Goblins Enhanced v1.0 by GoodLuckTrying/Patcher/patches",
+      "layout": [
+        {
+          "source": "mj04g.bin",
+          "output": "mj04g.bin"
+        },
+        {
+          "source": "mj03g.bin",
+          "output": "mj03genh.bin",
+          "patch": "mj03genh.bps"
+        },
+        {
+          "source": "mj05g.bin",
+          "output": "mj05genh.bin",
+          "patch": "mj05genh.bps"
+        },
+        {
+          "source": "gg2.bin",
+          "output": "gg2.bin"
+        },
+        {
+          "source": "gg1.bin",
+          "output": "gg1.bin"
+        },
+        {
+          "source": "gg11.bin",
+          "output": "gg11.bin"
+        },
+        {
+          "source": "gg10.bin",
+          "output": "gg10.bin"
+        },
+        {
+          "source": "gg9.bin",
+          "output": "gg9.bin"
+        },
+        {
+          "source": "gg8.bin",
+          "output": "gg8.bin"
+        },
+        {
+          "source": "gg7.bin",
+          "output": "gg7.bin"
+        },
+        {
+          "source": "gg6.bin",
+          "output": "gg6.bin"
+        },
+        {
+          "source": "gng13.n4",
+          "output": "gng13.n4"
+        },
+        {
+          "source": "gg16.bin",
+          "output": "gg16.bin"
+        },
+        {
+          "source": "gg15.bin",
+          "output": "gg15.bin"
+        },
+        {
+          "source": "gng16.l4",
+          "output": "gng16.l4"
+        },
+        {
+          "source": "gg13.bin",
+          "output": "gg13.bin"
+        },
+        {
+          "source": "gg12.bin",
+          "output": "gg12.bin"
+        },
+        {
+          "source": "tbp24s10.14k",
+          "output": "tbp24s10.14k"
+        },
+        {
+          "source": "63s141.2e",
+          "output": "63s141.2e"
+        }
+      ]
+    }
+  },
+  "trailerUrl": "https://youtu.be/1MqTjmTokAo",
+  "downloadUrl": "Ghosts'n Goblins Enhanced v1.0 by GoodLuckTrying/Ghosts'n Goblins Enhanced v1.0 by GoodLuckTrying.zip"
+}

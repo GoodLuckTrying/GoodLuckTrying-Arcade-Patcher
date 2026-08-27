@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Set to /YourRepoName/ when using GitHub project pages; leave empty for user site or local testing -->
+  <meta name="repo-base" content="">
+  <title>GoodLuckTrying/Wolfric's Hacks</title>
+  <link rel="stylesheet" href="assets/css/site.css">
+  <script src="assets/js/hacks-data.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <h1>GoodLuckTrying/Wolfric's Hacks</h1>
+    <p class="tagline">Browser-based ROM patchers.</p>
+  </header>
+
+  <main class="container">
+    <section id="file-protocol-notice" class="disclaimer file-notice" hidden>
+      <p><strong>Tip:</strong> Previews work from <code>file://</code>, but the patcher needs HTTP.
+      Double-click <code>serve.bat</code> or run <code>python -m http.server 8080</code> and open
+      <code>http://localhost:8080/</code> to patch ROMs.</p>
+    </section>
+
+    <section class="disclaimer">
+      <p><strong>Legal:</strong> You must own a legitimate copy of the original arcade ROMs to use these patches.
+      These tools are for owners who wish to apply fan-made modifications to ROMs they already possess.
+      No copyrighted game ROMs are distributed here — only patch data.</p>
+    </section>
+
+    <section class="hack-list">
+      <h2>Available Arcade Hacks</h2>
+      <ul class="cards">
+        <li data-hack="gng-artoria-v12">
+          <a href="patcher.html?hack=gng-artoria-v12" class="card">
+            <div class="preview-slideshow card-preview" data-preview-hack="gng-artoria-v12" hidden></div>
+            <h3>Ghosts'n Goblins — Artoria Edition v1.2</h3>
+            <p>Maiden &amp; Knight Artoria skins across 9 regional sets, including Enhanced variants.</p>
+          </a>
+          <p class="card-links" hidden></p>
+        </li>
+        <li data-hack="ghouls-artoria-v10">
+          <a href="patcher.html?hack=ghouls-artoria-v10" class="card">
+            <div class="preview-slideshow card-preview" data-preview-hack="ghouls-artoria-v10" hidden></div>
+            <h3>Ghouls'n Ghosts — Artoria Edition v1.0</h3>
+            <p>Maiden &amp; Knight Artoria for World, USA, and Japan CPS1 sets.</p>
+          </a>
+          <p class="card-links" hidden></p>
+        </li>
+        <li data-hack="gng-enhanced-v10">
+          <a href="patcher.html?hack=gng-enhanced-v10" class="card">
+            <div class="preview-slideshow card-preview" data-preview-hack="gng-enhanced-v10" hidden></div>
+            <h3>Ghosts'n Goblins Enhanced v1.0</h3>
+            <p>Control-feel enhancements for 9 GNG / Makaimura regional sets.</p>
+          </a>
+          <p class="card-links" hidden></p>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>All patching runs locally in your browser.
+      <a href="https://github.com/GoodLuckTrying">GoodLuckTrying</a>
+      ·
+      <a href="https://discord.gg/t6A5z9YnXv">Ghosts'n Goblins Hacking (Discord)</a></p>
+  </footer>
+
+  <script type="module">
+    import { initAllPreviewSlideshows } from "./assets/js/preview-slideshow.js";
+    import { renderHackLinks } from "./assets/js/hack-links.js";
+    import { isFileProtocol } from "./assets/js/repo-path.js";
+
+    if (isFileProtocol()) {
+      document.getElementById("file-protocol-notice").hidden = false;
+    }
+    initAllPreviewSlideshows();
+
+    for (const li of document.querySelectorAll("[data-hack]")) {
+      const data = window.HACKS_DATA?.[li.dataset.hack];
+      if (!data) continue;
+      renderHackLinks(li.querySelector(".card-links"), data);
+    }
+  </script>
+</body>
+</html>
