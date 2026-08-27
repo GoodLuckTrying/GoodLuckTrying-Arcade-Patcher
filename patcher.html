@@ -11,18 +11,20 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <header class="site-header">
+  <header class="site-header patcher-header">
     <p class="back"><a href="index.html">← All hacks</a></p>
-    <div class="header-row">
-      <div class="header-title">
-        <h1 id="hack-title">Loading…</h1>
+    <h1 id="hack-title" class="patcher-title">Loading…</h1>
+    <div class="patcher-hero">
+      <div class="patcher-hero-col">
+        <div id="hack-preview" class="preview-slideshow header-preview" hidden></div>
+      </div>
+      <div class="patcher-hero-col patcher-hero-links">
         <div id="hack-links" class="hack-links" hidden></div>
       </div>
-      <div id="hack-preview" class="preview-slideshow header-preview" hidden></div>
     </div>
   </header>
 
-  <main class="container">
+  <main class="container container-centered">
     <section id="file-protocol-notice" class="disclaimer file-notice" hidden>
       <p><strong>Patcher requires HTTP.</strong> Double-click <code>serve.bat</code> or run
       <code>python -m http.server 8080</code>, then open this page at
