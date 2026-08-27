@@ -215,7 +215,9 @@ def wip_display_title(folder_name: str) -> str:
     title = folder_name
     if title.startswith("Arcade "):
         title = title[7:]
-    return re.sub(r" by GoodLuckTrying$", "", title, flags=re.IGNORECASE)
+    title = re.sub(r" by GoodLuckTrying$", "", title, flags=re.IGNORECASE)
+    title = re.sub(r" - ", ": ", title, count=1)
+    return title
 
 
 def wip_id(folder_name: str) -> str:
