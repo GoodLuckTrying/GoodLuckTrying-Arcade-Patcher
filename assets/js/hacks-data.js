@@ -1,7 +1,7 @@
 window.HACKS_DATA = {
   "ghouls-artoria-v10": {
     "id": "ghouls-artoria-v10",
-    "title": "Ghouls'n Ghosts - Artoria Edition v1.0",
+    "title": "Ghouls'n Ghosts: Knight/Maiden Artoria Edition v1.0",
     "previewsFolder": "assets/previews/ghouls-artoria-v10",
     "previews": [
       "1. Nightgown.png",
@@ -55,7 +55,7 @@ window.HACKS_DATA = {
   },
   "gng-artoria-v12": {
     "id": "gng-artoria-v12",
-    "title": "Ghosts'n Goblins - Artoria Edition v1.2",
+    "title": "Ghosts'n Goblins: Knight/Maiden Artoria Edition v1.2",
     "previewsFolder": "assets/previews/gng-artoria-v12",
     "previews": [
       "Knight Icon.png",

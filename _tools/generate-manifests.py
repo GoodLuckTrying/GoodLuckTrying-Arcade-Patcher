@@ -12,7 +12,7 @@ OUT = ROOT / "manifests"
 PROJECTS = [
     {
         "id": "ghouls-artoria-v10",
-        "title": "Ghouls'n Ghosts - Artoria Edition v1.0",
+        "title": "Ghouls'n Ghosts: Knight/Maiden Artoria Edition v1.0",
         "trailerUrl": "https://youtu.be/kNsi4sraUQc",
         "icon": "assets/icons/GhoulsArtoria.png",
         "folder": "Ghouls'n Ghosts - Artoria Edition v1.0 by GoodLuckTrying",
@@ -78,7 +78,7 @@ PROJECTS = [
     },
     {
         "id": "gng-artoria-v12",
-        "title": "Ghosts'n Goblins - Artoria Edition v1.2",
+        "title": "Ghosts'n Goblins: Knight/Maiden Artoria Edition v1.2",
         "trailerUrl": "https://youtu.be/NHejslEFf_g",
         "icon": "assets/icons/GoblinsArtoria.png",
         "folder": "Ghosts'n Goblins - Artoria Edition v1.2 by GoodLuckTrying",

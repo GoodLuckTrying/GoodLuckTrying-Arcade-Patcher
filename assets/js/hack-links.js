@@ -1,6 +1,11 @@
 import { assetUrl } from "./repo-path.js";
 
-/** Render YouTube trailer, release download, and box art links into a container. */
+function releaseZipLabel(downloadUrl) {
+  const filename = downloadUrl.split("/").pop() ?? downloadUrl;
+  return `Download ${filename}`;
+}
+
+/** Render YouTube trailer, release download, and boxart links into a container. */
 export function renderHackLinks(container, { trailerUrl, downloadUrl, boxartLinks } = {}) {
   const parts = [];
   if (trailerUrl) {
@@ -9,11 +14,15 @@ export function renderHackLinks(container, { trailerUrl, downloadUrl, boxartLink
     );
   }
   if (downloadUrl) {
-    parts.push(`<a href="${assetUrl(downloadUrl)}" download>Download</a>`);
-  }
-  for (const { label, url } of boxartLinks ?? []) {
     parts.push(
-      `<a href="${url}" target="_blank" rel="noopener noreferrer">Box art: ${label}</a>`
+      `<a href="${assetUrl(downloadUrl)}" download>${releaseZipLabel(downloadUrl)}</a>`
+    );
+  }
+  const boxarts = boxartLinks ?? [];
+  const boxartPrefix = boxarts.length > 1 ? "Boxarts" : "Boxart";
+  for (const { label, url } of boxarts) {
+    parts.push(
+      `<a href="${url}" target="_blank" rel="noopener noreferrer">${boxartPrefix}: ${label}</a>`
     );
   }
   if (!parts.length) {

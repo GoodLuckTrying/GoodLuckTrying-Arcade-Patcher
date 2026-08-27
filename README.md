@@ -17,7 +17,7 @@ Access the Page here: https://goodlucktrying.github.io/GoodLuckTrying-Arcade-Pat
 4. **Choose** the patch you want (region and variant, when several are available).
 5. Click **Patch & download** to save the patched `.zip`.
 
-Each hack page also links to a **YouTube trailer**, a **full release download**, and **box art** (where available).
+Each hack page also links to a **YouTube trailer**, a **full release download**, and **boxart(s)** (where available).
 
 ## Need help?
 
