@@ -52,6 +52,22 @@ a { color: var(--accent); }
   max-width: 100%;
 }
 
+.hack-credits-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 42rem;
+  text-align: left;
+}
+
+.hack-credits-list li {
+  margin-bottom: 0.65rem;
+}
+
+.hack-credits-list li:last-child {
+  margin-bottom: 0;
+}
+
 .container-centered .verify-table {
   margin-left: auto;
   margin-right: auto;

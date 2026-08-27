@@ -38,7 +38,26 @@ window.HACKS_DATA = {
         "url": "https://www.deviantart.com/xxcaesarxx/art/Daimakaimura-Knight-Maiden-Artoria-Edition-1373423892"
       }
     ],
-    "icon": "assets/icons/GhoulsArtoria.png"
+    "icon": "assets/icons/GhoulsArtoria.png",
+    "credits": [
+      {
+        "name": "GoodLuckTrying",
+        "role": "Hack author",
+        "url": "https://github.com/GoodLuckTrying"
+      },
+      {
+        "name": "morb / misentropy",
+        "role": "Developer behind modifying the \u201cThe End\u201d screen artworks, updating the titlescreen, and more help than can be listed."
+      },
+      {
+        "name": "sleepyren",
+        "role": "Artist behind key Artoria frames and the Citizen Doll sprites."
+      },
+      {
+        "name": "tran4of3",
+        "role": "Artist behind the \u201cThe End\u201d screen artworks for both Knight and Maiden Artoria Editions."
+      }
+    ]
   },
   "gng-enhanced-v10": {
     "id": "gng-enhanced-v10",
@@ -77,6 +96,30 @@ window.HACKS_DATA = {
         "url": "https://www.deviantart.com/xxcaesarxx/art/Ghosts-n-Goblins-Makaimura-Maiden-Artoria-Edition-1312786516"
       }
     ],
-    "icon": "assets/icons/GoblinsArtoria.png"
+    "icon": "assets/icons/GoblinsArtoria.png",
+    "credits": [
+      {
+        "name": "GoodLuckTrying",
+        "role": "Hack author",
+        "url": "https://github.com/GoodLuckTrying"
+      },
+      {
+        "name": "poody",
+        "role": "Artist behind every new sprite.",
+        "url": "https://twitter.com/hetagaki_poody"
+      },
+      {
+        "name": "dink",
+        "role": "Developer behind the checksum check bypass for the program ROMs, and tremendous help understanding the romset."
+      },
+      {
+        "name": "phonymike",
+        "role": "Invaluable help getting the graphics modifiable through Tile Molester / YY-CHR."
+      },
+      {
+        "name": "morb",
+        "role": "Hacker behind death frames' palette changes and checksum fix."
+      }
+    ]
   }
 };

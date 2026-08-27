@@ -55,6 +55,11 @@
       <button type="button" id="patch-btn" disabled>Patch &amp; download .zip</button>
     </section>
 
+    <section id="hack-credits-section" class="step hack-credits" hidden>
+      <h2>Credits</h2>
+      <ul id="hack-credits-list" class="hack-credits-list"></ul>
+    </section>
+
     <section class="step">
       <h2>Log</h2>
       <pre id="patch-log" class="log"></pre>
@@ -70,6 +75,7 @@
 
   <script type="module">
     import { loadManifest, initPatcherPage } from "./assets/js/patcher-app.js";
+    import { renderHackCredits } from "./assets/js/hack-credits.js";
     import { renderHackLinks } from "./assets/js/hack-links.js";
     import { initPreviewSlideshow } from "./assets/js/preview-slideshow.js";
     import { isFileProtocol, setPageIcon } from "./assets/js/repo-path.js";
@@ -85,9 +91,13 @@
     const statusEl = document.getElementById("status");
     const fileInput = document.getElementById("rom-zip");
     const hackLinksEl = document.getElementById("hack-links");
+    const hackCreditsSection = document.getElementById("hack-credits-section");
+    const hackCreditsList = document.getElementById("hack-credits-list");
 
     function applyHackPage(data) {
       if (data?.icon) setPageIcon(...data.icon.split("/"));
+      renderHackLinks(hackLinksEl, data);
+      renderHackCredits(hackCreditsSection, hackCreditsList, data);
     }
 
     if (isFileProtocol()) {
@@ -97,7 +107,6 @@
         document.title = `${previewData.title} — Patcher`;
         document.getElementById("hack-title").textContent = previewData.title;
         applyHackPage(previewData);
-        renderHackLinks(hackLinksEl, previewData);
         stopPreview = initPreviewSlideshow(previewEl, previewData);
       } else {
         document.getElementById("hack-title").textContent = "Error";
@@ -111,7 +120,6 @@
         document.title = `${manifest.title} — Patcher`;
         document.getElementById("hack-title").textContent = manifest.title;
         applyHackPage(manifest);
-        renderHackLinks(hackLinksEl, manifest);
         stopPreview = initPreviewSlideshow(previewEl, manifest);
         initPatcherPage(manifest);
       } catch (err) {

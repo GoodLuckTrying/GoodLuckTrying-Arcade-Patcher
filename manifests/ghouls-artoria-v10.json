@@ -1311,5 +1311,24 @@
       "url": "https://www.deviantart.com/xxcaesarxx/art/Daimakaimura-Knight-Maiden-Artoria-Edition-1373423892"
     }
   ],
-  "icon": "assets/icons/GhoulsArtoria.png"
+  "icon": "assets/icons/GhoulsArtoria.png",
+  "credits": [
+    {
+      "name": "GoodLuckTrying",
+      "role": "Hack author",
+      "url": "https://github.com/GoodLuckTrying"
+    },
+    {
+      "name": "morb / misentropy",
+      "role": "Developer behind modifying the \u201cThe End\u201d screen artworks, updating the titlescreen, and more help than can be listed."
+    },
+    {
+      "name": "sleepyren",
+      "role": "Artist behind key Artoria frames and the Citizen Doll sprites."
+    },
+    {
+      "name": "tran4of3",
+      "role": "Artist behind the \u201cThe End\u201d screen artworks for both Knight and Maiden Artoria Editions."
+    }
+  ]
 }

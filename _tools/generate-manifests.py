@@ -41,6 +41,25 @@ PROJECTS = [
             "ghoulsu": "Ghouls'n Ghosts (USA)",
             "daimakai": "Daimakaimura (Japan)",
         },
+        "credits": [
+            {
+                "name": "GoodLuckTrying",
+                "role": "Hack author",
+                "url": "https://github.com/GoodLuckTrying",
+            },
+            {
+                "name": "morb / misentropy",
+                "role": "Developer behind modifying the “The End” screen artworks, updating the titlescreen, and more help than can be listed.",
+            },
+            {
+                "name": "sleepyren",
+                "role": "Artist behind key Artoria frames and the Citizen Doll sprites.",
+            },
+            {
+                "name": "tran4of3",
+                "role": "Artist behind the “The End” screen artworks for both Knight and Maiden Artoria Editions.",
+            },
+        ],
     },
     {
         "id": "gng-enhanced-v10",
@@ -153,6 +172,30 @@ PROJECTS = [
             "makaimurc": "Makaimura — Japan (revision C)",
             "makaimurg": "Makaimura — Japan (revision G)",
         },
+        "credits": [
+            {
+                "name": "GoodLuckTrying",
+                "role": "Hack author",
+                "url": "https://github.com/GoodLuckTrying",
+            },
+            {
+                "name": "poody",
+                "role": "Artist behind every new sprite.",
+                "url": "https://twitter.com/hetagaki_poody",
+            },
+            {
+                "name": "dink",
+                "role": "Developer behind the checksum check bypass for the program ROMs, and tremendous help understanding the romset.",
+            },
+            {
+                "name": "phonymike",
+                "role": "Invaluable help getting the graphics modifiable through Tile Molester / YY-CHR.",
+            },
+            {
+                "name": "morb",
+                "role": "Hacker behind death frames' palette changes and checksum fix.",
+            },
+        ],
     },
 ]
 
@@ -334,6 +377,8 @@ def build_manifest(project: dict) -> dict:
         manifest["boxartLinks"] = project["boxartLinks"]
     if project.get("icon"):
         manifest["icon"] = project["icon"]
+    if project.get("credits"):
+        manifest["credits"] = project["credits"]
     return manifest
 
 
@@ -359,6 +404,8 @@ def main():
             entry["boxartLinks"] = manifest["boxartLinks"]
         if manifest.get("icon"):
             entry["icon"] = manifest["icon"]
+        if manifest.get("credits"):
+            entry["credits"] = manifest["credits"]
         hacks_data[project["id"]] = entry
         print(f"  {len(manifest['romsets'])} romsets, {len(manifest['builds'])} builds -> {out_path}")
 

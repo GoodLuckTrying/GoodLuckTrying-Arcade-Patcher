@@ -3621,5 +3621,29 @@
       "url": "https://www.deviantart.com/xxcaesarxx/art/Ghosts-n-Goblins-Makaimura-Maiden-Artoria-Edition-1312786516"
     }
   ],
-  "icon": "assets/icons/GoblinsArtoria.png"
+  "icon": "assets/icons/GoblinsArtoria.png",
+  "credits": [
+    {
+      "name": "GoodLuckTrying",
+      "role": "Hack author",
+      "url": "https://github.com/GoodLuckTrying"
+    },
+    {
+      "name": "poody",
+      "role": "Artist behind every new sprite.",
+      "url": "https://twitter.com/hetagaki_poody"
+    },
+    {
+      "name": "dink",
+      "role": "Developer behind the checksum check bypass for the program ROMs, and tremendous help understanding the romset."
+    },
+    {
+      "name": "phonymike",
+      "role": "Invaluable help getting the graphics modifiable through Tile Molester / YY-CHR."
+    },
+    {
+      "name": "morb",
+      "role": "Hacker behind death frames' palette changes and checksum fix."
+    }
+  ]
 }
