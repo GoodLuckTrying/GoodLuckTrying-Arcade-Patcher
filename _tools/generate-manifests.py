@@ -229,9 +229,9 @@ def wip_id(folder_name: str) -> str:
 
 
 def copy_wip_previews(hack_id: str, previews_dir: Path) -> tuple[str, list[str]]:
-    """Copy WIP previews into assets/previews/<id>/ for safe web URLs."""
-    web_dir = ROOT / "assets" / "previews" / hack_id
-    web_rel = f"assets/previews/{hack_id}"
+    """Copy WIP previews into assets/previews/wip/<id>/ for safe web URLs."""
+    web_dir = ROOT / "assets" / "previews" / "wip" / hack_id
+    web_rel = f"assets/previews/wip/{hack_id}"
 
     web_dir.mkdir(parents=True, exist_ok=True)
     for old in web_dir.iterdir():

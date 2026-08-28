@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="assets/css/site.css">
   <script src="assets/js/hacks-data.js"></script>
   <script src="assets/js/wip-hacks-data.js"></script>
+  <script src="assets/js/other-hacks-data.js"></script>
 </head>
 <body>
   <header class="site-header">
@@ -60,7 +61,17 @@
       </ul>
     </section>
 
-    <section id="wip-section" class="hack-list wip-list" hidden>
+    <div class="hack-view-switch" role="group" aria-label="Hack category">
+      <button type="button" class="is-active" data-hack-view="other" aria-pressed="true">Other Hacks</button>
+      <button type="button" data-hack-view="wip" aria-pressed="false">Works in Progress</button>
+    </div>
+
+    <section id="other-section" class="hack-list secondary-hack-list">
+      <h2>Other Hacks</h2>
+      <ul id="other-cards" class="cards"></ul>
+    </section>
+
+    <section id="wip-section" class="hack-list secondary-hack-list" hidden>
       <h2>Works in Progress</h2>
       <ul id="wip-cards" class="cards"></ul>
     </section>
@@ -76,6 +87,7 @@
   <script type="module">
     import { initAllPreviewSlideshows } from "./assets/js/preview-slideshow.js";
     import { renderHackLinks } from "./assets/js/hack-links.js";
+    import { renderOtherSection } from "./assets/js/other-index.js";
     import { renderWipSection } from "./assets/js/wip-index.js";
     import { isFileProtocol } from "./assets/js/repo-path.js";
 
@@ -83,8 +95,27 @@
       document.getElementById("file-protocol-notice").hidden = false;
     }
 
+    renderOtherSection(document.getElementById("other-section"), window.OTHER_HACKS);
     renderWipSection(document.getElementById("wip-section"), window.WIP_SECTIONS);
     initAllPreviewSlideshows();
+
+    const viewSections = {
+      other: document.getElementById("other-section"),
+      wip: document.getElementById("wip-section"),
+    };
+    for (const button of document.querySelectorAll("[data-hack-view]")) {
+      button.addEventListener("click", () => {
+        const selected = button.dataset.hackView;
+        for (const [view, section] of Object.entries(viewSections)) {
+          section.hidden = view !== selected;
+        }
+        for (const viewButton of document.querySelectorAll("[data-hack-view]")) {
+          const active = viewButton.dataset.hackView === selected;
+          viewButton.classList.toggle("is-active", active);
+          viewButton.setAttribute("aria-pressed", String(active));
+        }
+      });
+    }
 
     for (const li of document.querySelectorAll("[data-hack]")) {
       const data = window.HACKS_DATA?.[li.dataset.hack];

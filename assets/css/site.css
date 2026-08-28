@@ -254,6 +254,31 @@ a { color: var(--accent); }
   margin-top: 2.5rem;
 }
 
+.hack-view-switch {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 2.5rem 0 1.25rem;
+}
+
+.hack-view-switch button {
+  margin-top: 0;
+  background: transparent;
+  color: var(--muted);
+  border: 1px solid var(--border);
+}
+
+.hack-view-switch button.is-active,
+.hack-view-switch button:hover {
+  background: var(--accent);
+  color: #0f1117;
+  border-color: var(--accent);
+}
+
+.secondary-hack-list {
+  margin-bottom: 2.5rem;
+}
+
 .preview-slideshow {
   position: relative;
   display: flex;
