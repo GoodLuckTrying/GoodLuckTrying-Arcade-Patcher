@@ -81,7 +81,6 @@ window.WIP_SECTIONS = [
           "Menu 2.png"
         ]
       },
-      },
       {
         "id": "super-ghouls-n-ghosts-enhanced-edition-v1-0",
         "title": "Super Ghouls 'N Ghosts: Enhanced Edition v1.0",
