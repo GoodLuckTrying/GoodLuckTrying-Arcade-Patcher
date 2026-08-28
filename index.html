@@ -103,6 +103,7 @@
       other: document.getElementById("other-section"),
       wip: document.getElementById("wip-section"),
     };
+    viewSections.wip.hidden = true;
     for (const button of document.querySelectorAll("[data-hack-view]")) {
       button.addEventListener("click", () => {
         const selected = button.dataset.hackView;
