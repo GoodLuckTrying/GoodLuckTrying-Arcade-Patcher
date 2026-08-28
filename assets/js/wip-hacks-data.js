@@ -102,17 +102,6 @@ window.WIP_SECTIONS = [
           "Menu 1.png",
           "Menu 2.png"
         ]
-      },
-      {
-        "id": "super-ghouls-n-ghosts-enhanced-edition-v1-0",
-        "title": "Super Ghouls 'N Ghosts: Enhanced Edition v1.0",
-        "platform": "Super Nintendo",
-        "previewsFolder": "assets/previews/wip/super-ghouls-n-ghosts-enhanced-edition-v1-0",
-        "previews": [
-          "0. Titlescreen.png",
-          "5. 1-Up.pngg",
-          "5. Chest Hints.png"
-        ]
       }
     ]
   }
