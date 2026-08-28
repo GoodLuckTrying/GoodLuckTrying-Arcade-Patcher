@@ -10,7 +10,7 @@ export function renderHackLinks(container, { trailerUrl, downloadUrl, boxartLink
   const parts = [];
   if (trailerUrl) {
     parts.push(
-      `<a href="${trailerUrl}" target="_blank" rel="noopener noreferrer">YouTube trailer</a>`
+      `<a href="${trailerUrl}" target="_blank" rel="noopener noreferrer">YouTube Trailer</a>`
     );
   }
   if (downloadUrl) {
