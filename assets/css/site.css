@@ -176,6 +176,12 @@ a { color: var(--accent); }
   gap: 1rem;
 }
 
+@media (min-width: 901px) {
+  .cards > li:last-child:nth-child(3n + 1) {
+    grid-column: 2;
+  }
+}
+
 @media (max-width: 900px) {
   .cards {
     grid-template-columns: 1fr;
