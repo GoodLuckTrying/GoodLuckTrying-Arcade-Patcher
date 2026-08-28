@@ -21,7 +21,7 @@ window.OTHER_HACKS = [
       "Super Ghouls 'N Ghosts - Maiden Artoria Edition [Nightgown] (USA).png",
     ],
     links: [
-      { label: "Trailer", url: "https://youtu.be/swu9OdaxcAw" },
+      { label: "Youtube Trailer", url: "https://youtu.be/swu9OdaxcAw" },
       { label: "ROMhacking.net", url: "https://www.romhacking.net/hacks/9094/" },
       { label: "RHPZ", url: "https://rhpz.org/r/3608" },
       { label: "romhack.ing", url: "https://romhack.ing/database/content/entry/wyPLf9i8RdyyXgAFojk8NA" },
@@ -45,7 +45,7 @@ window.OTHER_HACKS = [
       "Combinations-Preview.gif",
     ],
     links: [
-      { label: "Trailer", url: "https://youtu.be/yschs4xaL5M" },
+      { label: "Youtube Trailer", url: "https://youtu.be/yschs4xaL5M" },
       { label: "ROMhacking.net", url: "https://www.romhacking.net/hacks/9110/" },
       { label: "RHPZ", url: "https://rhpz.org/r/3577" },
       { label: "romhack.ing", url: "https://romhack.ing/database/content/entry/xXQXT_DZSLa4myF5XJG_7A" },
@@ -64,7 +64,7 @@ window.OTHER_HACKS = [
       "Titlescreen.png",
     ],
     links: [
-      { label: "Trailer", url: "https://youtu.be/ZOeMtVJDW8k" },
+      { label: "Youtube Trailer", url: "https://youtu.be/ZOeMtVJDW8k" },
       { label: "ROMhacking.net", url: "https://www.romhacking.net/hacks/9232/" },
       { label: "RHPZ", url: "https://rhpz.org/r/3606" },
       { label: "romhack.ing", url: "https://romhack.ing/database/content/entry/MzFeRz8ATdSrUi9OCgt9VA" },
