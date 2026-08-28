@@ -2,7 +2,7 @@ window.OTHER_HACKS = [
   {
     id: "other-snes-super-ghouls-n-ghosts-artoria-edition",
     title: "Super Ghouls 'N Ghosts: Knight/Maiden Artoria Edition",
-    platform: "SNES",
+    platform: "Super Nintendo",
     previewsFolder: "assets/previews/others/snes-sgng-artoria-v32",
     previews: [
       "1. Briefs.png",
@@ -30,7 +30,7 @@ window.OTHER_HACKS = [
   {
     id: "other-gba-super-ghouls-n-ghosts-artoria-edition",
     title: "Super Ghouls 'N Ghosts: Knight/Maiden Artoria Edition",
-    platform: "GBA",
+    platform: "Game Boy Advance",
     previewsFolder: "assets/previews/others/gba-sgng-artoria-v16",
     previews: [
       "1. Nightgown 2.png",
