@@ -4,6 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="repo-base" content="/GoodLuckTrying-Arcade-Patcher/">
+  <meta name="description" content="Apply a browser-based ROM patch for a GoodLuckTrying arcade hack.">
+  <meta property="og:title" content="Patcher — GoodLuckTrying/Wolfric's Hacks">
+  <meta property="og:description" content="Apply a browser-based ROM patch for a GoodLuckTrying arcade hack.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://goodlucktrying.github.io/GoodLuckTrying-Arcade-Patcher/patcher.html">
+  <meta property="og:image" content="https://goodlucktrying.github.io/GoodLuckTrying-Arcade-Patcher/assets/icons/Artoria.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Patcher — GoodLuckTrying/Wolfric's Hacks">
+  <meta name="twitter:description" content="Apply a browser-based ROM patch for a GoodLuckTrying arcade hack.">
+  <meta name="twitter:image" content="https://goodlucktrying.github.io/GoodLuckTrying-Arcade-Patcher/assets/icons/Artoria.png">
   <title>Patcher — GoodLuckTrying/Wolfric's Hacks</title>
   <link rel="icon" href="assets/icons/Artoria.png" type="image/png">
   <link rel="stylesheet" href="assets/css/site.css">
@@ -86,6 +96,35 @@
       location.href = "index.html";
     }
 
+    const siteBaseUrl = "https://goodlucktrying.github.io/GoodLuckTrying-Arcade-Patcher";
+    const pageUrl = `${siteBaseUrl}/patcher.html?hack=${encodeURIComponent(hackId || "")}`;
+
+    function setShareMeta(data) {
+      const title = `${data.title} — GoodLuckTrying/Wolfric's Hacks`;
+      const description = `Apply the ${data.title} patcher in your browser and patch a local ROM set without uploading anything.`;
+      const image = new URL(data.icon || "assets/icons/Artoria.png", `${siteBaseUrl}/`).href;
+
+      document.title = title;
+
+      const setMeta = (selector, attr, value) => {
+        let meta = document.head.querySelector(selector);
+        if (!meta) {
+          meta = document.createElement("meta");
+          document.head.appendChild(meta);
+        }
+        meta.setAttribute(attr, value);
+      };
+
+      setMeta('meta[name="description"]', "content", description);
+      setMeta('meta[property="og:title"]', "content", title);
+      setMeta('meta[property="og:description"]', "content", description);
+      setMeta('meta[property="og:url"]', "content", pageUrl);
+      setMeta('meta[property="og:image"]', "content", image);
+      setMeta('meta[name="twitter:title"]', "content", title);
+      setMeta('meta[name="twitter:description"]', "content", description);
+      setMeta('meta[name="twitter:image"]', "content", image);
+    }
+
     let stopPreview = null;
     const previewEl = document.getElementById("hack-preview");
     const statusEl = document.getElementById("status");
@@ -96,6 +135,7 @@
 
     function applyHackPage(data) {
       if (data?.icon) setPageIcon(...data.icon.split("/"));
+      setShareMeta(data);
       renderHackLinks(hackLinksEl, data);
       renderHackCredits(hackCreditsSection, hackCreditsList, data);
     }
