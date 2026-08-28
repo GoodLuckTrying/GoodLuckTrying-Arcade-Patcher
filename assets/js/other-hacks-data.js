@@ -23,7 +23,7 @@ window.OTHER_HACKS = [
     links: [
       { label: "Youtube Trailer", url: "https://youtu.be/swu9OdaxcAw" },
       { label: "ROMhacking.net", url: "https://www.romhacking.net/hacks/9094/" },
-      { label: "RHPZ", url: "https://rhpz.org/r/3608" },
+      { label: "RomHackPlaza.org", url: "https://rhpz.org/r/3608" },
       { label: "romhack.ing", url: "https://romhack.ing/database/content/entry/wyPLf9i8RdyyXgAFojk8NA" },
     ],
   },
@@ -47,7 +47,7 @@ window.OTHER_HACKS = [
     links: [
       { label: "Youtube Trailer", url: "https://youtu.be/yschs4xaL5M" },
       { label: "ROMhacking.net", url: "https://www.romhacking.net/hacks/9110/" },
-      { label: "RHPZ", url: "https://rhpz.org/r/3577" },
+      { label: "RomHackPlaza.org", url: "https://rhpz.org/r/3577" },
       { label: "romhack.ing", url: "https://romhack.ing/database/content/entry/xXQXT_DZSLa4myF5XJG_7A" },
     ],
   },
@@ -66,7 +66,7 @@ window.OTHER_HACKS = [
     links: [
       { label: "Youtube Trailer", url: "https://youtu.be/ZOeMtVJDW8k" },
       { label: "ROMhacking.net", url: "https://www.romhacking.net/hacks/9232/" },
-      { label: "RHPZ", url: "https://rhpz.org/r/3606" },
+      { label: "RomHackPlaza.org", url: "https://rhpz.org/r/3606" },
       { label: "romhack.ing", url: "https://romhack.ing/database/content/entry/MzFeRz8ATdSrUi9OCgt9VA" },
     ],
   },
@@ -78,7 +78,7 @@ window.OTHER_HACKS = [
     previews: ["Preview0.png", "Preview1.png", "Preview2.png", "Preview3.png"],
     links: [
       { label: "ROMhacking.net", url: "https://www.romhacking.net/hacks/9163/" },
-      { label: "RHPZ", url: "https://rhpz.org/t/1918" },
+      { label: "RomHackPlaza.org", url: "https://rhpz.org/t/1918" },
       { label: "romhack.ing", url: "https://romhack.ing/database/content/entry/ySsOeYEwQ66lgqlSYD_1Xg" },
     ],
   },
