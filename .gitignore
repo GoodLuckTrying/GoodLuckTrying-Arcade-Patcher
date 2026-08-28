@@ -3,3 +3,4 @@ __pycache__/
 *.pyc
 Thumbs.db
 Desktop.ini
+/.readme.txt

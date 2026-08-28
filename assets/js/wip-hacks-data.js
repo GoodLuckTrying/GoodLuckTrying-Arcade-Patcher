@@ -21,6 +21,17 @@ window.WIP_HACKS_DATA = {
       "Preview #1.png"
     ]
   },
+  "wip-super-ghouls-n-ghosts-enhanced-edition-v1-0": {
+    "id": "wip-super-ghouls-n-ghosts-enhanced-edition-v1-0",
+    "title": "Super Ghouls 'N Ghosts: Enhanced Edition v1.0",
+    "platform": "Super Nintendo",
+    "previewsFolder": "assets/previews/wip/wip-super-ghouls-n-ghosts-enhanced-edition-v1-0",
+    "previews": [
+      "0. Titlescreen.png",
+      "5. 1-Up.png",
+      "5. Chest Hints.png"
+    ]
+  },
   "wip-super-ghouls-n-ghosts-valkyrie-edition-v1-0": {
     "id": "wip-super-ghouls-n-ghosts-valkyrie-edition-v1-0",
     "title": "Super Ghouls 'N Ghosts: Valkyrie Edition v1.0",
@@ -65,6 +76,17 @@ window.WIP_SECTIONS = [
         "previewsFolder": "assets/previews/wip/wip-super-ghouls-n-ghosts-brave-edition-v1-0",
         "previews": [
           "Preview #1.png"
+        ]
+      },
+      {
+        "id": "wip-super-ghouls-n-ghosts-enhanced-edition-v1-0",
+        "title": "Super Ghouls 'N Ghosts: Enhanced Edition v1.0",
+        "platform": "Super Nintendo",
+        "previewsFolder": "assets/previews/wip/wip-super-ghouls-n-ghosts-enhanced-edition-v1-0",
+        "previews": [
+          "0. Titlescreen.png",
+          "5. 1-Up.png",
+          "5. Chest Hints.png"
         ]
       },
       {
