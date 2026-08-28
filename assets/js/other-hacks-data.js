@@ -1,7 +1,7 @@
 window.OTHER_HACKS = [
   {
     id: "other-snes-super-ghouls-n-ghosts-artoria-edition",
-    title: "Super Ghouls 'N Ghosts: Knight/Maiden Artoria Edition",
+    title: "Super Ghouls 'N Ghosts: Knight/Maiden Artoria Edition v3.2",
     platform: "Super Nintendo",
     previewsFolder: "assets/previews/others/snes-sgng-artoria-v32",
     previews: [
@@ -29,7 +29,7 @@ window.OTHER_HACKS = [
   },
   {
     id: "other-gba-super-ghouls-n-ghosts-artoria-edition",
-    title: "Super Ghouls 'N Ghosts: Knight/Maiden Artoria Edition",
+    title: "Super Ghouls 'N Ghosts: Knight/Maiden Artoria Edition v1.6",
     platform: "Game Boy Advance",
     previewsFolder: "assets/previews/others/gba-sgng-artoria-v16",
     previews: [
@@ -53,7 +53,7 @@ window.OTHER_HACKS = [
   },
   {
     id: "other-genesis-ghouls-n-ghosts-artoria-edition",
-    title: "Ghouls 'n Ghosts: Artoria Edition",
+    title: "Ghouls 'n Ghosts: Artoria Edition v1.1",
     platform: "Genesis",
     previewsFolder: "assets/previews/others/gen-ghouls-artoria-v11",
     previews: [
@@ -72,7 +72,7 @@ window.OTHER_HACKS = [
   },
   {
     id: "other-genesis-ghouls-n-ghosts-restoration",
-    title: "Ghouls 'n Ghosts Restoration",
+    title: "Ghouls 'n Ghosts Restoration v1.2",
     platform: "Genesis",
     previewsFolder: "assets/previews/others/gen-ghouls-restoration-v12",
     previews: ["Preview0.png", "Preview1.png", "Preview2.png", "Preview3.png"],
