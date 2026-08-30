@@ -21,6 +21,10 @@ export function isDirectFbNeoSupported(hackId, build) {
   }
 }
 
+export function supportLabel(hackId, build) {
+  return isDirectFbNeoSupported(hackId, build) ? "Supported by FB Neo" : "HBMame / Mame2003-plus";
+}
+
 export function indexRomFiles(fileMap) {
   const index = new Map();
   for (const [path, data] of Object.entries(fileMap)) {
@@ -255,7 +259,7 @@ export function initPatcherPage(manifest) {
 
       const compatibilityNote = document.createElement("p");
       compatibilityNote.className = "compatibility-note";
-      compatibilityNote.textContent = "HBMame / Mame2003-plus: supported for all hacks. Direct FB Neo support is shown per patch below.";
+      compatibilityNote.textContent = "All hacks are supported by HBMame / Mame2003-plus. Patches marked Supported by FB Neo are directly supported in FB Neo.";
       buildList.appendChild(compatibilityNote);
 
       for (const b of builds) {
@@ -278,7 +282,7 @@ export function initPatcherPage(manifest) {
         const tag = document.createElement("span");
         const directFbNeo = isDirectFbNeoSupported(manifest.id, b);
         tag.className = directFbNeo ? "support-tag direct" : "support-tag indirect";
-        tag.textContent = directFbNeo ? "Direct FB Neo" : "HBMame / Mame2003-plus";
+        tag.textContent = supportLabel(manifest.id, b);
         label.appendChild(tag);
 
         buildList.appendChild(label);
