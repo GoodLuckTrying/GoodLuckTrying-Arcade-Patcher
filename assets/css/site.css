@@ -118,10 +118,18 @@ a { color: var(--accent); }
 }
 
 @media (max-width: 640px) {
+  .patcher-header .back {
+    margin-bottom: 0.5rem;
+    font-size: 0.8rem;
+    padding: 0 0.5rem;
+  }
+
   .patcher-title {
     margin: 0 0 0.6rem;
-    font-size: 1rem;
+    font-size: clamp(1rem, 5vw, 1.5rem);
+    line-height: 1.2;
     padding: 0 0.5rem;
+    word-break: break-word;
   }
 }
 
@@ -159,6 +167,18 @@ a { color: var(--accent); }
     max-width: 100%;
     height: auto;
     max-height: 200px;
+  }
+
+  .hack-links {
+    font-size: 0.8rem;
+    line-height: 1.4;
+  }
+
+  .hack-links a,
+  .hack-links p,
+  .hack-links li {
+    overflow-wrap: anywhere;
+    word-break: break-word;
   }
 }
 
@@ -199,6 +219,16 @@ a { color: var(--accent); }
     font-size: 0.8rem;
     line-height: 1.3;
   }
+
+  .disclaimer p,
+  .step p,
+  .step li,
+  .status,
+  .verify-table,
+  .build-list .compatibility-note {
+    font-size: 0.75rem;
+    line-height: 1.4;
+  }
 }
 
 .step {
@@ -221,6 +251,18 @@ a { color: var(--accent); }
     font-size: 0.9rem;
     margin-bottom: 0.5rem;
     margin-top: 0;
+  }
+
+  .build-list label {
+    align-items: flex-start;
+    gap: 0.5rem;
+    font-size: 0.75rem;
+    line-height: 1.35;
+  }
+
+  .build-list label > input[type="radio"] {
+    margin-top: 0.2rem;
+    flex-shrink: 0;
   }
 }
 
@@ -441,6 +483,13 @@ input[type="file"] {
   input[type="file"] {
     margin: 0.35rem 0;
     font-size: 0.75rem;
+    max-width: 100%;
+  }
+
+  .log {
+    font-size: 0.72rem;
+    line-height: 1.4;
+    padding: 0.55rem;
   }
 }
 
@@ -460,6 +509,8 @@ button {
     margin-top: 0.4rem;
     padding: 0.45rem 0.9rem;
     font-size: 0.75rem;
+    width: auto;
+    max-width: 100%;
   }
 }
 
@@ -547,6 +598,8 @@ code {
   padding: 0.1em 0.35em;
   border-radius: 4px;
   font-size: 0.9em;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 .file-notice {
