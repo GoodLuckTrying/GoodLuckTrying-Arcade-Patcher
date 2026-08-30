@@ -3,6 +3,24 @@ import { applyBps } from "./bps.js";
 import { resolveAssetUrl } from "./repo-path.js";
 
 const $ = (sel) => document.querySelector(sel);
+
+export function isDirectFbNeoSupported(hackId, build) {
+  if (!build || typeof build !== "object") return false;
+
+  const sourceRomset = String(build.sourceRomset || "").toLowerCase();
+
+  switch (hackId) {
+    case "ghouls-artoria-v10":
+      return true;
+    case "gng-artoria-v12":
+      return sourceRomset === "gng" || sourceRomset === "makaimur";
+    case "gng-enhanced-v10":
+      return sourceRomset === "gng" || sourceRomset === "makaimur";
+    default:
+      return false;
+  }
+}
+
 export function indexRomFiles(fileMap) {
   const index = new Map();
   for (const [path, data] of Object.entries(fileMap)) {
@@ -234,6 +252,12 @@ export function initPatcherPage(manifest) {
 
       const builds = buildsForRomset(manifest, detectedRomset.id);
       buildList.innerHTML = "";
+
+      const compatibilityNote = document.createElement("p");
+      compatibilityNote.className = "compatibility-note";
+      compatibilityNote.textContent = "HBMame / Mame2003-plus: supported for all hacks. Direct FB Neo support is shown per patch below.";
+      buildList.appendChild(compatibilityNote);
+
       for (const b of builds) {
         const label = document.createElement("label");
         label.className = "build-option";
@@ -246,7 +270,17 @@ export function initPatcherPage(manifest) {
           patchBtn.disabled = false;
         });
         label.appendChild(radio);
-        label.append(` ${b.label} (${b.outputZip})`);
+
+        const text = document.createElement("span");
+        text.textContent = ` ${b.label} (${b.outputZip})`;
+        label.appendChild(text);
+
+        const tag = document.createElement("span");
+        const directFbNeo = isDirectFbNeoSupported(manifest.id, b);
+        tag.className = directFbNeo ? "support-tag direct" : "support-tag indirect";
+        tag.textContent = directFbNeo ? "Direct FB Neo" : "HBMame / Mame2003-plus";
+        label.appendChild(tag);
+
         buildList.appendChild(label);
       }
       buildSection.hidden = false;

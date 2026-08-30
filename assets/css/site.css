@@ -469,9 +469,39 @@ button:disabled {
 }
 
 .build-list label {
-  display: block;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
   padding: 0.5rem 0;
   cursor: pointer;
+}
+
+.build-list .compatibility-note {
+  margin: 0 0 0.75rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.support-tag {
+  display: inline-block;
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+
+.support-tag.direct {
+  background: rgba(42, 196, 116, 0.16);
+  color: var(--ok);
+  border: 1px solid rgba(42, 196, 116, 0.4);
+}
+
+.support-tag.indirect {
+  background: rgba(255, 184, 77, 0.14);
+  color: var(--warn);
+  border: 1px solid rgba(255, 184, 77, 0.4);
 }
 
 .status { color: var(--muted); min-height: 1.5em; }
