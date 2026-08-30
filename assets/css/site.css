@@ -23,6 +23,7 @@ body {
 
 a { color: var(--accent); }
 
+
 .site-header, .site-footer {
   padding: 1.5rem 1rem;
   border-bottom: 1px solid var(--border);
@@ -30,6 +31,22 @@ a { color: var(--accent); }
 
 .site-header {
   text-align: center;
+}
+
+@media (max-width: 640px) {
+  .site-header, .site-footer {
+    padding: 0.6rem 0.5rem;
+  }
+  
+  .site-header h1 {
+    font-size: 1.1rem;
+    margin: 0;
+  }
+  
+  .tagline {
+    font-size: 0.8rem;
+    margin-top: 0.1rem;
+  }
 }
 
 .container-centered {
@@ -100,6 +117,14 @@ a { color: var(--accent); }
   margin-right: auto;
 }
 
+@media (max-width: 640px) {
+  .patcher-title {
+    margin: 0 0 0.6rem;
+    font-size: 1rem;
+    padding: 0 0.5rem;
+  }
+}
+
 .patcher-hero {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -125,7 +150,15 @@ a { color: var(--accent); }
 @media (max-width: 640px) {
   .patcher-hero {
     grid-template-columns: 1fr;
-    max-width: 320px;
+    max-width: 100%;
+    gap: 0.5rem;
+    padding: 0 0.5rem;
+  }
+  
+  .patcher-hero .header-preview {
+    max-width: 100%;
+    height: auto;
+    max-height: 200px;
   }
 }
 
@@ -142,6 +175,12 @@ a { color: var(--accent); }
   padding: 1rem;
 }
 
+@media (max-width: 640px) {
+  .container {
+    padding: 0.5rem;
+  }
+}
+
 .tagline { color: var(--muted); margin-top: 0.25rem; }
 
 .disclaimer {
@@ -151,6 +190,15 @@ a { color: var(--accent); }
   padding: 1rem 1.25rem;
   margin-bottom: 1.5rem;
   font-size: 0.95rem;
+}
+
+@media (max-width: 640px) {
+  .disclaimer {
+    padding: 0.5rem 0.75rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.8rem;
+    line-height: 1.3;
+  }
 }
 
 .step {
@@ -163,6 +211,19 @@ a { color: var(--accent); }
 
 .step h2 { margin-top: 0; font-size: 1.1rem; }
 
+@media (max-width: 640px) {
+  .step {
+    padding: 0.7rem 0.75rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .step h2 {
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0;
+  }
+}
+
 .hack-list h2 {
   margin-top: 0;
 }
@@ -173,6 +234,7 @@ a { color: var(--accent); }
   margin: 0;
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.75rem;
   gap: 1rem;
 }
 
@@ -217,6 +279,26 @@ a { color: var(--accent); }
   color: var(--muted);
 }
 
+@media (max-width: 640px) {
+  .card h3,
+  .card p {
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+  }
+  
+  .card h3 {
+    margin: 0.35rem 0 0.2rem;
+    font-size: 0.85rem;
+    line-height: 1.2;
+  }
+  
+  .card p {
+    margin: 0 0 0.6rem;
+    font-size: 0.75rem;
+    line-height: 1.25;
+  }
+}
+
 .card-links {
   margin: -0.5rem 0 0;
   padding: 0 1.25rem 1rem;
@@ -225,25 +307,14 @@ a { color: var(--accent); }
   text-align: center;
 }
 
-.card-links a {
-  text-decoration: none;
+@media (max-width: 640px) {
+  .card-links {
+    padding: 0 0.7rem 0.4rem;
+    font-size: 0.7rem;
+    line-height: 1.3;
+    margin: 0 0 0 0;
+  }
 }
-
-.card-links a:hover {
-  text-decoration: underline;
-}
-
-.card:hover { border-color: var(--accent); }
-
-.card-wip {
-  cursor: default;
-}
-
-.card-wip:hover {
-  border-color: var(--border);
-}
-
-.card-platform {
   margin: 0;
   padding: 0.65rem 1.25rem;
   font-size: 0.8rem;
@@ -260,11 +331,29 @@ a { color: var(--accent); }
   margin-top: 2.5rem;
 }
 
+@media (max-width: 640px) {
+  .wip-list {
+    margin-top: 0.8rem;
+  }
+}
+
 .hack-view-switch {
   display: flex;
   justify-content: center;
   gap: 0.5rem;
   margin: 2.5rem 0 1.25rem;
+}
+
+@media (max-width: 640px) {
+  .hack-view-switch {
+    margin: 0.6rem 0 0.4rem;
+    gap: 0.3rem;
+  }
+  
+  .hack-view-switch button {
+    padding: 0.35rem 0.7rem;
+    font-size: 0.7rem;
+  }
 }
 
 .hack-view-switch button {
@@ -298,6 +387,13 @@ a { color: var(--accent); }
   width: 100%;
   aspect-ratio: 4 / 3;
   border-bottom: 1px solid var(--border);
+}
+
+@media (max-width: 640px) {
+  .card-preview {
+    aspect-ratio: 16 / 9;
+    min-height: 100px;
+  }
 }
 
 .header-preview {
@@ -341,6 +437,13 @@ input[type="file"] {
   color: var(--muted);
 }
 
+@media (max-width: 640px) {
+  input[type="file"] {
+    margin: 0.35rem 0;
+    font-size: 0.75rem;
+  }
+}
+
 button {
   margin-top: 1rem;
   padding: 0.65rem 1.25rem;
@@ -350,6 +453,14 @@ button {
   border-radius: 8px;
   font-weight: 600;
   cursor: pointer;
+}
+
+@media (max-width: 640px) {
+  button {
+    margin-top: 0.4rem;
+    padding: 0.45rem 0.9rem;
+    font-size: 0.75rem;
+  }
 }
 
 button:disabled {
