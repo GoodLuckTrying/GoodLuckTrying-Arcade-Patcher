@@ -492,6 +492,10 @@ button:disabled {
   white-space: nowrap;
 }
 
+.build-option .support-tag + .support-tag {
+  margin-left: 0.45rem;
+}
+
 .support-tag.direct {
   background: rgba(42, 196, 116, 0.16);
   color: var(--ok);

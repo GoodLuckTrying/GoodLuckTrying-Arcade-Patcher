@@ -8,12 +8,15 @@ export function isDirectFbNeoSupported(hackId, build) {
   if (!build || typeof build !== "object") return false;
 
   const sourceRomset = String(build.sourceRomset || "").toLowerCase();
+  const outputZip = String(build.outputZip || "").toLowerCase();
 
   switch (hackId) {
     case "ghouls-artoria-v10":
       return true;
     case "gng-artoria-v12":
-      return sourceRomset === "gng" || sourceRomset === "makaimur";
+      if (sourceRomset !== "gng" && sourceRomset !== "makaimur") return false;
+      if (outputZip.includes("enh")) return false;
+      return outputZip.includes("maiden") || outputZip.includes("knight");
     case "gng-enhanced-v10":
       return sourceRomset === "gng" || sourceRomset === "makaimur";
     default:
@@ -21,8 +24,12 @@ export function isDirectFbNeoSupported(hackId, build) {
   }
 }
 
-export function supportLabel(hackId, build) {
-  return isDirectFbNeoSupported(hackId, build) ? "Supported by FB Neo" : "HBMame / Mame2003-plus";
+export function getCompatibilityTags(hackId, build) {
+  const tags = [{ label: "HBMame / Mame2003-plus", className: "support-tag indirect" }];
+  if (isDirectFbNeoSupported(hackId, build)) {
+    tags.push({ label: "Supported by FB Neo", className: "support-tag direct" });
+  }
+  return tags;
 }
 
 export function indexRomFiles(fileMap) {
@@ -279,11 +286,13 @@ export function initPatcherPage(manifest) {
         text.textContent = ` ${b.label} (${b.outputZip})`;
         label.appendChild(text);
 
-        const tag = document.createElement("span");
-        const directFbNeo = isDirectFbNeoSupported(manifest.id, b);
-        tag.className = directFbNeo ? "support-tag direct" : "support-tag indirect";
-        tag.textContent = supportLabel(manifest.id, b);
-        label.appendChild(tag);
+        const tags = getCompatibilityTags(manifest.id, b);
+        for (const tagInfo of tags) {
+          const tag = document.createElement("span");
+          tag.className = tagInfo.className;
+          tag.textContent = tagInfo.label;
+          label.appendChild(tag);
+        }
 
         buildList.appendChild(label);
       }
