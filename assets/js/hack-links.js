@@ -31,24 +31,45 @@ function openPreviewModal(manifest) {
     `;
     document.body.appendChild(modal);
 
+    const closeModal = () => {
+      modal.classList.remove("is-open");
+      document.body.classList.remove("preview-modal-open");
+    };
+
     modal.addEventListener("click", (event) => {
       const closeTarget = event.target.closest("[data-close-preview-modal]");
       if (closeTarget) {
-        modal.classList.remove("is-open");
+        closeModal();
         return;
       }
       if (event.target === modal) {
-        modal.classList.remove("is-open");
+        closeModal();
       }
     });
 
     modal.querySelector(".preview-modal__close")?.addEventListener("click", () => {
-      modal.classList.remove("is-open");
+      closeModal();
     });
+
+    const dialog = modal.querySelector(".preview-modal__dialog");
+    dialog?.addEventListener(
+      "wheel",
+      (event) => {
+        if (!dialog.scrollHeight || dialog.scrollHeight <= dialog.clientHeight) return;
+        const atTop = dialog.scrollTop <= 0 && event.deltaY < 0;
+        const atBottom = dialog.scrollTop + dialog.clientHeight >= dialog.scrollHeight && event.deltaY > 0;
+        if (!atTop && !atBottom) {
+          event.preventDefault();
+          event.stopPropagation();
+          dialog.scrollTop += event.deltaY;
+        }
+      },
+      { passive: false }
+    );
 
     document.addEventListener("keydown", (event) => {
       if (event.key === "Escape" && modal.classList.contains("is-open")) {
-        modal.classList.remove("is-open");
+        closeModal();
       }
     });
   }
@@ -62,6 +83,15 @@ function openPreviewModal(manifest) {
 
   const gallery = document.createElement("div");
   gallery.className = "preview-gallery";
+
+  modal.classList.add("is-open");
+  document.body.classList.add("preview-modal-open");
+  requestAnimationFrame(() => {
+    const dialog = modal.querySelector(".preview-modal__dialog");
+    if (dialog) {
+      dialog.scrollTop = 0;
+    }
+  });
 
   for (const file of manifest.previews) {
     const src = resolveAssetUrl(manifest.previewsFolder, file);

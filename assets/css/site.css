@@ -21,6 +21,10 @@ body {
   line-height: 1.5;
 }
 
+body.preview-modal-open {
+  overflow: hidden;
+}
+
 a { color: var(--accent); }
 
 
@@ -501,6 +505,8 @@ a { color: var(--accent); }
   border-radius: 16px;
   background: #121821;
   box-shadow: 0 24px 70px rgba(0, 0, 0, 0.45);
+  overflow: auto;
+  overscroll-behavior: contain;
 }
 
 .preview-modal__close {
@@ -532,6 +538,7 @@ a { color: var(--accent); }
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 0.9rem;
   align-items: start;
+  padding-bottom: 0.5rem;
 }
 
 .preview-gallery__item {
