@@ -10,6 +10,13 @@ window.WIP_HACKS_DATA = {
       "0004.png",
       "0005.png",
       "0007.png"
+    ],
+    "credits": [
+      {
+        "name": "Poody",
+        "role": "Co-author — all sprites done by him.",
+        "url": "https://twitter.com/hetagaki_poody"
+      }
     ]
   },
   "wip-super-ghouls-n-ghosts-brave-edition-v1-0": {
@@ -19,6 +26,13 @@ window.WIP_HACKS_DATA = {
     "previewsFolder": "assets/previews/wip/wip-super-ghouls-n-ghosts-brave-edition-v1-0",
     "previews": [
       "Preview #1.png"
+    ],
+    "credits": [
+      {
+        "name": "Poody",
+        "role": "Co-author — all sprites done by him.",
+        "url": "https://twitter.com/hetagaki_poody"
+      }
     ]
   },
   "wip-super-ghouls-n-ghosts-enhanced-edition-v1-0": {
@@ -62,6 +76,13 @@ window.WIP_SECTIONS = [
           "0004.png",
           "0005.png",
           "0007.png"
+        ],
+        "credits": [
+          {
+            "name": "Poody",
+            "role": "Co-author — all sprites done by him.",
+            "url": "https://twitter.com/hetagaki_poody"
+          }
         ]
       }
     ]
@@ -76,6 +97,13 @@ window.WIP_SECTIONS = [
         "previewsFolder": "assets/previews/wip/wip-super-ghouls-n-ghosts-brave-edition-v1-0",
         "previews": [
           "Preview #1.png"
+        ],
+        "credits": [
+          {
+            "name": "Poody",
+            "role": "Co-author — all sprites done by him.",
+            "url": "https://twitter.com/hetagaki_poody"
+          }
         ]
       },
       {

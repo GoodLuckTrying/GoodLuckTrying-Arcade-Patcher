@@ -41,6 +41,20 @@ export function renderWipSection(sectionEl, sections) {
     blurb.textContent = "WIP";
     card.appendChild(blurb);
 
+    const credits = hack.credits ?? [];
+    if (credits.length) {
+      const creditLine = document.createElement("p");
+      const creditLink = document.createElement("a");
+      creditLink.href = credits[0].url || "https://twitter.com/hetagaki_poody";
+      creditLink.target = "_blank";
+      creditLink.rel = "noopener noreferrer";
+      creditLink.textContent = "Poody";
+      creditLine.appendChild(document.createTextNode("Co-author: "));
+      creditLine.appendChild(creditLink);
+      creditLine.appendChild(document.createTextNode(" — all sprites done by him."));
+      card.appendChild(creditLine);
+    }
+
     const previewLink = document.createElement("p");
     previewLink.className = "card-links";
     if (hack.id && (hack.previews?.length || hack.previewsFolder)) {
