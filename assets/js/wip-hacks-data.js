@@ -42,6 +42,8 @@ window.WIP_HACKS_DATA = {
     "previewsFolder": "assets/previews/wip/wip-super-ghouls-n-ghosts-enhanced-edition-v1-0",
     "previews": [
       "0. Titlescreen.png",
+      "1. Menu 1.png",
+      "1. Secret Menu.png",
       "5. 1-Up.png",
       "5. Chest Hints.png"
     ]
@@ -113,6 +115,8 @@ window.WIP_SECTIONS = [
         "previewsFolder": "assets/previews/wip/wip-super-ghouls-n-ghosts-enhanced-edition-v1-0",
         "previews": [
           "0. Titlescreen.png",
+          "1. Menu 1.png",
+          "1. Secret Menu.png",
           "5. 1-Up.png",
           "5. Chest Hints.png"
         ]
