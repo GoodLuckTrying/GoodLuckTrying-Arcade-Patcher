@@ -14,6 +14,7 @@ window.OTHER_HACKS = [
       "5. Bee.png",
       "Chou Makaimura - Knight Artoria Edition [Nightgown] (Japan).png",
       "Chou Makaimura - Maiden Artoria Edition [Nightgown] (Japan).png",
+      "Combinations-Preview.gif",
       "Knight Artoria Edition - Menu.png",
       "Knight Artoria Edition - Secret Menu.png",
       "Maiden Artoria Edition - Ranking 2.png",

@@ -17,8 +17,8 @@ function isGifFile(name) {
 /** Delay as browsers play it; byte-swapped metadata is clamped to ~20ms/frame. */
 function browserPlaybackDelayCs(block) {
   if (block.length < 4) return 10;
-  const le = block[2] | (block[3] << 8);
-  const be = (block[2] << 8) | block[3];
+  const le = block[1] | (block[2] << 8);
+  const be = (block[1] << 8) | block[2];
   if (le > 500 && (le & 0xff) === 0 && be > 0 && be <= 600) return 2;
   return le || 10;
 }
@@ -247,6 +247,7 @@ export function initPreviewSlideshow(container, manifest, stillMs = 1000) {
 
     const layerIdx = 1 - activeLayer;
     const file = peekNextFile();
+    if (isGifFile(file)) return;
     const slide = await loadSlide(file);
 
     if (cancelled) {
