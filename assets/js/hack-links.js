@@ -100,7 +100,6 @@ function openPreviewModal(manifest) {
     anchor.target = "_blank";
     anchor.rel = "noopener noreferrer";
     anchor.className = "preview-gallery__item";
-    anchor.setAttribute("download", file);
 
     const img = document.createElement("img");
     img.src = src;
