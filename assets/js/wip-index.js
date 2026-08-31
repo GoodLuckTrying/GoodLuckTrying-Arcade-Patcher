@@ -41,6 +41,17 @@ export function renderWipSection(sectionEl, sections) {
     blurb.textContent = "WIP";
     card.appendChild(blurb);
 
+    const previewLink = document.createElement("p");
+    previewLink.className = "card-links";
+    if (hack.id && (hack.previews?.length || hack.previewsFolder)) {
+      const previewAnchor = document.createElement("a");
+      previewAnchor.href = "#";
+      previewAnchor.dataset.previewHack = hack.id;
+      previewAnchor.textContent = "Previews";
+      previewLink.appendChild(previewAnchor);
+      card.appendChild(previewLink);
+    }
+
     li.appendChild(card);
     list.appendChild(li);
   }

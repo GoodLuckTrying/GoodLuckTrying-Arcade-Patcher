@@ -38,6 +38,14 @@ export function renderOtherSection(sectionEl, hacks) {
       anchor.textContent = link.label;
       links.appendChild(anchor);
     }
+    if (hack.id && (hack.previews?.length || hack.previewsFolder)) {
+      if (hack.links?.length) links.appendChild(document.createElement("br"));
+      const previewAnchor = document.createElement("a");
+      previewAnchor.href = "#";
+      previewAnchor.dataset.previewHack = hack.id;
+      previewAnchor.textContent = "Previews";
+      links.appendChild(previewAnchor);
+    }
     card.appendChild(links);
     li.appendChild(card);
     list.appendChild(li);
