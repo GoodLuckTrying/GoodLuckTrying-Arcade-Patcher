@@ -44,11 +44,12 @@ export function renderWipSection(sectionEl, sections) {
     const previewLink = document.createElement("p");
     previewLink.className = "card-links";
     if (hack.id && (hack.previews?.length || hack.previewsFolder)) {
-      const previewAnchor = document.createElement("a");
-      previewAnchor.href = "#";
-      previewAnchor.dataset.previewHack = hack.id;
-      previewAnchor.textContent = "Previews";
-      previewLink.appendChild(previewAnchor);
+      const previewButton = document.createElement("button");
+      previewButton.type = "button";
+      previewButton.className = "preview-link-button";
+      previewButton.dataset.previewHack = hack.id;
+      previewButton.textContent = "Previews";
+      previewLink.appendChild(previewButton);
       card.appendChild(previewLink);
     }
 

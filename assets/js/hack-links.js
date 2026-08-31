@@ -117,10 +117,10 @@ function openPreviewModal(manifest) {
 
 if (!document.body.dataset.previewLinksBound) {
   document.addEventListener("click", (event) => {
-    const link = event.target.closest("a[data-preview-hack]");
-    if (!link) return;
+    const trigger = event.target.closest("a[data-preview-hack], button[data-preview-hack]");
+    if (!trigger) return;
     event.preventDefault();
-    const manifest = previewManifestFor(link.dataset.previewHack);
+    const manifest = previewManifestFor(trigger.dataset.previewHack);
     if (manifest) {
       openPreviewModal(manifest);
     }
@@ -150,7 +150,7 @@ export function renderHackLinks(container, { trailerUrl, downloadUrl, boxartLink
   }
   if ((previews?.length || previewsFolder) && id) {
     parts.push(
-      `<a href="#" data-preview-hack="${id}">Previews</a>`
+      `<button type="button" class="preview-link-button" data-preview-hack="${id}">Previews</button>`
     );
   }
   if (!parts.length) {

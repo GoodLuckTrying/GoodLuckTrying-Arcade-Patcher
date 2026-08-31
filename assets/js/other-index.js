@@ -40,11 +40,12 @@ export function renderOtherSection(sectionEl, hacks) {
     }
     if (hack.id && (hack.previews?.length || hack.previewsFolder)) {
       if (hack.links?.length) links.appendChild(document.createElement("br"));
-      const previewAnchor = document.createElement("a");
-      previewAnchor.href = "#";
-      previewAnchor.dataset.previewHack = hack.id;
-      previewAnchor.textContent = "Previews";
-      links.appendChild(previewAnchor);
+      const previewButton = document.createElement("button");
+      previewButton.type = "button";
+      previewButton.className = "preview-link-button";
+      previewButton.dataset.previewHack = hack.id;
+      previewButton.textContent = "Previews";
+      links.appendChild(previewButton);
     }
     card.appendChild(links);
     li.appendChild(card);

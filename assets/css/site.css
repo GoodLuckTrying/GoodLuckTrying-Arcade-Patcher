@@ -595,6 +595,16 @@ button {
   cursor: pointer;
 }
 
+.preview-link-button {
+  margin: 0;
+  padding: 0.4rem 0.8rem;
+  font-size: 0.8rem;
+  border-radius: 999px;
+  background: rgba(124, 156, 255, 0.14);
+  color: var(--accent);
+  border: 1px solid rgba(124, 156, 255, 0.45);
+}
+
 @media (max-width: 640px) {
   button {
     margin-top: 0.4rem;
