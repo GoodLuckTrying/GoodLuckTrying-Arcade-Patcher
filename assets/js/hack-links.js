@@ -1,5 +1,4 @@
-import { assetUrl } from "./repo-path.js";
-import { initPreviewSlideshow } from "./preview-slideshow.js";
+import { assetUrl, resolveAssetUrl } from "./repo-path.js";
 
 function releaseZipLabel(downloadUrl) {
   const filename = downloadUrl.split("/").pop() ?? downloadUrl;
@@ -55,21 +54,35 @@ function openPreviewModal(manifest) {
   }
 
   const content = modal.querySelector(".preview-modal__content");
+  content.replaceChildren();
+
   const title = document.createElement("h2");
   title.textContent = manifest.title;
-  content.replaceChildren(title);
+  content.appendChild(title);
 
-  const slideshow = document.createElement("div");
-  slideshow.className = "preview-slideshow preview-modal__slideshow";
-  content.appendChild(slideshow);
+  const gallery = document.createElement("div");
+  gallery.className = "preview-gallery";
 
-  const stop = initPreviewSlideshow(slideshow, manifest, 1200);
-  modal.dataset.previewStop = String(stop);
+  for (const file of manifest.previews) {
+    const src = resolveAssetUrl(manifest.previewsFolder, file);
+    const anchor = document.createElement("a");
+    anchor.href = src;
+    anchor.target = "_blank";
+    anchor.rel = "noopener noreferrer";
+    anchor.className = "preview-gallery__item";
+    anchor.setAttribute("download", file);
+
+    const img = document.createElement("img");
+    img.src = src;
+    img.alt = `${manifest.title} preview ${file}`;
+    img.loading = "lazy";
+    img.decoding = "async";
+    anchor.appendChild(img);
+    gallery.appendChild(anchor);
+  }
+
+  content.appendChild(gallery);
   modal.classList.add("is-open");
-
-  const previousStop = modal._previewStop;
-  if (typeof previousStop === "function") previousStop();
-  modal._previewStop = stop;
 }
 
 if (!document.body.dataset.previewLinksBound) {
