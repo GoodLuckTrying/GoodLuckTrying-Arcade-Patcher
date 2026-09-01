@@ -329,6 +329,13 @@ export function initPatcherPage(manifest) {
       }
 
       const blob = await createZipFromFiles(files);
+      if (typeof window.gtag === "function") {
+        window.gtag("event", "patch_download", {
+          event_category: "patcher",
+          event_label: build.id,
+          value: 1,
+        });
+      }
       const a = document.createElement("a");
       a.href = URL.createObjectURL(blob);
       a.download = build.outputZip;
