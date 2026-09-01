@@ -456,6 +456,23 @@ a { color: var(--accent); }
   line-height: 1.6;
 }
 
+.hack-link-with-icon {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  margin-right: 0.25rem;
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.hack-link-with-icon img {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  object-fit: contain;
+  vertical-align: middle;
+}
+
 .preview-slide {
   position: absolute;
   top: 50%;

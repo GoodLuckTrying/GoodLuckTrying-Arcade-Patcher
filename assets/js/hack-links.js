@@ -5,6 +5,20 @@ function releaseZipLabel(downloadUrl) {
   return `Download ${filename}`;
 }
 
+function iconLinkMarkup({ href, label, iconPath, download, target = "_blank", rel = "noopener noreferrer" }) {
+  const attributes = [`href="${href}"`];
+  if (download) attributes.push("download");
+  if (target) attributes.push(`target="${target}"`);
+  if (rel) attributes.push(`rel="${rel}"`);
+  attributes.push('class="hack-link-with-icon"');
+  return `
+    <a ${attributes.join(" ")}>
+      <img src="${assetUrl(iconPath)}" alt="" aria-hidden="true" loading="lazy" decoding="async">
+      <span>${label}</span>
+    </a>
+  `;
+}
+
 function previewManifestFor(id) {
   return (
     window.HACKS_DATA?.[id] ??
@@ -132,19 +146,38 @@ export function renderHackLinks(container, { trailerUrl, downloadUrl, boxartLink
   const parts = [];
   if (trailerUrl) {
     parts.push(
-      `<a href="${trailerUrl}" target="_blank" rel="noopener noreferrer">YouTube Trailer</a>`
+      iconLinkMarkup({
+        href: trailerUrl,
+        label: "YouTube Trailer",
+        iconPath: "assets/icons/Youtube.png",
+        target: "_blank",
+        rel: "noopener noreferrer",
+      })
     );
   }
   if (downloadUrl) {
     parts.push(
-      `<a href="${assetUrl(downloadUrl)}" download>${releaseZipLabel(downloadUrl)}</a>`
+      iconLinkMarkup({
+        href: assetUrl(downloadUrl),
+        label: releaseZipLabel(downloadUrl),
+        iconPath: "assets/icons/Winzip.png",
+        download: true,
+        target: "_self",
+        rel: "",
+      })
     );
   }
   const boxarts = boxartLinks ?? [];
   const boxartPrefix = boxarts.length > 1 ? "Boxarts" : "Boxart";
   for (const { label, url } of boxarts) {
     parts.push(
-      `<a href="${url}" target="_blank" rel="noopener noreferrer">${boxartPrefix}: ${label}</a>`
+      iconLinkMarkup({
+        href: url,
+        label: `${boxartPrefix}: ${label}`,
+        iconPath: "assets/icons/DeviantART.png",
+        target: "_blank",
+        rel: "noopener noreferrer",
+      })
     );
   }
   if ((previews?.length || previewsFolder) && id) {
