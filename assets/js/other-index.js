@@ -1,3 +1,34 @@
+function getLinkIcon(label = "", url = "") {
+  const haystack = `${label} ${url}`.toLowerCase();
+  if (haystack.includes("youtube") || haystack.includes("youtu.be")) return "assets/icons/Youtube.png";
+  if (haystack.includes("deviant") || haystack.includes("deviantart")) return "assets/icons/DeviantART.png";
+  if (haystack.includes(".zip") || haystack.includes("download")) return "assets/icons/Winzip.png";
+  return "";
+}
+
+function buildLinkAnchor(link) {
+  const anchor = document.createElement("a");
+  anchor.href = link.url;
+  anchor.target = "_blank";
+  anchor.rel = "noopener noreferrer";
+  anchor.className = "hack-link-with-icon";
+
+  const iconPath = getLinkIcon(link.label, link.url);
+  if (iconPath) {
+    const img = document.createElement("img");
+    img.src = iconPath;
+    img.alt = "";
+    img.loading = "lazy";
+    img.decoding = "async";
+    anchor.appendChild(img);
+  }
+
+  const label = document.createElement("span");
+  label.textContent = link.label;
+  anchor.appendChild(label);
+  return anchor;
+}
+
 /** Build external-link cards for hacks that do not have a browser patcher. */
 export function renderOtherSection(sectionEl, hacks) {
   const list = sectionEl.querySelector("#other-cards");
@@ -31,12 +62,7 @@ export function renderOtherSection(sectionEl, hacks) {
     links.className = "card-links";
     for (const [index, link] of (hack.links ?? []).entries()) {
       if (index) links.appendChild(document.createElement("br"));
-      const anchor = document.createElement("a");
-      anchor.href = link.url;
-      anchor.target = "_blank";
-      anchor.rel = "noopener noreferrer";
-      anchor.textContent = link.label;
-      links.appendChild(anchor);
+      links.appendChild(buildLinkAnchor(link));
     }
     if (hack.id && (hack.previews?.length || hack.previewsFolder)) {
       if (hack.links?.length) links.appendChild(document.createElement("br"));
