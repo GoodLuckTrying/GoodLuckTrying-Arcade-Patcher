@@ -331,9 +331,13 @@ export function initPatcherPage(manifest) {
       const blob = await createZipFromFiles(files);
       if (typeof window.gtag === "function") {
         window.gtag("event", "patch_download", {
-          event_category: "patcher",
-          event_label: build.id,
-          value: 1,
+          hack_id: manifest.id,
+          hack_title: manifest.title,
+          build_id: build.id,
+          build_label: build.label,
+          romset_id: detectedRomset?.id,
+          romset_label: detectedRomset?.label,
+          output_zip: build.outputZip,
         });
       }
       const a = document.createElement("a");
