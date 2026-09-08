@@ -8,6 +8,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "manifests"
+HACKS_TEMPLATE = Path(__file__).with_name("hacks-template.txt")
 
 PROJECTS = [
     {
@@ -211,6 +212,30 @@ PREVIEW_EXT = {".png", ".gif", ".jpg", ".jpeg", ".webp"}
 WIP_ROOT = ROOT / "assets" / "wip"
 
 
+def load_simple_hacks() -> dict:
+    """Load WIP and Other Hack metadata from the editable text template."""
+    if not HACKS_TEMPLATE.is_file():
+        return {"wip": [], "other": []}
+    try:
+        data = json.loads(HACKS_TEMPLATE.read_text(encoding="utf-8"))
+    except json.JSONDecodeError as exc:
+        raise SystemExit(f"Invalid JSON in {HACKS_TEMPLATE}: {exc}") from exc
+    if not isinstance(data, dict):
+        raise SystemExit(f"Expected an object in {HACKS_TEMPLATE}")
+    pages = data.get("pages", [])
+    if not isinstance(pages, list):
+        raise SystemExit(f"Expected 'pages' to be an array in {HACKS_TEMPLATE}")
+    return pages
+
+
+def apply_page_metadata(project: dict, pages: list[dict]) -> None:
+    """Use the page catalog for user-facing patcher metadata."""
+    page = next((item for item in pages if item.get("type") == "patcher" and item.get("id") == project["id"]), None)
+    if page is None:
+        return
+    project.update({key: value for key, value in page.items() if key != "type"})
+
+
 def wip_display_title(folder_name: str) -> str:
     title = folder_name
     if title.startswith("Arcade "):
@@ -247,45 +272,71 @@ def copy_wip_previews(hack_id: str, previews_dir: Path) -> tuple[str, list[str]]
     return web_rel, files
 
 
-def scan_wip_hacks() -> tuple[dict, list]:
-    """Scan assets/wip/<platform>/<project>/Previews for coming-soon cards."""
+def prune_generated_wip_previews(active_ids: set[str]) -> None:
+    web_root = ROOT / "assets" / "previews" / "wip"
+    if not web_root.is_dir():
+        return
+    for old_dir in web_root.iterdir():
+        if old_dir.is_dir() and old_dir.name not in active_ids:
+            shutil.rmtree(old_dir)
+
+
+def scan_wip_hacks(entries: list[dict]) -> tuple[dict, list]:
+    """Scan configured WIP preview folders for coming-soon cards."""
     hacks_data: dict = {}
     sections: list = []
+    by_platform: dict[str, list] = {}
 
-    if not WIP_ROOT.is_dir():
-        return hacks_data, sections
-
-    for platform_dir in sorted(WIP_ROOT.iterdir()):
-        if not platform_dir.is_dir():
+    for config in entries:
+        required = {"id", "title", "platform", "sourceFolder"}
+        missing = required - config.keys()
+        if missing:
+            raise SystemExit(f"WIP entry is missing {', '.join(sorted(missing))}")
+        previews_dir = ROOT / config["sourceFolder"] / "Previews"
+        if not previews_dir.is_dir():
+            print(f"  WARN: missing WIP previews folder: {previews_dir}")
             continue
-        platform = platform_dir.name
-        platform_hacks = []
 
-        for project_dir in sorted(platform_dir.iterdir()):
-            previews_dir = project_dir / "Previews"
-            if not previews_dir.is_dir():
-                continue
+        hack_id = config["id"]
+        previews_folder, files = copy_wip_previews(hack_id, previews_dir)
+        if not files:
+            continue
 
-            hack_id = wip_id(project_dir.name)
-            previews_folder, files = copy_wip_previews(hack_id, previews_dir)
-            if not files:
-                continue
+        entry = {key: value for key, value in config.items() if key != "sourceFolder"}
+        entry.update({"previewsFolder": previews_folder, "previews": files})
+        hacks_data[hack_id] = entry
+        by_platform.setdefault(config["platform"], []).append(entry)
+        print(f"  WIP {hack_id}: {len(files)} previews")
 
-            entry = {
-                "id": hack_id,
-                "title": wip_display_title(project_dir.name),
-                "platform": platform,
-                "previewsFolder": previews_folder,
-                "previews": files,
-            }
-            hacks_data[hack_id] = entry
-            platform_hacks.append(entry)
-            print(f"  WIP {hack_id}: {len(files)} previews")
-
-        if platform_hacks:
-            sections.append({"platform": platform, "hacks": platform_hacks})
+    for platform in sorted(by_platform):
+        sections.append({"platform": platform, "hacks": by_platform[platform]})
+    prune_generated_wip_previews(set(hacks_data))
 
     return hacks_data, sections
+
+
+def scan_other_hacks(entries: list[dict]) -> list[dict]:
+    """Refresh Other Hack preview lists from their source folders."""
+    hacks = []
+    for config in entries:
+        required = {"id", "title", "platform", "previewsFolder"}
+        missing = required - config.keys()
+        if missing:
+            raise SystemExit(f"Other Hack entry is missing {', '.join(sorted(missing))}")
+        previews_dir = ROOT / config["previewsFolder"]
+        if not previews_dir.is_dir():
+            print(f"  WARN: missing Other Hack previews folder: {previews_dir}")
+            files = []
+        else:
+            files = [
+                f.name for f in sorted(previews_dir.iterdir())
+                if f.is_file() and f.suffix.lower() in PREVIEW_EXT
+            ]
+        entry = {key: value for key, value in config.items() if key != "sourceFolder"}
+        entry["previews"] = files
+        hacks.append(entry)
+        print(f"  Other {config['id']}: {len(files)} previews")
+    return hacks
 
 
 def scan_previews(project_id: str, folder: str) -> tuple[str, list[str]]:
@@ -294,14 +345,14 @@ def scan_previews(project_id: str, folder: str) -> tuple[str, list[str]]:
     web_dir = ROOT / "assets" / "previews" / project_id
     web_rel = f"assets/previews/{project_id}"
 
-    if not previews_dir.is_dir():
-        return web_rel, []
-
     web_dir.mkdir(parents=True, exist_ok=True)
     # Clear old copies so removed previews don't linger
     for old in web_dir.iterdir():
         if old.is_file():
             old.unlink()
+
+    if not previews_dir.is_dir():
+        return web_rel, []
 
     files = []
     for f in sorted(previews_dir.iterdir()):
@@ -462,13 +513,15 @@ def build_manifest(project: dict) -> dict:
 
 
 def main():
+    pages = load_simple_hacks()
     OUT.mkdir(exist_ok=True)
     hacks_data = {}
     for project in PROJECTS:
+        apply_page_metadata(project, pages)
         print(f"Generating {project['id']}...")
         manifest = build_manifest(project)
         out_path = OUT / f"{project['id']}.json"
-        out_path.write_text(json.dumps(manifest, indent=2), encoding="utf-8")
+        out_path.write_text(json.dumps(manifest, indent=2) + "\n", encoding="utf-8")
         entry = {
             "id": manifest["id"],
             "title": manifest["title"],
@@ -495,7 +548,7 @@ def main():
     print(f"Wrote {hacks_js}")
 
     print("Scanning WIP previews...")
-    wip_data, wip_sections = scan_wip_hacks()
+    wip_data, wip_sections = scan_wip_hacks([page for page in pages if page.get("type") == "wip"])
     wip_js = ROOT / "assets" / "js" / "wip-hacks-data.js"
     wip_js.write_text(
         "window.WIP_HACKS_DATA = "
@@ -506,6 +559,13 @@ def main():
         encoding="utf-8",
     )
     print(f"Wrote {wip_js} ({len(wip_data)} WIP hacks)")
+
+    other_js = ROOT / "assets" / "js" / "other-hacks-data.js"
+    other_js.write_text(
+        "window.OTHER_HACKS = " + json.dumps(scan_other_hacks([page for page in pages if page.get("type") == "other"]), indent=2) + ";\n",
+        encoding="utf-8",
+    )
+    print(f"Wrote {other_js} ({len([page for page in pages if page.get('type') == 'other'])} Other Hacks)")
 
 
 if __name__ == "__main__":

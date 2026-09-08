@@ -1,8 +1,16 @@
 window.WIP_HACKS_DATA = {
   "wip-ghosts-n-goblins-princess-edition-v1-0": {
+    "type": "wip",
     "id": "wip-ghosts-n-goblins-princess-edition-v1-0",
     "title": "Ghosts'n Goblins: Princess Edition v1.0",
     "platform": "Arcade",
+    "credits": [
+      {
+        "name": "Poody",
+        "role": "Co-author - all sprites done by him.",
+        "url": "https://twitter.com/hetagaki_poody"
+      }
+    ],
     "previewsFolder": "assets/previews/wip/wip-ghosts-n-goblins-princess-edition-v1-0",
     "previews": [
       "0000.png",
@@ -10,32 +18,27 @@ window.WIP_HACKS_DATA = {
       "0004.png",
       "0005.png",
       "0007.png"
-    ],
-    "credits": [
-      {
-        "name": "Poody",
-        "role": "Co-author — all sprites done by him.",
-        "url": "https://twitter.com/hetagaki_poody"
-      }
     ]
   },
   "wip-super-ghouls-n-ghosts-brave-edition-v1-0": {
+    "type": "wip",
     "id": "wip-super-ghouls-n-ghosts-brave-edition-v1-0",
     "title": "Super Ghouls 'N Ghosts: Brave Edition v1.0",
     "platform": "Super Nintendo",
-    "previewsFolder": "assets/previews/wip/wip-super-ghouls-n-ghosts-brave-edition-v1-0",
-    "previews": [
-      "Preview #1.png"
-    ],
     "credits": [
       {
         "name": "Poody",
-        "role": "Co-author — all sprites done by him.",
+        "role": "Co-author - all sprites done by him.",
         "url": "https://twitter.com/hetagaki_poody"
       }
+    ],
+    "previewsFolder": "assets/previews/wip/wip-super-ghouls-n-ghosts-brave-edition-v1-0",
+    "previews": [
+      "Preview #1.png"
     ]
   },
   "wip-super-ghouls-n-ghosts-enhanced-edition-v1-0": {
+    "type": "wip",
     "id": "wip-super-ghouls-n-ghosts-enhanced-edition-v1-0",
     "title": "Super Ghouls 'N Ghosts: Enhanced Edition v1.0",
     "platform": "Super Nintendo",
@@ -49,6 +52,7 @@ window.WIP_HACKS_DATA = {
     ]
   },
   "wip-super-ghouls-n-ghosts-valkyrie-edition-v1-0": {
+    "type": "wip",
     "id": "wip-super-ghouls-n-ghosts-valkyrie-edition-v1-0",
     "title": "Super Ghouls 'N Ghosts: Valkyrie Edition v1.0",
     "platform": "Super Nintendo",
@@ -58,6 +62,10 @@ window.WIP_HACKS_DATA = {
       "4. Gold Valkyrie.png",
       "4. Special Lance 1.png",
       "4. Special Lance 2.png",
+      "5. Baby Transformation (Briefs).png",
+      "6. Seal Transformation (Gray Armor).png",
+      "7. Bee Transformation (Green Armor).png",
+      "8. Maiden Transformation (Gold Armor).png",
       "Menu 1.png",
       "Menu 2.png"
     ]
@@ -68,9 +76,17 @@ window.WIP_SECTIONS = [
     "platform": "Arcade",
     "hacks": [
       {
+        "type": "wip",
         "id": "wip-ghosts-n-goblins-princess-edition-v1-0",
         "title": "Ghosts'n Goblins: Princess Edition v1.0",
         "platform": "Arcade",
+        "credits": [
+          {
+            "name": "Poody",
+            "role": "Co-author - all sprites done by him.",
+            "url": "https://twitter.com/hetagaki_poody"
+          }
+        ],
         "previewsFolder": "assets/previews/wip/wip-ghosts-n-goblins-princess-edition-v1-0",
         "previews": [
           "0000.png",
@@ -78,13 +94,6 @@ window.WIP_SECTIONS = [
           "0004.png",
           "0005.png",
           "0007.png"
-        ],
-        "credits": [
-          {
-            "name": "Poody",
-            "role": "Co-author — all sprites done by him.",
-            "url": "https://twitter.com/hetagaki_poody"
-          }
         ]
       }
     ]
@@ -93,22 +102,24 @@ window.WIP_SECTIONS = [
     "platform": "Super Nintendo",
     "hacks": [
       {
+        "type": "wip",
         "id": "wip-super-ghouls-n-ghosts-brave-edition-v1-0",
         "title": "Super Ghouls 'N Ghosts: Brave Edition v1.0",
         "platform": "Super Nintendo",
-        "previewsFolder": "assets/previews/wip/wip-super-ghouls-n-ghosts-brave-edition-v1-0",
-        "previews": [
-          "Preview #1.png"
-        ],
         "credits": [
           {
             "name": "Poody",
-            "role": "Co-author — all sprites done by him.",
+            "role": "Co-author - all sprites done by him.",
             "url": "https://twitter.com/hetagaki_poody"
           }
+        ],
+        "previewsFolder": "assets/previews/wip/wip-super-ghouls-n-ghosts-brave-edition-v1-0",
+        "previews": [
+          "Preview #1.png"
         ]
       },
       {
+        "type": "wip",
         "id": "wip-super-ghouls-n-ghosts-enhanced-edition-v1-0",
         "title": "Super Ghouls 'N Ghosts: Enhanced Edition v1.0",
         "platform": "Super Nintendo",
@@ -122,6 +133,7 @@ window.WIP_SECTIONS = [
         ]
       },
       {
+        "type": "wip",
         "id": "wip-super-ghouls-n-ghosts-valkyrie-edition-v1-0",
         "title": "Super Ghouls 'N Ghosts: Valkyrie Edition v1.0",
         "platform": "Super Nintendo",
@@ -131,6 +143,10 @@ window.WIP_SECTIONS = [
           "4. Gold Valkyrie.png",
           "4. Special Lance 1.png",
           "4. Special Lance 2.png",
+          "5. Baby Transformation (Briefs).png",
+          "6. Seal Transformation (Gray Armor).png",
+          "7. Bee Transformation (Green Armor).png",
+          "8. Maiden Transformation (Gold Armor).png",
           "Menu 1.png",
           "Menu 2.png"
         ]

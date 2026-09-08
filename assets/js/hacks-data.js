@@ -106,7 +106,7 @@ window.HACKS_DATA = {
       },
       {
         "name": "poody",
-        "role": "Artist behind every new sprite.",
+        "role": "Hack co-author. Artist behind every new sprite.",
         "url": "https://twitter.com/hetagaki_poody"
       },
       {

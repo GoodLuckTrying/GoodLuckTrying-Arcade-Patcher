@@ -1,10 +1,29 @@
 window.OTHER_HACKS = [
   {
-    id: "other-snes-super-ghouls-n-ghosts-artoria-edition",
-    title: "Super Ghouls 'N Ghosts: Knight/Maiden Artoria Edition v3.2",
-    platform: "Super Nintendo",
-    previewsFolder: "assets/previews/others/snes-sgng-artoria-v32",
-    previews: [
+    "type": "other",
+    "id": "other-snes-super-ghouls-n-ghosts-artoria-edition",
+    "title": "Super Ghouls 'N Ghosts: Knight/Maiden Artoria Edition v3.2",
+    "platform": "Super Nintendo",
+    "previewsFolder": "assets/previews/others/snes-sgng-artoria-v32",
+    "links": [
+      {
+        "label": "Youtube Trailer",
+        "url": "https://youtu.be/swu9OdaxcAw"
+      },
+      {
+        "label": "ROMhacking.net",
+        "url": "https://www.romhacking.net/hacks/9094/"
+      },
+      {
+        "label": "RomHackPlaza.org",
+        "url": "https://rhpz.org/r/3608"
+      },
+      {
+        "label": "romhack.ing",
+        "url": "https://romhack.ing/database/content/entry/wyPLf9i8RdyyXgAFjok8NA"
+      }
+    ],
+    "previews": [
       "1. Briefs.png",
       "1. Nightgown (1-Up and Citizen Doll).png",
       "2. Gray Armor (Cho Makaimura First Round).png",
@@ -19,21 +38,34 @@ window.OTHER_HACKS = [
       "Knight Artoria Edition - Secret Menu.png",
       "Maiden Artoria Edition - Ranking 2.png",
       "Super Ghouls 'N Ghosts - Knight Artoria Edition [Nightgown] (USA).png",
-      "Super Ghouls 'N Ghosts - Maiden Artoria Edition [Nightgown] (USA).png",
-    ],
-    links: [
-      { label: "Youtube Trailer", url: "https://youtu.be/swu9OdaxcAw" },
-      { label: "ROMhacking.net", url: "https://www.romhacking.net/hacks/9094/" },
-      { label: "RomHackPlaza.org", url: "https://rhpz.org/r/3608" },
-      { label: "romhack.ing", url: "https://romhack.ing/database/content/entry/wyPLf9i8RdyyXgAFojk8NA" },
-    ],
+      "Super Ghouls 'N Ghosts - Maiden Artoria Edition [Nightgown] (USA).png"
+    ]
   },
   {
-    id: "other-gba-super-ghouls-n-ghosts-artoria-edition",
-    title: "Super Ghouls 'N Ghosts: Knight/Maiden Artoria Edition v1.6",
-    platform: "Game Boy Advance",
-    previewsFolder: "assets/previews/others/gba-sgng-artoria-v16",
-    previews: [
+    "type": "other",
+    "id": "other-gba-super-ghouls-n-ghosts-artoria-edition",
+    "title": "Super Ghouls 'N Ghosts: Knight/Maiden Artoria Edition v1.6",
+    "platform": "Game Boy Advance",
+    "previewsFolder": "assets/previews/others/gba-sgng-artoria-v16",
+    "links": [
+      {
+        "label": "Youtube Trailer",
+        "url": "https://youtu.be/yschs4xaL5M"
+      },
+      {
+        "label": "ROMhacking.net",
+        "url": "https://www.romhacking.net/hacks/9110/"
+      },
+      {
+        "label": "RomHackPlaza.org",
+        "url": "https://rhpz.org/r/3577"
+      },
+      {
+        "label": "romhack.ing",
+        "url": "https://romhack.ing/database/content/entry/xXQXT_DZSLa4myF5XJG_7A"
+      }
+    ],
+    "previews": [
       "1. Nightgown 2.png",
       "1. Nightgown.png",
       "2. Dress.png",
@@ -43,44 +75,66 @@ window.OTHER_HACKS = [
       "3. Purple Armor 5.png",
       "4. Gold Armor 4.png",
       "4. Gold Armor.png",
-      "Combinations-Preview.gif",
-    ],
-    links: [
-      { label: "Youtube Trailer", url: "https://youtu.be/yschs4xaL5M" },
-      { label: "ROMhacking.net", url: "https://www.romhacking.net/hacks/9110/" },
-      { label: "RomHackPlaza.org", url: "https://rhpz.org/r/3577" },
-      { label: "romhack.ing", url: "https://romhack.ing/database/content/entry/xXQXT_DZSLa4myF5XJG_7A" },
-    ],
+      "Combinations-Preview.gif"
+    ]
   },
   {
-    id: "other-genesis-ghouls-n-ghosts-artoria-edition",
-    title: "Ghouls 'n Ghosts: Artoria Edition v1.1",
-    platform: "Genesis",
-    previewsFolder: "assets/previews/others/gen-ghouls-artoria-v11",
-    previews: [
+    "type": "other",
+    "id": "other-genesis-ghouls-n-ghosts-artoria-edition",
+    "title": "Ghouls 'n Ghosts: Artoria Edition v1.1",
+    "platform": "Genesis",
+    "previewsFolder": "assets/previews/others/gen-ghouls-artoria-v11",
+    "links": [
+      {
+        "label": "Youtube Trailer",
+        "url": "https://youtu.be/ZOeMtVJDW8k"
+      },
+      {
+        "label": "ROMhacking.net",
+        "url": "https://www.romhacking.net/hacks/9232/"
+      },
+      {
+        "label": "RomHackPlaza.org",
+        "url": "https://rhpz.org/r/3606"
+      },
+      {
+        "label": "romhack.ing",
+        "url": "https://romhack.ing/database/content/entry/MzFeRz8ATdSrUi9OCgt9VA"
+      }
+    ],
+    "previews": [
       "1. Nightgown.png",
       "2. Gray Artoria.png",
       "3. Gold Artoria + Clone.png",
       "Preview 4.png",
-      "Titlescreen.png",
-    ],
-    links: [
-      { label: "Youtube Trailer", url: "https://youtu.be/ZOeMtVJDW8k" },
-      { label: "ROMhacking.net", url: "https://www.romhacking.net/hacks/9232/" },
-      { label: "RomHackPlaza.org", url: "https://rhpz.org/r/3606" },
-      { label: "romhack.ing", url: "https://romhack.ing/database/content/entry/MzFeRz8ATdSrUi9OCgt9VA" },
-    ],
+      "Titlescreen.png"
+    ]
   },
   {
-    id: "other-genesis-ghouls-n-ghosts-restoration",
-    title: "Ghouls 'n Ghosts Restoration v1.2",
-    platform: "Genesis",
-    previewsFolder: "assets/previews/others/gen-ghouls-restoration-v12",
-    previews: ["Preview0.png", "Preview1.png", "Preview2.png", "Preview3.png"],
-    links: [
-      { label: "ROMhacking.net", url: "https://www.romhacking.net/hacks/9163/" },
-      { label: "RomHackPlaza.org", url: "https://rhpz.org/t/1918" },
-      { label: "romhack.ing", url: "https://romhack.ing/database/content/entry/ySsOeYEwQ66lgqlSYD_1Xg" },
+    "type": "other",
+    "id": "other-genesis-ghouls-n-ghosts-restoration",
+    "title": "Ghouls 'n Ghosts Restoration v1.2",
+    "platform": "Genesis",
+    "previewsFolder": "assets/previews/others/gen-ghouls-restoration-v12",
+    "links": [
+      {
+        "label": "ROMhacking.net",
+        "url": "https://www.romhacking.net/hacks/9163/"
+      },
+      {
+        "label": "RomHackPlaza.org",
+        "url": "https://rhpz.org/t/1918"
+      },
+      {
+        "label": "romhack.ing",
+        "url": "https://romhack.ing/database/content/entry/ySsOeYEwQ66lgqlSYD_1Xg"
+      }
     ],
-  },
+    "previews": [
+      "Preview0.png",
+      "Preview1.png",
+      "Preview2.png",
+      "Preview3.png"
+    ]
+  }
 ];
