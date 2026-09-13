@@ -51,6 +51,7 @@ window.WIP_HACKS_DATA = {
       "5. Maiden Tripping.gif",
       "Chou Makaimura - Enhanced Edition (Japan).png",
       "Enhanced Edition - Menu.png",
+      "Enhanced Edition - Ranking.png",
       "Enhanced Edition - Secret Menu.png",
       "Super Ghouls 'N Ghosts - Enhanced Edition (USA).png"
     ]
@@ -136,6 +137,7 @@ window.WIP_SECTIONS = [
           "5. Maiden Tripping.gif",
           "Chou Makaimura - Enhanced Edition (Japan).png",
           "Enhanced Edition - Menu.png",
+          "Enhanced Edition - Ranking.png",
           "Enhanced Edition - Secret Menu.png",
           "Super Ghouls 'N Ghosts - Enhanced Edition (USA).png"
         ]
