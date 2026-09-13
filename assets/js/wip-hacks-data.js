@@ -44,11 +44,15 @@ window.WIP_HACKS_DATA = {
     "platform": "Super Nintendo",
     "previewsFolder": "assets/previews/wip/wip-super-ghouls-n-ghosts-enhanced-edition-v1-0",
     "previews": [
-      "0. Titlescreen.png",
-      "1. Menu 1.png",
-      "1. Secret Menu.png",
-      "5. 1-Up.png",
-      "5. Chest Hints.png"
+      "1. Briefs (PERM Shield).png",
+      "2. Gray Armor (Chest Hints).png",
+      "3. Green Armor (1-Up).png",
+      "5. Maiden Transformation (Tripping).png",
+      "5. Maiden Tripping.gif",
+      "Chou Makaimura - Enhanced Edition (Japan).png",
+      "Enhanced Edition - Menu.png",
+      "Enhanced Edition - Secret Menu.png",
+      "Super Ghouls 'N Ghosts - Enhanced Edition (USA).png"
     ]
   },
   "wip-super-ghouls-n-ghosts-valkyrie-edition-v1-0": {
@@ -125,11 +129,15 @@ window.WIP_SECTIONS = [
         "platform": "Super Nintendo",
         "previewsFolder": "assets/previews/wip/wip-super-ghouls-n-ghosts-enhanced-edition-v1-0",
         "previews": [
-          "0. Titlescreen.png",
-          "1. Menu 1.png",
-          "1. Secret Menu.png",
-          "5. 1-Up.png",
-          "5. Chest Hints.png"
+          "1. Briefs (PERM Shield).png",
+          "2. Gray Armor (Chest Hints).png",
+          "3. Green Armor (1-Up).png",
+          "5. Maiden Transformation (Tripping).png",
+          "5. Maiden Tripping.gif",
+          "Chou Makaimura - Enhanced Edition (Japan).png",
+          "Enhanced Edition - Menu.png",
+          "Enhanced Edition - Secret Menu.png",
+          "Super Ghouls 'N Ghosts - Enhanced Edition (USA).png"
         ]
       },
       {
