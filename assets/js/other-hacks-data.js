@@ -2,9 +2,9 @@ window.OTHER_HACKS = [
   {
     "type": "other",
     "id": "other-snes-super-ghouls-n-ghosts-artoria-edition",
-    "title": "Super Ghouls 'N Ghosts: Knight/Maiden Artoria Edition v3.2",
+    "title": "Super Ghouls 'N Ghosts: Knight/Maiden Artoria Edition v3.3",
     "platform": "Super Nintendo",
-    "previewsFolder": "assets/previews/others/snes-sgng-artoria-v32",
+    "previewsFolder": "assets/previews/others/snes-sgng-artoria-v33",
     "links": [
       {
         "label": "Youtube Trailer",
@@ -30,15 +30,58 @@ window.OTHER_HACKS = [
       "2. Maiden (Chest Hints).png",
       "3. Purple Armor.png",
       "4. Gold Armor (Nuclear Power).png",
-      "5. Bee.png",
+      "5. Bee Transformation.png",
+      "5. Princess Transformation.png",
+      "5. Princess Tripping.gif",
       "Chou Makaimura - Knight Artoria Edition [Nightgown] (Japan).png",
       "Chou Makaimura - Maiden Artoria Edition [Nightgown] (Japan).png",
       "Combinations-Preview.gif",
       "Knight Artoria Edition - Menu.png",
+      "Knight Artoria Edition - Ranking 1.png",
       "Knight Artoria Edition - Secret Menu.png",
+      "Maiden Artoria Edition - Menu.png",
+      "Maiden Artoria Edition - Ranking 1.png",
       "Maiden Artoria Edition - Ranking 2.png",
+      "Maiden Artoria Edition - Secret Menu.png",
       "Super Ghouls 'N Ghosts - Knight Artoria Edition [Nightgown] (USA).png",
       "Super Ghouls 'N Ghosts - Maiden Artoria Edition [Nightgown] (USA).png"
+    ]
+  },
+  {
+    "type": "other",
+    "id": "other-snes-super-ghouls-n-ghosts-enhanced-arthur-edition",
+    "title": "Super Ghouls 'N Ghosts: Enhanced Arthur Edition v1.0",
+    "platform": "Super Nintendo",
+    "previewsFolder": "assets/previews/others/snes-sgng-enhanced-arthur-v10",
+    "links": [
+      {
+        "label": "Youtube Trailer",
+        "url": "https://youtu.be/nVDK-RSpA4o"
+      },
+      {
+        "label": "ROMhacking.net",
+        "url": "https://www.romhacking.net/hacks/10009/"
+      },
+      {
+        "label": "RomHackPlaza.org",
+        "url": "https://rhpz.org/r/4432"
+      },
+      {
+        "label": "romhack.ing",
+        "url": "https://romhack.ing/database/content/entry/oDKx9j05TZ2gEBAgjWHKcw"
+      }
+    ],
+    "previews": [
+      "1. Briefs (PERM Shield).png",
+      "2. Gray Armor (Chest Hints).png",
+      "3. Green Armor (1-Up).png",
+      "5. Maiden Transformation (Tripping).png",
+      "5. Maiden Tripping.gif",
+      "Chou Makaimura - Enhanced Edition (Japan).png",
+      "Enhanced Edition - Menu.png",
+      "Enhanced Edition - Ranking.png",
+      "Enhanced Edition - Secret Menu.png",
+      "Super Ghouls 'N Ghosts - Enhanced Edition (USA).png"
     ]
   },
   {
