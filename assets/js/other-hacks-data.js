@@ -20,7 +20,7 @@ window.OTHER_HACKS = [
       },
       {
         "label": "romhack.ing",
-        "url": "https://romhack.ing/database/content/entry/wyPLf9i8RdyyXgAFjok8NA"
+        "url": "https://romhack.ing/database/content/entry/wyPLf9i8RdyyXgAFojk8NA"
       }
     ],
     "previews": [
