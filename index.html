@@ -119,22 +119,52 @@
     renderWipSection(document.getElementById("wip-section"), window.WIP_SECTIONS);
     initAllPreviewSlideshows();
 
+    // Deep-linkable views: #Other-Hacks and #Works-in-Progress (aliases: #WIP, #other, #wip).
     const viewSections = {
       other: document.getElementById("other-section"),
       wip: document.getElementById("wip-section"),
     };
-    viewSections.wip.hidden = true;
+    const viewHashes = { other: "Other-Hacks", wip: "Works-in-Progress" };
+    const hashAliases = {
+      "other-hacks": "other",
+      "other": "other",
+      "works-in-progress": "wip",
+      "wip": "wip",
+    };
+    const viewSwitch = document.querySelector(".hack-view-switch");
+
+    function viewFromHash(hash) {
+      const key = decodeURIComponent(hash.replace(/^#/, "")).trim().toLowerCase();
+      return hashAliases[key] || null;
+    }
+
+    function setHackView(selected) {
+      for (const [view, section] of Object.entries(viewSections)) {
+        section.hidden = view !== selected;
+      }
+      for (const viewButton of document.querySelectorAll("[data-hack-view]")) {
+        const active = viewButton.dataset.hackView === selected;
+        viewButton.classList.toggle("is-active", active);
+        viewButton.setAttribute("aria-pressed", String(active));
+      }
+    }
+
+    function applyHash({ scroll }) {
+      const view = viewFromHash(location.hash);
+      if (!view) return;
+      setHackView(view);
+      if (scroll) viewSwitch.scrollIntoView({ block: "start" });
+    }
+
+    setHackView("other");
+    applyHash({ scroll: true });
+    window.addEventListener("hashchange", () => applyHash({ scroll: true }));
+
     for (const button of document.querySelectorAll("[data-hack-view]")) {
       button.addEventListener("click", () => {
         const selected = button.dataset.hackView;
-        for (const [view, section] of Object.entries(viewSections)) {
-          section.hidden = view !== selected;
-        }
-        for (const viewButton of document.querySelectorAll("[data-hack-view]")) {
-          const active = viewButton.dataset.hackView === selected;
-          viewButton.classList.toggle("is-active", active);
-          viewButton.setAttribute("aria-pressed", String(active));
-        }
+        setHackView(selected);
+        history.replaceState(null, "", `#${viewHashes[selected]}`);
       });
     }
 
