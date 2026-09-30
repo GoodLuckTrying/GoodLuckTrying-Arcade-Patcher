@@ -64,7 +64,7 @@ window.WIP_HACKS_DATA = {
     "credits": [
       {
         "name": "sleepyren",
-        "role": "Co-author - all sprites done by him.",
+        "role": "Co-author - all sprites & stage work done by him.",
         "url": "https://www.romhacking.net/community/7299/"
       }
     ],
@@ -135,7 +135,7 @@ window.WIP_SECTIONS = [
         "credits": [
           {
             "name": "sleepyren",
-            "role": "Co-author - all sprites done by him.",
+            "role": "Co-author - all sprites & stage work done by him.",
             "url": "https://www.romhacking.net/community/7299/"
           }
         ],
