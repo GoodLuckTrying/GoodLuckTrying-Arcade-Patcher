@@ -75,14 +75,25 @@ export function renderWipSection(sectionEl, sections) {
     const credits = hack.credits ?? [];
     if (credits.length) {
       const creditLine = document.createElement("p");
-      const creditLink = document.createElement("a");
-      creditLink.href = credits[0].url || "https://twitter.com/hetagaki_poody";
-      creditLink.target = "_blank";
-      creditLink.rel = "noopener noreferrer";
-      creditLink.textContent = "Poody";
-      creditLine.appendChild(document.createTextNode("Co-author: "));
-      creditLine.appendChild(creditLink);
-      creditLine.appendChild(document.createTextNode(" — all sprites done by him."));
+      creditLine.className = "card-credits";
+      for (const [index, { name, role, url }] of credits.entries()) {
+        if (index) creditLine.appendChild(document.createElement("br"));
+        if (url) {
+          const creditLink = document.createElement("a");
+          creditLink.href = url;
+          creditLink.target = "_blank";
+          creditLink.rel = "noopener noreferrer";
+          creditLink.textContent = name;
+          creditLine.appendChild(creditLink);
+        } else if (name) {
+          const strong = document.createElement("strong");
+          strong.textContent = name;
+          creditLine.appendChild(strong);
+        }
+        if (role) {
+          creditLine.appendChild(document.createTextNode(` — ${role}`));
+        }
+      }
       card.appendChild(creditLine);
     }
 
