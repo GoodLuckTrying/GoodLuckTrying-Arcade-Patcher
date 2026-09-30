@@ -2,7 +2,7 @@ window.OTHER_HACKS = [
   {
     "type": "other",
     "id": "other-snes-super-ghouls-n-ghosts-artoria-edition",
-    "title": "Super Ghouls 'N Ghosts: Knight/Maiden Artoria Edition v3.3",
+    "title": "Super Ghouls 'N Ghosts: Knight/Maiden Artoria Edition v3.4",
     "platform": "Super Nintendo",
     "previewsFolder": "assets/previews/others/snes-sgng-artoria-v33",
     "links": [
@@ -28,7 +28,7 @@ window.OTHER_HACKS = [
   {
     "type": "other",
     "id": "other-snes-super-ghouls-n-ghosts-enhanced-arthur-edition",
-    "title": "Super Ghouls 'N Ghosts: Enhanced Arthur Edition v1.0",
+    "title": "Super Ghouls 'N Ghosts: Enhanced Arthur Edition v1.1",
     "platform": "Super Nintendo",
     "previewsFolder": "assets/previews/others/snes-sgng-enhanced-arthur-v10",
     "links": [
