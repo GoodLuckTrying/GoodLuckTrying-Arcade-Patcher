@@ -217,65 +217,63 @@ a { color: var(--accent); }
 }
 
 .community-section {
-  background: linear-gradient(135deg, rgba(124, 156, 255, 0.12), rgba(124, 156, 255, 0.04));
-  border: 1px solid rgba(124, 156, 255, 0.4);
-  border-radius: var(--radius);
-  padding: 1.25rem;
+  padding: 1rem 1.25rem;
   margin-bottom: 1.5rem;
   text-align: center;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
 }
 
 .community-section h2 {
-  margin: 0;
-}
-
-.community-section > p {
-  margin: 0.35rem 0 1rem;
-  color: var(--muted);
+  margin: 0 0 0.75rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
 }
 
 .community-links {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 0.75rem;
-}
-
-.community-link {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 0.75rem;
-  min-height: 72px;
-  padding: 0.8rem 1rem;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.community-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  min-height: 42px;
+  padding: 0.55rem 0.8rem;
   border: 1px solid var(--border);
-  border-radius: var(--radius);
+  border-radius: 999px;
   background: var(--surface);
   color: var(--text);
   text-decoration: none;
   text-align: left;
-  transition: border-color 0.15s, transform 0.15s;
+  transition: border-color 0.15s, background-color 0.15s;
 }
 
 .community-link:hover {
   border-color: var(--accent);
-  transform: translateY(-1px);
+  background: #202638;
 }
 
 .community-link__icon {
   display: grid;
   place-items: center;
-  width: 36px;
-  height: 36px;
-  border-radius: 8px;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
   background: #5865f2;
   color: white;
-  font-size: 1.25rem;
+  font-size: 0.85rem;
   font-weight: 800;
 }
 
 .community-link--youtube img {
-  width: 36px;
-  height: 36px;
+  width: 26px;
+  height: 26px;
   object-fit: contain;
 }
 
@@ -286,11 +284,14 @@ a { color: var(--accent); }
 
 .community-link strong {
   color: var(--text);
+  font-size: 0.85rem;
 }
 
 .community-link small {
-  margin-top: 0.1rem;
+  margin-top: 0.05rem;
   color: var(--muted);
+  font-size: 0.68rem;
+  line-height: 1.2;
 }
 
 @media (max-width: 640px) {
@@ -302,16 +303,17 @@ a { color: var(--accent); }
   }
 
   .community-section {
-    padding: 1rem 0.75rem;
+    padding: 0.8rem 0.5rem;
     margin-bottom: 0.75rem;
   }
 
   .community-links {
-    grid-template-columns: 1fr;
+    gap: 0.4rem;
   }
 
   .community-link {
-    min-height: 62px;
+    flex: 1 1 100%;
+    justify-content: center;
   }
 
   .disclaimer p,
