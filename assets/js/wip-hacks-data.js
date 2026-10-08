@@ -13,10 +13,12 @@ window.WIP_HACKS_DATA = {
     ],
     "previewsFolder": "assets/previews/wip/wip-castlevania-3-enhanced-edition-v1-0",
     "previews": [
+      "1. Sypha.png",
       "Alucard Diamond + Fireball.png",
-      "Castlevania_3_enhanced V6.gif",
       "Debug Menu.gif",
-      "Titlescreen.png"
+      "Options.png",
+      "Titlescreen.png",
+      "Trevor Slide.png"
     ]
   },
   "wip-ghosts-n-goblins-princess-edition-v1-0": {
@@ -141,10 +143,12 @@ window.WIP_SECTIONS = [
         ],
         "previewsFolder": "assets/previews/wip/wip-castlevania-3-enhanced-edition-v1-0",
         "previews": [
+          "1. Sypha.png",
           "Alucard Diamond + Fireball.png",
-          "Castlevania_3_enhanced V6.gif",
           "Debug Menu.gif",
-          "Titlescreen.png"
+          "Options.png",
+          "Titlescreen.png",
+          "Trevor Slide.png"
         ]
       }
     ]
