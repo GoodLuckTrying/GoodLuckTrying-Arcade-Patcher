@@ -61,6 +61,7 @@ window.WIP_HACKS_DATA = {
     "id": "wip-castlevania-3-enhanced-edition-v1-0",
     "title": "Castlevania 3 - Enhanced Edition",
     "platform": "Nintendo",
+    "trailerUrl": "https://youtu.be/WqOh-2gFRwc",
     "credits": [
       {
         "name": "sleepyren",
@@ -139,6 +140,7 @@ window.WIP_SECTIONS = [
         "id": "wip-castlevania-3-enhanced-edition-v1-0",
         "title": "Castlevania 3 - Enhanced Edition",
         "platform": "Nintendo",
+        "trailerUrl": "https://youtu.be/WqOh-2gFRwc",
         "credits": [
           {
             "name": "sleepyren",
