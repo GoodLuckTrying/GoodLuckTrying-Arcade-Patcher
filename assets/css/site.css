@@ -216,12 +216,102 @@ a { color: var(--accent); }
   font-size: 0.95rem;
 }
 
+.community-section {
+  background: linear-gradient(135deg, rgba(124, 156, 255, 0.12), rgba(124, 156, 255, 0.04));
+  border: 1px solid rgba(124, 156, 255, 0.4);
+  border-radius: var(--radius);
+  padding: 1.25rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.community-section h2 {
+  margin: 0;
+}
+
+.community-section > p {
+  margin: 0.35rem 0 1rem;
+  color: var(--muted);
+}
+
+.community-links {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.75rem;
+}
+
+.community-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  min-height: 72px;
+  padding: 0.8rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+  color: var(--text);
+  text-decoration: none;
+  text-align: left;
+  transition: border-color 0.15s, transform 0.15s;
+}
+
+.community-link:hover {
+  border-color: var(--accent);
+  transform: translateY(-1px);
+}
+
+.community-link__icon {
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  background: #5865f2;
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 800;
+}
+
+.community-link--youtube img {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+}
+
+.community-link strong,
+.community-link small {
+  display: block;
+}
+
+.community-link strong {
+  color: var(--text);
+}
+
+.community-link small {
+  margin-top: 0.1rem;
+  color: var(--muted);
+}
+
 @media (max-width: 640px) {
   .disclaimer {
     padding: 0.5rem 0.75rem;
     margin-bottom: 0.5rem;
     font-size: 0.8rem;
     line-height: 1.3;
+  }
+
+  .community-section {
+    padding: 1rem 0.75rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .community-links {
+    grid-template-columns: 1fr;
+  }
+
+  .community-link {
+    min-height: 62px;
   }
 
   .disclaimer p,
