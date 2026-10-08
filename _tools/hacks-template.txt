@@ -1,0 +1,117 @@
+{
+  "pages": [
+    {
+      "type": "patcher",
+      "id": "ghouls-artoria-v10",
+      "title": "Ghouls'n Ghosts: Knight/Maiden Artoria Edition v1.0",
+      "folder": "Ghouls'n Ghosts - Artoria Edition v1.0 by GoodLuckTrying",
+      "trailerUrl": "https://youtu.be/kNsi4sraUQc",
+      "icon": "assets/icons/GhoulsArtoria.png",
+      "boxartLinks": [{"label": "Ghouls'n Ghosts: Knight/Maiden Artoria Edition", "url": "https://www.deviantart.com/xxcaesarxx/art/Ghouls-n-Ghosts-Knight-Maiden-Artoria-Edition-1373422334"}, {"label": "Daimakaimura: Knight/Maiden Artoria Edition", "url": "https://www.deviantart.com/xxcaesarxx/art/Daimakaimura-Knight-Maiden-Artoria-Edition-1373423892"}],
+      "credits": [{"name": "GoodLuckTrying", "role": "Hack author", "url": "https://github.com/GoodLuckTrying"}, {"name": "morb / misentropy", "role": "Developer behind modifying the \u201cThe End\u201d screen artworks, updating the titlescreen, and more help than can be listed."}, {"name": "sleepyren", "role": "Artist behind key Artoria frames and the Citizen Doll sprites."}, {"name": "Ian Samson", "role": "Artist behind the \u201cThe End\u201d screen artworks for both Knight and Maiden Artoria Editions.", "url": "https://www.deviantart.com/tran4of3"}]
+    },
+    {
+      "type": "patcher",
+      "id": "gng-enhanced-v10",
+      "title": "Ghosts'n Goblins Enhanced v1.0",
+      "folder": "Ghosts'n Goblins Enhanced v1.0 by GoodLuckTrying",
+      "trailerUrl": "https://youtu.be/1MqTjmTokAo",
+      "icon": "assets/icons/GoblinsArthur.png"
+    },
+    {
+      "type": "patcher",
+      "id": "gng-artoria-v12",
+      "title": "Ghosts'n Goblins: Knight/Maiden Artoria Edition v1.2",
+      "folder": "Ghosts'n Goblins - Artoria Edition v1.2 by GoodLuckTrying",
+      "trailerUrl": "https://youtu.be/NHejslEFf_g",
+      "icon": "assets/icons/GoblinsArtoria.png",
+      "boxartLinks": [{"label": "Knight Artoria Edition", "url": "https://www.deviantart.com/xxcaesarxx/art/Ghosts-n-Goblins-Makaimura-Knight-Artoria-Edition-1312785645"}, {"label": "Maiden Artoria Edition", "url": "https://www.deviantart.com/xxcaesarxx/art/Ghosts-n-Goblins-Makaimura-Maiden-Artoria-Edition-1312786516"}],
+      "credits": [{"name": "GoodLuckTrying", "role": "Hack author", "url": "https://github.com/GoodLuckTrying"}, {"name": "poody", "role": "Hack co-author. Artist behind every new sprite.", "url": "https://twitter.com/hetagaki_poody"}, {"name": "dink", "role": "Developer behind the checksum check bypass for the program ROMs, and tremendous help understanding the romset."}, {"name": "phonymike", "role": "Invaluable help getting the graphics modifiable through Tile Molester / YY-CHR."}, {"name": "morb", "role": "Hacker behind death frames' palette changes and checksum fix."}]
+    },
+    {
+      "type": "wip",
+      "id": "wip-ghosts-n-goblins-princess-edition-v1-0",
+      "title": "Ghosts'n Goblins: Princess Edition v1.0",
+      "platform": "Arcade",
+      "sourceFolder": "assets/wip/Arcade/Arcade Ghosts'n Goblins - Princess Edition v1.0 by GoodLuckTrying",
+      "credits": [{"name": "Poody", "role": "Co-author - all sprites done by him.", "url": "https://twitter.com/hetagaki_poody"}]
+    },
+    {
+      "type": "wip",
+      "id": "wip-super-ghouls-n-ghosts-brave-edition-v1-0",
+      "title": "Super Ghouls 'N Ghosts: Brave Edition v1.0",
+      "platform": "Super Nintendo",
+      "sourceFolder": "assets/wip/Super Nintendo/Super Ghouls 'N Ghosts - Brave Edition v1.0",
+      "credits": [{"name": "Poody", "role": "Co-author - all sprites done by him.", "url": "https://twitter.com/hetagaki_poody"}]
+    },
+    {
+      "type": "wip",
+      "id": "wip-super-ghouls-n-ghosts-enhanced-edition-v1-0",
+      "title": "Super Ghouls 'N Ghosts: Enhanced Edition v1.0",
+      "platform": "Super Nintendo",
+      "sourceFolder": "assets/wip/Super Nintendo/Super Ghouls 'N Ghosts - Enhanced Edition v1.0"
+    },
+    {
+      "type": "wip",
+      "id": "wip-super-ghouls-n-ghosts-valkyrie-edition-v1-0",
+      "title": "Super Ghouls 'N Ghosts: Valkyrie Edition v1.0",
+      "platform": "Super Nintendo",
+      "sourceFolder": "assets/wip/Super Nintendo/Super Ghouls 'N Ghosts - Valkyrie Edition v1.0 by GoodLuckTrying"
+    },
+    {
+      "type": "wip",
+      "id": "wip-castlevania-3-enhanced-edition-v1-0",
+      "title": "Castlevania 3 - Enhanced Edition",
+      "platform": "Nintendo",
+      "sourceFolder": "assets/wip/Nintendo/Castlevania 3 - Enhanced Edition",
+      "credits": [{"name": "sleepyren", "role": "Co-author - Hacking (+ All sprites & stage work done by him)", "url": "https://www.romhacking.net/community/7299/"}]
+    },
+    {
+      "type": "wip",
+      "id": "wip-ghouls-n-ghosts-arthur-artoria-edition-v1-0",
+      "title": "Ghouls 'n Ghosts - Arthur, Knight & Maiden Artoria Edition v1.0",
+      "platform": "Sega Genesis",
+      "sourceFolder": "assets/wip/Sega Genesis/Ghouls 'n Ghosts - Arthur, Knight & Maiden Artoria Edition v1.0 by GoodLuckTrying"
+    },
+    {
+      "type": "other",
+      "id": "other-snes-super-ghouls-n-ghosts-artoria-edition",
+      "title": "Super Ghouls 'N Ghosts: Knight/Maiden Artoria Edition v3.4",
+      "platform": "Super Nintendo",
+      "previewsFolder": "assets/previews/others/snes-sgng-artoria",
+      "links": [{"label": "Youtube Trailer", "url": "https://youtu.be/swu9OdaxcAw"}, {"label": "ROMhacking.net", "url": "https://www.romhacking.net/hacks/9094/"}, {"label": "RomHackPlaza.org", "url": "https://rhpz.org/r/3608"}, {"label": "romhack.ing", "url": "https://romhack.ing/database/content/entry/wyPLf9i8RdyyXgAFojk8NA"}]
+    },
+    {
+      "type": "other",
+      "id": "other-snes-super-ghouls-n-ghosts-enhanced-arthur-edition",
+      "title": "Super Ghouls 'N Ghosts: Enhanced Arthur Edition v1.1",
+      "platform": "Super Nintendo",
+      "previewsFolder": "assets/previews/others/snes-sgng-enhanced-arthur",
+      "links": [{"label": "Youtube Trailer", "url": "https://youtu.be/nVDK-RSpA4o"}, {"label": "ROMhacking.net", "url": "https://www.romhacking.net/hacks/10009/"}, {"label": "RomHackPlaza.org", "url": "https://rhpz.org/r/4432"}, {"label": "romhack.ing", "url": "https://romhack.ing/database/content/entry/oDKx9j05TZ2gEBAgjWHKcw"}]
+    },
+    {
+      "type": "other",
+      "id": "other-gba-super-ghouls-n-ghosts-artoria-edition",
+      "title": "Super Ghouls 'N Ghosts: Knight/Maiden Artoria Edition v1.6",
+      "platform": "Game Boy Advance",
+      "previewsFolder": "assets/previews/others/gba-sgng-artoria",
+      "links": [{"label": "Youtube Trailer", "url": "https://youtu.be/yschs4xaL5M"}, {"label": "ROMhacking.net", "url": "https://www.romhacking.net/hacks/9110/"}, {"label": "RomHackPlaza.org", "url": "https://rhpz.org/r/3577"}, {"label": "romhack.ing", "url": "https://romhack.ing/database/content/entry/xXQXT_DZSLa4myF5XJG_7A"}]
+    },
+    {
+      "type": "other",
+      "id": "other-genesis-ghouls-n-ghosts-artoria-edition",
+      "title": "Ghouls 'n Ghosts: Artoria Edition v1.1",
+      "platform": "Sega Genesis",
+      "previewsFolder": "assets/previews/others/gen-ghouls-artoria",
+      "links": [{"label": "Youtube Trailer", "url": "https://youtu.be/ZOeMtVJDW8k"}, {"label": "ROMhacking.net", "url": "https://www.romhacking.net/hacks/9232/"}, {"label": "RomHackPlaza.org", "url": "https://rhpz.org/r/3606"}, {"label": "romhack.ing", "url": "https://romhack.ing/database/content/entry/MzFeRz8ATdSrUi9OCgt9VA"}]
+    },
+    {
+      "type": "other",
+      "id": "other-genesis-ghouls-n-ghosts-restoration",
+      "title": "Ghouls 'n Ghosts Restoration v1.2",
+      "platform": "Sega Genesis",
+      "previewsFolder": "assets/previews/others/gen-ghouls-restoration",
+      "links": [{"label": "ROMhacking.net", "url": "https://www.romhacking.net/hacks/9163/"}, {"label": "RomHackPlaza.org", "url": "https://rhpz.org/t/1918"}, {"label": "romhack.ing", "url": "https://romhack.ing/database/content/entry/ySsOeYEwQ66lgqlSYD_1Xg"}]
+    }
+  ]
+}
