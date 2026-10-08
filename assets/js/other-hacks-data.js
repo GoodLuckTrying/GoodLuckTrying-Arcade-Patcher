@@ -4,7 +4,7 @@ window.OTHER_HACKS = [
     "id": "other-snes-super-ghouls-n-ghosts-artoria-edition",
     "title": "Super Ghouls 'N Ghosts: Knight/Maiden Artoria Edition v3.4",
     "platform": "Super Nintendo",
-    "previewsFolder": "assets/previews/others/snes-sgng-artoria-v34",
+    "previewsFolder": "assets/previews/others/snes-sgng-artoria",
     "links": [
       {
         "label": "Youtube Trailer",
@@ -52,7 +52,7 @@ window.OTHER_HACKS = [
     "id": "other-snes-super-ghouls-n-ghosts-enhanced-arthur-edition",
     "title": "Super Ghouls 'N Ghosts: Enhanced Arthur Edition v1.1",
     "platform": "Super Nintendo",
-    "previewsFolder": "assets/previews/others/snes-sgng-enhanced-arthur-v11",
+    "previewsFolder": "assets/previews/others/snes-sgng-enhanced-arthur",
     "links": [
       {
         "label": "Youtube Trailer",
@@ -89,7 +89,7 @@ window.OTHER_HACKS = [
     "id": "other-gba-super-ghouls-n-ghosts-artoria-edition",
     "title": "Super Ghouls 'N Ghosts: Knight/Maiden Artoria Edition v1.6",
     "platform": "Game Boy Advance",
-    "previewsFolder": "assets/previews/others/gba-sgng-artoria-v16",
+    "previewsFolder": "assets/previews/others/gba-sgng-artoria",
     "links": [
       {
         "label": "Youtube Trailer",
@@ -125,8 +125,8 @@ window.OTHER_HACKS = [
     "type": "other",
     "id": "other-genesis-ghouls-n-ghosts-artoria-edition",
     "title": "Ghouls 'n Ghosts: Artoria Edition v1.1",
-    "platform": "Genesis",
-    "previewsFolder": "assets/previews/others/gen-ghouls-artoria-v11",
+    "platform": "Sega Genesis",
+    "previewsFolder": "assets/previews/others/gen-ghouls-artoria",
     "links": [
       {
         "label": "Youtube Trailer",
@@ -157,8 +157,8 @@ window.OTHER_HACKS = [
     "type": "other",
     "id": "other-genesis-ghouls-n-ghosts-restoration",
     "title": "Ghouls 'n Ghosts Restoration v1.2",
-    "platform": "Genesis",
-    "previewsFolder": "assets/previews/others/gen-ghouls-restoration-v12",
+    "platform": "Sega Genesis",
+    "previewsFolder": "assets/previews/others/gen-ghouls-restoration",
     "links": [
       {
         "label": "ROMhacking.net",
