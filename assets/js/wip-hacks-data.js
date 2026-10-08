@@ -85,9 +85,9 @@ window.WIP_HACKS_DATA = {
     "platform": "Sega Genesis",
     "previewsFolder": "assets/previews/wip/wip-ghouls-n-ghosts-arthur-artoria-edition-v1-0",
     "previews": [
-      "0. gng_arthur_enhanced_000.png",
-      "0. gng_knight_artoria_000.png",
-      "0. gng_maiden_artoria_000.png",
+      "0. Arthur Titlescreen.png",
+      "0. Knight Artoria Titlescreen.png",
+      "0. Maiden Artoria Titlescreen.png",
       "1. Nightgown.png",
       "2. Knight Artoria.png",
       "2. Maiden Artoria.png",
@@ -95,7 +95,8 @@ window.WIP_HACKS_DATA = {
       "5. Gold Armor Special.png",
       "6. Knight Edition - Dog.png",
       "6. Maiden Edition - Dog.png",
-      "gng_maiden_artoria_002.png"
+      "7. Maiden Artoria Menu.png",
+      "7. Maiden Artoria Secret Menu.png"
     ]
   }
 };
@@ -163,9 +164,9 @@ window.WIP_SECTIONS = [
         "platform": "Sega Genesis",
         "previewsFolder": "assets/previews/wip/wip-ghouls-n-ghosts-arthur-artoria-edition-v1-0",
         "previews": [
-          "0. gng_arthur_enhanced_000.png",
-          "0. gng_knight_artoria_000.png",
-          "0. gng_maiden_artoria_000.png",
+          "0. Arthur Titlescreen.png",
+          "0. Knight Artoria Titlescreen.png",
+          "0. Maiden Artoria Titlescreen.png",
           "1. Nightgown.png",
           "2. Knight Artoria.png",
           "2. Maiden Artoria.png",
@@ -173,7 +174,8 @@ window.WIP_SECTIONS = [
           "5. Gold Armor Special.png",
           "6. Knight Edition - Dog.png",
           "6. Maiden Edition - Dog.png",
-          "gng_maiden_artoria_002.png"
+          "7. Maiden Artoria Menu.png",
+          "7. Maiden Artoria Secret Menu.png"
         ]
       }
     ]
