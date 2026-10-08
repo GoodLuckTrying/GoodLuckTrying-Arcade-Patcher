@@ -253,32 +253,15 @@ def wip_id(folder_name: str) -> str:
     return f"wip-{slug}"
 
 
-def copy_wip_previews(hack_id: str, previews_dir: Path) -> tuple[str, list[str]]:
-    """Copy WIP previews into assets/previews/wip/<id>/ for safe web URLs."""
-    web_dir = ROOT / "assets" / "previews" / "wip" / hack_id
-    web_rel = f"assets/previews/wip/{hack_id}"
-
-    web_dir.mkdir(parents=True, exist_ok=True)
-    for old in web_dir.iterdir():
-        if old.is_file():
-            old.unlink()
-
-    files = []
-    for f in sorted(previews_dir.iterdir()):
-        if f.is_file() and f.suffix.lower() in PREVIEW_EXT:
-            shutil.copy2(f, web_dir / f.name)
-            files.append(f.name)
-
+def list_wip_previews(source_folder: str, previews_dir: Path) -> tuple[str, list[str]]:
+    """List WIP previews directly from their configured source folder."""
+    web_rel = f"{source_folder}/Previews"
+    files = [
+        f.name
+        for f in sorted(previews_dir.iterdir())
+        if f.is_file() and f.suffix.lower() in PREVIEW_EXT
+    ]
     return web_rel, files
-
-
-def prune_generated_wip_previews(active_ids: set[str]) -> None:
-    web_root = ROOT / "assets" / "previews" / "wip"
-    if not web_root.is_dir():
-        return
-    for old_dir in web_root.iterdir():
-        if old_dir.is_dir() and old_dir.name not in active_ids:
-            shutil.rmtree(old_dir)
 
 
 def scan_wip_hacks(entries: list[dict]) -> tuple[dict, list]:
@@ -298,7 +281,7 @@ def scan_wip_hacks(entries: list[dict]) -> tuple[dict, list]:
             continue
 
         hack_id = config["id"]
-        previews_folder, files = copy_wip_previews(hack_id, previews_dir)
+        previews_folder, files = list_wip_previews(config["sourceFolder"], previews_dir)
         if not files:
             continue
 
@@ -310,7 +293,6 @@ def scan_wip_hacks(entries: list[dict]) -> tuple[dict, list]:
 
     for platform in sorted(by_platform):
         sections.append({"platform": platform, "hacks": by_platform[platform]})
-    prune_generated_wip_previews(set(hacks_data))
 
     return hacks_data, sections
 

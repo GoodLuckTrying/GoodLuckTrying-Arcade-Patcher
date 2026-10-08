@@ -11,7 +11,7 @@ window.WIP_HACKS_DATA = {
         "url": "https://twitter.com/hetagaki_poody"
       }
     ],
-    "previewsFolder": "assets/previews/wip/wip-ghosts-n-goblins-princess-edition-v1-0",
+    "previewsFolder": "assets/source/wip/Arcade/Arcade Ghosts'n Goblins - Princess Edition v1.0 by GoodLuckTrying/Previews",
     "previews": [
       "0000.png",
       "0001.png",
@@ -32,7 +32,7 @@ window.WIP_HACKS_DATA = {
         "url": "https://twitter.com/hetagaki_poody"
       }
     ],
-    "previewsFolder": "assets/previews/wip/wip-super-ghouls-n-ghosts-brave-edition-v1-0",
+    "previewsFolder": "assets/source/wip/Super Nintendo/Super Ghouls 'N Ghosts - Brave Edition v1.0/Previews",
     "previews": [
       "Preview #1.png"
     ]
@@ -42,7 +42,7 @@ window.WIP_HACKS_DATA = {
     "id": "wip-super-ghouls-n-ghosts-valkyrie-edition-v1-0",
     "title": "Super Ghouls 'N Ghosts: Valkyrie Edition v1.0",
     "platform": "Super Nintendo",
-    "previewsFolder": "assets/previews/wip/wip-super-ghouls-n-ghosts-valkyrie-edition-v1-0",
+    "previewsFolder": "assets/source/wip/Super Nintendo/Super Ghouls 'N Ghosts - Valkyrie Edition v1.0 by GoodLuckTrying/Previews",
     "previews": [
       "1. Nightgown.png",
       "4. Gold Valkyrie.png",
@@ -68,7 +68,7 @@ window.WIP_HACKS_DATA = {
         "url": "https://www.romhacking.net/community/7299/"
       }
     ],
-    "previewsFolder": "assets/previews/wip/wip-castlevania-3-enhanced-edition-v1-0",
+    "previewsFolder": "assets/source/wip/Nintendo/Castlevania 3 - Enhanced Edition/Previews",
     "previews": [
       "1. Sypha.png",
       "Alucard Diamond + Fireball.png",
@@ -83,7 +83,7 @@ window.WIP_HACKS_DATA = {
     "id": "wip-ghouls-n-ghosts-arthur-artoria-edition-v1-0",
     "title": "Ghouls 'n Ghosts - Arthur, Knight & Maiden Artoria Edition v1.0",
     "platform": "Sega Genesis",
-    "previewsFolder": "assets/previews/wip/wip-ghouls-n-ghosts-arthur-artoria-edition-v1-0",
+    "previewsFolder": "assets/source/wip/Sega Genesis/Ghouls 'n Ghosts - Arthur, Knight & Maiden Artoria Edition v1.0 by GoodLuckTrying/Previews",
     "previews": [
       "0. Arthur Titlescreen.png",
       "0. Knight Artoria Titlescreen.png",
@@ -116,7 +116,7 @@ window.WIP_SECTIONS = [
             "url": "https://twitter.com/hetagaki_poody"
           }
         ],
-        "previewsFolder": "assets/previews/wip/wip-ghosts-n-goblins-princess-edition-v1-0",
+        "previewsFolder": "assets/source/wip/Arcade/Arcade Ghosts'n Goblins - Princess Edition v1.0 by GoodLuckTrying/Previews",
         "previews": [
           "0000.png",
           "0001.png",
@@ -142,7 +142,7 @@ window.WIP_SECTIONS = [
             "url": "https://www.romhacking.net/community/7299/"
           }
         ],
-        "previewsFolder": "assets/previews/wip/wip-castlevania-3-enhanced-edition-v1-0",
+        "previewsFolder": "assets/source/wip/Nintendo/Castlevania 3 - Enhanced Edition/Previews",
         "previews": [
           "1. Sypha.png",
           "Alucard Diamond + Fireball.png",
@@ -162,7 +162,7 @@ window.WIP_SECTIONS = [
         "id": "wip-ghouls-n-ghosts-arthur-artoria-edition-v1-0",
         "title": "Ghouls 'n Ghosts - Arthur, Knight & Maiden Artoria Edition v1.0",
         "platform": "Sega Genesis",
-        "previewsFolder": "assets/previews/wip/wip-ghouls-n-ghosts-arthur-artoria-edition-v1-0",
+        "previewsFolder": "assets/source/wip/Sega Genesis/Ghouls 'n Ghosts - Arthur, Knight & Maiden Artoria Edition v1.0 by GoodLuckTrying/Previews",
         "previews": [
           "0. Arthur Titlescreen.png",
           "0. Knight Artoria Titlescreen.png",
@@ -195,7 +195,7 @@ window.WIP_SECTIONS = [
             "url": "https://twitter.com/hetagaki_poody"
           }
         ],
-        "previewsFolder": "assets/previews/wip/wip-super-ghouls-n-ghosts-brave-edition-v1-0",
+        "previewsFolder": "assets/source/wip/Super Nintendo/Super Ghouls 'N Ghosts - Brave Edition v1.0/Previews",
         "previews": [
           "Preview #1.png"
         ]
@@ -205,7 +205,7 @@ window.WIP_SECTIONS = [
         "id": "wip-super-ghouls-n-ghosts-valkyrie-edition-v1-0",
         "title": "Super Ghouls 'N Ghosts: Valkyrie Edition v1.0",
         "platform": "Super Nintendo",
-        "previewsFolder": "assets/previews/wip/wip-super-ghouls-n-ghosts-valkyrie-edition-v1-0",
+        "previewsFolder": "assets/source/wip/Super Nintendo/Super Ghouls 'N Ghosts - Valkyrie Edition v1.0 by GoodLuckTrying/Previews",
         "previews": [
           "1. Nightgown.png",
           "4. Gold Valkyrie.png",
