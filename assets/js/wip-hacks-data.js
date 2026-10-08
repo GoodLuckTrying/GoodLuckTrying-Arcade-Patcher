@@ -70,12 +70,16 @@ window.WIP_HACKS_DATA = {
     ],
     "previewsFolder": "assets/source/wip/Nintendo/Castlevania 3 - Enhanced Edition/Previews",
     "previews": [
+      "0. Options.png",
+      "0. Titlescreen.png",
+      "1. Alucard Diamond + Fireball.png",
+      "1. Alucard Fireball.png",
       "1. Sypha.png",
-      "Alucard Diamond + Fireball.png",
-      "Debug Menu.gif",
-      "Options.png",
-      "Titlescreen.png",
-      "Trevor Slide.png"
+      "1. Trevor Jump.png",
+      "1. Trevor Slide.png",
+      "2. Sypha Sub-Weapon Drop.gif",
+      "2. Trevor Slide + Character Swap.gif",
+      "Debug Menu.gif"
     ]
   },
   "wip-ghouls-n-ghosts-arthur-artoria-edition-v1-0": {
@@ -144,12 +148,16 @@ window.WIP_SECTIONS = [
         ],
         "previewsFolder": "assets/source/wip/Nintendo/Castlevania 3 - Enhanced Edition/Previews",
         "previews": [
+          "0. Options.png",
+          "0. Titlescreen.png",
+          "1. Alucard Diamond + Fireball.png",
+          "1. Alucard Fireball.png",
           "1. Sypha.png",
-          "Alucard Diamond + Fireball.png",
-          "Debug Menu.gif",
-          "Options.png",
-          "Titlescreen.png",
-          "Trevor Slide.png"
+          "1. Trevor Jump.png",
+          "1. Trevor Slide.png",
+          "2. Sypha Sub-Weapon Drop.gif",
+          "2. Trevor Slide + Character Swap.gif",
+          "Debug Menu.gif"
         ]
       }
     ]
