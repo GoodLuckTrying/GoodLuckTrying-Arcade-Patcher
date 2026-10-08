@@ -1,6 +1,6 @@
-# GoodLuckTrying/Wolfric's Hacks
+# GoodLuckTrying's ROM Hacks
 
-Browser-based ROM patchers for arcade hacks by [GoodLuckTrying](https://github.com/GoodLuckTrying). Pick a hack, upload your **stock** MAME/FBNeo romset `.zip`, and download a patched romset — all in your browser. **Your files never leave your device.**
+Browser-based ROM patching and hack resources by [GoodLuckTrying](https://github.com/GoodLuckTrying). Pick a hack, upload your **stock** MAME/FBNeo romset `.zip`, and download a patched romset — all in your browser. **Your files never leave your device.**
 
 Access the Page here: https://goodlucktrying.github.io/GoodLuckTrying-Arcade-Patcher/
 

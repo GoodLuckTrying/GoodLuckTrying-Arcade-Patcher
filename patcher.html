@@ -4,15 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="repo-base" content="/GoodLuckTrying-Arcade-Patcher/">
-  <meta name="description" content="GoodLuckTrying's Hacks — Browser-based Arcade ROM patchers.">
-  <meta property="og:title" content="GoodLuckTrying's Hacks">
-  <meta property="og:description" content="Browser-based Arcade ROM patchers.">
+  <meta name="description" content="GoodLuckTrying's ROM Hacks — Browser-based ROM patching and hack resources.">
+  <meta property="og:title" content="GoodLuckTrying's ROM Hacks">
+  <meta property="og:description" content="Browser-based ROM patching and hack resources.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://goodlucktrying.github.io/GoodLuckTrying-Arcade-Patcher/patcher.html">
   <meta property="og:image" content="https://goodlucktrying.github.io/GoodLuckTrying-Arcade-Patcher/assets/icons/Artoria.png">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="GoodLuckTrying's Hacks">
-  <meta name="twitter:description" content="Browser-based Arcade ROM patchers.">
+  <meta name="twitter:title" content="GoodLuckTrying's ROM Hacks">
+  <meta name="twitter:description" content="Browser-based ROM patching and hack resources.">
   <meta name="twitter:image" content="https://goodlucktrying.github.io/GoodLuckTrying-Arcade-Patcher/assets/icons/Artoria.png">
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-SKZY8QQS8N"></script>
@@ -22,7 +22,7 @@
     gtag('js', new Date());
     gtag('config', 'G-SKZY8QQS8N');
   </script>
-  <title>GoodLuckTrying's Hacks</title>
+  <title>GoodLuckTrying's ROM Hacks</title>
   <link rel="icon" href="assets/icons/Artoria.png" type="image/png">
   <link rel="stylesheet" href="assets/css/site.css">
   <script src="assets/js/hacks-data.js"></script>
@@ -108,8 +108,8 @@
     const pageUrl = `${siteBaseUrl}/patcher.html?hack=${encodeURIComponent(hackId || "")}`;
 
     function setShareMeta(data) {
-      const title = `GoodLuckTrying's Hacks`;
-      const description = `Browser-based Arcade ROM patchers — ${data.title}.`;
+      const title = `GoodLuckTrying's ROM Hacks`;
+      const description = `Browser-based ROM patching and hack resources — ${data.title}.`;
       const image = new URL(data.icon || "assets/icons/Artoria.png", `${siteBaseUrl}/`).href;
 
       document.title = title;
