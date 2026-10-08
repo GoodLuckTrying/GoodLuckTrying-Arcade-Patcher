@@ -29,7 +29,27 @@ function buildLinkAnchor(link) {
   return anchor;
 }
 
-/** Build Works in Progress cards from WIP_SECTIONS (generated from assets/wip/). */
+function buildYoutubeLink(url, label) {
+  const anchor = document.createElement("a");
+  anchor.href = url;
+  anchor.target = "_blank";
+  anchor.rel = "noopener noreferrer";
+  anchor.className = "hack-link-with-icon";
+
+  const img = document.createElement("img");
+  img.src = "assets/icons/Youtube.png";
+  img.alt = "";
+  img.loading = "lazy";
+  img.decoding = "async";
+  anchor.appendChild(img);
+
+  const text = document.createElement("span");
+  text.textContent = label;
+  anchor.appendChild(text);
+  return anchor;
+}
+
+// Build Works in Progress cards from WIP_SECTIONS (generated from assets/source/wip/).
 export function renderWipSection(sectionEl, sections) {
   const list = sectionEl.querySelector("#wip-cards");
   if (!sections?.length) {
@@ -99,12 +119,17 @@ export function renderWipSection(sectionEl, sections) {
 
     const previewLink = document.createElement("p");
     previewLink.className = "card-links";
-    for (const [index, link] of (hack.links ?? []).entries()) {
+    const links = [];
+    if (hack.previewUrl) links.push(buildYoutubeLink(hack.previewUrl, "YouTube Preview"));
+    if (hack.trailerUrl) links.push(buildYoutubeLink(hack.trailerUrl, "YouTube Trailer"));
+    for (const link of hack.links ?? []) links.push(buildLinkAnchor(link));
+
+    for (const [index, link] of links.entries()) {
       if (index) previewLink.appendChild(document.createElement("br"));
-      previewLink.appendChild(buildLinkAnchor(link));
+      previewLink.appendChild(link);
     }
     if (hack.id && (hack.previews?.length || hack.previewsFolder)) {
-      if (hack.links?.length) previewLink.appendChild(document.createElement("br"));
+      if (links.length) previewLink.appendChild(document.createElement("br"));
       const previewButton = document.createElement("button");
       previewButton.type = "button";
       previewButton.className = "preview-link-button";
