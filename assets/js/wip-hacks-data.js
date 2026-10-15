@@ -100,8 +100,10 @@ window.WIP_HACKS_DATA = {
       "5. Gold Armor Special.png",
       "6. Knight Edition - Dog.png",
       "6. Maiden Edition - Dog.png",
-      "7. Maiden Artoria Menu.png",
-      "7. Maiden Artoria Secret Menu.png"
+      "7. Maiden Artoria Edition - Menu.png",
+      "7. Maiden Artoria Edition - Secret Menu.png",
+      "Knight Artoria Edition - The End Screen 2.png",
+      "Maiden Artoria Edition - The End Screen 2.png"
     ]
   }
 };
@@ -184,8 +186,10 @@ window.WIP_SECTIONS = [
           "5. Gold Armor Special.png",
           "6. Knight Edition - Dog.png",
           "6. Maiden Edition - Dog.png",
-          "7. Maiden Artoria Menu.png",
-          "7. Maiden Artoria Secret Menu.png"
+          "7. Maiden Artoria Edition - Menu.png",
+          "7. Maiden Artoria Edition - Secret Menu.png",
+          "Knight Artoria Edition - The End Screen 2.png",
+          "Maiden Artoria Edition - The End Screen 2.png"
         ]
       }
     ]
