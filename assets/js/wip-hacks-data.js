@@ -13,11 +13,15 @@ window.WIP_HACKS_DATA = {
     ],
     "previewsFolder": "assets/source/wip/Arcade/Arcade Ghosts'n Goblins - Princess Edition v1.0 by GoodLuckTrying/Previews",
     "previews": [
-      "0000.png",
-      "0001.png",
-      "0004.png",
-      "0005.png",
-      "0007.png"
+      "0. Titlescreen.png",
+      "2. Opening 1.png",
+      "2. Opening 2.png",
+      "2. Opening 3.png",
+      "3. Briefs.png",
+      "5. Goblin.png",
+      "5. Tower Monster + Woody Pig.png",
+      "5. Tower Monster + Zombie.png",
+      "5. Unicorn.png"
     ]
   },
   "wip-super-ghouls-n-ghosts-brave-edition-v1-0": {
@@ -125,11 +129,15 @@ window.WIP_SECTIONS = [
         ],
         "previewsFolder": "assets/source/wip/Arcade/Arcade Ghosts'n Goblins - Princess Edition v1.0 by GoodLuckTrying/Previews",
         "previews": [
-          "0000.png",
-          "0001.png",
-          "0004.png",
-          "0005.png",
-          "0007.png"
+          "0. Titlescreen.png",
+          "2. Opening 1.png",
+          "2. Opening 2.png",
+          "2. Opening 3.png",
+          "3. Briefs.png",
+          "5. Goblin.png",
+          "5. Tower Monster + Woody Pig.png",
+          "5. Tower Monster + Zombie.png",
+          "5. Unicorn.png"
         ]
       }
     ]
