@@ -52,8 +52,8 @@ window.WIP_HACKS_DATA = {
       "6. Seal Transformation (Gray Armor).png",
       "7. Bee Transformation (Green Armor).png",
       "8. Maiden Transformation (Gold Armor).png",
-      "Menu 1.png",
-      "Menu 2.png"
+      "Valkyrie Edition - Secret Menu.png",
+      "Valkyrie Edition - Secret MenuValkyrie Edition - Menu.png"
     ]
   },
   "wip-castlevania-3-enhanced-edition-v1-0": {
@@ -229,8 +229,8 @@ window.WIP_SECTIONS = [
           "6. Seal Transformation (Gray Armor).png",
           "7. Bee Transformation (Green Armor).png",
           "8. Maiden Transformation (Gold Armor).png",
-          "Menu 1.png",
-          "Menu 2.png"
+          "Valkyrie Edition - Secret Menu.png",
+          "Valkyrie Edition - Secret MenuValkyrie Edition - Menu.png"
         ]
       }
     ]
