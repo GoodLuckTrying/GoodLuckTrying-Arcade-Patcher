@@ -19,6 +19,9 @@ window.WIP_HACKS_DATA = {
       "2. Opening 3.png",
       "3. Briefs.png",
       "5. Goblin.png",
+      "5. Red Arremer 1.png",
+      "5. Red Arremer 2.png",
+      "5. Skeleton.png",
       "5. Tower Monster + Woody Pig.png",
       "5. Tower Monster + Zombie.png",
       "5. Unicorn.png"
@@ -135,6 +138,9 @@ window.WIP_SECTIONS = [
           "2. Opening 3.png",
           "3. Briefs.png",
           "5. Goblin.png",
+          "5. Red Arremer 1.png",
+          "5. Red Arremer 2.png",
+          "5. Skeleton.png",
           "5. Tower Monster + Woody Pig.png",
           "5. Tower Monster + Zombie.png",
           "5. Unicorn.png"
