@@ -87,6 +87,7 @@ window.WIP_HACKS_DATA = {
       "1. Trevor Slide.png",
       "2. Sypha Sub-Weapon Drop.gif",
       "2. Trevor Slide + Character Swap.gif",
+      "3. SplitMeat+HP+Death.gif",
       "Debug Menu.gif"
     ]
   },
@@ -175,6 +176,7 @@ window.WIP_SECTIONS = [
           "1. Trevor Slide.png",
           "2. Sypha Sub-Weapon Drop.gif",
           "2. Trevor Slide + Character Swap.gif",
+          "3. SplitMeat+HP+Death.gif",
           "Debug Menu.gif"
         ]
       }
