@@ -1,0 +1,27 @@
+// RomData template for FinalBurn Neo
+
+// The *** in the ZipName field cannot be empty and cannot be duplicated with DrvName
+ZipName: gngprincesstenh
+DrvName: gngprincess
+FullName: "Ghosts'n Goblins - Princess Prin Prin Edition (Enhanced) (US)"
+
+// Name		Len		Crc32		Type
+"mmt04dprincess.10n",	0x00004000,	0x11dd8836,	0x01100001
+"mmt03dprincess.8n",	0x00008000,	0xb57e52d7,	0x01100001
+"mmt05dprincess.13n",	0x00008000,	0xe4ee3423,	0x01100001
+"mm02.14h",	0x00008000,	0x615f5b6f,	0x01100002
+"mm01princess.11e",	0x00004000,	0x7935494f,	0x00200003
+"mm11.3e",	0x00004000,	0xddd56fa9,	0x00200004
+"mm10.1e",	0x00004000,	0x7302529d,	0x00200004
+"mm09.3c",	0x00004000,	0x20035bda,	0x00200004
+"mm08.1c",	0x00004000,	0xf12ba271,	0x00200004
+"mm07.3b",	0x00004000,	0xe525207d,	0x00200004
+"mm06.1b",	0x00004000,	0x2d77e9b2,	0x00200004
+"mm17princess.4n",	0x00004000,	0xe2043162,	0x00200005
+"mm16princess.3n",	0x00004000,	0x1ad1d899,	0x00200005
+"mm15princess.1n",	0x00004000,	0x439d6e7b,	0x00200005
+"mm14princess.4l",	0x00004000,	0x19847a61,	0x00200005
+"mm13princess.3l",	0x00004000,	0x05e0c809,	0x00200005
+"mm12princess.1l",	0x00004000,	0x28fe68a2,	0x00200005
+"m-02.14k",	0x00000100,	0x0eaf5158,	0x08200000
+"m-01.2e",	0x00000100,	0x4a1285a4,	0x08200000

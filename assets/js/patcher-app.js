@@ -19,6 +19,11 @@ export function isDirectFbNeoSupported(hackId, build) {
       return outputZip.includes("maiden") || outputZip.includes("knight");
     case "gng-enhanced-v10":
       return sourceRomset === "gng" || sourceRomset === "makaimur";
+    case "gng-princess-v10":
+      return (
+        (sourceRomset === "gng" && outputZip === "gngprincess.zip") ||
+        (sourceRomset === "makaimur" && outputZip === "makprincess.zip")
+      );
     default:
       return false;
   }

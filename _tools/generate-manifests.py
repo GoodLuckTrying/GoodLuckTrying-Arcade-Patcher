@@ -199,6 +199,50 @@ PROJECTS = [
             },
         ],
     },
+    {
+        "id": "gng-princess-v10",
+        "title": "Ghosts'n Goblins / Makaimura: Princess Prin Prin Edition v1.0",
+        "folder": "Ghosts'n Goblins - Princess Edition v1.0 by GoodLuckTrying",
+        "mode": "single",
+        "section_names": [
+            "gng", "gnga", "gngb", "gngc", "gngt",
+            "makaimur", "makaimurb", "makaimurc", "makaimurg",
+        ],
+        "builds": {
+            build_id: {
+                "section": source,
+                "patchesDir": "patches/princess",
+                "bpsCol": bps_col,
+                "outCol": out_col,
+            }
+            for source, stock, enhanced in [
+                ("gng", "gngprincess", "gngprincessenh"),
+                ("gnga", "gngprincessa", "gngprincessaenh"),
+                ("gngb", "gngprincessb", "gngprincessbenh"),
+                ("gngc", "gngprincessc", "gngprincesscenh"),
+                ("gngt", "gngprincesst", "gngprincesstenh"),
+                ("makaimur", "makprincess", "makprincessenh"),
+                ("makaimurb", "makprincessb", "makprincessbenh"),
+                ("makaimurc", "makprincessc", "makprincesscenh"),
+                ("makaimurg", "makprincessg", "makprincessgenh"),
+            ]
+            for build_id, bps_col, out_col in (
+                (stock, 1, 2),
+                (enhanced, 3, 4),
+            )
+        },
+        "romset_labels": {
+            "gng": "Ghosts'n Goblins — World (set 1)",
+            "gnga": "Ghosts'n Goblins — World (set 2)",
+            "gngb": "Ghosts'n Goblins — World (set 3)",
+            "gngc": "Ghosts'n Goblins — World (set 4)",
+            "gngt": "Ghosts'n Goblins — US",
+            "makaimur": "Makaimura — Japan",
+            "makaimurb": "Makaimura — Japan (revision B)",
+            "makaimurc": "Makaimura — Japan (revision C)",
+            "makaimurg": "Makaimura — Japan (revision G)",
+        },
+    },
 ]
 
 VERIFY_RE = re.compile(

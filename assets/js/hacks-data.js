@@ -122,5 +122,50 @@ window.HACKS_DATA = {
         "role": "Hacker behind death frames' palette changes and checksum fix."
       }
     ]
+  },
+  "gng-princess-v10": {
+    "id": "gng-princess-v10",
+    "title": "Ghosts'n Goblins / Makaimura: Princess Prin Prin Edition v1.0",
+    "previewsFolder": "assets/previews/gng-princess-v10",
+    "previews": [
+      "2. Opening 1.png",
+      "2. Opening 2.png",
+      "2. Opening 3.png",
+      "3. Briefs.png",
+      "5. Goblin.png",
+      "5. Red Arremer 1.png",
+      "5. Red Arremer 2.png",
+      "5. Skeleton.png",
+      "5. Tower Monster + Woody Pig.png",
+      "5. Tower Monster + Zombie.png",
+      "5. Unicorn.png",
+      "6. Final Boss.png"
+    ],
+    "downloadUrl": "Ghosts'n Goblins - Princess Edition v1.0 by GoodLuckTrying/Ghosts'n Goblins - Princess Edition v1.0 by GoodLuckTrying.zip",
+    "icon": "Ghosts'n Goblins - Princess Edition v1.0 by GoodLuckTrying/Thumbnail.png",
+    "credits": [
+      {
+        "name": "GoodLuckTrying",
+        "role": "Hack developer",
+        "url": "https://github.com/GoodLuckTrying"
+      },
+      {
+        "name": "Poody",
+        "role": "Artist behind every new sprite.",
+        "url": "https://twitter.com/hetagaki_poody"
+      },
+      {
+        "name": "dink",
+        "role": "Checksum-check bypass for the program ROMs and help understanding the ROM sets."
+      },
+      {
+        "name": "phonymike",
+        "role": "Help making the graphics editable with Tile Molester / YY-CHR."
+      },
+      {
+        "name": "morb",
+        "role": "Checksum fix."
+      }
+    ]
   }
 };

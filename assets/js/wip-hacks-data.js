@@ -1,32 +1,4 @@
 window.WIP_HACKS_DATA = {
-  "wip-ghosts-n-goblins-princess-edition-v1-0": {
-    "type": "wip",
-    "id": "wip-ghosts-n-goblins-princess-edition-v1-0",
-    "title": "Ghosts'n Goblins: Princess Edition v1.0",
-    "platform": "Arcade",
-    "credits": [
-      {
-        "name": "Poody",
-        "role": "Co-author - all sprites done by him.",
-        "url": "https://twitter.com/hetagaki_poody"
-      }
-    ],
-    "previewsFolder": "assets/source/wip/Arcade/Arcade Ghosts'n Goblins - Princess Edition v1.0 by GoodLuckTrying/Previews",
-    "previews": [
-      "0. Titlescreen.png",
-      "2. Opening 1.png",
-      "2. Opening 2.png",
-      "2. Opening 3.png",
-      "3. Briefs.png",
-      "5. Goblin.png",
-      "5. Red Arremer 1.png",
-      "5. Red Arremer 2.png",
-      "5. Skeleton.png",
-      "5. Tower Monster + Woody Pig.png",
-      "5. Tower Monster + Zombie.png",
-      "5. Unicorn.png"
-    ]
-  },
   "wip-super-ghouls-n-ghosts-brave-edition-v1-0": {
     "type": "wip",
     "id": "wip-super-ghouls-n-ghosts-brave-edition-v1-0",
@@ -116,39 +88,6 @@ window.WIP_HACKS_DATA = {
   }
 };
 window.WIP_SECTIONS = [
-  {
-    "platform": "Arcade",
-    "hacks": [
-      {
-        "type": "wip",
-        "id": "wip-ghosts-n-goblins-princess-edition-v1-0",
-        "title": "Ghosts'n Goblins: Princess Edition v1.0",
-        "platform": "Arcade",
-        "credits": [
-          {
-            "name": "Poody",
-            "role": "Co-author - all sprites done by him.",
-            "url": "https://twitter.com/hetagaki_poody"
-          }
-        ],
-        "previewsFolder": "assets/source/wip/Arcade/Arcade Ghosts'n Goblins - Princess Edition v1.0 by GoodLuckTrying/Previews",
-        "previews": [
-          "0. Titlescreen.png",
-          "2. Opening 1.png",
-          "2. Opening 2.png",
-          "2. Opening 3.png",
-          "3. Briefs.png",
-          "5. Goblin.png",
-          "5. Red Arremer 1.png",
-          "5. Red Arremer 2.png",
-          "5. Skeleton.png",
-          "5. Tower Monster + Woody Pig.png",
-          "5. Tower Monster + Zombie.png",
-          "5. Unicorn.png"
-        ]
-      }
-    ]
-  },
   {
     "platform": "Nintendo",
     "hacks": [

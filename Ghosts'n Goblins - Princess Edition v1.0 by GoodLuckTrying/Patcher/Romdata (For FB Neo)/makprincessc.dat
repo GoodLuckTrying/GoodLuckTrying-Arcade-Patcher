@@ -1,0 +1,27 @@
+// RomData template for FinalBurn Neo
+
+// The *** in the ZipName field cannot be empty and cannot be duplicated with DrvName
+ZipName: makprincessc
+DrvName: makprincess
+FullName: "Makaimura - Princess Prin Prin Edition (Japan revision C)"
+
+// Name		Len		Crc32		Type
+"mj04cprincess.bin",	0x00004000,	0xdaada743,	0x01100001
+"mj03cprincess.bin",	0x00008000,	0x7d0909cf,	0x01100001
+"mj05cprincess.bin",	0x00008000,	0x0c9ed2e0,	0x01100001
+"gg2.bin",	0x00008000,	0x615f5b6f,	0x01100002
+"gg1princess.bin",	0x00004000,	0x7935494f,	0x00200003
+"gg11.bin",	0x00004000,	0xddd56fa9,	0x00200004
+"gg10.bin",	0x00004000,	0x7302529d,	0x00200004
+"gg9.bin",	0x00004000,	0x20035bda,	0x00200004
+"gg8.bin",	0x00004000,	0xf12ba271,	0x00200004
+"gg7.bin",	0x00004000,	0xe525207d,	0x00200004
+"gg6.bin",	0x00004000,	0x2d77e9b2,	0x00200004
+"gng13princess.n4",	0x00004000,	0x07c9138a,	0x00200005
+"gg16princess.bin",	0x00004000,	0x1ad1d899,	0x00200005
+"gg15princess.bin",	0x00004000,	0x439d6e7b,	0x00200005
+"gng16princess.l4",	0x00004000,	0x3cc87995,	0x00200005
+"gg13princess.bin",	0x00004000,	0x05e0c809,	0x00200005
+"gg12princess.bin",	0x00004000,	0x28fe68a2,	0x00200005
+"tbp24s10.14k",	0x00000100,	0x0eaf5158,	0x08200000
+"63s141.2e",	0x00000100,	0x4a1285a4,	0x08200000
