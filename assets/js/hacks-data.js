@@ -141,6 +141,7 @@ window.HACKS_DATA = {
       "5. Unicorn.png",
       "6. Final Boss.png"
     ],
+    "trailerUrl": "https://youtu.be/9Zw9awcDN1s",
     "downloadUrl": "Ghosts'n Goblins - Princess Edition v1.0 by GoodLuckTrying/Ghosts'n Goblins - Princess Edition v1.0 by GoodLuckTrying.zip",
     "icon": "Ghosts'n Goblins - Princess Edition v1.0 by GoodLuckTrying/Thumbnail.png",
     "credits": [
