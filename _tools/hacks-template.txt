@@ -65,7 +65,7 @@
       "id": "wip-castlevania-3-enhanced-edition-v1-0",
       "title": "Castlevania 3 - Deluxe Edition",
       "platform": "Nintendo",
-      "sourceFolder": "assets/source/wip/Nintendo/Castlevania 3 - Enhanced Edition",
+      "sourceFolder": "assets/source/wip/Nintendo/Castlevania 3: Enhanced Edition",
 	  "previewUrl": "https://youtu.be/WqOh-2gFRwc",
       "credits": [{"name": "sleepyren", "role": "Co-author - Hacking (+ All sprites & stage work done by him)", "url": "https://www.romhacking.net/community/7299/"}]
     },

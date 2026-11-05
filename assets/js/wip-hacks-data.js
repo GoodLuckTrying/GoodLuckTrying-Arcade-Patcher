@@ -35,34 +35,6 @@ window.WIP_HACKS_DATA = {
       "Valkyrie Edition - Secret MenuValkyrie Edition - Menu.png"
     ]
   },
-  "wip-castlevania-3-enhanced-edition-v1-0": {
-    "type": "wip",
-    "id": "wip-castlevania-3-enhanced-edition-v1-0",
-    "title": "Castlevania 3 - Deluxe Edition",
-    "platform": "Nintendo",
-    "previewUrl": "https://youtu.be/WqOh-2gFRwc",
-    "credits": [
-      {
-        "name": "sleepyren",
-        "role": "Co-author - Hacking (+ All sprites & stage work done by him)",
-        "url": "https://www.romhacking.net/community/7299/"
-      }
-    ],
-    "previewsFolder": "assets/source/wip/Nintendo/Castlevania 3 - Enhanced Edition/Previews",
-    "previews": [
-      "0. Options.png",
-      "0. Titlescreen.png",
-      "1. Alucard Diamond + Fireball.png",
-      "1. Alucard Fireball.png",
-      "1. Sypha.png",
-      "1. Trevor Jump.png",
-      "1. Trevor Slide.png",
-      "2. Sypha Sub-Weapon Drop.gif",
-      "2. Trevor Slide + Character Swap.gif",
-      "3. SplitMeat+HP+Death.gif",
-      "Debug Menu.gif"
-    ]
-  },
   "wip-ghouls-n-ghosts-arthur-artoria-edition-v1-0": {
     "type": "wip",
     "id": "wip-ghouls-n-ghosts-arthur-artoria-edition-v1-0",
@@ -88,39 +60,6 @@ window.WIP_HACKS_DATA = {
   }
 };
 window.WIP_SECTIONS = [
-  {
-    "platform": "Nintendo",
-    "hacks": [
-      {
-        "type": "wip",
-        "id": "wip-castlevania-3-enhanced-edition-v1-0",
-        "title": "Castlevania 3 - Deluxe Edition",
-        "platform": "Nintendo",
-        "previewUrl": "https://youtu.be/WqOh-2gFRwc",
-        "credits": [
-          {
-            "name": "sleepyren",
-            "role": "Co-author - Hacking (+ All sprites & stage work done by him)",
-            "url": "https://www.romhacking.net/community/7299/"
-          }
-        ],
-        "previewsFolder": "assets/source/wip/Nintendo/Castlevania 3 - Enhanced Edition/Previews",
-        "previews": [
-          "0. Options.png",
-          "0. Titlescreen.png",
-          "1. Alucard Diamond + Fireball.png",
-          "1. Alucard Fireball.png",
-          "1. Sypha.png",
-          "1. Trevor Jump.png",
-          "1. Trevor Slide.png",
-          "2. Sypha Sub-Weapon Drop.gif",
-          "2. Trevor Slide + Character Swap.gif",
-          "3. SplitMeat+HP+Death.gif",
-          "Debug Menu.gif"
-        ]
-      }
-    ]
-  },
   {
     "platform": "Sega Genesis",
     "hacks": [
