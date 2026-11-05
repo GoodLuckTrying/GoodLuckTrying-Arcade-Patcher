@@ -35,6 +35,7 @@
       "folder": "Ghosts'n Goblins - Princess Edition v1.0 by GoodLuckTrying",
       "trailerUrl": "https://youtu.be/9Zw9awcDN1s",
       "icon": "Ghosts'n Goblins - Princess Edition v1.0 by GoodLuckTrying/Thumbnail.png",
+	  "boxartLinks": [{"label": "Princess Prin Prin Edition", "url": "https://www.deviantart.com/xxcaesarxx/art/1406698345"}],
       "credits": [{"name": "GoodLuckTrying", "role": "Hack developer", "url": "https://github.com/GoodLuckTrying"}, {"name": "Poody", "role": "Artist behind every new sprite.", "url": "https://twitter.com/hetagaki_poody"}, {"name": "dink", "role": "Checksum-check bypass for the program ROMs and help understanding the ROM sets."}, {"name": "phonymike", "role": "Help making the graphics editable with Tile Molester / YY-CHR."}, {"name": "morb", "role": "Checksum fix."}]
     },
     {

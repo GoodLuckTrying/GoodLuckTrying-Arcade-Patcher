@@ -143,6 +143,12 @@ window.HACKS_DATA = {
     ],
     "trailerUrl": "https://youtu.be/9Zw9awcDN1s",
     "downloadUrl": "Ghosts'n Goblins - Princess Edition v1.0 by GoodLuckTrying/Ghosts'n Goblins - Princess Edition v1.0 by GoodLuckTrying.zip",
+    "boxartLinks": [
+      {
+        "label": "Princess Prin Prin Edition",
+        "url": "https://www.deviantart.com/xxcaesarxx/art/1406698345"
+      }
+    ],
     "icon": "Ghosts'n Goblins - Princess Edition v1.0 by GoodLuckTrying/Thumbnail.png",
     "credits": [
       {
