@@ -4,6 +4,7 @@
       "type": "patcher",
       "id": "ghouls-artoria-v10",
       "title": "Ghouls'n Ghosts: Knight/Maiden Artoria Edition v1.0",
+      "game": "Ghouls'n Ghosts / Daimakaimura",
       "folder": "Ghouls'n Ghosts - Artoria Edition v1.0 by GoodLuckTrying",
       "trailerUrl": "https://youtu.be/kNsi4sraUQc",
       "icon": "assets/icons/GhoulsArtoria.png",
@@ -14,6 +15,7 @@
       "type": "patcher",
       "id": "gng-enhanced-v10",
       "title": "Ghosts'n Goblins Enhanced v1.0",
+      "game": "Ghosts'n Goblins / Makaimura",
       "folder": "Ghosts'n Goblins Enhanced v1.0 by GoodLuckTrying",
       "trailerUrl": "https://youtu.be/1MqTjmTokAo",
       "icon": "assets/icons/GoblinsArthur.png"
@@ -22,6 +24,7 @@
       "type": "patcher",
       "id": "gng-artoria-v12",
       "title": "Ghosts'n Goblins: Knight/Maiden Artoria Edition v1.2",
+      "game": "Ghosts'n Goblins / Makaimura",
       "folder": "Ghosts'n Goblins - Artoria Edition v1.2 by GoodLuckTrying",
       "trailerUrl": "https://youtu.be/NHejslEFf_g",
       "icon": "assets/icons/GoblinsArtoria.png",
@@ -32,6 +35,7 @@
       "type": "patcher",
       "id": "gng-princess-v10",
       "title": "Ghosts'n Goblins / Makaimura: Princess Prin Prin Edition v1.0",
+      "game": "Ghosts'n Goblins / Makaimura",
       "folder": "Ghosts'n Goblins - Princess Edition v1.0 by GoodLuckTrying",
       "trailerUrl": "https://youtu.be/9Zw9awcDN1s",
       "icon": "Ghosts'n Goblins - Princess Edition v1.0 by GoodLuckTrying/Thumbnail.png",
@@ -42,6 +46,7 @@
       "type": "wip",
       "id": "wip-super-ghouls-n-ghosts-brave-edition-v1-0",
       "title": "Super Ghouls 'N Ghosts: Brave Edition v1.0",
+      "game": "Super Ghouls 'n Ghosts",
       "platform": "Super Nintendo",
       "sourceFolder": "assets/source/wip/Super Nintendo/Super Ghouls 'N Ghosts - Brave Edition v1.0",
       "credits": [{"name": "Poody", "role": "Co-author - all sprites done by him.", "url": "https://twitter.com/hetagaki_poody"}]
@@ -50,6 +55,7 @@
       "type": "wip",
       "id": "wip-super-ghouls-n-ghosts-enhanced-edition-v1-0",
       "title": "Super Ghouls 'N Ghosts: Enhanced Edition v1.0",
+      "game": "Super Ghouls 'n Ghosts",
       "platform": "Super Nintendo",
       "sourceFolder": "assets/source/wip/Super Nintendo/Super Ghouls 'N Ghosts - Enhanced Edition v1.0"
     },
@@ -57,6 +63,7 @@
       "type": "wip",
       "id": "wip-super-ghouls-n-ghosts-valkyrie-edition-v1-0",
       "title": "Super Ghouls 'N Ghosts: Valkyrie Edition v1.0",
+      "game": "Super Ghouls 'n Ghosts",
       "platform": "Super Nintendo",
       "sourceFolder": "assets/source/wip/Super Nintendo/Super Ghouls 'N Ghosts - Valkyrie Edition v1.0 by GoodLuckTrying"
     },
@@ -64,8 +71,9 @@
       "type": "wip",
       "id": "wip-castlevania-3-enhanced-edition-v1-0",
       "title": "Castlevania 3 - Deluxe Edition",
+      "game": "Castlevania III - Dracula's Curse (USA)",
       "platform": "Nintendo",
-      "sourceFolder": "assets/source/wip/Nintendo/Castlevania 3: Enhanced Edition",
+      "sourceFolder": "assets/source/wip/Nintendo/Castlevania 3 - Enhanced Edition",
 	  "previewUrl": "https://youtu.be/WqOh-2gFRwc",
       "credits": [{"name": "sleepyren", "role": "Co-author - Hacking (+ All sprites & stage work done by him)", "url": "https://www.romhacking.net/community/7299/"}]
     },
@@ -73,6 +81,7 @@
       "type": "wip",
       "id": "wip-ghouls-n-ghosts-arthur-artoria-edition-v1-0",
       "title": "Ghouls 'n Ghosts - Arthur, Knight & Maiden Artoria Edition v1.0",
+      "game": "Ghouls 'n Ghosts",
       "platform": "Sega Genesis",
       "sourceFolder": "assets/source/wip/Sega Genesis/Ghouls 'n Ghosts - Arthur, Knight & Maiden Artoria Edition v1.0 by GoodLuckTrying"
     },
@@ -80,6 +89,7 @@
       "type": "other",
       "id": "other-snes-super-ghouls-n-ghosts-artoria-edition",
       "title": "Super Ghouls 'N Ghosts: Knight/Maiden Artoria Edition v3.4",
+      "game": "Super Ghouls 'n Ghosts",
       "platform": "Super Nintendo",
       "previewsFolder": "assets/source/others/snes-sgng-artoria",
       "links": [{"label": "Youtube Trailer", "url": "https://youtu.be/swu9OdaxcAw"}, {"label": "ROMhacking.net", "url": "https://www.romhacking.net/hacks/9094/"}, {"label": "RomHackPlaza.org", "url": "https://rhpz.org/r/3608"}, {"label": "romhack.ing", "url": "https://romhack.ing/database/content/entry/wyPLf9i8RdyyXgAFojk8NA"}]
@@ -88,6 +98,7 @@
       "type": "other",
       "id": "other-snes-super-ghouls-n-ghosts-enhanced-arthur-edition",
       "title": "Super Ghouls 'N Ghosts: Enhanced Arthur Edition v1.1",
+      "game": "Super Ghouls 'n Ghosts",
       "platform": "Super Nintendo",
       "previewsFolder": "assets/source/others/snes-sgng-enhanced-arthur",
       "links": [{"label": "Youtube Trailer", "url": "https://youtu.be/nVDK-RSpA4o"}, {"label": "ROMhacking.net", "url": "https://www.romhacking.net/hacks/10009/"}, {"label": "RomHackPlaza.org", "url": "https://rhpz.org/r/4432"}, {"label": "romhack.ing", "url": "https://romhack.ing/database/content/entry/oDKx9j05TZ2gEBAgjWHKcw"}]
@@ -96,6 +107,7 @@
       "type": "other",
       "id": "other-gba-super-ghouls-n-ghosts-artoria-edition",
       "title": "Super Ghouls 'N Ghosts: Knight/Maiden Artoria Edition v1.6",
+      "game": "Super Ghouls 'n Ghosts",
       "platform": "Game Boy Advance",
       "previewsFolder": "assets/source/others/gba-sgng-artoria",
       "links": [{"label": "Youtube Trailer", "url": "https://youtu.be/yschs4xaL5M"}, {"label": "ROMhacking.net", "url": "https://www.romhacking.net/hacks/9110/"}, {"label": "RomHackPlaza.org", "url": "https://rhpz.org/r/3577"}, {"label": "romhack.ing", "url": "https://romhack.ing/database/content/entry/xXQXT_DZSLa4myF5XJG_7A"}]
@@ -104,6 +116,7 @@
       "type": "other",
       "id": "other-genesis-ghouls-n-ghosts-artoria-edition",
       "title": "Ghouls 'n Ghosts: Artoria Edition v1.1",
+      "game": "Ghouls 'n Ghosts",
       "platform": "Sega Genesis",
       "previewsFolder": "assets/source/others/gen-ghouls-artoria",
       "links": [{"label": "Youtube Trailer", "url": "https://youtu.be/ZOeMtVJDW8k"}, {"label": "ROMhacking.net", "url": "https://www.romhacking.net/hacks/9232/"}, {"label": "RomHackPlaza.org", "url": "https://rhpz.org/r/3606"}, {"label": "romhack.ing", "url": "https://romhack.ing/database/content/entry/MzFeRz8ATdSrUi9OCgt9VA"}]
@@ -112,6 +125,7 @@
       "type": "other",
       "id": "other-genesis-ghouls-n-ghosts-restoration",
       "title": "Ghouls 'n Ghosts Restoration v1.2",
+      "game": "Ghouls 'n Ghosts",
       "platform": "Sega Genesis",
       "previewsFolder": "assets/source/others/gen-ghouls-restoration",
       "links": [{"label": "ROMhacking.net", "url": "https://www.romhacking.net/hacks/9163/"}, {"label": "RomHackPlaza.org", "url": "https://rhpz.org/t/1918"}, {"label": "romhack.ing", "url": "https://romhack.ing/database/content/entry/ySsOeYEwQ66lgqlSYD_1Xg"}]

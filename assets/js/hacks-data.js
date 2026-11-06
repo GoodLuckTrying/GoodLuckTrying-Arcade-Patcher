@@ -27,6 +27,7 @@ window.HACKS_DATA = {
       "Sword Special.gif"
     ],
     "trailerUrl": "https://youtu.be/kNsi4sraUQc",
+    "game": "Ghouls'n Ghosts / Daimakaimura",
     "downloadUrl": "Ghouls'n Ghosts - Artoria Edition v1.0 by GoodLuckTrying/Ghouls'n Ghosts - Artoria Edition v1.0 by GoodLuckTrying.zip",
     "boxartLinks": [
       {
@@ -70,6 +71,7 @@ window.HACKS_DATA = {
       "Makaimura - Enhanced Edition.png"
     ],
     "trailerUrl": "https://youtu.be/1MqTjmTokAo",
+    "game": "Ghosts'n Goblins / Makaimura",
     "downloadUrl": "Ghosts'n Goblins Enhanced v1.0 by GoodLuckTrying/Ghosts'n Goblins Enhanced v1.0 by GoodLuckTrying.zip",
     "icon": "assets/icons/GoblinsArthur.png"
   },
@@ -86,6 +88,7 @@ window.HACKS_DATA = {
       "maiden02.png"
     ],
     "trailerUrl": "https://youtu.be/NHejslEFf_g",
+    "game": "Ghosts'n Goblins / Makaimura",
     "downloadUrl": "Ghosts'n Goblins - Artoria Edition v1.2 by GoodLuckTrying/Ghosts'n Goblins - Artoria Edition v1.2 by GoodLuckTrying.zip",
     "boxartLinks": [
       {
@@ -142,6 +145,7 @@ window.HACKS_DATA = {
       "6. Final Boss.png"
     ],
     "trailerUrl": "https://youtu.be/9Zw9awcDN1s",
+    "game": "Ghosts'n Goblins / Makaimura",
     "downloadUrl": "Ghosts'n Goblins - Princess Edition v1.0 by GoodLuckTrying/Ghosts'n Goblins - Princess Edition v1.0 by GoodLuckTrying.zip",
     "boxartLinks": [
       {

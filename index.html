@@ -38,24 +38,16 @@
 <body>
   <header class="site-header">
     <h1>GoodLuckTrying's ROM Hacks</h1>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a class="site-nav__brand" href="#arcade-patchers" data-page-view="arcade-patchers">Arcade Patchers</a>
+      <div class="site-nav__links">
+        <a href="#games" data-page-view="games">Games</a>
+        <a href="#wip" data-page-view="wip">WIP</a>
+        <a href="https://github.com/GoodLuckTrying" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </div>
+    </nav>
     <p class="tagline">Browser-based ROM patching and hack resources.</p>
-  </header>
-
-  <main class="container container-centered">
-    <section id="file-protocol-notice" class="disclaimer file-notice" hidden>
-      <p><strong>Tip:</strong> Previews work from <code>file://</code>, but the patcher needs HTTP.
-      Double-click <code>serve.bat</code> or run <code>python -m http.server 8080</code> and open
-      <code>http://localhost:8080/</code> to patch ROMs.</p>
-    </section>
-
-    <section class="disclaimer">
-      <p><strong>Legal:</strong> You must own a legitimate copy of the original arcade ROMs to use these patches.
-      These tools are for owners who wish to apply fan-made modifications to ROMs they already possess.
-      No copyrighted game ROMs are distributed here — only patch data.</p>
-    </section>
-
-    <section class="community-section" aria-labelledby="contact-heading">
-      <h2 id="contact-heading">Contact Links</h2>
+    <section class="community-section header-contacts" aria-label="Contact links">
       <div class="community-links">
         <a class="community-link community-link--discord" href="https://discord.gg/t6A5z9YnXv" target="_blank" rel="noopener noreferrer">
           <span class="community-link__icon" aria-hidden="true">D</span>
@@ -65,46 +57,60 @@
           <img src="assets/icons/Youtube.png" alt="" aria-hidden="true">
           <span><strong>YouTube</strong><small>Videos and updates</small></span>
         </a>
-        <a class="community-link community-link--github" href="https://github.com/GoodLuckTrying" target="_blank" rel="noopener noreferrer">
-          <span class="community-link__icon" aria-hidden="true">G</span>
-          <span><strong>GitHub</strong><small>Source and releases</small></span>
-        </a>
         <a class="community-link community-link--twitter" href="https://twitter.com/_GoodLuckTrying" target="_blank" rel="noopener noreferrer">
           <span class="community-link__icon" aria-hidden="true">X</span>
           <span><strong>Twitter</strong><small>Updates and announcements</small></span>
         </a>
       </div>
     </section>
+  </header>
 
-    <section class="hack-list">
-      <h2>Available ROM Hacks</h2>
-      <ul class="cards">
-        <li data-hack="gng-artoria-v12">
+  <main class="container container-centered">
+    <section id="file-protocol-notice" class="disclaimer file-notice" hidden>
+      <p><strong>Tip:</strong> Previews work from <code>file://</code>, but the patcher needs HTTP.
+      Double-click <code>serve.bat</code> or run <code>python -m http.server 8080</code> and open
+      <code>http://localhost:8080/</code> to patch ROMs.</p>
+    </section>
+
+    <section id="arcade-patchers" class="hack-list page-view">
+      <section class="disclaimer">
+        <p><strong>Legal:</strong> You must own a legitimate copy of the original arcade ROMs to use these patches.
+        These tools are for owners who wish to apply fan-made modifications to ROMs they already possess.
+        No copyrighted game ROMs are distributed here — only patch data.</p>
+      </section>
+
+      <h2>Arcade Patchers</h2>
+      <ul id="arcade-cards" class="cards">
+        <li data-hack="gng-artoria-v12" data-platform="Arcade">
           <a href="patcher.html?hack=gng-artoria-v12" class="card">
+            <p class="card-platform">Arcade</p>
             <div class="preview-slideshow card-preview" data-preview-hack="gng-artoria-v12" hidden></div>
             <h3>Ghosts'n Goblins: Knight/Maiden Artoria Edition v1.2</h3>
             <p>Maiden &amp; Knight Artoria skins across 9 regional sets, including Enhanced variants.</p>
           </a>
           <p class="card-links" hidden></p>
         </li>
-        <li data-hack="gng-princess-v10">
+        <li data-hack="gng-princess-v10" data-platform="Arcade">
           <a href="patcher.html?hack=gng-princess-v10" class="card">
+            <p class="card-platform">Arcade</p>
             <div class="preview-slideshow card-preview" data-preview-hack="gng-princess-v10" hidden></div>
             <h3>Ghosts'n Goblins / Makaimura: Princess Prin Prin Edition v1.0</h3>
             <p>Princess Prin Prin for 9 regional sets, with Enhanced gameplay variants.</p>
           </a>
           <p class="card-links" hidden></p>
         </li>
-        <li data-hack="ghouls-artoria-v10">
+        <li data-hack="ghouls-artoria-v10" data-platform="Arcade">
           <a href="patcher.html?hack=ghouls-artoria-v10" class="card">
+            <p class="card-platform">Arcade</p>
             <div class="preview-slideshow card-preview" data-preview-hack="ghouls-artoria-v10" hidden></div>
             <h3>Ghouls'n Ghosts: Knight/Maiden Artoria Edition v1.0</h3>
             <p>Maiden &amp; Knight Artoria for World, USA, and Japan CPS1 sets.</p>
           </a>
           <p class="card-links" hidden></p>
         </li>
-        <li data-hack="gng-enhanced-v10">
+        <li data-hack="gng-enhanced-v10" data-platform="Arcade">
           <a href="patcher.html?hack=gng-enhanced-v10" class="card">
+            <p class="card-platform">Arcade</p>
             <div class="preview-slideshow card-preview" data-preview-hack="gng-enhanced-v10" hidden></div>
             <h3>Ghosts'n Goblins Enhanced v1.0</h3>
             <p>Control-feel enhancements for 9 GNG / Makaimura regional sets.</p>
@@ -114,20 +120,58 @@
       </ul>
     </section>
 
-    <div class="hack-view-switch" role="group" aria-label="Hack category">
-      <button type="button" class="is-active" data-hack-view="other" aria-pressed="true">Other Hacks</button>
-      <button type="button" data-hack-view="wip" aria-pressed="false">Works in Progress</button>
-    </div>
-
-    <section id="other-section" class="hack-list secondary-hack-list">
-      <h2>Other Hacks</h2>
-      <ul id="other-cards" class="cards"></ul>
+    <section id="games" class="hack-list page-view" hidden>
+      <h2>Games</h2>
+      <div class="games-controls">
+        <label for="platform-filter">Console
+          <select id="platform-filter">
+            <option value="all">All consoles</option>
+          </select>
+        </label>
+        <label for="game-filter">Game
+          <select id="game-filter">
+            <option value="all">All games</option>
+          </select>
+        </label>
+        <div class="games-sort" role="group" aria-label="Sort games">
+          <span>Sort by</span>
+          <button type="button" class="is-active" data-sort="name" aria-pressed="true" aria-label="Sort by hack name, ascending">
+            Hack name <span class="sort-direction" aria-hidden="true">↑</span>
+          </button>
+          <button type="button" data-sort="platform" aria-pressed="false" aria-label="Sort by console, ascending">
+            Console <span class="sort-direction" aria-hidden="true">↕</span>
+          </button>
+        </div>
+      </div>
+      <ul id="games-cards" class="cards"></ul>
     </section>
 
-    <section id="wip-section" class="hack-list secondary-hack-list" hidden>
-      <h2>Works in Progress</h2>
+    <section id="wip" class="hack-list page-view" hidden aria-labelledby="wip-heading">
+      <h2 id="wip-heading">Works in Progress</h2>
+      <div class="games-controls">
+        <label for="wip-platform-filter">Console
+          <select id="wip-platform-filter">
+            <option value="all">All consoles</option>
+          </select>
+        </label>
+        <label for="wip-game-filter">Game
+          <select id="wip-game-filter">
+            <option value="all">All games</option>
+          </select>
+        </label>
+        <div class="games-sort" role="group" aria-label="Sort works in progress">
+          <span>Sort by</span>
+          <button type="button" class="is-active" data-sort="name" aria-pressed="true" aria-label="Sort by hack name, ascending">
+            Hack name <span class="sort-direction" aria-hidden="true">↑</span>
+          </button>
+          <button type="button" data-sort="platform" aria-pressed="false" aria-label="Sort by console, ascending">
+            Console <span class="sort-direction" aria-hidden="true">↕</span>
+          </button>
+        </div>
+      </div>
       <ul id="wip-cards" class="cards"></ul>
     </section>
+
   </main>
 
   <footer class="site-footer">
@@ -136,73 +180,174 @@
   </footer>
 
   <script type="module">
+    import { initInteractionAnalytics } from "./assets/js/interaction-analytics.js";
     import { initAllPreviewSlideshows } from "./assets/js/preview-slideshow.js";
     import { renderHackLinks } from "./assets/js/hack-links.js";
     import { renderOtherSection } from "./assets/js/other-index.js";
     import { renderWipSection } from "./assets/js/wip-index.js";
     import { isFileProtocol } from "./assets/js/repo-path.js";
 
+    initInteractionAnalytics();
+
     if (isFileProtocol()) {
       document.getElementById("file-protocol-notice").hidden = false;
     }
 
-    renderOtherSection(document.getElementById("other-section"), window.OTHER_HACKS);
-    renderWipSection(document.getElementById("wip-section"), window.WIP_SECTIONS);
-    initAllPreviewSlideshows();
-
-    // Deep-linkable views: #Other-Hacks and #Works-in-Progress (aliases: #WIP, #other, #wip).
-    const viewSections = {
-      other: document.getElementById("other-section"),
-      wip: document.getElementById("wip-section"),
-    };
-    const viewHashes = { other: "Other-Hacks", wip: "Works-in-Progress" };
-    const hashAliases = {
-      "other-hacks": "other",
-      "other": "other",
-      "works-in-progress": "wip",
-      "wip": "wip",
-    };
-    const viewSwitch = document.querySelector(".hack-view-switch");
-
-    function viewFromHash(hash) {
-      const key = decodeURIComponent(hash.replace(/^#/, "")).trim().toLowerCase();
-      return hashAliases[key] || null;
-    }
-
-    function setHackView(selected) {
-      for (const [view, section] of Object.entries(viewSections)) {
-        section.hidden = view !== selected;
-      }
-      for (const viewButton of document.querySelectorAll("[data-hack-view]")) {
-        const active = viewButton.dataset.hackView === selected;
-        viewButton.classList.toggle("is-active", active);
-        viewButton.setAttribute("aria-pressed", String(active));
-      }
-    }
-
-    function applyHash({ scroll }) {
-      const view = viewFromHash(location.hash);
-      if (!view) return;
-      setHackView(view);
-      if (scroll) viewSwitch.scrollIntoView({ block: "start" });
-    }
-
-    setHackView("other");
-    applyHash({ scroll: true });
-    window.addEventListener("hashchange", () => applyHash({ scroll: true }));
-
-    for (const button of document.querySelectorAll("[data-hack-view]")) {
-      button.addEventListener("click", () => {
-        const selected = button.dataset.hackView;
-        setHackView(selected);
-        history.replaceState(null, "", `#${viewHashes[selected]}`);
-      });
-    }
-
-    for (const li of document.querySelectorAll("[data-hack]")) {
+    const arcadeCards = document.getElementById("arcade-cards");
+    const gamesCards = document.getElementById("games-cards");
+    renderOtherSection(document.getElementById("games"), window.OTHER_HACKS);
+    for (const li of arcadeCards.children) {
       const data = window.HACKS_DATA?.[li.dataset.hack];
       if (!data) continue;
+      li.dataset.game = data.game || "Other";
       renderHackLinks(li.querySelector(".card-links"), data);
+      gamesCards.appendChild(li.cloneNode(true));
+    }
+    renderWipSection(document.getElementById("wip"), window.WIP_SECTIONS);
+
+    const platformShortNames = new Map([
+      ["Arcade", "ARC"],
+      ["Nintendo", "NES"],
+      ["Super Nintendo", "SNES"],
+      ["Sega Genesis", "Gen"],
+      ["Game Boy", "GB"],
+      ["Game Boy Advance", "GBA"],
+    ]);
+    const shortPlatformName = (platform) => platformShortNames.get(platform) || platform;
+    function setupCatalogControls(section, cards, platformFilter, gameFilter) {
+      const sortButtons = [...section.querySelectorAll("[data-sort]")];
+      let sortBy = "name";
+      let sortDirection = 1;
+
+      for (const platform of [...new Set(cards.map((card) => card.dataset.platform || "Other"))]
+        .sort((a, b) => a.localeCompare(b))) {
+        const option = document.createElement("option");
+        option.value = platform;
+        option.textContent = platform;
+        platformFilter.appendChild(option);
+      }
+
+      const gameOptions = new Map();
+      for (const card of cards) {
+        const game = card.dataset.game || "Other";
+        const platform = card.dataset.platform || "Other";
+        gameOptions.set(JSON.stringify([game, platform]), { game, platform });
+      }
+      for (const [key, { game, platform }] of gameOptions) {
+        const option = document.createElement("option");
+        option.value = key;
+        option.textContent = `${game} (${shortPlatformName(platform)})`;
+        option.title = `${game} (${platform})`;
+        gameFilter.appendChild(option);
+      }
+
+      function updateCards() {
+        const selectedGame = gameFilter.value === "all" ? null : JSON.parse(gameFilter.value);
+        const byName = (a, b) => a.querySelector("h3").textContent.localeCompare(b.querySelector("h3").textContent);
+        const byPlatform = (a, b) =>
+          (a.dataset.platform || "Other").localeCompare(b.dataset.platform || "Other") || byName(a, b);
+        const compare = sortBy === "platform" ? byPlatform : byName;
+        const sortedCards = [...cards].sort((a, b) => sortDirection * compare(a, b));
+        for (const card of sortedCards) {
+          card.hidden =
+            (platformFilter.value !== "all" && card.dataset.platform !== platformFilter.value) ||
+            (selectedGame && (card.dataset.game !== selectedGame[0] || card.dataset.platform !== selectedGame[1]));
+          section.querySelector(".cards").appendChild(card);
+        }
+      }
+
+      function updateSortButtons() {
+        for (const button of sortButtons) {
+          const active = button.dataset.sort === sortBy;
+          const arrow = button.querySelector(".sort-direction");
+          button.classList.toggle("is-active", active);
+          button.setAttribute("aria-pressed", String(active));
+          button.setAttribute(
+            "aria-label",
+            `Sort by ${button.dataset.sort === "platform" ? "console" : "hack name"}, ${
+              active && sortDirection < 0 ? "descending" : "ascending"
+            }`
+          );
+          arrow.textContent = active ? (sortDirection > 0 ? "↑" : "↓") : "↕";
+        }
+      }
+
+      platformFilter.addEventListener("change", updateCards);
+      gameFilter.addEventListener("change", updateCards);
+      for (const button of sortButtons) {
+        button.addEventListener("click", () => {
+          if (button.dataset.sort === sortBy) {
+            sortDirection *= -1;
+          } else {
+            sortBy = button.dataset.sort;
+            sortDirection = 1;
+          }
+          updateSortButtons();
+          updateCards();
+        });
+      }
+      updateSortButtons();
+      updateCards();
+    }
+
+    const gamesSection = document.getElementById("games");
+    setupCatalogControls(
+      gamesSection,
+      [...gamesCards.children],
+      gamesSection.querySelector("#platform-filter"),
+      gamesSection.querySelector("#game-filter")
+    );
+    const wipSection = document.getElementById("wip");
+    setupCatalogControls(
+      wipSection,
+      [...wipSection.querySelector("#wip-cards").children],
+      wipSection.querySelector("#wip-platform-filter"),
+      wipSection.querySelector("#wip-game-filter")
+    );
+
+    initAllPreviewSlideshows();
+
+    const pageViews = [...document.querySelectorAll(".page-view")];
+    const pageLinks = [...document.querySelectorAll("[data-page-view]")];
+    const pageAliases = {
+      "arcade-patchers": "arcade-patchers",
+      arcade: "arcade-patchers",
+      games: "games",
+      "other-hacks": "games",
+      other: "games",
+      wip: "wip",
+      "works-in-progress": "wip",
+    };
+
+    function setPageView(view) {
+      for (const page of pageViews) page.hidden = page.id !== view;
+      for (const link of pageLinks) {
+        if (link.dataset.pageView === view) {
+          link.classList.add("is-active");
+          link.setAttribute("aria-current", "page");
+        } else {
+          link.classList.remove("is-active");
+          link.removeAttribute("aria-current");
+        }
+      }
+    }
+
+    function applyPageHash() {
+      const key = decodeURIComponent(location.hash.slice(1)).trim().toLowerCase();
+      const view = pageAliases[key] || "arcade-patchers";
+      setPageView(view);
+    }
+
+    applyPageHash();
+    window.addEventListener("hashchange", applyPageHash);
+
+    for (const link of pageLinks) {
+      link.addEventListener("click", (event) => {
+        event.preventDefault();
+        const view = link.dataset.pageView;
+        history.pushState(null, "", link.getAttribute("href"));
+        setPageView(view);
+      });
     }
   </script>
 </body>

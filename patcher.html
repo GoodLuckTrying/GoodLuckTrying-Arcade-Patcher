@@ -35,6 +35,14 @@
   <header class="site-header patcher-header">
     <p class="back"><a href="index.html">← All hacks</a></p>
     <h1 id="hack-title" class="patcher-title">Loading…</h1>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a class="site-nav__brand" href="index.html#arcade-patchers">Arcade Patchers</a>
+      <div class="site-nav__links">
+        <a href="index.html#games">Games</a>
+        <a href="index.html#wip">WIP</a>
+        <a href="https://github.com/GoodLuckTrying" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </div>
+    </nav>
     <div class="patcher-hero">
       <div class="patcher-hero-col">
         <div id="hack-preview" class="preview-slideshow header-preview" hidden></div>
@@ -97,11 +105,14 @@
   </footer>
 
   <script type="module">
+    import { initInteractionAnalytics } from "./assets/js/interaction-analytics.js";
     import { loadManifest, initPatcherPage } from "./assets/js/patcher-app.js";
     import { renderHackCredits } from "./assets/js/hack-credits.js";
     import { renderHackLinks } from "./assets/js/hack-links.js";
     import { initPreviewSlideshow } from "./assets/js/preview-slideshow.js";
     import { isFileProtocol, setPageIcon } from "./assets/js/repo-path.js";
+
+    initInteractionAnalytics();
 
     const params = new URLSearchParams(location.search);
     const hackId = params.get("hack");

@@ -3,6 +3,7 @@ window.OTHER_HACKS = [
     "type": "other",
     "id": "other-snes-super-ghouls-n-ghosts-artoria-edition",
     "title": "Super Ghouls 'N Ghosts: Knight/Maiden Artoria Edition v3.4",
+    "game": "Super Ghouls 'n Ghosts",
     "platform": "Super Nintendo",
     "previewsFolder": "assets/source/others/snes-sgng-artoria",
     "links": [
@@ -51,6 +52,7 @@ window.OTHER_HACKS = [
     "type": "other",
     "id": "other-snes-super-ghouls-n-ghosts-enhanced-arthur-edition",
     "title": "Super Ghouls 'N Ghosts: Enhanced Arthur Edition v1.1",
+    "game": "Super Ghouls 'n Ghosts",
     "platform": "Super Nintendo",
     "previewsFolder": "assets/source/others/snes-sgng-enhanced-arthur",
     "links": [
@@ -88,6 +90,7 @@ window.OTHER_HACKS = [
     "type": "other",
     "id": "other-gba-super-ghouls-n-ghosts-artoria-edition",
     "title": "Super Ghouls 'N Ghosts: Knight/Maiden Artoria Edition v1.6",
+    "game": "Super Ghouls 'n Ghosts",
     "platform": "Game Boy Advance",
     "previewsFolder": "assets/source/others/gba-sgng-artoria",
     "links": [
@@ -125,6 +128,7 @@ window.OTHER_HACKS = [
     "type": "other",
     "id": "other-genesis-ghouls-n-ghosts-artoria-edition",
     "title": "Ghouls 'n Ghosts: Artoria Edition v1.1",
+    "game": "Ghouls 'n Ghosts",
     "platform": "Sega Genesis",
     "previewsFolder": "assets/source/others/gen-ghouls-artoria",
     "links": [
@@ -157,6 +161,7 @@ window.OTHER_HACKS = [
     "type": "other",
     "id": "other-genesis-ghouls-n-ghosts-restoration",
     "title": "Ghouls 'n Ghosts Restoration v1.2",
+    "game": "Ghouls 'n Ghosts",
     "platform": "Sega Genesis",
     "previewsFolder": "assets/source/others/gen-ghouls-restoration",
     "links": [

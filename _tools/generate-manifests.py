@@ -525,6 +525,8 @@ def build_manifest(project: dict) -> dict:
     }
     if project.get("trailerUrl"):
         manifest["trailerUrl"] = project["trailerUrl"]
+    if project.get("game"):
+        manifest["game"] = project["game"]
     if download_path.is_file():
         manifest["downloadUrl"] = download_rel.replace("\\", "/")
     else:
@@ -556,6 +558,8 @@ def main():
         }
         if manifest.get("trailerUrl"):
             entry["trailerUrl"] = manifest["trailerUrl"]
+        if manifest.get("game"):
+            entry["game"] = manifest["game"]
         if manifest.get("downloadUrl"):
             entry["downloadUrl"] = manifest["downloadUrl"]
         if manifest.get("boxartLinks"):

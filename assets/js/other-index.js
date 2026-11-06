@@ -31,15 +31,17 @@ function buildLinkAnchor(link) {
 
 /** Build external-link cards for hacks that do not have a browser patcher. */
 export function renderOtherSection(sectionEl, hacks) {
-  const list = sectionEl.querySelector("#other-cards");
+  const list = sectionEl.querySelector("#games-cards");
   if (!hacks?.length) {
-    sectionEl.hidden = true;
     return;
   }
 
   list.replaceChildren();
   for (const hack of hacks) {
     const li = document.createElement("li");
+    li.dataset.hack = hack.id;
+    li.dataset.platform = hack.platform || "Other";
+    li.dataset.game = hack.game || "Other";
     const card = document.createElement("article");
     card.className = "card card-other";
 

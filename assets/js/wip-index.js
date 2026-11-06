@@ -69,6 +69,8 @@ export function renderWipSection(sectionEl, sections) {
   for (const hack of hacks) {
     const li = document.createElement("li");
     li.dataset.wipHack = hack.id;
+    li.dataset.platform = hack.platform || "Other";
+    li.dataset.game = hack.game || "Other";
 
     const card = document.createElement("article");
     card.className = "card card-wip";
@@ -77,6 +79,13 @@ export function renderWipSection(sectionEl, sections) {
     platform.className = "card-platform";
     platform.textContent = hack.platform;
     card.appendChild(platform);
+
+    if (hack.game) {
+      const sourceGame = document.createElement("p");
+      sourceGame.className = "card-source-game";
+      sourceGame.textContent = `Source game: ${hack.game}`;
+      card.appendChild(sourceGame);
+    }
 
     const preview = document.createElement("div");
     preview.className = "preview-slideshow card-preview";
