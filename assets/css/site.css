@@ -623,13 +623,6 @@ a { color: var(--accent); }
   font-size: 0.85rem;
 }
 
-.card .card-source-game {
-  margin: 0;
-  padding: 0.25rem 1.25rem 0;
-  color: var(--muted);
-  font-size: 0.8rem;
-}
-
 @media (max-width: 640px) {
   .card h3,
   .card p {
@@ -654,10 +647,6 @@ a { color: var(--accent); }
     font-size: 0.7rem;
   }
 
-  .card .card-source-game {
-    padding: 0.2rem 0.7rem 0;
-    font-size: 0.68rem;
-  }
 }
 
 .card-links {

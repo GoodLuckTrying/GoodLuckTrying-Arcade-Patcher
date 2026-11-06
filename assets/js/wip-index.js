@@ -80,13 +80,6 @@ export function renderWipSection(sectionEl, sections) {
     platform.textContent = hack.platform;
     card.appendChild(platform);
 
-    if (hack.game) {
-      const sourceGame = document.createElement("p");
-      sourceGame.className = "card-source-game";
-      sourceGame.textContent = `Source game: ${hack.game}`;
-      card.appendChild(sourceGame);
-    }
-
     const preview = document.createElement("div");
     preview.className = "preview-slideshow card-preview";
     preview.dataset.previewHack = hack.id;
