@@ -392,6 +392,11 @@ a { color: var(--accent); }
   object-fit: contain;
 }
 
+.community-link--kofi .community-link__icon {
+  background: linear-gradient(135deg, #ff5f5f, #ff8a5b);
+  color: #fff;
+}
+
 .community-link strong,
 .community-link small {
   display: block;
