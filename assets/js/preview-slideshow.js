@@ -364,12 +364,18 @@ function previewManifestFor(id) {
 }
 
 export async function initAllPreviewSlideshows(stillMs = 1000) {
-  const nodes = document.querySelectorAll("[data-preview-hack]");
-  const cleanups = [];
+  const nodes = [...document.querySelectorAll(".preview-slideshow[data-preview-hack]")];
+  const cleanups = new Map();
 
-  for (const node of nodes) {
+  async function start(node) {
+    if (cleanups.has(node)) return;
+    const pendingCleanup = () => {};
+    cleanups.set(node, pendingCleanup);
     const hackId = node.getAttribute("data-preview-hack");
-    if (!hackId) continue;
+    if (!hackId) {
+      cleanups.delete(node);
+      return;
+    }
     try {
       let manifest = previewManifestFor(hackId);
       if (!manifest) {
@@ -378,13 +384,60 @@ export async function initAllPreviewSlideshows(stillMs = 1000) {
         }
         manifest = await loadManifest(hackId);
       }
+      if (cleanups.get(node) !== pendingCleanup) return;
       const stop = initPreviewSlideshow(node, manifest, stillMs);
-      if (stop) cleanups.push(stop);
+      if (cleanups.get(node) === pendingCleanup) {
+        cleanups.set(node, stop ?? (() => {}));
+      } else {
+        stop?.();
+      }
     } catch (err) {
-      console.warn(`Preview load failed for ${hackId}:`, err);
-      node.hidden = true;
+      if (cleanups.get(node) === pendingCleanup) {
+        cleanups.delete(node);
+        console.warn(`Preview load failed for ${hackId}:`, err);
+        node.hidden = true;
+      }
     }
   }
 
-  return () => cleanups.forEach((fn) => fn());
+  function stop(node) {
+    const cleanup = cleanups.get(node);
+    if (!cleanup) return;
+    cleanups.delete(node);
+    cleanup();
+  }
+
+  if (!("IntersectionObserver" in window)) {
+    await Promise.all(nodes.map(start));
+    return () => {
+      for (const node of nodes) stop(node);
+    };
+  }
+
+  const nodesByCard = new Map();
+  for (const node of nodes) {
+    const card = node.closest(".card") ?? node;
+    const cardNodes = nodesByCard.get(card) ?? [];
+    cardNodes.push(node);
+    nodesByCard.set(card, cardNodes);
+  }
+
+  const observer = new IntersectionObserver((entries) => {
+    for (const entry of entries) {
+      for (const node of nodesByCard.get(entry.target) ?? []) {
+        if (entry.isIntersecting) {
+          void start(node);
+        } else {
+          stop(node);
+        }
+      }
+    }
+  }, { rootMargin: "150px" });
+
+  for (const card of nodesByCard.keys()) observer.observe(card);
+
+  return () => {
+    observer.disconnect();
+    for (const node of nodes) stop(node);
+  };
 }
