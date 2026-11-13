@@ -155,7 +155,7 @@
       "game": "Mega Man Zero 3 (USA)",
       "platform": "Game Boy Advance",
       "previewsFolder": "assets/source/others/gba-mmz3-omega-as-mmx1-zero",
-      "links": [{"label": "Youtube Trailer", "url": "hhttps://youtu.be/hg5BlVsvLiU}, {"label": "ROMhacking.net", "url": "https://www.romhacking.net/hacks/9099/"}, {"label": "RomHackPlaza.org", "url": "https://rhpz.org/r/3420}, {"label": "romhack.ing", "url": "hhttps://romhack.ing/database/content/entry/jVvlxay8TbCWVzRXYyBUVA"}]
+      "links": [{"label": "Youtube Trailer", "url": "https://youtu.be/hg5BlVsvLiU"}, {"label": "ROMhacking.net", "url": "https://www.romhacking.net/hacks/9099/"}, {"label": "RomHackPlaza.org", "url": "https://rhpz.org/r/3420"}, {"label": "romhack.ing", "url": "https://romhack.ing/database/content/entry/jVvlxay8TbCWVzRXYyBUVA"}]
     },
     {
       "type": "other",

@@ -1,6 +1,35 @@
 window.OTHER_HACKS = [
   {
     "type": "other",
+    "id": "other-snes-bof2-gba-portraits",
+    "title": "Breath of Fire II - GBA Portraits by GoodLuckTrying v1.2",
+    "game": "Breath of Fire II (USA)",
+    "platform": "Super Nintendo",
+    "previewsFolder": "assets/source/others/snes-bof2-gba-portraits",
+    "links": [
+      {
+        "label": "ROMhacking.net",
+        "url": "https://www.romhacking.net/hacks/9616/"
+      },
+      {
+        "label": "RomHackPlaza.org",
+        "url": "https://rhpz.org/r/3886"
+      },
+      {
+        "label": "romhack.ing",
+        "url": "https://romhack.ing/database/content/entry/HP-VlbKJQ2CUL1sf26EPyQ"
+      }
+    ],
+    "previews": [
+      "9616screenshot1.gif",
+      "9616screenshot2.gif",
+      "9616screenshot3.gif",
+      "9616screenshot4.gif",
+      "9616titlescreen.png"
+    ]
+  },
+  {
+    "type": "other",
     "id": "other-snes-super-ghouls-n-ghosts-artoria-edition",
     "title": "Super Ghouls 'N Ghosts: Knight/Maiden Artoria Edition v3.4",
     "game": "Super Ghouls 'n Ghosts",
@@ -88,6 +117,60 @@ window.OTHER_HACKS = [
   },
   {
     "type": "other",
+    "id": "other-gbc-zelda-ooa-1-slot-biggoron-sword",
+    "title": "The Legend of Zelda: Oracle of Ages: 1-slot Biggoron Sword v1.0",
+    "game": "The Legend of Zelda: Oracle of Ages",
+    "platform": "Game Boy Color",
+    "previewsFolder": "assets/source/others/gbc-zelda-ooa-1-slot-biggoron-sword",
+    "links": [
+      {
+        "label": "ROMhacking.net",
+        "url": "https://www.romhacking.net/hacks/9846/"
+      },
+      {
+        "label": "RomHackPlaza.org",
+        "url": "https://rhpz.org/r/4297"
+      },
+      {
+        "label": "romhack.ing",
+        "url": "https://romhack.ing/database/content/entry/CH5gAf22QXuHxiNY52JsRQ"
+      }
+    ],
+    "previews": [
+      "9846screenshot1.gif",
+      "9846screenshot2.png",
+      "9846titlescreen.png"
+    ]
+  },
+  {
+    "type": "other",
+    "id": "other-gbc-zelda-oos-1-slot-biggoron-sword",
+    "title": "The Legend of Zelda: Oracle of Seasons: 1-slot Biggoron Sword v1.0",
+    "game": "The Legend of Zelda: Oracle of Seasons",
+    "platform": "Game Boy Color",
+    "previewsFolder": "assets/source/others/gbc-zelda-oos-1-slot-biggoron-sword",
+    "links": [
+      {
+        "label": "ROMhacking.net",
+        "url": "https://www.romhacking.net/hacks/9847/"
+      },
+      {
+        "label": "RomHackPlaza.org",
+        "url": "https://rhpz.org/r/4298"
+      },
+      {
+        "label": "romhack.ing",
+        "url": "https://romhack.ing/database/content/entry/t6QNexA_TmupyX0CAHuwSg"
+      }
+    ],
+    "previews": [
+      "9847screenshot1.gif",
+      "9847screenshot2.png",
+      "9847titlescreen.png"
+    ]
+  },
+  {
+    "type": "other",
     "id": "other-gba-super-ghouls-n-ghosts-artoria-edition",
     "title": "Super Ghouls 'N Ghosts: Knight/Maiden Artoria Edition v1.6",
     "game": "Super Ghouls 'n Ghosts",
@@ -96,7 +179,7 @@ window.OTHER_HACKS = [
     "links": [
       {
         "label": "Youtube Trailer",
-        "url": "https://youtu.be/yschs4xaL5M"
+        "url": "https://youtu.be/GIVmY8lrvkU"
       },
       {
         "label": "ROMhacking.net",
@@ -122,6 +205,98 @@ window.OTHER_HACKS = [
       "4. Gold Armor 4.png",
       "4. Gold Armor.png",
       "Combinations-Preview.gif"
+    ]
+  },
+  {
+    "type": "other",
+    "id": "other-snes-trials-of-mana-running-in-battle",
+    "title": "Trials of Mana/Seiken Densetsu 3: Running in Battle",
+    "game": "Trials of Mana (USA)",
+    "platform": "Super Nintendo",
+    "previewsFolder": "assets/source/others/snes-trials-of-mana-running-in-battle",
+    "links": [
+      {
+        "label": "ROMhacking.net",
+        "url": "https://www.romhacking.net/hacks/9054/"
+      },
+      {
+        "label": "RomHackPlaza.org",
+        "url": "https://rhpz.org/r/3359"
+      },
+      {
+        "label": "romhack.ing",
+        "url": "https://romhack.ing/database/content/entry/Au6rlOPwTx6sssBf82fiJw"
+      }
+    ],
+    "previews": [
+      "9054screenshot1.png",
+      "9054screenshot2.png",
+      "9054screenshot3.gif",
+      "9054titlescreen.png"
+    ]
+  },
+  {
+    "type": "other",
+    "id": "other-gba-mmz3-omega-as-mmx1-zero",
+    "title": "Mega Man Zero 3: Omega as MMX1 Zero v1.0",
+    "game": "Mega Man Zero 3 (USA)",
+    "platform": "Game Boy Advance",
+    "previewsFolder": "assets/source/others/gba-mmz3-omega-as-mmx1-zero",
+    "links": [
+      {
+        "label": "Youtube Trailer",
+        "url": "https://youtu.be/hg5BlVsvLiU"
+      },
+      {
+        "label": "ROMhacking.net",
+        "url": "https://www.romhacking.net/hacks/9099/"
+      },
+      {
+        "label": "RomHackPlaza.org",
+        "url": "https://rhpz.org/r/3420"
+      },
+      {
+        "label": "romhack.ing",
+        "url": "https://romhack.ing/database/content/entry/jVvlxay8TbCWVzRXYyBUVA"
+      }
+    ],
+    "previews": [
+      "9099screenshot1.gif",
+      "9099screenshot2.png",
+      "9099screenshot3.png",
+      "9099titlescreen.png"
+    ]
+  },
+  {
+    "type": "other",
+    "id": "other-gba-mmz3-zero-as-mmx1-zero+omega-as-mmz-zero",
+    "title": "Mega Man Zero 3: Zero as MMX1 Zero (+ Omega as MMZ Zero) v1.0",
+    "game": "Mega Man Zero 3 (USA)",
+    "platform": "Game Boy Advance",
+    "previewsFolder": "assets/source/others/gba-mmz3-zero-as-mmx1-zero+omega-as-mmz-zero",
+    "links": [
+      {
+        "label": "Youtube Trailer",
+        "url": "https://youtu.be/yschs4xaL5M"
+      },
+      {
+        "label": "ROMhacking.net",
+        "url": "https://www.romhacking.net/hacks/9105/"
+      },
+      {
+        "label": "RomHackPlaza.org",
+        "url": "https://rhpz.org/r/3423"
+      },
+      {
+        "label": "romhack.ing",
+        "url": "https://romhack.ing/database/content/entry/TobNgJ5uQoW_H-C18Amnqg"
+      }
+    ],
+    "previews": [
+      "9105screenshot1.png",
+      "9105screenshot2.png",
+      "9105screenshot3.png",
+      "9105titlescreen.png"
     ]
   },
   {
