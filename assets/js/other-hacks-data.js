@@ -31,7 +31,7 @@ window.OTHER_HACKS = [
   {
     "type": "other",
     "id": "other-snes-super-ghouls-n-ghosts-artoria-edition",
-    "title": "Super Ghouls 'N Ghosts: Knight/Maiden Artoria Edition v3.4",
+    "title": "Super Ghouls 'N Ghosts: Knight/Maiden Artoria Edition v3.5",
     "game": "Super Ghouls 'n Ghosts",
     "platform": "Super Nintendo",
     "previewsFolder": "assets/source/others/snes-sgng-artoria",
@@ -54,8 +54,10 @@ window.OTHER_HACKS = [
       }
     ],
     "previews": [
+      "1. Briefs (Knight 1-Up + Sword + Citizen Doll).png",
       "1. Briefs.png",
       "1. Nightgown (1-Up and Citizen Doll).png",
+      "1. Nightgown (Maiden 1-Up and Citizen Doll).png",
       "2. Gray Armor (Cho Makaimura First Round).png",
       "2. Maiden (Chest Hints).png",
       "3. Purple Armor.png",
@@ -63,24 +65,30 @@ window.OTHER_HACKS = [
       "5. Bee Transformation.png",
       "5. Princess Transformation.png",
       "5. Princess Tripping.gif",
+      "Chou Makaimura - Knight Artoria Edition [Briefs] (Japan).png",
       "Chou Makaimura - Knight Artoria Edition [Nightgown] (Japan).png",
+      "Chou Makaimura - Maiden Artoria Edition [Briefs] (Japan).png",
       "Chou Makaimura - Maiden Artoria Edition [Nightgown] (Japan).png",
       "Combinations-Preview.gif",
+      "Knight Artoria Edition - Credits.png",
       "Knight Artoria Edition - Menu.png",
       "Knight Artoria Edition - Ranking 1.png",
       "Knight Artoria Edition - Secret Menu.png",
+      "Maiden Artoria Edition - Credits.png",
       "Maiden Artoria Edition - Menu.png",
       "Maiden Artoria Edition - Ranking 1.png",
       "Maiden Artoria Edition - Ranking 2.png",
       "Maiden Artoria Edition - Secret Menu.png",
+      "Super Ghouls 'N Ghosts - Knight Artoria Edition [Briefs] (USA).png",
       "Super Ghouls 'N Ghosts - Knight Artoria Edition [Nightgown] (USA).png",
+      "Super Ghouls 'N Ghosts - Maiden Artoria Edition [Briefs] (USA).png",
       "Super Ghouls 'N Ghosts - Maiden Artoria Edition [Nightgown] (USA).png"
     ]
   },
   {
     "type": "other",
     "id": "other-snes-super-ghouls-n-ghosts-enhanced-arthur-edition",
-    "title": "Super Ghouls 'N Ghosts: Enhanced Arthur Edition v1.1",
+    "title": "Super Ghouls 'N Ghosts: Enhanced Arthur Edition v1.2",
     "game": "Super Ghouls 'n Ghosts",
     "platform": "Super Nintendo",
     "previewsFolder": "assets/source/others/snes-sgng-enhanced-arthur",
@@ -105,14 +113,65 @@ window.OTHER_HACKS = [
     "previews": [
       "1. Briefs (PERM Shield).png",
       "2. Gray Armor (Chest Hints).png",
+      "3. Green Armor (+ Sword).png",
       "3. Green Armor (1-Up).png",
       "5. Maiden Transformation (Tripping).png",
       "5. Maiden Tripping.gif",
       "Chou Makaimura - Enhanced Edition (Japan).png",
+      "Enhanced Edition - Credits.png",
       "Enhanced Edition - Menu.png",
       "Enhanced Edition - Ranking.png",
       "Enhanced Edition - Secret Menu.png",
       "Super Ghouls 'N Ghosts - Enhanced Edition (USA).png"
+    ]
+  },
+  {
+    "type": "other",
+    "id": "other-snes-sgng-valkyrie-edition",
+    "title": "Super Ghouls 'N Ghosts: Valkyrie Edition v1.0",
+    "game": "Super Ghouls 'n Ghosts",
+    "platform": "Super Nintendo",
+    "previewsFolder": "assets/source/others/snes-sgng-valkyrie-edition",
+    "links": [
+      {
+        "label": "Youtube Trailer",
+        "url": "https://youtu.be/hGTLL5UukoI"
+      },
+      {
+        "label": "ROMhacking.net",
+        "url": "https://www.romhacking.net/hacks/10368/"
+      },
+      {
+        "label": "RomHackPlaza.org",
+        "url": "https://rhpz.org/r/4726"
+      },
+      {
+        "label": "romhack.ing",
+        "url": "https://"
+      }
+    ],
+    "previews": [
+      "1. Nightgown 1.png",
+      "1. Nightgown 2.png",
+      "2. Blue Armor (+ 1-Up, Sword, Citizen Doll).png",
+      "2. Blue Armor + Sword.png",
+      "2. Blue Armor.png",
+      "3. Red Armor 1.png",
+      "3. Red Armor 2.png",
+      "4. Gold Valkyrie.png",
+      "4. Special Lance 1.png",
+      "4. Special Lance 2.png",
+      "5. Baby Transformation (Briefs).png",
+      "6. Seal Transformation (Gray Armor).png",
+      "7. Bee Transformation (Green Armor).png",
+      "8. Maiden Transformation (Gold Armor).png",
+      "Chou Makaimura - Vaalkyrie Edition (Japan).png",
+      "Super Ghouls 'N Ghosts - Valkyrie Edition (USA).png",
+      "Valkyrie Edition - Credits.png",
+      "Valkyrie Edition - Menu.png",
+      "Valkyrie Edition - Ranking.png",
+      "Valkyrie Edition - Secret Menu.png",
+      "Valkyrie Edition - Secret MenuValkyrie Edition - Menu.png"
     ]
   },
   {

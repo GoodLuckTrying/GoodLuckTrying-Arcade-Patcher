@@ -17,32 +17,6 @@ window.WIP_HACKS_DATA = {
       "Preview #1.png"
     ]
   },
-  "wip-super-ghouls-n-ghosts-valkyrie-edition-v1-0": {
-    "type": "wip",
-    "id": "wip-super-ghouls-n-ghosts-valkyrie-edition-v1-0",
-    "title": "Super Ghouls 'N Ghosts: Valkyrie Edition v1.0",
-    "game": "Super Ghouls 'n Ghosts",
-    "platform": "Super Nintendo",
-    "previewsFolder": "assets/source/wip/Super Nintendo/Super Ghouls 'N Ghosts - Valkyrie Edition v1.0 by GoodLuckTrying/Previews",
-    "previews": [
-      "1. Nightgown 1.png",
-      "1. Nightgown 2.png",
-      "1. Nightgown.png",
-      "2. Blue Armor (+ 1-Up, Sword, Citizen Doll).png",
-      "2. Blue Armor + Sword.png",
-      "2. Blue Armor.png",
-      "3. Red Armor 2.png",
-      "4. Gold Valkyrie.png",
-      "4. Special Lance 1.png",
-      "4. Special Lance 2.png",
-      "5. Baby Transformation (Briefs).png",
-      "6. Seal Transformation (Gray Armor).png",
-      "7. Bee Transformation (Green Armor).png",
-      "8. Maiden Transformation (Gold Armor).png",
-      "Valkyrie Edition - Menu.png",
-      "Valkyrie Edition - Secret Menu.png"
-    ]
-  },
   "wip-castlevania-3-enhanced-edition-v1-0": {
     "type": "wip",
     "id": "wip-castlevania-3-enhanced-edition-v1-0",
@@ -180,32 +154,6 @@ window.WIP_SECTIONS = [
         "previewsFolder": "assets/source/wip/Super Nintendo/Super Ghouls 'N Ghosts - Brave Edition v1.0/Previews",
         "previews": [
           "Preview #1.png"
-        ]
-      },
-      {
-        "type": "wip",
-        "id": "wip-super-ghouls-n-ghosts-valkyrie-edition-v1-0",
-        "title": "Super Ghouls 'N Ghosts: Valkyrie Edition v1.0",
-        "game": "Super Ghouls 'n Ghosts",
-        "platform": "Super Nintendo",
-        "previewsFolder": "assets/source/wip/Super Nintendo/Super Ghouls 'N Ghosts - Valkyrie Edition v1.0 by GoodLuckTrying/Previews",
-        "previews": [
-          "1. Nightgown 1.png",
-          "1. Nightgown 2.png",
-          "1. Nightgown.png",
-          "2. Blue Armor (+ 1-Up, Sword, Citizen Doll).png",
-          "2. Blue Armor + Sword.png",
-          "2. Blue Armor.png",
-          "3. Red Armor 2.png",
-          "4. Gold Valkyrie.png",
-          "4. Special Lance 1.png",
-          "4. Special Lance 2.png",
-          "5. Baby Transformation (Briefs).png",
-          "6. Seal Transformation (Gray Armor).png",
-          "7. Bee Transformation (Green Armor).png",
-          "8. Maiden Transformation (Gold Armor).png",
-          "Valkyrie Edition - Menu.png",
-          "Valkyrie Edition - Secret Menu.png"
         ]
       }
     ]
