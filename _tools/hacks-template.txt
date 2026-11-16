@@ -111,7 +111,7 @@
       "game": "Super Ghouls 'n Ghosts",
       "platform": "Super Nintendo",
       "previewsFolder": "assets/source/others/snes-sgng-valkyrie-edition",
-      "links": [{"label": "Youtube Trailer", "url": "https://youtu.be/hGTLL5UukoI"}, {"label": "ROMhacking.net", "url": "https://www.romhacking.net/hacks/10368/"}, {"label": "RomHackPlaza.org", "url": "https://rhpz.org/r/4726"}, {"label": "romhack.ing", "url": "https://"}]
+      "links": [{"label": "Youtube Trailer", "url": "https://youtu.be/hGTLL5UukoI"}, {"label": "ROMhacking.net", "url": "https://www.romhacking.net/hacks/10368/"}, {"label": "RomHackPlaza.org", "url": "https://rhpz.org/r/4726"}, {"label": "romhack.ing", "url": "https://romhack.ing/database/content/entry/oDKx9j05TZ2gEBAgjWHKcw"}]
     },
     {
       "type": "other",

@@ -147,7 +147,7 @@ window.OTHER_HACKS = [
       },
       {
         "label": "romhack.ing",
-        "url": "https://"
+        "url": "https://romhack.ing/database/content/entry/oDKx9j05TZ2gEBAgjWHKcw"
       }
     ],
     "previews": [
