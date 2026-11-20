@@ -397,6 +397,11 @@ a { color: var(--accent); }
   color: #fff;
 }
 
+.community-link--itchio .community-link__icon {
+  background: #fa5c5c;
+  color: #fff;
+}
+
 .community-link strong,
 .community-link small {
   display: block;
