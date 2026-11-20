@@ -93,7 +93,7 @@
       "game": "Super Ghouls 'n Ghosts",
       "platform": "Super Nintendo",
       "previewsFolder": "assets/source/others/snes-sgng-artoria",
-      "links": [{"label": "Youtube Trailer", "url": "https://youtu.be/swu9OdaxcAw"}, {"label": "ROMhacking.net", "url": "https://www.romhacking.net/hacks/9094/"}, {"label": "RomHackPlaza.org", "url": "https://rhpz.org/r/3608"}, {"label": "romhack.ing", "url": "https://romhack.ing/database/content/entry/wyPLf9i8RdyyXgAFojk8NA"}]
+      "links": [{"label": "Youtube Trailer", "url": "https://youtu.be/swu9OdaxcAw"}, {"label": "Ko-fi", "url": "https://ko-fi.com/s/b48e20bc81"}, {"label": "itch.io", "url": "https://goodlucktrying.itch.io/super-ghouls-n-ghosts-knightmaiden-artoria-edition"}, {"label": "ROMhacking.net", "url": "https://www.romhacking.net/hacks/9094/"}, {"label": "RomHackPlaza.org", "url": "https://rhpz.org/28129"}, {"label": "romhack.ing", "url": "https://romhack.ing/database/content/entry/wyPLf9i8RdyyXgAFojk8NA"}]
     },
     {
       "type": "other",
@@ -102,7 +102,7 @@
       "game": "Super Ghouls 'n Ghosts",
       "platform": "Super Nintendo",
       "previewsFolder": "assets/source/others/snes-sgng-enhanced-arthur",
-      "links": [{"label": "Youtube Trailer", "url": "https://youtu.be/nVDK-RSpA4o"}, {"label": "ROMhacking.net", "url": "https://www.romhacking.net/hacks/10009/"}, {"label": "RomHackPlaza.org", "url": "https://rhpz.org/r/4432"}, {"label": "romhack.ing", "url": "https://romhack.ing/database/content/entry/oDKx9j05TZ2gEBAgjWHKcw"}]
+      "links": [{"label": "Youtube Trailer", "url": "https://youtu.be/nVDK-RSpA4o"}, {"label": "Ko-fi", "url": "https://ko-fi.com/s/9ac9876b33"}, {"label": "itch.io", "url": "https://goodlucktrying.itch.io/super-ghouls-n-ghosts-enhanced-arthur-edition"}, {"label": "ROMhacking.net", "url": "https://www.romhacking.net/hacks/10009/"}, {"label": "RomHackPlaza.org", "url": "https://rhpz.org/r/4432"}, {"label": "romhack.ing", "url": "https://romhack.ing/database/content/entry/oDKx9j05TZ2gEBAgjWHKcw"}]
     },
     {
       "type": "other",

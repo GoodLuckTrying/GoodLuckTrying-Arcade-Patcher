@@ -41,12 +41,20 @@ window.OTHER_HACKS = [
         "url": "https://youtu.be/swu9OdaxcAw"
       },
       {
+        "label": "Ko-fi",
+        "url": "https://ko-fi.com/s/b48e20bc81"
+      },
+      {
+        "label": "itch.io",
+        "url": "https://goodlucktrying.itch.io/super-ghouls-n-ghosts-knightmaiden-artoria-edition"
+      },
+      {
         "label": "ROMhacking.net",
         "url": "https://www.romhacking.net/hacks/9094/"
       },
       {
         "label": "RomHackPlaza.org",
-        "url": "https://rhpz.org/r/3608"
+        "url": "https://rhpz.org/28129"
       },
       {
         "label": "romhack.ing",
@@ -96,6 +104,14 @@ window.OTHER_HACKS = [
       {
         "label": "Youtube Trailer",
         "url": "https://youtu.be/nVDK-RSpA4o"
+      },
+      {
+        "label": "Ko-fi",
+        "url": "https://ko-fi.com/s/9ac9876b33"
+      },
+      {
+        "label": "itch.io",
+        "url": "https://goodlucktrying.itch.io/super-ghouls-n-ghosts-enhanced-arthur-edition"
       },
       {
         "label": "ROMhacking.net",
