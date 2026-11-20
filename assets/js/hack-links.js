@@ -141,6 +141,44 @@ if (!document.body.dataset.previewLinksBound) {
   document.body.dataset.previewLinksBound = "true";
 }
 
+function isYoutubeLink(node) {
+  if (node?.tagName !== "A") return false;
+  const haystack = `${node.textContent} ${node.getAttribute("href") || ""}`.toLowerCase();
+  return haystack.includes("youtube") || haystack.includes("youtu.be");
+}
+
+/** Keep a leading YouTube link on its own row and place the remaining links in two columns. */
+export function layoutCardLinks(container, nodes) {
+  container.replaceChildren();
+  const leading = [];
+  const rest = [];
+  let passedLead = false;
+  for (const node of nodes) {
+    if (!passedLead && isYoutubeLink(node)) {
+      leading.push(node);
+    } else {
+      passedLead = true;
+      rest.push(node);
+    }
+  }
+  if (leading.length && rest.length) {
+    const primary = document.createElement("span");
+    primary.className = "card-links__primary";
+    for (const node of leading) primary.appendChild(node);
+    container.appendChild(primary);
+
+    const grid = document.createElement("span");
+    grid.className = "card-links__rest";
+    for (const node of rest) grid.appendChild(node);
+    container.appendChild(grid);
+    return;
+  }
+  for (const [index, node] of nodes.entries()) {
+    if (index) container.appendChild(document.createElement("br"));
+    container.appendChild(node);
+  }
+}
+
 /** Render YouTube trailer, release download, boxart, and preview links into a container. */
 export function renderHackLinks(container, { trailerUrl, downloadUrl, boxartLinks, id, title, previews, previewsFolder } = {}) {
   const parts = [];

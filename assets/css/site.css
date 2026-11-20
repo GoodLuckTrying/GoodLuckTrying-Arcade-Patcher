@@ -609,6 +609,16 @@ a { color: var(--accent); }
   overflow: hidden;
 }
 
+.card-main {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
+.card-main > p:last-child {
+  margin-bottom: 0.65rem;
+}
+
 .card h3,
 .card p {
   padding-left: 1.25rem;
@@ -664,6 +674,34 @@ a { color: var(--accent); }
   padding: 0 1.25rem 1rem;
   font-size: 0.9rem;
   line-height: 1.6;
+  text-align: center;
+}
+
+.card > .card-links {
+  margin: 0;
+}
+
+.card-links__primary {
+  display: block;
+}
+
+.card-links__rest {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.15rem 0.4rem;
+  margin-top: 0.15rem;
+  justify-items: center;
+  align-items: center;
+}
+
+.card-links__rest > :last-child:nth-child(odd) {
+  grid-column: 1 / -1;
+}
+
+.card-links__rest .hack-link-with-icon {
+  margin-right: 0;
+  max-width: 100%;
+  justify-content: center;
   text-align: center;
 }
 

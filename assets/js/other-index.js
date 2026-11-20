@@ -1,3 +1,5 @@
+import { layoutCardLinks } from "./hack-links.js";
+
 function getLinkIcon(label = "", url = "") {
   const haystack = `${label} ${url}`.toLowerCase();
   if (haystack.includes("youtube") || haystack.includes("youtu.be")) return "assets/icons/Youtube.png";
@@ -62,19 +64,16 @@ export function renderOtherSection(sectionEl, hacks) {
 
     const links = document.createElement("p");
     links.className = "card-links";
-    for (const [index, link] of (hack.links ?? []).entries()) {
-      if (index) links.appendChild(document.createElement("br"));
-      links.appendChild(buildLinkAnchor(link));
-    }
+    const nodes = (hack.links ?? []).map((link) => buildLinkAnchor(link));
     if (hack.id && (hack.previews?.length || hack.previewsFolder)) {
-      if (hack.links?.length) links.appendChild(document.createElement("br"));
       const previewButton = document.createElement("button");
       previewButton.type = "button";
       previewButton.className = "preview-link-button";
       previewButton.dataset.previewHack = hack.id;
       previewButton.textContent = "Previews";
-      links.appendChild(previewButton);
+      nodes.push(previewButton);
     }
+    layoutCardLinks(links, nodes);
     card.appendChild(links);
     li.appendChild(card);
     list.appendChild(li);
