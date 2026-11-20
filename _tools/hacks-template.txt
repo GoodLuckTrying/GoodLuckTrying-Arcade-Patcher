@@ -61,14 +61,6 @@
     },
     {
       "type": "wip",
-      "id": "wip-super-ghouls-n-ghosts-valkyrie-edition-v1-0",
-      "title": "Super Ghouls 'N Ghosts: Valkyrie Edition v1.0",
-      "game": "Super Ghouls 'n Ghosts",
-      "platform": "Super Nintendo",
-      "sourceFolder": "assets/source/wip/Super Nintendo/Super Ghouls 'N Ghosts - Valkyrie Edition v1.0 by GoodLuckTrying"
-    },
-    {
-      "type": "wip",
       "id": "wip-castlevania-3-enhanced-edition-v1-0",
       "title": "Castlevania 3 - Deluxe Edition",
       "game": "Castlevania III - Dracula's Curse (USA)",
@@ -97,7 +89,7 @@
     {
       "type": "other",
       "id": "other-snes-super-ghouls-n-ghosts-artoria-edition",
-      "title": "Super Ghouls 'N Ghosts: Knight/Maiden Artoria Edition v3.4",
+      "title": "Super Ghouls 'N Ghosts: Knight/Maiden Artoria Edition v3.5",
       "game": "Super Ghouls 'n Ghosts",
       "platform": "Super Nintendo",
       "previewsFolder": "assets/source/others/snes-sgng-artoria",
@@ -106,11 +98,20 @@
     {
       "type": "other",
       "id": "other-snes-super-ghouls-n-ghosts-enhanced-arthur-edition",
-      "title": "Super Ghouls 'N Ghosts: Enhanced Arthur Edition v1.1",
+      "title": "Super Ghouls 'N Ghosts: Enhanced Arthur Edition v1.2",
       "game": "Super Ghouls 'n Ghosts",
       "platform": "Super Nintendo",
       "previewsFolder": "assets/source/others/snes-sgng-enhanced-arthur",
       "links": [{"label": "Youtube Trailer", "url": "https://youtu.be/nVDK-RSpA4o"}, {"label": "ROMhacking.net", "url": "https://www.romhacking.net/hacks/10009/"}, {"label": "RomHackPlaza.org", "url": "https://rhpz.org/r/4432"}, {"label": "romhack.ing", "url": "https://romhack.ing/database/content/entry/oDKx9j05TZ2gEBAgjWHKcw"}]
+    },
+    {
+      "type": "other",
+      "id": "other-snes-sgng-valkyrie-edition",
+      "title": "Super Ghouls 'N Ghosts: Valkyrie Edition v1.0",
+      "game": "Super Ghouls 'n Ghosts",
+      "platform": "Super Nintendo",
+      "previewsFolder": "assets/source/others/snes-sgng-valkyrie-edition",
+      "links": [{"label": "Youtube Trailer", "url": "https://youtu.be/hGTLL5UukoI"}, {"label": "ROMhacking.net", "url": "https://www.romhacking.net/hacks/10368/"}, {"label": "RomHackPlaza.org", "url": "https://rhpz.org/r/4726"}, {"label": "romhack.ing", "url": "https://romhack.ing/database/content/entry/oDKx9j05TZ2gEBAgjWHKcw"}]
     },
     {
       "type": "other",
