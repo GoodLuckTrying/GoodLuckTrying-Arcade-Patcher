@@ -138,6 +138,14 @@ window.OTHER_HACKS = [
         "url": "https://youtu.be/hGTLL5UukoI"
       },
       {
+        "label": "Ko-fi",
+        "url": "https://ko-fi.com/s/874c351d88"
+      },
+      {
+        "label": "itch.io",
+        "url": "https://goodlucktrying.itch.io/super-ghouls-n-ghosts-valkyrie-edition"
+      },
+      {
         "label": "ROMhacking.net",
         "url": "https://www.romhacking.net/hacks/10368/"
       },
